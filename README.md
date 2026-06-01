@@ -1,0 +1,2 @@
+# chipclaw
+使用RAG技术和openlcaw生成约束的关于优化芯片datasheet闻讯的大语言模型。本科毕设
