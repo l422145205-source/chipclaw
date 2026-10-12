@@ -1,0 +1,122 @@
+[
+  {
+    "epoch": 1,
+    "updates": 180,
+    "mean_loss": 0.22347353049111243,
+    "dev": {
+      "all": {
+        "n": 680,
+        "mrr10": 0.945406162464986,
+        "top1": 621,
+        "condition_pairs": 202,
+        "condition_correct": 202
+      },
+      "languages": {
+        "en": {
+          "n": 340,
+          "mrr10": 0.9466666666666667,
+          "top1": 311,
+          "condition_pairs": 101,
+          "condition_correct": 101
+        },
+        "zh": {
+          "n": 340,
+          "mrr10": 0.9441456582633052,
+          "top1": 310,
+          "condition_pairs": 101,
+          "condition_correct": 101
+        }
+      },
+      "devices": {
+        "ads1220": {
+          "n": 234,
+          "mrr10": 0.9649216524216524,
+          "top1": 221,
+          "condition_pairs": 98,
+          "condition_correct": 98
+        },
+        "bmi160": {
+          "n": 230,
+          "mrr10": 0.9392753623188406,
+          "top1": 207,
+          "condition_pairs": 64,
+          "condition_correct": 64
+        },
+        "ina219": {
+          "n": 82,
+          "mrr10": 0.8868031358885017,
+          "top1": 68,
+          "condition_pairs": 4,
+          "condition_correct": 4
+        },
+        "tca9548a": {
+          "n": 134,
+          "mrr10": 0.9577114427860697,
+          "top1": 125,
+          "condition_pairs": 36,
+          "condition_correct": 36
+        }
+      }
+    }
+  },
+  {
+    "epoch": 2,
+    "updates": 360,
+    "mean_loss": 0.058976576767885994,
+    "dev": {
+      "all": {
+        "n": 680,
+        "mrr10": 0.9533000700280112,
+        "top1": 628,
+        "condition_pairs": 202,
+        "condition_correct": 202
+      },
+      "languages": {
+        "en": {
+          "n": 340,
+          "mrr10": 0.9532142857142858,
+          "top1": 314,
+          "condition_pairs": 101,
+          "condition_correct": 101
+        },
+        "zh": {
+          "n": 340,
+          "mrr10": 0.9533858543417367,
+          "top1": 314,
+          "condition_pairs": 101,
+          "condition_correct": 101
+        }
+      },
+      "devices": {
+        "ads1220": {
+          "n": 234,
+          "mrr10": 0.9657814407814408,
+          "top1": 221,
+          "condition_pairs": 98,
+          "condition_correct": 98
+        },
+        "bmi160": {
+          "n": 230,
+          "mrr10": 0.9484782608695652,
+          "top1": 210,
+          "condition_pairs": 64,
+          "condition_correct": 64
+        },
+        "ina219": {
+          "n": 82,
+          "mrr10": 0.897575493612079,
+          "top1": 69,
+          "condition_pairs": 4,
+          "condition_correct": 4
+        },
+        "tca9548a": {
+          "n": 134,
+          "mrr10": 0.9738805970149254,
+          "top1": 128,
+          "condition_pairs": 36,
+          "condition_correct": 36
+        }
+      }
+    }
+  }
+]

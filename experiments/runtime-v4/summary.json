@@ -1,0 +1,541 @@
+{
+  "probes": [
+    {
+      "file": "multilingual_v4-en.json",
+      "sha256": "a219c068ad3f9668bf65444c3f0bef631ca4a9bdabb26e071192e03fa8208d76",
+      "method": "multilingual_v4",
+      "language": "en",
+      "verdicts": [
+        "supported",
+        "contradicted",
+        "unknown"
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        7,
+        4,
+        12,
+        1,
+        10
+      ],
+      "used_chars": 5591
+    },
+    {
+      "file": "multilingual_v4-zh.json",
+      "sha256": "b4f2918b6a03aa27623674c9f4b4a60c4b131dd8767ede333b2e5dfdb45a2878",
+      "method": "multilingual_v4",
+      "language": "zh",
+      "verdicts": [
+        "supported",
+        "contradicted",
+        "unknown"
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        12,
+        4,
+        7,
+        1,
+        10
+      ],
+      "used_chars": 5591
+    },
+    {
+      "file": "domain_teacher_v4-en.json",
+      "sha256": "354b5a3c66363c0a7180f464475ef7e984295fa87d227f5624055ae63459afef",
+      "method": "domain_teacher_v4",
+      "language": "en",
+      "verdicts": [
+        "supported",
+        "contradicted",
+        "unknown"
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        1,
+        7,
+        4,
+        12,
+        10
+      ],
+      "used_chars": 5250
+    },
+    {
+      "file": "domain_teacher_v4-zh.json",
+      "sha256": "a65850f494ad7200f265ae503f167f7886c5452419e597a57df4845d5aea52be",
+      "method": "domain_teacher_v4",
+      "language": "zh",
+      "verdicts": [
+        "supported",
+        "contradicted",
+        "unknown"
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        7,
+        12,
+        4,
+        1,
+        10
+      ],
+      "used_chars": 5591
+    },
+    {
+      "file": "adaptive_v4-en.json",
+      "sha256": "fb9374d9abec18b3d4ab6ccdc7e9039bd4207aad100521d1e3298c8d0d4b5d7d",
+      "method": "adaptive_v4",
+      "language": "en",
+      "verdicts": [
+        "supported",
+        "contradicted",
+        "unknown"
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        7,
+        4,
+        12,
+        1,
+        10
+      ],
+      "used_chars": 5591
+    },
+    {
+      "file": "adaptive_v4-zh.json",
+      "sha256": "2f3ab805c2df230f02f218172ff0a77415fa87e2df0d92667eb7196cec8d7fe9",
+      "method": "adaptive_v4",
+      "language": "zh",
+      "verdicts": [
+        "supported",
+        "contradicted",
+        "unknown"
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        12,
+        4,
+        7,
+        1,
+        10
+      ],
+      "used_chars": 5591
+    },
+    {
+      "file": "visual_fusion_v4-en.json",
+      "sha256": "0a01b5819e7cdffa8207486a41bf6def2bbd957392f59c7e9a8f0c8a42e95983",
+      "method": "visual_fusion_v4",
+      "language": "en",
+      "verdicts": [
+        "supported",
+        "contradicted",
+        "unknown"
+      ],
+      "retrieved_pages": [
+        5,
+        12,
+        6,
+        4,
+        3,
+        8,
+        24,
+        27
+      ],
+      "used_chars": 5425
+    },
+    {
+      "file": "visual_fusion_v4-zh.json",
+      "sha256": "dad80d96fbfcdb88794ac6389163574deeed4e4152c879b5064024b406717d66",
+      "method": "visual_fusion_v4",
+      "language": "zh",
+      "verdicts": [
+        "supported",
+        "contradicted",
+        "unknown"
+      ],
+      "retrieved_pages": [
+        6,
+        12,
+        4,
+        5,
+        3,
+        8,
+        24,
+        15
+      ],
+      "used_chars": 5917
+    }
+  ],
+  "http_200": 8,
+  "fully_bound_numeric_probes": 8,
+  "corpus_probes": [
+    {
+      "file": "corpus-ads1115.json",
+      "sha256": "a3e0e6e25f9bf10615dfbf41488defa470e5922b5b099b8097a409ae5fcb3382",
+      "doc_id": "ads1115",
+      "language": "en",
+      "retrieved_pages": [
+        5,
+        7,
+        15,
+        6,
+        9,
+        8,
+        26,
+        10
+      ],
+      "evidence_spans": 1,
+      "used_chars": 5779
+    },
+    {
+      "file": "corpus-ads1220.json",
+      "sha256": "0ffcb39d74aed27655941c44d99b4a75c1ffe4825927aa041924c8b72f6d9e9f",
+      "doc_id": "ads1220",
+      "language": "zh",
+      "retrieved_pages": [
+        8,
+        49,
+        50,
+        15,
+        64,
+        21,
+        1,
+        14
+      ],
+      "evidence_spans": 1,
+      "used_chars": 5824
+    },
+    {
+      "file": "corpus-ads1256.json",
+      "sha256": "e18dccee1eeeb562af57f9ae3ada6f671ed9ce4710d19871197741bd85bfb8a3",
+      "doc_id": "ads1256",
+      "language": "en",
+      "retrieved_pages": [
+        7,
+        27,
+        5,
+        3,
+        37,
+        6,
+        20,
+        21
+      ],
+      "evidence_spans": 4,
+      "used_chars": 4700
+    },
+    {
+      "file": "corpus-bme280.json",
+      "sha256": "5a8ee8d3323be7a8aefb55057ade913a1d53887a8d9ae8b8875bf2270e6dd45d",
+      "doc_id": "bme280",
+      "language": "zh",
+      "retrieved_pages": [
+        15,
+        14,
+        4,
+        3,
+        48,
+        12,
+        1,
+        2
+      ],
+      "evidence_spans": 5,
+      "used_chars": 5735
+    },
+    {
+      "file": "corpus-bmi160.json",
+      "sha256": "d1dea6fcb038bad5089bcc0ce5ce5d84ca6e4b46808f00e786fc33b0383d89a3",
+      "doc_id": "bmi160",
+      "language": "en",
+      "retrieved_pages": [
+        9,
+        8,
+        98,
+        22,
+        7,
+        110,
+        112,
+        3
+      ],
+      "evidence_spans": 3,
+      "used_chars": 5326
+    },
+    {
+      "file": "corpus-bmi270.json",
+      "sha256": "fd4e5c7f07fde31f866dbc741d24ff527deb6667553c3935f7638d949ddd4b99",
+      "doc_id": "bmi270",
+      "language": "zh",
+      "retrieved_pages": [
+        28,
+        14,
+        30,
+        15,
+        12,
+        10,
+        26,
+        32
+      ],
+      "evidence_spans": 6,
+      "used_chars": 5713
+    },
+    {
+      "file": "corpus-dac80501.json",
+      "sha256": "a7fb6e55e15c4918f49ce3cdd465fb343f950b1cd3b0a087350d789eb8482be6",
+      "doc_id": "dac80501",
+      "language": "en",
+      "retrieved_pages": [
+        4,
+        8,
+        6,
+        7,
+        5,
+        36,
+        21,
+        34
+      ],
+      "evidence_spans": 2,
+      "used_chars": 5928
+    },
+    {
+      "file": "corpus-hdc1080.json",
+      "sha256": "34079f6d54667db41b55017c5d665e0c52ac9bab9228f4772609459ccfe0011f",
+      "doc_id": "hdc1080",
+      "language": "zh",
+      "retrieved_pages": [
+        2,
+        6,
+        10,
+        9,
+        1,
+        16,
+        13,
+        20
+      ],
+      "evidence_spans": 5,
+      "used_chars": 5472
+    },
+    {
+      "file": "corpus-hdc3020.json",
+      "sha256": "1d15b7345ef33faa1a4d1134228e8d33c7c2c00e8424703a79abcfc05ccb0cd6",
+      "doc_id": "hdc3020",
+      "language": "en",
+      "retrieved_pages": [
+        7,
+        8,
+        18,
+        21,
+        6,
+        10
+      ],
+      "evidence_spans": 3,
+      "used_chars": 5757
+    },
+    {
+      "file": "corpus-ina219.json",
+      "sha256": "221b79ab68302a814790d9a815a00eefd432ddbdb20b0b58eae607fba077e46d",
+      "doc_id": "ina219",
+      "language": "zh",
+      "retrieved_pages": [
+        25,
+        11,
+        9,
+        28,
+        18,
+        14,
+        10,
+        1
+      ],
+      "evidence_spans": 3,
+      "used_chars": 5008
+    },
+    {
+      "file": "corpus-ina226.json",
+      "sha256": "04a183484ab4d53d56cbb1b3577d1a3953fffc8de263c9e327030737627e08c9",
+      "doc_id": "ina226",
+      "language": "en",
+      "retrieved_pages": [
+        6,
+        15,
+        16,
+        31,
+        11,
+        1,
+        29,
+        10
+      ],
+      "evidence_spans": 5,
+      "used_chars": 5969
+    },
+    {
+      "file": "corpus-ina228.json",
+      "sha256": "1e1b6011bad76ee39d2afe17d4855e7a64b02ad5ced028ec1fb2095c5fe664c9",
+      "doc_id": "ina228",
+      "language": "zh",
+      "retrieved_pages": [
+        6,
+        3,
+        1,
+        8,
+        12,
+        18,
+        35,
+        5
+      ],
+      "evidence_spans": 4,
+      "used_chars": 5834
+    },
+    {
+      "file": "corpus-max3232.json",
+      "sha256": "843ae898c6101cea1635fbcd103b75e8e9b5c9d7cb7908e01c5fcaa3da844fa9",
+      "doc_id": "max3232",
+      "language": "en",
+      "retrieved_pages": [
+        5,
+        4,
+        12,
+        6,
+        7,
+        1,
+        3
+      ],
+      "evidence_spans": 5,
+      "used_chars": 5576
+    },
+    {
+      "file": "corpus-msp430g2553.json",
+      "sha256": "d7ab9c7817d748d609422cafed16e8c6d989a2a6e859cf31cc8e9339dd408ba8",
+      "doc_id": "msp430g2553",
+      "language": "zh",
+      "retrieved_pages": [
+        37,
+        40,
+        39,
+        38,
+        23,
+        22,
+        13
+      ],
+      "evidence_spans": 2,
+      "used_chars": 5380
+    },
+    {
+      "file": "corpus-opt3001.json",
+      "sha256": "1689ff3ec541c77e271501e7397cb88a681cafa5a6e985e2dff1c87af8cf7126",
+      "doc_id": "opt3001",
+      "language": "en",
+      "retrieved_pages": [
+        17,
+        35,
+        26,
+        27,
+        18,
+        33,
+        10,
+        11
+      ],
+      "evidence_spans": 6,
+      "used_chars": 5073
+    },
+    {
+      "file": "corpus-rp2040.json",
+      "sha256": "6e0903563267f37c14678969576b13e7dbe41c17b2931f64dce0caf08cc66a0d",
+      "doc_id": "rp2040",
+      "language": "zh",
+      "retrieved_pages": [
+        71,
+        332,
+        70,
+        75,
+        72
+      ],
+      "evidence_spans": 3,
+      "used_chars": 5202
+    },
+    {
+      "file": "corpus-sn65hvd230.json",
+      "sha256": "92cb465efaf493041ccb4acd99799660293987b5c152fb03672686fb5e2a12cf",
+      "doc_id": "sn65hvd230",
+      "language": "en",
+      "retrieved_pages": [
+        8,
+        4,
+        28,
+        12,
+        11,
+        5,
+        29,
+        3
+      ],
+      "evidence_spans": 5,
+      "used_chars": 5923
+    },
+    {
+      "file": "corpus-stm32f103.json",
+      "sha256": "73316912e226a9abd60a097727cec2956d5e5baad6b84554aa4257f313feb25f",
+      "doc_id": "stm32f103",
+      "language": "zh",
+      "retrieved_pages": [
+        74,
+        73,
+        75,
+        70,
+        78,
+        54,
+        76,
+        66
+      ],
+      "evidence_spans": 3,
+      "used_chars": 5984
+    },
+    {
+      "file": "corpus-tca9548a.json",
+      "sha256": "2847c0d348df800257fdaae9cfe344063f2b556261bcd52c0073d2d202a3cabb",
+      "doc_id": "tca9548a",
+      "language": "en",
+      "retrieved_pages": [
+        7,
+        1,
+        22,
+        4,
+        6,
+        13,
+        18,
+        21
+      ],
+      "evidence_spans": 5,
+      "used_chars": 5613
+    },
+    {
+      "file": "corpus-tmp117.json",
+      "sha256": "33f1086be865239ee1cbbd219c0ddda5ec13e7ea83adc5ba4a6df425cda3dc09",
+      "doc_id": "tmp117",
+      "language": "zh",
+      "retrieved_pages": [
+        7,
+        22,
+        9,
+        8,
+        20,
+        28,
+        40,
+        42
+      ],
+      "evidence_spans": 4,
+      "used_chars": 4833
+    }
+  ],
+  "corpus_smoke_http_200": 20,
+  "corpus_documents": 20,
+  "corpus_nonempty_evidence": 20,
+  "source_page_injections": 0,
+  "generation_calls": 0,
+  "ollama_calls": 0,
+  "mocked_retrieval_or_verification": false,
+  "actual_application_lifespan": true,
+  "startup_configuration": "CHIPCLAW_API_WARMUP=none",
+  "scope": "One MAX3232 question in EN/ZH across four methods plus one existing frozen intent per each of 20 documents; actual application startup, HTTP, models and PDFs. Corpus probes check execution and provenance, not semantic answer accuracy; no generated-answer or H accuracy claim."
+}

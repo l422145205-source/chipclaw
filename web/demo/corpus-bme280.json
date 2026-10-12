@@ -1,0 +1,2622 @@
+{
+  "intent_id": "qv3-0319",
+  "request": {
+    "question": "BME280 如何实现 Sensor mode transitions 的功能？",
+    "doc_id": "bme280",
+    "retrieval_method": "multilingual_v4",
+    "budget_chars": 6000
+  },
+  "http_status": 200,
+  "result": {
+    "query": "BME280 如何实现 Sensor mode transitions 的功能？",
+    "doc_id": "bme280",
+    "retrieval_method": "multilingual_v4",
+    "evidence": [
+      {
+        "doc_id": "bme280",
+        "page": 15,
+        "source_sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+        "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf#page=15",
+        "title": "BME280 humidity pressure temperature sensor datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "bme280:p15:span0-1389:a2ccdb449fec",
+        "span_id": "bme280:p15:span0-1389:a2ccdb449fec",
+        "start": 0,
+        "end": 1389,
+        "text": "{\"r\":0,\"c\":[[71,\"Bosch Sensortec | BME280 Data sheet\"],[493,\"15 | 60\"]]}\n{\"r\":1,\"c\":[[71,\"The modes will be explained in detail in chapters 3.3.2 (sleep mode), 3.3.3 (forced mode) and 3.3.4\"]]}\n{\"r\":2,\"c\":[[71,\"(normal mode).\"]]}\n{\"r\":3,\"c\":[[71,\"3.3.1\"],[107,\"Sensor mode transitions\"]]}\n{\"r\":4,\"c\":[[71,\"The supported mode transitions are shown in Figure 3. If the device is currently performing a\"]]}\n{\"r\":5,\"c\":[[71,\"measurement, execution of mode switching commands is delayed until the end of the currently\"]]}\n{\"r\":6,\"c\":[[71,\"running measurement period. Further mode change commands or other write commands to the\"]]}\n{\"r\":7,\"c\":[[71,\"register ctrl_hum are ignored until the mode change command has been executed. Mode transitions\"]]}\n{\"r\":8,\"c\":[[71,\"other than the ones shown below are tested for stability but do not represent recommended use of the\"]]}\n{\"r\":9,\"c\":[[71,\"device.\"]]}\n{\"r\":10,\"c\":[[159,\"Power OFF\"]]}\n{\"r\":11,\"c\":[[149,\"(V\"],[171,\"or V\"],[208,\"= 0)\"]]}\n{\"r\":12,\"c\":[[159,\"DD\"],[189,\"DDIO\"]]}\n{\"r\":13,\"c\":[[390,\"Normal\"]]}\n{\"r\":14,\"c\":[[191,\"V\"],[210,\"and V\"]]}\n{\"r\":15,\"c\":[[198,\"DD\"],[236,\"DDIO\"],[365,\"(cyclic standby and\"]]}\n{\"r\":16,\"c\":[[191,\"supplied\"],[310,\"00\"]]}\n{\"r\":17,\"c\":[[256,\"Mode[1:0] =\"],[358,\"measurement periods)\"]]}\n{\"r\":18,\"c\":[[316,\"11\"]]}\n{\"r\":19,\"c\":[[262,\"Mode[1:0] =\"]]}\n{\"r\":20,\"c\":[[361,\"Mode[1:0] = 01\"]]}\n{\"r\":21,\"c\":[[173,\"Sleep\"]]}\n",
+        "packet_kind": "prose",
+        "table_id": null,
+        "source_rows": [
+          {
+            "r": 0,
+            "c": [
+              [
+                71,
+                "Bosch Sensortec | BME280 Data sheet"
+              ],
+              [
+                493,
+                "15 | 60"
+              ]
+            ]
+          },
+          {
+            "r": 1,
+            "c": [
+              [
+                71,
+                "The modes will be explained in detail in chapters 3.3.2 (sleep mode), 3.3.3 (forced mode) and 3.3.4"
+              ]
+            ]
+          },
+          {
+            "r": 2,
+            "c": [
+              [
+                71,
+                "(normal mode)."
+              ]
+            ]
+          },
+          {
+            "r": 3,
+            "c": [
+              [
+                71,
+                "3.3.1"
+              ],
+              [
+                107,
+                "Sensor mode transitions"
+              ]
+            ]
+          },
+          {
+            "r": 4,
+            "c": [
+              [
+                71,
+                "The supported mode transitions are shown in Figure 3. If the device is currently performing a"
+              ]
+            ]
+          },
+          {
+            "r": 5,
+            "c": [
+              [
+                71,
+                "measurement, execution of mode switching commands is delayed until the end of the currently"
+              ]
+            ]
+          },
+          {
+            "r": 6,
+            "c": [
+              [
+                71,
+                "running measurement period. Further mode change commands or other write commands to the"
+              ]
+            ]
+          },
+          {
+            "r": 7,
+            "c": [
+              [
+                71,
+                "register ctrl_hum are ignored until the mode change command has been executed. Mode transitions"
+              ]
+            ]
+          },
+          {
+            "r": 8,
+            "c": [
+              [
+                71,
+                "other than the ones shown below are tested for stability but do not represent recommended use of the"
+              ]
+            ]
+          },
+          {
+            "r": 9,
+            "c": [
+              [
+                71,
+                "device."
+              ]
+            ]
+          },
+          {
+            "r": 10,
+            "c": [
+              [
+                159,
+                "Power OFF"
+              ]
+            ]
+          },
+          {
+            "r": 11,
+            "c": [
+              [
+                149,
+                "(V"
+              ],
+              [
+                171,
+                "or V"
+              ],
+              [
+                208,
+                "= 0)"
+              ]
+            ]
+          },
+          {
+            "r": 12,
+            "c": [
+              [
+                159,
+                "DD"
+              ],
+              [
+                189,
+                "DDIO"
+              ]
+            ]
+          },
+          {
+            "r": 13,
+            "c": [
+              [
+                390,
+                "Normal"
+              ]
+            ]
+          },
+          {
+            "r": 14,
+            "c": [
+              [
+                191,
+                "V"
+              ],
+              [
+                210,
+                "and V"
+              ]
+            ]
+          },
+          {
+            "r": 15,
+            "c": [
+              [
+                198,
+                "DD"
+              ],
+              [
+                236,
+                "DDIO"
+              ],
+              [
+                365,
+                "(cyclic standby and"
+              ]
+            ]
+          },
+          {
+            "r": 16,
+            "c": [
+              [
+                191,
+                "supplied"
+              ],
+              [
+                310,
+                "00"
+              ]
+            ]
+          },
+          {
+            "r": 17,
+            "c": [
+              [
+                256,
+                "Mode[1:0] ="
+              ],
+              [
+                358,
+                "measurement periods)"
+              ]
+            ]
+          },
+          {
+            "r": 18,
+            "c": [
+              [
+                316,
+                "11"
+              ]
+            ]
+          },
+          {
+            "r": 19,
+            "c": [
+              [
+                262,
+                "Mode[1:0] ="
+              ]
+            ]
+          },
+          {
+            "r": 20,
+            "c": [
+              [
+                361,
+                "Mode[1:0] = 01"
+              ]
+            ]
+          },
+          {
+            "r": 21,
+            "c": [
+              [
+                173,
+                "Sleep"
+              ]
+            ]
+          }
+        ],
+        "layout_sha256": null,
+        "geometry_records": [
+          {
+            "top": 24.22476000000006,
+            "c": [
+              [
+                71,
+                "Bosch Sensortec | BME280 Data sheet"
+              ],
+              [
+                493,
+                "15 | 60"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92,
+                  25.908000000000015,
+                  250.31901600000003,
+                  35.86800000000005
+                ],
+                "text": "Bosch Sensortec | BME280 Data sheet"
+              },
+              {
+                "bbox": [
+                  493.43664,
+                  24.22476000000006,
+                  523.6956,
+                  34.18799999999999
+                ],
+                "text": "15 | 60"
+              }
+            ],
+            "kind": "prose",
+            "r": 0
+          },
+          {
+            "top": 75.10799999999995,
+            "c": [
+              [
+                71,
+                "The modes will be explained in detail in chapters 3.3.2 (sleep mode), 3.3.3 (forced mode) and 3.3.4"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92,
+                  75.10799999999995,
+                  509.436888,
+                  85.06799999999998
+                ],
+                "text": "The modes will be explained in detail in chapters 3.3.2 (sleep mode), 3.3.3 (forced mode) and 3.3.4"
+              }
+            ],
+            "kind": "prose",
+            "r": 1
+          },
+          {
+            "top": 89.15159999999992,
+            "c": [
+              [
+                71,
+                "(normal mode)."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92000000000007,
+                  89.15159999999992,
+                  138.5892360000001,
+                  99.11159999999995
+                ],
+                "text": "(normal mode)."
+              }
+            ],
+            "kind": "prose",
+            "r": 2
+          },
+          {
+            "top": 107.75999999999999,
+            "c": [
+              [
+                71,
+                "3.3.1"
+              ],
+              [
+                107,
+                "Sensor mode transitions"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92,
+                  108.43200000000002,
+                  95.531472,
+                  119.47199999999998
+                ],
+                "text": "3.3.1"
+              },
+              {
+                "bbox": [
+                  106.92,
+                  107.75999999999999,
+                  236.39999999999992,
+                  119.75999999999999
+                ],
+                "text": "Sensor mode transitions"
+              }
+            ],
+            "kind": "prose",
+            "r": 3
+          },
+          {
+            "top": 125.98799999999994,
+            "c": [
+              [
+                71,
+                "The supported mode transitions are shown in Figure 3. If the device is currently performing a"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92,
+                  125.98799999999994,
+                  476.16944399999994,
+                  135.94799999999998
+                ],
+                "text": "The supported mode transitions are shown in Figure 3. If the device is currently performing a"
+              }
+            ],
+            "kind": "prose",
+            "r": 4
+          },
+          {
+            "top": 139.91207999999995,
+            "c": [
+              [
+                71,
+                "measurement, execution of mode switching commands is delayed until the end of the currently"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.91795999999994,
+                  139.91207999999995,
+                  488.7280079999995,
+                  149.87207999999998
+                ],
+                "text": "measurement, execution of mode switching commands is delayed until the end of the currently"
+              }
+            ],
+            "kind": "prose",
+            "r": 5
+          },
+          {
+            "top": 153.95567999999992,
+            "c": [
+              [
+                71,
+                "running measurement period. Further mode change commands or other write commands to the"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.91795999999994,
+                  153.95567999999992,
+                  492.16420799999935,
+                  163.91567999999995
+                ],
+                "text": "running measurement period. Further mode change commands or other write commands to the"
+              }
+            ],
+            "kind": "prose",
+            "r": 6
+          },
+          {
+            "top": 167.99927999999989,
+            "c": [
+              [
+                71,
+                "register ctrl_hum are ignored until the mode change command has been executed. Mode transitions"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.91795999999994,
+                  167.99927999999989,
+                  512.6071079999999,
+                  177.95927999999992
+                ],
+                "text": "register ctrl_hum are ignored until the mode change command has been executed. Mode transitions"
+              }
+            ],
+            "kind": "prose",
+            "r": 7
+          },
+          {
+            "top": 181.9233599999999,
+            "c": [
+              [
+                71,
+                "other than the ones shown below are tested for stability but do not represent recommended use of the"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.90799999999993,
+                  181.9233599999999,
+                  520.9466159999993,
+                  191.88335999999993
+                ],
+                "text": "other than the ones shown below are tested for stability but do not represent recommended use of the"
+              }
+            ],
+            "kind": "prose",
+            "r": 8
+          },
+          {
+            "top": 195.96695999999986,
+            "c": [
+              [
+                71,
+                "device."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.90799999999993,
+                  195.96695999999986,
+                  102.47024399999992,
+                  205.9269599999999
+                ],
+                "text": "device."
+              }
+            ],
+            "kind": "prose",
+            "r": 9
+          },
+          {
+            "top": 247.59699,
+            "c": [
+              [
+                159,
+                "Power OFF"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  158.9253,
+                  247.59699,
+                  215.1608784,
+                  258.65029000000004
+                ],
+                "text": "Power OFF"
+              }
+            ],
+            "kind": "prose",
+            "r": 10
+          },
+          {
+            "top": 260.65972,
+            "c": [
+              [
+                149,
+                "(V"
+              ],
+              [
+                171,
+                "or V"
+              ],
+              [
+                208,
+                "= 0)"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  148.5193,
+                  260.66002000000003,
+                  158.51989999999998,
+                  270.70841999999993
+                ],
+                "text": "(V"
+              },
+              {
+                "bbox": [
+                  170.68746679999998,
+                  260.65981999999997,
+                  189.02856719999997,
+                  270.70821999999987
+                ],
+                "text": "or V"
+              },
+              {
+                "bbox": [
+                  208.05556679999998,
+                  260.65972,
+                  225.56661739999998,
+                  270.7081199999999
+                ],
+                "text": "= 0)"
+              }
+            ],
+            "kind": "prose",
+            "r": 11
+          },
+          {
+            "top": 264.51091999999994,
+            "c": [
+              [
+                159,
+                "DD"
+              ],
+              [
+                189,
+                "DDIO"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  158.52,
+                  264.51091999999994,
+                  167.90498920000002,
+                  271.0413199999999
+                ],
+                "text": "DD"
+              },
+              {
+                "bbox": [
+                  189.027,
+                  264.51091999999994,
+                  205.27525,
+                  271.0413199999999
+                ],
+                "text": "DDIO"
+              }
+            ],
+            "kind": "prose",
+            "r": 12
+          },
+          {
+            "top": 284.71289,
+            "c": [
+              [
+                390,
+                "Normal"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  390.0856,
+                  284.71289,
+                  425.5298554,
+                  295.76619000000005
+                ],
+                "text": "Normal"
+              }
+            ],
+            "kind": "prose",
+            "r": 13
+          },
+          {
+            "top": 290.43931999999995,
+            "c": [
+              [
+                191,
+                "V"
+              ],
+              [
+                210,
+                "and V"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  191.0354,
+                  290.43931999999995,
+                  197.7058002,
+                  300.48771999999985
+                ],
+                "text": "V"
+              },
+              {
+                "bbox": [
+                  209.87336679999999,
+                  290.43931999999995,
+                  236.00493459999998,
+                  300.48771999999985
+                ],
+                "text": "and V"
+              }
+            ],
+            "kind": "prose",
+            "r": 14
+          },
+          {
+            "top": 294.2904199999999,
+            "c": [
+              [
+                198,
+                "DD"
+              ],
+              [
+                236,
+                "DDIO"
+              ],
+              [
+                365,
+                "(cyclic standby and"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  197.7059,
+                  294.2904199999999,
+                  207.09088920000002,
+                  300.8208199999999
+                ],
+                "text": "DD"
+              },
+              {
+                "bbox": [
+                  236.0065,
+                  294.2904199999999,
+                  252.25475,
+                  300.8208199999999
+                ],
+                "text": "DDIO"
+              },
+              {
+                "bbox": [
+                  365.2886,
+                  295.71601999999996,
+                  450.3237018,
+                  305.76441999999986
+                ],
+                "text": "(cyclic standby and"
+              }
+            ],
+            "kind": "prose",
+            "r": 15
+          },
+          {
+            "top": 302.48603934999994,
+            "c": [
+              [
+                191,
+                "supplied"
+              ],
+              [
+                310,
+                "00"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  191.03122679999998,
+                  302.49739999999997,
+                  228.27346119999999,
+                  312.5457999999999
+                ],
+                "text": "supplied"
+              },
+              {
+                "bbox": [
+                  310.04551105,
+                  302.48603934999994,
+                  323.32791345000004,
+                  315.02652415
+                ],
+                "text": "00"
+              }
+            ],
+            "kind": "prose",
+            "r": 16
+          },
+          {
+            "top": 305.76442,
+            "c": [
+              [
+                256,
+                "Mode[1:0] ="
+              ],
+              [
+                358,
+                "measurement periods)"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  255.98104000000004,
+                  308.18886369999996,
+                  309.8807493,
+                  329.17656999999997
+                ],
+                "text": "Mode[1:0] ="
+              },
+              {
+                "bbox": [
+                  357.78815,
+                  305.76442,
+                  457.8241518,
+                  315.8128199999999
+                ],
+                "text": "measurement periods)"
+              }
+            ],
+            "kind": "prose",
+            "r": 17
+          },
+          {
+            "top": 322.1647729,
+            "c": [
+              [
+                316,
+                "11"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  315.72014989999997,
+                  322.1647729,
+                  329.0025523,
+                  334.70525769999995
+                ],
+                "text": "11"
+              }
+            ],
+            "kind": "prose",
+            "r": 18
+          },
+          {
+            "top": 325.68550389999996,
+            "c": [
+              [
+                262,
+                "Mode[1:0] ="
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  261.65083999999996,
+                  327.8688637,
+                  315.5505493,
+                  348.85657
+                ],
+                "text": "Mode[1:0] ="
+              }
+            ],
+            "kind": "prose",
+            "r": 19
+          },
+          {
+            "top": 335.63161999999994,
+            "c": [
+              [
+                361,
+                "Mode[1:0] = 01"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  360.9042,
+                  335.63161999999994,
+                  427.8982194,
+                  345.68001999999996
+                ],
+                "text": "Mode[1:0] = 01"
+              }
+            ],
+            "kind": "prose",
+            "r": 20
+          },
+          {
+            "top": 345.62748999999997,
+            "c": [
+              [
+                173,
+                "Sleep"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  172.691,
+                  345.62748999999997,
+                  200.8197899,
+                  356.68078999999994
+                ],
+                "text": "Sleep"
+              }
+            ],
+            "kind": "prose",
+            "r": 21
+          }
+        ]
+      },
+      {
+        "doc_id": "bme280",
+        "page": 14,
+        "source_sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+        "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf#page=14",
+        "title": "BME280 humidity pressure temperature sensor datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "bme280:p14:span2349-3496:a2ccdb449fec",
+        "span_id": "bme280:p14:span2349-3496:a2ccdb449fec",
+        "start": 2349,
+        "end": 3496,
+        "text": "{\"r\":43,\"c\":[[71,\"If VDDIO is supplied, but VDD is not, the interface pins are kept at a high-Z level. The bus can therefore\"]]}\n{\"r\":44,\"c\":[[71,\"already be used freely before the BME280 VDD supply is established.\"]]}\n{\"r\":45,\"c\":[[71,\"Resetting the sensor is possible by cycling VDD level or by writing a soft reset command. Cycling the\"]]}\n{\"r\":46,\"c\":[[71,\"VDDIO level will not cause a reset.\"]]}\n{\"r\":47,\"c\":[[71,\"3.3\"],[99,\"Sensor modes\"]]}\n{\"r\":48,\"c\":[[71,\"The BME280 offers three sensor modes: sleep mode, forced mode and normal mode. These can be\"]]}\n{\"r\":49,\"c\":[[71,\"selected using the mode[1:0] setting (see chapter 5.4.5). The available modes are:\"]]}\n{\"r\":50,\"c\":[[89,\"•\"],[107,\"Sleep mode: no operation, all registers accessible, lowest power, selected after startup\"]]}\n{\"r\":51,\"c\":[[89,\"•\"],[107,\"Forced mode: perform one measurement, store results and return to sleep mode\"]]}\n{\"r\":52,\"c\":[[89,\"•\"],[107,\"Normal mode: perpetual cycling of measurements and inactive periods.\"]]}\n{\"r\":53,\"c\":[[71,\"Modifications reserved | Data subject to change without notice\"],[326,\"Document number: BST-BME280-DS001-23 Revision_1.23_012022\"]]}",
+        "packet_kind": "prose",
+        "table_id": null,
+        "source_rows": [
+          {
+            "r": 43,
+            "c": [
+              [
+                71,
+                "If VDDIO is supplied, but VDD is not, the interface pins are kept at a high-Z level. The bus can therefore"
+              ]
+            ]
+          },
+          {
+            "r": 44,
+            "c": [
+              [
+                71,
+                "already be used freely before the BME280 VDD supply is established."
+              ]
+            ]
+          },
+          {
+            "r": 45,
+            "c": [
+              [
+                71,
+                "Resetting the sensor is possible by cycling VDD level or by writing a soft reset command. Cycling the"
+              ]
+            ]
+          },
+          {
+            "r": 46,
+            "c": [
+              [
+                71,
+                "VDDIO level will not cause a reset."
+              ]
+            ]
+          },
+          {
+            "r": 47,
+            "c": [
+              [
+                71,
+                "3.3"
+              ],
+              [
+                99,
+                "Sensor modes"
+              ]
+            ]
+          },
+          {
+            "r": 48,
+            "c": [
+              [
+                71,
+                "The BME280 offers three sensor modes: sleep mode, forced mode and normal mode. These can be"
+              ]
+            ]
+          },
+          {
+            "r": 49,
+            "c": [
+              [
+                71,
+                "selected using the mode[1:0] setting (see chapter 5.4.5). The available modes are:"
+              ]
+            ]
+          },
+          {
+            "r": 50,
+            "c": [
+              [
+                89,
+                "•"
+              ],
+              [
+                107,
+                "Sleep mode: no operation, all registers accessible, lowest power, selected after startup"
+              ]
+            ]
+          },
+          {
+            "r": 51,
+            "c": [
+              [
+                89,
+                "•"
+              ],
+              [
+                107,
+                "Forced mode: perform one measurement, store results and return to sleep mode"
+              ]
+            ]
+          },
+          {
+            "r": 52,
+            "c": [
+              [
+                89,
+                "•"
+              ],
+              [
+                107,
+                "Normal mode: perpetual cycling of measurements and inactive periods."
+              ]
+            ]
+          },
+          {
+            "r": 53,
+            "c": [
+              [
+                71,
+                "Modifications reserved | Data subject to change without notice"
+              ],
+              [
+                326,
+                "Document number: BST-BME280-DS001-23 Revision_1.23_012022"
+              ]
+            ]
+          }
+        ],
+        "layout_sha256": null,
+        "geometry_records": [
+          {
+            "top": 593.1479999999999,
+            "c": [
+              [
+                71,
+                "If VDDIO is supplied, but VDD is not, the interface pins are kept at a high-Z level. The bus can therefore"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92276000000004,
+                  593.16336,
+                  514.793376,
+                  603.1233599999999
+                ],
+                "text": "If VDDIO is supplied, but VDD is not, the interface pins are kept at a high-Z level. The bus can therefore"
+              }
+            ],
+            "kind": "prose",
+            "r": 43
+          },
+          {
+            "top": 607.188,
+            "c": [
+              [
+                71,
+                "already be used freely before the BME280 VDD supply is established."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.91999999999996,
+                  607.1915999999999,
+                  374.87178,
+                  617.1515999999999
+                ],
+                "text": "already be used freely before the BME280 VDD supply is established."
+              }
+            ],
+            "kind": "prose",
+            "r": 44
+          },
+          {
+            "top": 635.1479999999999,
+            "c": [
+              [
+                71,
+                "Resetting the sensor is possible by cycling VDD level or by writing a soft reset command. Cycling the"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.91747999999995,
+                  635.15568,
+                  511.41382800000014,
+                  645.11568
+                ],
+                "text": "Resetting the sensor is possible by cycling VDD level or by writing a soft reset command. Cycling the"
+              }
+            ],
+            "kind": "prose",
+            "r": 45
+          },
+          {
+            "top": 649.188,
+            "c": [
+              [
+                71,
+                "VDDIO level will not cause a reset."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.91987999999998,
+                  649.1915999999999,
+                  216.104496,
+                  659.1515999999999
+                ],
+                "text": "VDDIO level will not cause a reset."
+              }
+            ],
+            "kind": "prose",
+            "r": 46
+          },
+          {
+            "top": 670.8,
+            "c": [
+              [
+                71,
+                "3.3"
+              ],
+              [
+                99,
+                "Sensor modes"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92,
+                  670.8,
+                  87.672,
+                  682.8
+                ],
+                "text": "3.3"
+              },
+              {
+                "bbox": [
+                  99.24,
+                  670.8,
+                  176.76000000000002,
+                  682.8
+                ],
+                "text": "Sensor modes"
+              }
+            ],
+            "kind": "prose",
+            "r": 47
+          },
+          {
+            "top": 692.028,
+            "c": [
+              [
+                71,
+                "The BME280 offers three sensor modes: sleep mode, forced mode and normal mode. These can be"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92,
+                  692.028,
+                  512.8452000000002,
+                  701.9879999999999
+                ],
+                "text": "The BME280 offers three sensor modes: sleep mode, forced mode and normal mode. These can be"
+              }
+            ],
+            "kind": "prose",
+            "r": 48
+          },
+          {
+            "top": 705.95208,
+            "c": [
+              [
+                71,
+                "selected using the mode[1:0] setting (see chapter 5.4.5). The available modes are:"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.91999999999999,
+                  705.95208,
+                  435.35142,
+                  715.91208
+                ],
+                "text": "selected using the mode[1:0] setting (see chapter 5.4.5). The available modes are:"
+              }
+            ],
+            "kind": "prose",
+            "r": 49
+          },
+          {
+            "top": 732.03732,
+            "c": [
+              [
+                89,
+                "•"
+              ],
+              [
+                107,
+                "Sleep mode: no operation, all registers accessible, lowest power, selected after startup"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  88.91772000000002,
+                  732.03732,
+                  93.49932000000001,
+                  741.99732
+                ],
+                "text": "•"
+              },
+              {
+                "bbox": [
+                  106.91544000000002,
+                  732.83412,
+                  490.3774319999998,
+                  742.79412
+                ],
+                "text": "Sleep mode: no operation, all registers accessible, lowest power, selected after startup"
+              }
+            ],
+            "kind": "prose",
+            "r": 50
+          },
+          {
+            "top": 744.15864,
+            "c": [
+              [
+                89,
+                "•"
+              ],
+              [
+                107,
+                "Forced mode: perform one measurement, store results and return to sleep mode"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  88.91772000000003,
+                  744.15864,
+                  93.49932000000003,
+                  754.1186399999999
+                ],
+                "text": "•"
+              },
+              {
+                "bbox": [
+                  106.91544000000003,
+                  744.95544,
+                  463.1328480000001,
+                  754.91544
+                ],
+                "text": "Forced mode: perform one measurement, store results and return to sleep mode"
+              }
+            ],
+            "kind": "prose",
+            "r": 51
+          },
+          {
+            "top": 756.39948,
+            "c": [
+              [
+                89,
+                "•"
+              ],
+              [
+                107,
+                "Normal mode: perpetual cycling of measurements and inactive periods."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  88.91772000000003,
+                  756.39948,
+                  93.49932000000003,
+                  766.35948
+                ],
+                "text": "•"
+              },
+              {
+                "bbox": [
+                  106.91544000000003,
+                  757.19628,
+                  422.10462000000035,
+                  767.1562799999999
+                ],
+                "text": "Normal mode: perpetual cycling of measurements and inactive periods."
+              }
+            ],
+            "kind": "prose",
+            "r": 52
+          },
+          {
+            "top": 811.3439999999999,
+            "c": [
+              [
+                71,
+                "Modifications reserved | Data subject to change without notice"
+              ],
+              [
+                326,
+                "Document number: BST-BME280-DS001-23 Revision_1.23_012022"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.68,
+                  811.3439999999999,
+                  248.99349600000002,
+                  817.824
+                ],
+                "text": "Modifications reserved | Data subject to change without notice"
+              },
+              {
+                "bbox": [
+                  326.04,
+                  812.664,
+                  522.116832,
+                  819.144
+                ],
+                "text": "Document number: BST-BME280-DS001-23 Revision_1.23_012022"
+              }
+            ],
+            "kind": "prose",
+            "r": 53
+          }
+        ]
+      },
+      {
+        "doc_id": "bme280",
+        "page": 4,
+        "source_sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+        "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf#page=4",
+        "title": "BME280 humidity pressure temperature sensor datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "bme280:p4:span941-2254:a2ccdb449fec",
+        "span_id": "bme280:p4:span941-2254:a2ccdb449fec",
+        "start": 941,
+        "end": 2254,
+        "text": "{\"r\":7,\"c\":[[71,\"2. Absolute maximum ratings ........................................................................................................... 13\"]]}\n{\"r\":8,\"c\":[[71,\"3. Functional description ................................................................................................................... 14\"]]}\n{\"r\":9,\"c\":[[90,\"3.1\"],[112,\"Block diagram .......................................................................................................................... 14\"]]}\n{\"r\":10,\"c\":[[90,\"3.2\"],[112,\"Power management ................................................................................................................ 14\"]]}\n{\"r\":11,\"c\":[[90,\"3.3\"],[112,\"Sensor modes.......................................................................................................................... 14\"]]}\n{\"r\":12,\"c\":[[126,\"3.3.1\"],[156,\"Sensor mode transitions ......................................................................................... 15\"]]}\n{\"r\":13,\"c\":[[126,\"3.3.2\"],[156,\"Sleep mode ............................................................................................................. 15\"]]}\n{\"r\":14,\"c\":[[126,\"3.3.3\"],[156,\"Forced mode ........................................................................................................... 15\"]]}\n",
+        "packet_kind": "prose",
+        "table_id": null,
+        "source_rows": [
+          {
+            "r": 7,
+            "c": [
+              [
+                71,
+                "2. Absolute maximum ratings ........................................................................................................... 13"
+              ]
+            ]
+          },
+          {
+            "r": 8,
+            "c": [
+              [
+                71,
+                "3. Functional description ................................................................................................................... 14"
+              ]
+            ]
+          },
+          {
+            "r": 9,
+            "c": [
+              [
+                90,
+                "3.1"
+              ],
+              [
+                112,
+                "Block diagram .......................................................................................................................... 14"
+              ]
+            ]
+          },
+          {
+            "r": 10,
+            "c": [
+              [
+                90,
+                "3.2"
+              ],
+              [
+                112,
+                "Power management ................................................................................................................ 14"
+              ]
+            ]
+          },
+          {
+            "r": 11,
+            "c": [
+              [
+                90,
+                "3.3"
+              ],
+              [
+                112,
+                "Sensor modes.......................................................................................................................... 14"
+              ]
+            ]
+          },
+          {
+            "r": 12,
+            "c": [
+              [
+                126,
+                "3.3.1"
+              ],
+              [
+                156,
+                "Sensor mode transitions ......................................................................................... 15"
+              ]
+            ]
+          },
+          {
+            "r": 13,
+            "c": [
+              [
+                126,
+                "3.3.2"
+              ],
+              [
+                156,
+                "Sleep mode ............................................................................................................. 15"
+              ]
+            ]
+          },
+          {
+            "r": 14,
+            "c": [
+              [
+                126,
+                "3.3.3"
+              ],
+              [
+                156,
+                "Forced mode ........................................................................................................... 15"
+              ]
+            ]
+          }
+        ],
+        "layout_sha256": null,
+        "geometry_records": [
+          {
+            "top": 253.548,
+            "c": [
+              [
+                71,
+                "2. Absolute maximum ratings ........................................................................................................... 13"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92,
+                  253.548,
+                  524.30604,
+                  263.50800000000004
+                ],
+                "text": "2. Absolute maximum ratings ........................................................................................................... 13"
+              }
+            ],
+            "kind": "prose",
+            "r": 7
+          },
+          {
+            "top": 294.828,
+            "c": [
+              [
+                71,
+                "3. Functional description ................................................................................................................... 14"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92,
+                  294.828,
+                  524.2960800000001,
+                  304.788
+                ],
+                "text": "3. Functional description ................................................................................................................... 14"
+              }
+            ],
+            "kind": "prose",
+            "r": 8
+          },
+          {
+            "top": 320.028,
+            "c": [
+              [
+                90,
+                "3.1"
+              ],
+              [
+                112,
+                "Block diagram .......................................................................................................................... 14"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  89.88,
+                  320.028,
+                  103.695516,
+                  329.988
+                ],
+                "text": "3.1"
+              },
+              {
+                "bbox": [
+                  112.2,
+                  320.028,
+                  525.2511600000001,
+                  329.988
+                ],
+                "text": "Block diagram .......................................................................................................................... 14"
+              }
+            ],
+            "kind": "prose",
+            "r": 9
+          },
+          {
+            "top": 345.34799999999996,
+            "c": [
+              [
+                90,
+                "3.2"
+              ],
+              [
+                112,
+                "Power management ................................................................................................................ 14"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  89.88,
+                  345.34799999999996,
+                  103.695516,
+                  355.30799999999994
+                ],
+                "text": "3.2"
+              },
+              {
+                "bbox": [
+                  112.2,
+                  345.34799999999996,
+                  525.2511600000001,
+                  355.30799999999994
+                ],
+                "text": "Power management ................................................................................................................ 14"
+              }
+            ],
+            "kind": "prose",
+            "r": 10
+          },
+          {
+            "top": 370.548,
+            "c": [
+              [
+                90,
+                "3.3"
+              ],
+              [
+                112,
+                "Sensor modes.......................................................................................................................... 14"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  89.88,
+                  370.548,
+                  103.695516,
+                  380.508
+                ],
+                "text": "3.3"
+              },
+              {
+                "bbox": [
+                  112.2,
+                  370.548,
+                  525.2611200000001,
+                  380.508
+                ],
+                "text": "Sensor modes.......................................................................................................................... 14"
+              }
+            ],
+            "kind": "prose",
+            "r": 11
+          },
+          {
+            "top": 387.828,
+            "c": [
+              [
+                126,
+                "3.3.1"
+              ],
+              [
+                156,
+                "Sensor mode transitions ......................................................................................... 15"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  125.88,
+                  387.828,
+                  147.97327199999998,
+                  397.78799999999995
+                ],
+                "text": "3.3.1"
+              },
+              {
+                "bbox": [
+                  156.0,
+                  387.828,
+                  524.29092,
+                  397.78799999999995
+                ],
+                "text": "Sensor mode transitions ......................................................................................... 15"
+              }
+            ],
+            "kind": "prose",
+            "r": 12
+          },
+          {
+            "top": 410.02799999999996,
+            "c": [
+              [
+                126,
+                "3.3.2"
+              ],
+              [
+                156,
+                "Sleep mode ............................................................................................................. 15"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  125.88,
+                  410.02799999999996,
+                  147.97327199999998,
+                  419.98799999999994
+                ],
+                "text": "3.3.2"
+              },
+              {
+                "bbox": [
+                  156.0,
+                  410.02799999999996,
+                  524.29092,
+                  419.98799999999994
+                ],
+                "text": "Sleep mode ............................................................................................................. 15"
+              }
+            ],
+            "kind": "prose",
+            "r": 13
+          },
+          {
+            "top": 432.22799999999995,
+            "c": [
+              [
+                126,
+                "3.3.3"
+              ],
+              [
+                156,
+                "Forced mode ........................................................................................................... 15"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  125.88,
+                  432.22799999999995,
+                  147.97327199999998,
+                  442.18799999999993
+                ],
+                "text": "3.3.3"
+              },
+              {
+                "bbox": [
+                  156.0,
+                  432.22799999999995,
+                  524.3008800000001,
+                  442.18799999999993
+                ],
+                "text": "Forced mode ........................................................................................................... 15"
+              }
+            ],
+            "kind": "prose",
+            "r": 14
+          }
+        ]
+      },
+      {
+        "doc_id": "bme280",
+        "page": 3,
+        "source_sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+        "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf#page=3",
+        "title": "BME280 humidity pressure temperature sensor datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "bme280:p3:span2345-2927:a2ccdb449fec",
+        "span_id": "bme280:p3:span2345-2927:a2ccdb449fec",
+        "start": 2345,
+        "end": 2927,
+        "text": "{\"r\":24,\"c\":[[89,\"•\"],[107,\"normal mode\"]]}\n{\"r\":25,\"c\":[[89,\"•\"],[107,\"forced mode\"]]}\n{\"r\":26,\"c\":[[71,\"In order to tailor data rate, noise, response time and current consumption to the needs of the user, a\"]]}\n{\"r\":27,\"c\":[[71,\"variety of oversampling modes, filter modes and data rates can be selected.\"]]}\n{\"r\":28,\"c\":[[71,\"Please contact your regional Bosch Sensortec partner for more information about software packages.\"]]}\n{\"r\":29,\"c\":[[71,\"Modifications reserved | Data subject to change without notice\"],[326,\"Document number: BST-BME280-DS001-23 Revision_1.23_012022\"]]}",
+        "packet_kind": "prose",
+        "table_id": null,
+        "source_rows": [
+          {
+            "r": 24,
+            "c": [
+              [
+                89,
+                "•"
+              ],
+              [
+                107,
+                "normal mode"
+              ]
+            ]
+          },
+          {
+            "r": 25,
+            "c": [
+              [
+                89,
+                "•"
+              ],
+              [
+                107,
+                "forced mode"
+              ]
+            ]
+          },
+          {
+            "r": 26,
+            "c": [
+              [
+                71,
+                "In order to tailor data rate, noise, response time and current consumption to the needs of the user, a"
+              ]
+            ]
+          },
+          {
+            "r": 27,
+            "c": [
+              [
+                71,
+                "variety of oversampling modes, filter modes and data rates can be selected."
+              ]
+            ]
+          },
+          {
+            "r": 28,
+            "c": [
+              [
+                71,
+                "Please contact your regional Bosch Sensortec partner for more information about software packages."
+              ]
+            ]
+          },
+          {
+            "r": 29,
+            "c": [
+              [
+                71,
+                "Modifications reserved | Data subject to change without notice"
+              ],
+              [
+                326,
+                "Document number: BST-BME280-DS001-23 Revision_1.23_012022"
+              ]
+            ]
+          }
+        ],
+        "layout_sha256": null,
+        "geometry_records": [
+          {
+            "top": 511.60992000000005,
+            "c": [
+              [
+                89,
+                "•"
+              ],
+              [
+                107,
+                "normal mode"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  88.91603999999998,
+                  511.60992000000005,
+                  93.49763999999998,
+                  521.56992
+                ],
+                "text": "•"
+              },
+              {
+                "bbox": [
+                  106.91375999999998,
+                  512.4067200000001,
+                  165.11900400000002,
+                  522.36672
+                ],
+                "text": "normal mode"
+              }
+            ],
+            "kind": "prose",
+            "r": 24
+          },
+          {
+            "top": 523.85076,
+            "c": [
+              [
+                89,
+                "•"
+              ],
+              [
+                107,
+                "forced mode"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  88.90607999999999,
+                  523.85076,
+                  93.48767999999998,
+                  533.8107600000001
+                ],
+                "text": "•"
+              },
+              {
+                "bbox": [
+                  106.90379999999999,
+                  524.6475600000001,
+                  162.350124,
+                  534.60756
+                ],
+                "text": "forced mode"
+              }
+            ],
+            "kind": "prose",
+            "r": 25
+          },
+          {
+            "top": 552.0076800000002,
+            "c": [
+              [
+                71,
+                "In order to tailor data rate, noise, response time and current consumption to the needs of the user, a"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.8984,
+                  552.0076800000002,
+                  512.1781919999991,
+                  561.9676800000001
+                ],
+                "text": "In order to tailor data rate, noise, response time and current consumption to the needs of the user, a"
+              }
+            ],
+            "kind": "prose",
+            "r": 26
+          },
+          {
+            "top": 565.9317600000002,
+            "c": [
+              [
+                71,
+                "variety of oversampling modes, filter modes and data rates can be selected."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.8984,
+                  565.9317600000002,
+                  406.01554800000025,
+                  575.8917600000001
+                ],
+                "text": "variety of oversampling modes, filter modes and data rates can be selected."
+              }
+            ],
+            "kind": "prose",
+            "r": 27
+          },
+          {
+            "top": 594.0189600000001,
+            "c": [
+              [
+                71,
+                "Please contact your regional Bosch Sensortec partner for more information about software packages."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.89839999999998,
+                  594.0189600000001,
+                  518.7776879999991,
+                  603.9789600000001
+                ],
+                "text": "Please contact your regional Bosch Sensortec partner for more information about software packages."
+              }
+            ],
+            "kind": "prose",
+            "r": 28
+          },
+          {
+            "top": 811.3439999999999,
+            "c": [
+              [
+                71,
+                "Modifications reserved | Data subject to change without notice"
+              ],
+              [
+                326,
+                "Document number: BST-BME280-DS001-23 Revision_1.23_012022"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.68,
+                  811.3439999999999,
+                  248.99349600000002,
+                  817.824
+                ],
+                "text": "Modifications reserved | Data subject to change without notice"
+              },
+              {
+                "bbox": [
+                  326.04,
+                  812.664,
+                  522.116832,
+                  819.144
+                ],
+                "text": "Document number: BST-BME280-DS001-23 Revision_1.23_012022"
+              }
+            ],
+            "kind": "prose",
+            "r": 29
+          }
+        ]
+      },
+      {
+        "doc_id": "bme280",
+        "page": 48,
+        "source_sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+        "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf#page=48",
+        "title": "BME280 humidity pressure temperature sensor datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "bme280:p48:span1215-2519:a2ccdb449fec",
+        "span_id": "bme280:p48:span1215-2519:a2ccdb449fec",
+        "start": 1215,
+        "end": 2519,
+        "text": "{\"r\":13,\"c\":[[89,\"•\"],[107,\"Soldering may not be done using vapor phase processes since the sensor will be damaged by\"]]}\n{\"r\":14,\"c\":[[107,\"the liquids used in these processes.\"]]}\n{\"r\":15,\"c\":[[71,\"7.12 Environmental safety\"]]}\n{\"r\":16,\"c\":[[71,\"7.12.1 RoHS\"]]}\n{\"r\":17,\"c\":[[71,\"The BME280 sensor meets the requirements of the EC restriction of hazardous substances (RoHS)\"]]}\n{\"r\":18,\"c\":[[71,\"directive, see also:\"]]}\n{\"r\":19,\"c\":[[85,\"RoHS–Directive 2011/65/EU and its amendments, including the amendment 2015/863/EU on\"]]}\n{\"r\":20,\"c\":[[85,\"the restriction of the use of certain hazardous substances in electrical and electronic\"]]}\n{\"r\":21,\"c\":[[85,\"equipment.\"]]}\n{\"r\":22,\"c\":[[71,\"7.12.2 Halogen content\"]]}\n{\"r\":23,\"c\":[[71,\"The BME280 is halogen-free. For more details on the analysis results please contact your Bosch\"]]}\n{\"r\":24,\"c\":[[71,\"Sensortec representative.\"]]}\n{\"r\":25,\"c\":[[71,\"7.12.3 Internal package structure\"]]}\n{\"r\":26,\"c\":[[71,\"Within the scope of Bosch Sensortec’s ambition to improve its products and secure the mass product\"]]}\n{\"r\":27,\"c\":[[71,\"supply, Bosch Sensortec qualifies additional sources (e.g. 2nd source) for the package of the BME280.\"]]}\n{\"r\":28,\"c\":[[71,\"While Bosch Sensortec took care that all of the technical packages parameters are described above\"]]}\n",
+        "packet_kind": "prose",
+        "table_id": null,
+        "source_rows": [
+          {
+            "r": 13,
+            "c": [
+              [
+                89,
+                "•"
+              ],
+              [
+                107,
+                "Soldering may not be done using vapor phase processes since the sensor will be damaged by"
+              ]
+            ]
+          },
+          {
+            "r": 14,
+            "c": [
+              [
+                107,
+                "the liquids used in these processes."
+              ]
+            ]
+          },
+          {
+            "r": 15,
+            "c": [
+              [
+                71,
+                "7.12 Environmental safety"
+              ]
+            ]
+          },
+          {
+            "r": 16,
+            "c": [
+              [
+                71,
+                "7.12.1 RoHS"
+              ]
+            ]
+          },
+          {
+            "r": 17,
+            "c": [
+              [
+                71,
+                "The BME280 sensor meets the requirements of the EC restriction of hazardous substances (RoHS)"
+              ]
+            ]
+          },
+          {
+            "r": 18,
+            "c": [
+              [
+                71,
+                "directive, see also:"
+              ]
+            ]
+          },
+          {
+            "r": 19,
+            "c": [
+              [
+                85,
+                "RoHS–Directive 2011/65/EU and its amendments, including the amendment 2015/863/EU on"
+              ]
+            ]
+          },
+          {
+            "r": 20,
+            "c": [
+              [
+                85,
+                "the restriction of the use of certain hazardous substances in electrical and electronic"
+              ]
+            ]
+          },
+          {
+            "r": 21,
+            "c": [
+              [
+                85,
+                "equipment."
+              ]
+            ]
+          },
+          {
+            "r": 22,
+            "c": [
+              [
+                71,
+                "7.12.2 Halogen content"
+              ]
+            ]
+          },
+          {
+            "r": 23,
+            "c": [
+              [
+                71,
+                "The BME280 is halogen-free. For more details on the analysis results please contact your Bosch"
+              ]
+            ]
+          },
+          {
+            "r": 24,
+            "c": [
+              [
+                71,
+                "Sensortec representative."
+              ]
+            ]
+          },
+          {
+            "r": 25,
+            "c": [
+              [
+                71,
+                "7.12.3 Internal package structure"
+              ]
+            ]
+          },
+          {
+            "r": 26,
+            "c": [
+              [
+                71,
+                "Within the scope of Bosch Sensortec’s ambition to improve its products and secure the mass product"
+              ]
+            ]
+          },
+          {
+            "r": 27,
+            "c": [
+              [
+                71,
+                "supply, Bosch Sensortec qualifies additional sources (e.g. 2nd source) for the package of the BME280."
+              ]
+            ]
+          },
+          {
+            "r": 28,
+            "c": [
+              [
+                71,
+                "While Bosch Sensortec took care that all of the technical packages parameters are described above"
+              ]
+            ]
+          }
+        ],
+        "layout_sha256": null,
+        "geometry_records": [
+          {
+            "top": 229.73651999999993,
+            "c": [
+              [
+                89,
+                "•"
+              ],
+              [
+                107,
+                "Soldering may not be done using vapor phase processes since the sensor will be damaged by"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  88.9077600000002,
+                  229.73651999999993,
+                  93.48936000000019,
+                  239.69651999999996
+                ],
+                "text": "•"
+              },
+              {
+                "bbox": [
+                  106.9054800000002,
+                  230.53332,
+                  524.2155359999998,
+                  240.49332000000004
+                ],
+                "text": "Soldering may not be done using vapor phase processes since the sensor will be damaged by"
+              }
+            ],
+            "kind": "prose",
+            "r": 13
+          },
+          {
+            "top": 241.93751999999995,
+            "c": [
+              [
+                107,
+                "the liquids used in these processes."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  106.9054800000002,
+                  241.93751999999995,
+                  265.2764520000001,
+                  251.89752
+                ],
+                "text": "the liquids used in these processes."
+              }
+            ],
+            "kind": "prose",
+            "r": 14
+          },
+          {
+            "top": 262.91999999999996,
+            "c": [
+              [
+                71,
+                "7.12 Environmental safety"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92,
+                  262.91999999999996,
+                  211.43999999999994,
+                  274.91999999999996
+                ],
+                "text": "7.12 Environmental safety"
+              }
+            ],
+            "kind": "prose",
+            "r": 15
+          },
+          {
+            "top": 288.72,
+            "c": [
+              [
+                71,
+                "7.12.1 RoHS"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92,
+                  289.39200000000005,
+                  138.92399999999998,
+                  300.72
+                ],
+                "text": "7.12.1 RoHS"
+              }
+            ],
+            "kind": "prose",
+            "r": 16
+          },
+          {
+            "top": 306.948,
+            "c": [
+              [
+                71,
+                "The BME280 sensor meets the requirements of the EC restriction of hazardous substances (RoHS)"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92,
+                  306.948,
+                  510.478704,
+                  316.908
+                ],
+                "text": "The BME280 sensor meets the requirements of the EC restriction of hazardous substances (RoHS)"
+              }
+            ],
+            "kind": "prose",
+            "r": 17
+          },
+          {
+            "top": 320.87208,
+            "c": [
+              [
+                71,
+                "directive, see also:"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.91004,
+                  320.87208,
+                  153.58202400000008,
+                  330.83207999999996
+                ],
+                "text": "directive, see also:"
+              }
+            ],
+            "kind": "prose",
+            "r": 18
+          },
+          {
+            "top": 334.91568,
+            "c": [
+              [
+                85,
+                "RoHS–Directive 2011/65/EU and its amendments, including the amendment 2015/863/EU on"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  85.06320000000001,
+                  334.91568,
+                  496.12933200000003,
+                  344.87568
+                ],
+                "text": "RoHS–Directive 2011/65/EU and its amendments, including the amendment 2015/863/EU on"
+              }
+            ],
+            "kind": "prose",
+            "r": 19
+          },
+          {
+            "top": 348.95928000000004,
+            "c": [
+              [
+                85,
+                "the restriction of the use of certain hazardous substances in electrical and electronic"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  85.06320000000002,
+                  348.95928000000004,
+                  456.2226000000003,
+                  358.91928
+                ],
+                "text": "the restriction of the use of certain hazardous substances in electrical and electronic"
+              }
+            ],
+            "kind": "prose",
+            "r": 20
+          },
+          {
+            "top": 362.88336000000004,
+            "c": [
+              [
+                85,
+                "equipment."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  85.06320000000005,
+                  362.88336000000004,
+                  134.38213200000004,
+                  372.84336
+                ],
+                "text": "equipment."
+              }
+            ],
+            "kind": "prose",
+            "r": 21
+          },
+          {
+            "top": 387.47999999999996,
+            "c": [
+              [
+                71,
+                "7.12.2 Halogen content"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92,
+                  388.15199999999993,
+                  194.376,
+                  399.47999999999996
+                ],
+                "text": "7.12.2 Halogen content"
+              }
+            ],
+            "kind": "prose",
+            "r": 22
+          },
+          {
+            "top": 405.70799999999997,
+            "c": [
+              [
+                71,
+                "The BME280 is halogen-free. For more details on the analysis results please contact your Bosch"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92,
+                  405.70799999999997,
+                  497.7149640000002,
+                  415.66799999999995
+                ],
+                "text": "The BME280 is halogen-free. For more details on the analysis results please contact your Bosch"
+              }
+            ],
+            "kind": "prose",
+            "r": 23
+          },
+          {
+            "top": 419.7516,
+            "c": [
+              [
+                71,
+                "Sensortec representative."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.91003999999998,
+                  419.7516,
+                  184.77375599999996,
+                  429.7116
+                ],
+                "text": "Sensortec representative."
+              }
+            ],
+            "kind": "prose",
+            "r": 24
+          },
+          {
+            "top": 444.35999999999996,
+            "c": [
+              [
+                71,
+                "7.12.3 Internal package structure"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92,
+                  445.0319999999999,
+                  245.7132,
+                  456.35999999999996
+                ],
+                "text": "7.12.3 Internal package structure"
+              }
+            ],
+            "kind": "prose",
+            "r": 25
+          },
+          {
+            "top": 462.46799999999996,
+            "c": [
+              [
+                71,
+                "Within the scope of Bosch Sensortec’s ambition to improve its products and secure the mass product"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92,
+                  462.46799999999996,
+                  516.9975239999994,
+                  472.42799999999994
+                ],
+                "text": "Within the scope of Bosch Sensortec’s ambition to improve its products and secure the mass product"
+              }
+            ],
+            "kind": "prose",
+            "r": 26
+          },
+          {
+            "top": 475.46399999999994,
+            "c": [
+              [
+                71,
+                "supply, Bosch Sensortec qualifies additional sources (e.g. 2nd source) for the package of the BME280."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.92,
+                  476.5116,
+                  520.9270079999999,
+                  486.47159999999997
+                ],
+                "text": "supply, Bosch Sensortec qualifies additional sources (e.g. 2nd source) for the package of the BME280."
+              }
+            ],
+            "kind": "prose",
+            "r": 27
+          },
+          {
+            "top": 504.47568,
+            "c": [
+              [
+                71,
+                "While Bosch Sensortec took care that all of the technical packages parameters are described above"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.91627999999997,
+                  504.47568,
+                  512.8076159999994,
+                  514.43568
+                ],
+                "text": "While Bosch Sensortec took care that all of the technical packages parameters are described above"
+              }
+            ],
+            "kind": "prose",
+            "r": 28
+          }
+        ]
+      }
+    ],
+    "budget": {
+      "budget_chars": 6000,
+      "max_pages": 5,
+      "used_chars": 5735,
+      "selected_pages": 5,
+      "selection": "physical_table_dependency_closure_multistart",
+      "condition_aliases": [],
+      "objective": 20.672743507378854,
+      "trials": [
+        {
+          "seed": null,
+          "objective": 20.672743507378854,
+          "chars": 5735
+        },
+        {
+          "seed": "bme280:p15:span0-1389:a2ccdb449fec",
+          "objective": 20.672743507378854,
+          "chars": 5735
+        },
+        {
+          "seed": "bme280:p14:span2349-3496:a2ccdb449fec",
+          "objective": 20.672743507378854,
+          "chars": 5735
+        },
+        {
+          "seed": "bme280:p4:span941-2254:a2ccdb449fec",
+          "objective": 20.672743507378854,
+          "chars": 5735
+        },
+        {
+          "seed": "bme280:p48:span1215-2519:a2ccdb449fec",
+          "objective": 20.672743507378854,
+          "chars": 5735
+        },
+        {
+          "seed": "bme280:p3:span2345-2927:a2ccdb449fec",
+          "objective": 20.672743507378854,
+          "chars": 5735
+        }
+      ],
+      "rejected_packets": [],
+      "pages": [
+        {
+          "doc_id": "bme280",
+          "page": 15,
+          "layout_chars": 2817,
+          "selected_chars": 1389
+        },
+        {
+          "doc_id": "bme280",
+          "page": 14,
+          "layout_chars": 3496,
+          "selected_chars": 1147
+        },
+        {
+          "doc_id": "bme280",
+          "page": 4,
+          "layout_chars": 4669,
+          "selected_chars": 1313
+        },
+        {
+          "doc_id": "bme280",
+          "page": 3,
+          "layout_chars": 2927,
+          "selected_chars": 582
+        },
+        {
+          "doc_id": "bme280",
+          "page": 48,
+          "layout_chars": 3069,
+          "selected_chars": 1304
+        }
+      ],
+      "note": "Only original contiguous ranges are sent to generation/verifier. No gold pages, reference answers, or generated table cells enter selection."
+    },
+    "claims": [],
+    "retrieved_pages": [
+      15,
+      14,
+      4,
+      3,
+      48,
+      12,
+      1,
+      2
+    ],
+    "retrieval_trace": {
+      "mode": "multilingual_v4",
+      "language": "zh",
+      "predicted_page_rr_gain": 0.011751882742310085,
+      "escalated": false,
+      "teacher_pairs": 0,
+      "teacher_forward_batches": 0,
+      "student_forward_batches": 1,
+      "candidate_pairs": 16,
+      "latency_ms": 13.212299998485832,
+      "gate_split": "dev",
+      "student_weight_sha256": "978fc11c24c22da4e81d8051acb89c367472d534dc6761596535496cfcb52a50",
+      "teacher_identity": {
+        "repo": "Qwen/Qwen3-Reranker-0.6B",
+        "revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+        "weight_sha256": "27cd75a405b9c1b46b59abfd88aaa209e6fed2a1972cde9b70e7659537c5e65b",
+        "max_input_tokens": 512,
+        "yes_token_id": 9693,
+        "no_token_id": 2152,
+        "instruction": "Retrieve chip-manual evidence that directly answers the question. Match the parameter, min/typ/max column, unit, operating mode and complete test conditions. Topic overlap or a correct value under a different condition is insufficient.",
+        "prompt_sha256": "a382f806df87ddb2befc2354bc9cff7cb3df3d5f60bc20747848013a11422765",
+        "interpretation": "Actually trained domain ranking preference adapter; not generative SFT or factual verification.",
+        "kind": "domain_lora_v4",
+        "adapter_sha256": "470e1f1d24e4403d517c5806d42f18dd72a8fe70e5fcd788fd188ce8b50e7b5c",
+        "selection_split": "dev",
+        "rank": 8,
+        "score_space": "raw_yes_minus_no_logits"
+      },
+      "candidate_scope": "Actual full-chunk BM25/RRF candidates; no source-page injection; weak source-page ranking labels.",
+      "method": "multilingual_v4",
+      "query": "BME280 如何实现 Sensor mode transitions 的功能？",
+      "corpus": "v3",
+      "documents": 20,
+      "full_text_chunks": 10668
+    },
+    "metrics": {
+      "retrieval_ms": 20.514200001343852,
+      "total_ms": 218.6682000010478,
+      "generation_calls": 0
+    },
+    "scope": "Original-PDF retrieval, closed source budget and deterministic numeric atoms; no generated answer or whole-answer correctness claim."
+  }
+}

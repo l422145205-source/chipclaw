@@ -1,0 +1,21 @@
+{
+  "selection_split": "dev",
+  "dev_intents": 340,
+  "reused_holdout_intents": 120,
+  "candidate_count": 16,
+  "teacher_top_n": 6,
+  "candidate_policy": "Original and protected terminology BM25 views with RRF on full 10668 chunks, document filtered. No positive/page injection.",
+  "labels": "Weak source-page reciprocal rank; alternate pages are unjudged. Not row correctness or answer accuracy.",
+  "gate_fit": "Per-language ridge expected source-page RR gain; semantic-ID hash80% dev fit,20% dev threshold calibration.",
+  "gate_budget": 0.35,
+  "acceptance": "Each language calibration RR must improve and empirical harmful fraction of escalations <=0.15. Otherwise disable.",
+  "holdout_note": "Same previously used v3 holdout subset; regression, not a new blind benchmark.",
+  "corpus_sha256": "af36870b2f1458cc5c7473ce1c236b9608cceecb061af381dd64b00363d0893c",
+  "data_sha256": "125f03d2a409961edd54dc982cd0a4e7681cdda5494c29d2d430b0ef382337a4",
+  "teacher_kind": "domain_lora_v4",
+  "source_sha256": {
+    "scripts/calibrate_adaptive_v4.py": "f59e65d745b44d3160f1277684d0f2a8f2ad899649265c9bbccd6f5133c02966",
+    "chipclaw/cascade_v4.py": "39df8008c43d4a90fbe80e0da45a5a3b7d139149aa56664976a6118c96d3232c",
+    "chipclaw/retrieval_v4.py": "b64a0827c0814c67fdf133bca7704e530a83b92feb54a6cc87774fc85bc130fc"
+  }
+}

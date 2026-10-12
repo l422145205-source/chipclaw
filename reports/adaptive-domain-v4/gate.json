@@ -1,0 +1,481 @@
+{
+  "selection_split": "dev",
+  "features": [
+    "top_gap",
+    "normalized_entropy",
+    "score_std",
+    "chinese_character_fraction",
+    "log_query_chars",
+    "top6_page_diversity"
+  ],
+  "student_weight_sha256": "978fc11c24c22da4e81d8051acb89c367472d534dc6761596535496cfcb52a50",
+  "teacher_revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+  "teacher_identity": {
+    "repo": "Qwen/Qwen3-Reranker-0.6B",
+    "revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+    "weight_sha256": "27cd75a405b9c1b46b59abfd88aaa209e6fed2a1972cde9b70e7659537c5e65b",
+    "max_input_tokens": 512,
+    "yes_token_id": 9693,
+    "no_token_id": 2152,
+    "instruction": "Retrieve chip-manual evidence that directly answers the question. Match the parameter, min/typ/max column, unit, operating mode and complete test conditions. Topic overlap or a correct value under a different condition is insufficient.",
+    "prompt_sha256": "a382f806df87ddb2befc2354bc9cff7cb3df3d5f60bc20747848013a11422765",
+    "interpretation": "Actually trained domain ranking preference adapter; not generative SFT or factual verification.",
+    "kind": "domain_lora_v4",
+    "adapter_sha256": "470e1f1d24e4403d517c5806d42f18dd72a8fe70e5fcd788fd188ce8b50e7b5c",
+    "selection_split": "dev",
+    "rank": 8,
+    "score_space": "raw_yes_minus_no_logits"
+  },
+  "teacher_top_n": 6,
+  "corpus_sha256": "af36870b2f1458cc5c7473ce1c236b9608cceecb061af381dd64b00363d0893c",
+  "languages": {
+    "en": {
+      "mean": [
+        4.845153342676527,
+        0.18251802423185068,
+        3.5960258077235747,
+        0.0,
+        4.298306034017723,
+        0.7569974554707379
+      ],
+      "scale": [
+        4.181563038382306,
+        0.23701400705084305,
+        1.7884991670163277,
+        1.0,
+        0.3505999951814758,
+        0.15785825604370177
+      ],
+      "coefficients": [
+        0.03874045801526715,
+        -0.003305055203281021,
+        0.06288123979236968,
+        0.033027000285139815,
+        0.0,
+        0.012826568403001911,
+        -0.003170635585037606
+      ],
+      "ridge_lambda": 10.0,
+      "threshold": 1000000.0,
+      "enabled": false,
+      "fit_rows": 262,
+      "calibration_rows": 78
+    },
+    "zh": {
+      "mean": [
+        4.426864041626908,
+        0.1831357859503629,
+        3.4932633309768892,
+        0.17758822847516706,
+        4.006223170289998,
+        0.7309160305343508
+      ],
+      "scale": [
+        3.7935123552453134,
+        0.22767059589654348,
+        1.593444760141245,
+        0.04435971426061928,
+        0.3334265005723433,
+        0.16668730326952372
+      ],
+      "coefficients": [
+        0.051081424936386725,
+        -0.011472660275044361,
+        0.06259820980213301,
+        0.030303175880957784,
+        0.00010480185450180983,
+        0.006540393642061808,
+        0.004804372834149679
+      ],
+      "ridge_lambda": 10.0,
+      "threshold": 1000000.0,
+      "enabled": false,
+      "fit_rows": 262,
+      "calibration_rows": 78
+    }
+  },
+  "calibration": {
+    "en": {
+      "base_page_mrr10": 0.9786324786324787,
+      "chosen": {
+        "threshold": 1000000.0,
+        "calls": 0,
+        "call_rate": 0.0,
+        "harmful_escalations": 0,
+        "harm_rate": 0.0,
+        "page_mrr10": 0.9786324786324787
+      },
+      "enabled": false,
+      "trials": [
+        {
+          "threshold": 1000000.0,
+          "calls": 0,
+          "call_rate": 0.0,
+          "harmful_escalations": 0,
+          "harm_rate": 0.0,
+          "page_mrr10": 0.9786324786324787
+        },
+        {
+          "threshold": -0.05072514433882549,
+          "calls": 78,
+          "call_rate": 1.0,
+          "harmful_escalations": 6,
+          "harm_rate": 0.07692307692307693,
+          "page_mrr10": 0.9401709401709403
+        },
+        {
+          "threshold": -0.03795150891174654,
+          "calls": 74,
+          "call_rate": 0.9487179487179487,
+          "harmful_escalations": 6,
+          "harm_rate": 0.08108108108108109,
+          "page_mrr10": 0.9401709401709403
+        },
+        {
+          "threshold": -0.029691174866570517,
+          "calls": 70,
+          "call_rate": 0.8974358974358975,
+          "harmful_escalations": 6,
+          "harm_rate": 0.08571428571428572,
+          "page_mrr10": 0.9401709401709403
+        },
+        {
+          "threshold": -0.019411014078655246,
+          "calls": 66,
+          "call_rate": 0.8461538461538461,
+          "harmful_escalations": 6,
+          "harm_rate": 0.09090909090909091,
+          "page_mrr10": 0.9401709401709403
+        },
+        {
+          "threshold": -0.014881268941118164,
+          "calls": 62,
+          "call_rate": 0.7948717948717948,
+          "harmful_escalations": 6,
+          "harm_rate": 0.0967741935483871,
+          "page_mrr10": 0.9401709401709403
+        },
+        {
+          "threshold": -0.010339009546792724,
+          "calls": 58,
+          "call_rate": 0.7435897435897436,
+          "harmful_escalations": 6,
+          "harm_rate": 0.10344827586206896,
+          "page_mrr10": 0.9401709401709403
+        },
+        {
+          "threshold": -0.005570601427101016,
+          "calls": 54,
+          "call_rate": 0.6923076923076923,
+          "harmful_escalations": 6,
+          "harm_rate": 0.1111111111111111,
+          "page_mrr10": 0.9401709401709403
+        },
+        {
+          "threshold": -0.0005463843524194646,
+          "calls": 51,
+          "call_rate": 0.6538461538461539,
+          "harmful_escalations": 5,
+          "harm_rate": 0.09803921568627451,
+          "page_mrr10": 0.9465811965811967
+        },
+        {
+          "threshold": 0.006239186540330336,
+          "calls": 47,
+          "call_rate": 0.6025641025641025,
+          "harmful_escalations": 5,
+          "harm_rate": 0.10638297872340426,
+          "page_mrr10": 0.9465811965811967
+        },
+        {
+          "threshold": 0.012263909647170005,
+          "calls": 43,
+          "call_rate": 0.5512820512820513,
+          "harmful_escalations": 5,
+          "harm_rate": 0.11627906976744186,
+          "page_mrr10": 0.9465811965811967
+        },
+        {
+          "threshold": 0.017437216015502986,
+          "calls": 39,
+          "call_rate": 0.5,
+          "harmful_escalations": 5,
+          "harm_rate": 0.1282051282051282,
+          "page_mrr10": 0.9465811965811967
+        },
+        {
+          "threshold": 0.022949989056591524,
+          "calls": 35,
+          "call_rate": 0.44871794871794873,
+          "harmful_escalations": 4,
+          "harm_rate": 0.11428571428571428,
+          "page_mrr10": 0.9529914529914532
+        },
+        {
+          "threshold": 0.028705703997699367,
+          "calls": 31,
+          "call_rate": 0.3974358974358974,
+          "harmful_escalations": 4,
+          "harm_rate": 0.12903225806451613,
+          "page_mrr10": 0.9529914529914532
+        },
+        {
+          "threshold": 0.041140269394869707,
+          "calls": 27,
+          "call_rate": 0.34615384615384615,
+          "harmful_escalations": 3,
+          "harm_rate": 0.1111111111111111,
+          "page_mrr10": 0.9594017094017095
+        },
+        {
+          "threshold": 0.05607338700387108,
+          "calls": 24,
+          "call_rate": 0.3076923076923077,
+          "harmful_escalations": 3,
+          "harm_rate": 0.125,
+          "page_mrr10": 0.9594017094017095
+        },
+        {
+          "threshold": 0.07612352909428159,
+          "calls": 20,
+          "call_rate": 0.2564102564102564,
+          "harmful_escalations": 2,
+          "harm_rate": 0.1,
+          "page_mrr10": 0.9658119658119659
+        },
+        {
+          "threshold": 0.09182637615115587,
+          "calls": 16,
+          "call_rate": 0.20512820512820512,
+          "harmful_escalations": 2,
+          "harm_rate": 0.125,
+          "page_mrr10": 0.9658119658119659
+        },
+        {
+          "threshold": 0.11425572649978141,
+          "calls": 12,
+          "call_rate": 0.15384615384615385,
+          "harmful_escalations": 2,
+          "harm_rate": 0.16666666666666666,
+          "page_mrr10": 0.9658119658119659
+        },
+        {
+          "threshold": 0.1465848407167739,
+          "calls": 8,
+          "call_rate": 0.10256410256410256,
+          "harmful_escalations": 1,
+          "harm_rate": 0.125,
+          "page_mrr10": 0.9722222222222223
+        },
+        {
+          "threshold": 0.18978100833212372,
+          "calls": 4,
+          "call_rate": 0.05128205128205128,
+          "harmful_escalations": 1,
+          "harm_rate": 0.25,
+          "page_mrr10": 0.9722222222222223
+        },
+        {
+          "threshold": 0.20610299616563416,
+          "calls": 1,
+          "call_rate": 0.01282051282051282,
+          "harmful_escalations": 0,
+          "harm_rate": 0.0,
+          "page_mrr10": 0.9786324786324787
+        }
+      ]
+    },
+    "zh": {
+      "base_page_mrr10": 0.9641025641025641,
+      "chosen": {
+        "threshold": 1000000.0,
+        "calls": 0,
+        "call_rate": 0.0,
+        "harmful_escalations": 0,
+        "harm_rate": 0.0,
+        "page_mrr10": 0.9641025641025641
+      },
+      "enabled": false,
+      "trials": [
+        {
+          "threshold": 1000000.0,
+          "calls": 0,
+          "call_rate": 0.0,
+          "harmful_escalations": 0,
+          "harm_rate": 0.0,
+          "page_mrr10": 0.9641025641025641
+        },
+        {
+          "threshold": -0.03128326719546692,
+          "calls": 78,
+          "call_rate": 1.0,
+          "harmful_escalations": 4,
+          "harm_rate": 0.05128205128205128,
+          "page_mrr10": 0.9427350427350427
+        },
+        {
+          "threshold": -0.02450415568061802,
+          "calls": 74,
+          "call_rate": 0.9487179487179487,
+          "harmful_escalations": 4,
+          "harm_rate": 0.05405405405405406,
+          "page_mrr10": 0.9427350427350427
+        },
+        {
+          "threshold": -0.017843329197687444,
+          "calls": 70,
+          "call_rate": 0.8974358974358975,
+          "harmful_escalations": 4,
+          "harm_rate": 0.05714285714285714,
+          "page_mrr10": 0.9427350427350427
+        },
+        {
+          "threshold": -0.014635118015216964,
+          "calls": 66,
+          "call_rate": 0.8461538461538461,
+          "harmful_escalations": 4,
+          "harm_rate": 0.06060606060606061,
+          "page_mrr10": 0.9427350427350427
+        },
+        {
+          "threshold": -0.013048954010649825,
+          "calls": 62,
+          "call_rate": 0.7948717948717948,
+          "harmful_escalations": 3,
+          "harm_rate": 0.04838709677419355,
+          "page_mrr10": 0.9491452991452991
+        },
+        {
+          "threshold": -0.008959583417516594,
+          "calls": 58,
+          "call_rate": 0.7435897435897436,
+          "harmful_escalations": 3,
+          "harm_rate": 0.05172413793103448,
+          "page_mrr10": 0.9491452991452991
+        },
+        {
+          "threshold": -0.006143657220120209,
+          "calls": 54,
+          "call_rate": 0.6923076923076923,
+          "harmful_escalations": 3,
+          "harm_rate": 0.05555555555555555,
+          "page_mrr10": 0.9491452991452991
+        },
+        {
+          "threshold": 0.0015849408417038502,
+          "calls": 51,
+          "call_rate": 0.6538461538461539,
+          "harmful_escalations": 3,
+          "harm_rate": 0.058823529411764705,
+          "page_mrr10": 0.9491452991452991
+        },
+        {
+          "threshold": 0.0044638940057331235,
+          "calls": 47,
+          "call_rate": 0.6025641025641025,
+          "harmful_escalations": 3,
+          "harm_rate": 0.06382978723404255,
+          "page_mrr10": 0.9491452991452991
+        },
+        {
+          "threshold": 0.010323944540511694,
+          "calls": 43,
+          "call_rate": 0.5512820512820513,
+          "harmful_escalations": 3,
+          "harm_rate": 0.06976744186046512,
+          "page_mrr10": 0.9491452991452991
+        },
+        {
+          "threshold": 0.013611752356047505,
+          "calls": 39,
+          "call_rate": 0.5,
+          "harmful_escalations": 2,
+          "harm_rate": 0.05128205128205128,
+          "page_mrr10": 0.9555555555555555
+        },
+        {
+          "threshold": 0.02101184606565131,
+          "calls": 35,
+          "call_rate": 0.44871794871794873,
+          "harmful_escalations": 2,
+          "harm_rate": 0.05714285714285714,
+          "page_mrr10": 0.9555555555555555
+        },
+        {
+          "threshold": 0.026262344458708432,
+          "calls": 31,
+          "call_rate": 0.3974358974358974,
+          "harmful_escalations": 2,
+          "harm_rate": 0.06451612903225806,
+          "page_mrr10": 0.9555555555555555
+        },
+        {
+          "threshold": 0.02943931148892781,
+          "calls": 27,
+          "call_rate": 0.34615384615384615,
+          "harmful_escalations": 2,
+          "harm_rate": 0.07407407407407407,
+          "page_mrr10": 0.9555555555555555
+        },
+        {
+          "threshold": 0.03853206911150082,
+          "calls": 24,
+          "call_rate": 0.3076923076923077,
+          "harmful_escalations": 1,
+          "harm_rate": 0.041666666666666664,
+          "page_mrr10": 0.961965811965812
+        },
+        {
+          "threshold": 0.05203533610619074,
+          "calls": 20,
+          "call_rate": 0.2564102564102564,
+          "harmful_escalations": 1,
+          "harm_rate": 0.05,
+          "page_mrr10": 0.961965811965812
+        },
+        {
+          "threshold": 0.08740771073750733,
+          "calls": 16,
+          "call_rate": 0.20512820512820512,
+          "harmful_escalations": 1,
+          "harm_rate": 0.0625,
+          "page_mrr10": 0.961965811965812
+        },
+        {
+          "threshold": 0.11171662035016454,
+          "calls": 12,
+          "call_rate": 0.15384615384615385,
+          "harmful_escalations": 1,
+          "harm_rate": 0.08333333333333333,
+          "page_mrr10": 0.961965811965812
+        },
+        {
+          "threshold": 0.15273312972255562,
+          "calls": 8,
+          "call_rate": 0.10256410256410256,
+          "harmful_escalations": 1,
+          "harm_rate": 0.125,
+          "page_mrr10": 0.9555555555555555
+        },
+        {
+          "threshold": 0.19404663274500725,
+          "calls": 4,
+          "call_rate": 0.05128205128205128,
+          "harmful_escalations": 1,
+          "harm_rate": 0.25,
+          "page_mrr10": 0.9555555555555555
+        },
+        {
+          "threshold": 0.24598936597825732,
+          "calls": 1,
+          "call_rate": 0.01282051282051282,
+          "harmful_escalations": 1,
+          "harm_rate": 1.0,
+          "page_mrr10": 0.9555555555555555
+        }
+      ]
+    }
+  },
+  "dev_candidates_sha256": "eee16f5cbf595f40c1cacbf89434c30a21dc71a74b49d712eab544f4d20b6f10",
+  "scope": "Actual full-chunk candidates; weak source-page expected gain; empirical calibration only, no formal risk guarantee."
+}

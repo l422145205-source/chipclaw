@@ -1,0 +1,6632 @@
+{
+  "request": {
+    "question": "What is the typical supply current of MAX3232 with no load and VCC 3.3 V to 5 V?",
+    "doc_id": "max3232",
+    "retrieval_method": "domain_teacher_v4",
+    "claims": [
+      "No load, V CC = 3.3 V to 5 V, the typical supply current is 0.3 mA.",
+      "No load, V CC = 3.3 V to 5 V, the typical supply current is 1 mA.",
+      "The typical supply current at no load is 0.3 mA."
+    ],
+    "budget_chars": 6000
+  },
+  "http_status": 200,
+  "result": {
+    "query": "What is the typical supply current of MAX3232 with no load and VCC 3.3 V to 5 V?",
+    "doc_id": "max3232",
+    "retrieval_method": "domain_teacher_v4",
+    "evidence": [
+      {
+        "doc_id": "max3232",
+        "page": 5,
+        "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+        "url": "https://www.ti.com/lit/ds/symlink/max3232.pdf#page=5",
+        "title": "MAX3232 RS232 transceiver datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "max3232:p5:span1446-2312:484d6bb1c92c",
+        "span_id": "max3232:p5:span1446-2312:484d6bb1c92c",
+        "start": 1446,
+        "end": 2312,
+        "text": "{\"r\":13,\"c\":[[78,\"report.\"]]}\n{\"r\":14,\"c\":[[57,\"6.5 Electrical Characteristics — Device\"]]}\n{\"r\":15,\"c\":[[57,\"over recommended ranges of supply voltage and operating free-air temperature (unless otherwise noted)(2) (see Typical\"]]}\n{\"r\":16,\"c\":[[57,\"Operating Circuit and Capacitor Values)\"]]}\n{\"r\":17,\"c\":[[57,\"PARAMETER\"],[248,\"TEST CONDITIONS\"],[429,\"MIN\"],[460,\"TYP(1)\"],[491,\"MAX\"],[521,\"UNIT\"]]}\n{\"r\":18,\"c\":[[57,\"I CC Supply current\"],[248,\"No load, V CC = 3.3 V to 5 V\"],[460,\"0.3\"],[491,\"1\"],[521,\"mA\"]]}\n{\"r\":19,\"c\":[[57,\"(1)\"],[78,\"All typical values are at V\"],[178,\"= 3.3 V or V\"],[232,\"= 5 V, and T = 25°C.\"]]}\n{\"r\":20,\"c\":[[167,\"CC\"],[221,\"CC\"],[275,\"A\"]]}\n{\"r\":21,\"c\":[[57,\"(2)\"],[78,\"Test conditions are C1–C4 = 0.1 μF at V\"],[231,\"= 3.3 V ± 0.3 V; C1 = 0.047 μF, C2–C4 = 0.33 μF at V\"],[432,\"= 5 V ± 0.5 V.\"]]}\n{\"r\":22,\"c\":[[220,\"CC\"],[421,\"CC\"]]}\n",
+        "source_rows": [
+          {
+            "r": 13,
+            "c": [
+              [
+                78,
+                "report."
+              ]
+            ]
+          },
+          {
+            "r": 14,
+            "c": [
+              [
+                57,
+                "6.5 Electrical Characteristics — Device"
+              ]
+            ]
+          },
+          {
+            "r": 15,
+            "c": [
+              [
+                57,
+                "over recommended ranges of supply voltage and operating free-air temperature (unless otherwise noted)(2) (see Typical"
+              ]
+            ]
+          },
+          {
+            "r": 16,
+            "c": [
+              [
+                57,
+                "Operating Circuit and Capacitor Values)"
+              ]
+            ]
+          },
+          {
+            "r": 17,
+            "c": [
+              [
+                57,
+                "PARAMETER"
+              ],
+              [
+                248,
+                "TEST CONDITIONS"
+              ],
+              [
+                429,
+                "MIN"
+              ],
+              [
+                460,
+                "TYP(1)"
+              ],
+              [
+                491,
+                "MAX"
+              ],
+              [
+                521,
+                "UNIT"
+              ]
+            ]
+          },
+          {
+            "r": 18,
+            "c": [
+              [
+                57,
+                "I CC Supply current"
+              ],
+              [
+                248,
+                "No load, V CC = 3.3 V to 5 V"
+              ],
+              [
+                460,
+                "0.3"
+              ],
+              [
+                491,
+                "1"
+              ],
+              [
+                521,
+                "mA"
+              ]
+            ]
+          },
+          {
+            "r": 19,
+            "c": [
+              [
+                57,
+                "(1)"
+              ],
+              [
+                78,
+                "All typical values are at V"
+              ],
+              [
+                178,
+                "= 3.3 V or V"
+              ],
+              [
+                232,
+                "= 5 V, and T = 25°C."
+              ]
+            ]
+          },
+          {
+            "r": 20,
+            "c": [
+              [
+                167,
+                "CC"
+              ],
+              [
+                221,
+                "CC"
+              ],
+              [
+                275,
+                "A"
+              ]
+            ]
+          },
+          {
+            "r": 21,
+            "c": [
+              [
+                57,
+                "(2)"
+              ],
+              [
+                78,
+                "Test conditions are C1–C4 = 0.1 μF at V"
+              ],
+              [
+                231,
+                "= 3.3 V ± 0.3 V; C1 = 0.047 μF, C2–C4 = 0.33 μF at V"
+              ],
+              [
+                432,
+                "= 5 V ± 0.5 V."
+              ]
+            ]
+          },
+          {
+            "r": 22,
+            "c": [
+              [
+                220,
+                "CC"
+              ],
+              [
+                421,
+                "CC"
+              ]
+            ]
+          }
+        ],
+        "geometry_records": [
+          {
+            "top": 237.81799999999998,
+            "c": [
+              [
+                78,
+                "report."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  77.94899999999996,
+                  237.81799999999998,
+                  101.06899999999996,
+                  245.81799999999998
+                ],
+                "text": "report."
+              }
+            ],
+            "kind": "prose",
+            "r": 13
+          },
+          {
+            "top": 261.21500000000003,
+            "c": [
+              [
+                57,
+                "6.5 Electrical Characteristics — Device"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.692999999999984,
+                  261.21500000000003,
+                  259.071,
+                  272.21500000000003
+                ],
+                "text": "6.5 Electrical Characteristics — Device"
+              }
+            ],
+            "kind": "prose",
+            "r": 14
+          },
+          {
+            "top": 276.99225,
+            "c": [
+              [
+                57,
+                "over recommended ranges of supply voltage and operating free-air temperature (unless otherwise noted)(2) (see Typical"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.69699999999998,
+                  278.217,
+                  533.191,
+                  287.217
+                ],
+                "text": "over recommended ranges of supply voltage and operating free-air temperature (unless otherwise noted)(2) (see Typical"
+              }
+            ],
+            "kind": "prose",
+            "r": 15
+          },
+          {
+            "top": 289.017,
+            "c": [
+              [
+                57,
+                "Operating Circuit and Capacitor Values)"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.694999999999986,
+                  289.017,
+                  215.10399999999998,
+                  298.017
+                ],
+                "text": "Operating Circuit and Capacitor Values)"
+              }
+            ],
+            "kind": "prose",
+            "r": 16
+          },
+          {
+            "top": 299.1807692307693,
+            "c": [
+              [
+                57,
+                "PARAMETER"
+              ],
+              [
+                248,
+                "TEST CONDITIONS"
+              ],
+              [
+                429,
+                "MIN"
+              ],
+              [
+                460,
+                "TYP(1)"
+              ],
+              [
+                491,
+                "MAX"
+              ],
+              [
+                521,
+                "UNIT"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.85244051618697,
+                  299.1807692307693,
+                  247.65200000000002,
+                  312.96923076923076
+                ],
+                "text": "PARAMETER",
+                "word_boxes": [
+                  [
+                    127.13199999999998,
+                    302.06800000000004,
+                    177.20399999999998,
+                    310.06800000000004,
+                    "PARAMETER"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  247.65200000000002,
+                  299.1807692307693,
+                  428.93725,
+                  312.96923076923076
+                ],
+                "text": "TEST CONDITIONS",
+                "word_boxes": [
+                  [
+                    301.851,
+                    302.06800000000004,
+                    322.299,
+                    310.06800000000004,
+                    "TEST"
+                  ],
+                  [
+                    324.523,
+                    302.06800000000004,
+                    374.747,
+                    310.06800000000004,
+                    "CONDITIONS"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  428.93725,
+                  299.1807692307693,
+                  460.1395,
+                  312.96923076923076
+                ],
+                "text": "MIN",
+                "word_boxes": [
+                  [
+                    443.472,
+                    302.06800000000004,
+                    458.13599999999997,
+                    310.06800000000004,
+                    "MIN"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  460.1395,
+                  299.1807692307693,
+                  491.342,
+                  312.96923076923076
+                ],
+                "text": "TYP(1)",
+                "word_boxes": [
+                  [
+                    466.452,
+                    300.97900000000004,
+                    489.344,
+                    310.06800000000004,
+                    "TYP(1)"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  491.342,
+                  299.1807692307693,
+                  521.143,
+                  312.96923076923076
+                ],
+                "text": "MAX",
+                "word_boxes": [
+                  [
+                    502.59,
+                    302.06800000000004,
+                    520.366,
+                    310.06800000000004,
+                    "MAX"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  521.143,
+                  299.1807692307693,
+                  555.2832272727272,
+                  312.96923076923076
+                ],
+                "text": "UNIT",
+                "word_boxes": [
+                  [
+                    529.592,
+                    302.06800000000004,
+                    548.256,
+                    310.06800000000004,
+                    "UNIT"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 1,
+            "r": 17
+          },
+          {
+            "top": 312.96923076923076,
+            "c": [
+              [
+                57,
+                "I CC Supply current"
+              ],
+              [
+                248,
+                "No load, V CC = 3.3 V to 5 V"
+              ],
+              [
+                460,
+                "0.3"
+              ],
+              [
+                491,
+                "1"
+              ],
+              [
+                521,
+                "mA"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.85244051618697,
+                  312.96923076923076,
+                  247.65200000000002,
+                  327.0
+                ],
+                "text": "I CC Supply current",
+                "word_boxes": [
+                  [
+                    58.86800000000004,
+                    316.01800000000003,
+                    61.09200000000004,
+                    324.01800000000003,
+                    "I"
+                  ],
+                  [
+                    89.89500000000004,
+                    316.01800000000003,
+                    114.35100000000004,
+                    324.01800000000003,
+                    "Supply"
+                  ],
+                  [
+                    116.57500000000005,
+                    316.01800000000003,
+                    141.47100000000003,
+                    324.01800000000003,
+                    "current"
+                  ],
+                  [
+                    61.09200000000004,
+                    319.196,
+                    69.75600000000003,
+                    325.196,
+                    "CC"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  247.65200000000002,
+                  312.96923076923076,
+                  428.93725,
+                  327.0
+                ],
+                "text": "No load, V CC = 3.3 V to 5 V",
+                "word_boxes": [
+                  [
+                    249.82700000000003,
+                    316.01800000000003,
+                    260.05100000000004,
+                    324.01800000000003,
+                    "No"
+                  ],
+                  [
+                    262.27500000000003,
+                    316.01800000000003,
+                    279.619,
+                    324.01800000000003,
+                    "load,"
+                  ],
+                  [
+                    334.52200000000005,
+                    316.01800000000003,
+                    339.85800000000006,
+                    324.01800000000003,
+                    "V"
+                  ],
+                  [
+                    350.74600000000004,
+                    316.01800000000003,
+                    355.41800000000006,
+                    324.01800000000003,
+                    "="
+                  ],
+                  [
+                    357.64200000000005,
+                    316.01800000000003,
+                    368.76200000000006,
+                    324.01800000000003,
+                    "3.3"
+                  ],
+                  [
+                    370.98600000000005,
+                    316.01800000000003,
+                    376.32200000000006,
+                    324.01800000000003,
+                    "V"
+                  ],
+                  [
+                    378.54600000000005,
+                    316.01800000000003,
+                    385.218,
+                    324.01800000000003,
+                    "to"
+                  ],
+                  [
+                    387.44200000000006,
+                    316.01800000000003,
+                    391.89000000000004,
+                    324.01800000000003,
+                    "5"
+                  ],
+                  [
+                    394.11400000000003,
+                    316.01800000000003,
+                    399.45000000000005,
+                    324.01800000000003,
+                    "V"
+                  ],
+                  [
+                    339.85800000000006,
+                    319.196,
+                    348.52200000000005,
+                    325.196,
+                    "CC"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  428.93725,
+                  312.96923076923076,
+                  521.143,
+                  327.0
+                ],
+                "text": "",
+                "word_boxes": []
+              },
+              {
+                "bbox": [
+                  428.93725,
+                  312.96923076923076,
+                  521.143,
+                  327.0
+                ],
+                "text": "0.3",
+                "word_boxes": [
+                  [
+                    478.22,
+                    316.01800000000003,
+                    489.34000000000003,
+                    324.01800000000003,
+                    "0.3"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  428.93725,
+                  312.96923076923076,
+                  521.143,
+                  327.0
+                ],
+                "text": "1",
+                "word_boxes": [
+                  [
+                    515.918,
+                    316.01800000000003,
+                    520.366,
+                    324.01800000000003,
+                    "1"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  521.143,
+                  312.96923076923076,
+                  555.2832272727272,
+                  327.0
+                ],
+                "text": "mA",
+                "word_boxes": [
+                  [
+                    532.928,
+                    316.01800000000003,
+                    544.928,
+                    324.01800000000003,
+                    "mA"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 1,
+            "r": 18
+          },
+          {
+            "top": 335.293,
+            "c": [
+              [
+                57,
+                "(1)"
+              ],
+              [
+                78,
+                "All typical values are at V"
+              ],
+              [
+                178,
+                "= 3.3 V or V"
+              ],
+              [
+                232,
+                "= 5 V, and T = 25°C."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.69300000000004,
+                  335.293,
+                  66.46900000000004,
+                  343.293
+                ],
+                "text": "(1)"
+              },
+              {
+                "bbox": [
+                  77.94900000000004,
+                  335.293,
+                  167.31700000000006,
+                  343.293
+                ],
+                "text": "All typical values are at V"
+              },
+              {
+                "bbox": [
+                  178.21700000000004,
+                  335.293,
+                  220.68900000000008,
+                  343.293
+                ],
+                "text": "= 3.3 V or V"
+              },
+              {
+                "bbox": [
+                  231.57100000000005,
+                  335.293,
+                  307.86300000000006,
+                  343.293
+                ],
+                "text": "= 5 V, and T = 25°C."
+              }
+            ],
+            "kind": "prose",
+            "r": 19
+          },
+          {
+            "top": 338.471,
+            "c": [
+              [
+                167,
+                "CC"
+              ],
+              [
+                221,
+                "CC"
+              ],
+              [
+                275,
+                "A"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  167.32900000000004,
+                  338.471,
+                  175.99300000000002,
+                  344.471
+                ],
+                "text": "CC"
+              },
+              {
+                "bbox": [
+                  220.68300000000005,
+                  338.471,
+                  229.34700000000004,
+                  344.471
+                ],
+                "text": "CC"
+              },
+              {
+                "bbox": [
+                  274.64500000000004,
+                  338.471,
+                  278.64700000000005,
+                  344.471
+                ],
+                "text": "A"
+              }
+            ],
+            "kind": "prose",
+            "r": 20
+          },
+          {
+            "top": 344.893,
+            "c": [
+              [
+                57,
+                "(2)"
+              ],
+              [
+                78,
+                "Test conditions are C1–C4 = 0.1 μF at V"
+              ],
+              [
+                231,
+                "= 3.3 V ± 0.3 V; C1 = 0.047 μF, C2–C4 = 0.33 μF at V"
+              ],
+              [
+                432,
+                "= 5 V ± 0.5 V."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.69500000000004,
+                  344.893,
+                  66.47100000000005,
+                  352.893
+                ],
+                "text": "(2)"
+              },
+              {
+                "bbox": [
+                  77.95100000000004,
+                  344.893,
+                  220.19900000000007,
+                  352.893
+                ],
+                "text": "Test conditions are C1–C4 = 0.1 μF at V"
+              },
+              {
+                "bbox": [
+                  231.08100000000002,
+                  344.893,
+                  420.72100000000006,
+                  352.893
+                ],
+                "text": "= 3.3 V ± 0.3 V; C1 = 0.047 μF, C2–C4 = 0.33 μF at V"
+              },
+              {
+                "bbox": [
+                  431.60900000000004,
+                  344.893,
+                  479.521,
+                  352.893
+                ],
+                "text": "= 5 V ± 0.5 V."
+              }
+            ],
+            "kind": "prose",
+            "r": 21
+          },
+          {
+            "top": 348.071,
+            "c": [
+              [
+                220,
+                "CC"
+              ],
+              [
+                421,
+                "CC"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  220.19300000000004,
+                  348.071,
+                  228.85700000000003,
+                  354.071
+                ],
+                "text": "CC"
+              },
+              {
+                "bbox": [
+                  420.72100000000006,
+                  348.071,
+                  429.38500000000005,
+                  354.071
+                ],
+                "text": "CC"
+              }
+            ],
+            "kind": "prose",
+            "r": 22
+          }
+        ],
+        "packet_kind": "table",
+        "table_id": 1,
+        "closure": {
+          "table_index": 1,
+          "table_indices": [
+            1
+          ],
+          "physical_rows": [
+            17,
+            18
+          ],
+          "first_context_row": 13,
+          "last_context_row": 22,
+          "scope": "All local physical table rows and adjacent original context; cross-page notes unresolved."
+        }
+      },
+      {
+        "doc_id": "max3232",
+        "page": 6,
+        "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+        "url": "https://www.ti.com/lit/ds/symlink/max3232.pdf#page=6",
+        "title": "MAX3232 RS232 transceiver datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "max3232:p6:span29-1777:484d6bb1c92c",
+        "span_id": "max3232:p6:span29-1777:484d6bb1c92c",
+        "start": 29,
+        "end": 1777,
+        "text": "{\"r\":1,\"c\":[[54,\"SLLS410O – JANUARY 2000 – REVISED JUNE 2021\"],[514,\"www.ti.com\"]]}\n{\"r\":2,\"c\":[[57,\"6.7 Electrical Characteristics — Receiver\"]]}\n{\"r\":3,\"c\":[[57,\"over recommended ranges of supply voltage and operating free-air temperature (unless otherwise noted)(2) (see Typical\"]]}\n{\"r\":4,\"c\":[[57,\"Operating Circuit and Capacitor Values)\"]]}\n{\"r\":5,\"c\":[[57,\"PARAMETER\"],[265,\"TEST CONDITIONS\"],[382,\"MIN\"],[429,\"TYP(1)\"],[481,\"MAX\"],[519,\"UNIT\"]]}\n{\"r\":6,\"c\":[[57,\"V OH High-level output voltage\"],[265,\"I OH = –1 mA\"],[382,\"V CC – 0.6\"],[429,\"V CC – 0.1\"],[519,\"V\"]]}\n{\"r\":7,\"c\":[[57,\"V OL Low-level output voltage\"],[265,\"I OL = 1.6 mA\"],[382,\"0.4\"],[429,\"0.4\"],[481,\"0.4\"],[519,\"V\"]]}\n{\"r\":8,\"c\":[[57,\"V IT+ Positive-going input threshold voltage\"],[265,\"V CC = 3.3 V\"],[429,\"1.5\"],[481,\"2.4\"],[519,\"V\"]]}\n{\"r\":9,\"c\":[[57,\"V IT+ Positive-going input threshold voltage\"],[265,\"V CC = 5 V\"],[429,\"1.8\"],[481,\"2.4\"],[519,\"V\"]]}\n{\"r\":10,\"c\":[[57,\"V IT– Negative-going input threshold voltage\"],[265,\"V CC = 3.3 V\"],[382,\"0.6\"],[429,\"1.2\"],[519,\"V\"]]}\n{\"r\":11,\"c\":[[57,\"V IT– Negative-going input threshold voltage\"],[265,\"V CC = 5 V\"],[382,\"0.8\"],[429,\"1.5\"],[519,\"V\"]]}\n{\"r\":12,\"c\":[[57,\"V hys Input hysteresis (V IT+ – V IT– )\"],[382,\"0.3\"],[429,\"0.3\"],[481,\"0.3\"],[519,\"V\"]]}\n{\"r\":13,\"c\":[[57,\"r I Input resistance\"],[265,\"V I = ±3 V to ±25 V\"],[382,\"3\"],[429,\"5\"],[481,\"7\"],[519,\"kΩ\"]]}\n{\"r\":14,\"c\":[[57,\"(1)\"],[78,\"All typical values are at V\"],[178,\"= 3.3 V or V\"],[232,\"= 5 V, and T = 25°C.\"]]}\n{\"r\":15,\"c\":[[167,\"CC\"],[221,\"CC\"],[275,\"A\"]]}\n{\"r\":16,\"c\":[[57,\"(2)\"],[78,\"Test conditions are C1–C4 = 0.1 μF at V\"],[231,\"= 3.3 V ± 0.3 V; C1 = 0.047 μF, C2–C4 = 0.33 μF at V\"],[432,\"= 5 V ± 0.5 V.\"]]}\n{\"r\":17,\"c\":[[220,\"CC\"],[421,\"CC\"]]}\n",
+        "source_rows": [
+          {
+            "r": 1,
+            "c": [
+              [
+                54,
+                "SLLS410O – JANUARY 2000 – REVISED JUNE 2021"
+              ],
+              [
+                514,
+                "www.ti.com"
+              ]
+            ]
+          },
+          {
+            "r": 2,
+            "c": [
+              [
+                57,
+                "6.7 Electrical Characteristics — Receiver"
+              ]
+            ]
+          },
+          {
+            "r": 3,
+            "c": [
+              [
+                57,
+                "over recommended ranges of supply voltage and operating free-air temperature (unless otherwise noted)(2) (see Typical"
+              ]
+            ]
+          },
+          {
+            "r": 4,
+            "c": [
+              [
+                57,
+                "Operating Circuit and Capacitor Values)"
+              ]
+            ]
+          },
+          {
+            "r": 5,
+            "c": [
+              [
+                57,
+                "PARAMETER"
+              ],
+              [
+                265,
+                "TEST CONDITIONS"
+              ],
+              [
+                382,
+                "MIN"
+              ],
+              [
+                429,
+                "TYP(1)"
+              ],
+              [
+                481,
+                "MAX"
+              ],
+              [
+                519,
+                "UNIT"
+              ]
+            ]
+          },
+          {
+            "r": 6,
+            "c": [
+              [
+                57,
+                "V OH High-level output voltage"
+              ],
+              [
+                265,
+                "I OH = –1 mA"
+              ],
+              [
+                382,
+                "V CC – 0.6"
+              ],
+              [
+                429,
+                "V CC – 0.1"
+              ],
+              [
+                519,
+                "V"
+              ]
+            ]
+          },
+          {
+            "r": 7,
+            "c": [
+              [
+                57,
+                "V OL Low-level output voltage"
+              ],
+              [
+                265,
+                "I OL = 1.6 mA"
+              ],
+              [
+                382,
+                "0.4"
+              ],
+              [
+                429,
+                "0.4"
+              ],
+              [
+                481,
+                "0.4"
+              ],
+              [
+                519,
+                "V"
+              ]
+            ]
+          },
+          {
+            "r": 8,
+            "c": [
+              [
+                57,
+                "V IT+ Positive-going input threshold voltage"
+              ],
+              [
+                265,
+                "V CC = 3.3 V"
+              ],
+              [
+                429,
+                "1.5"
+              ],
+              [
+                481,
+                "2.4"
+              ],
+              [
+                519,
+                "V"
+              ]
+            ]
+          },
+          {
+            "r": 9,
+            "c": [
+              [
+                57,
+                "V IT+ Positive-going input threshold voltage"
+              ],
+              [
+                265,
+                "V CC = 5 V"
+              ],
+              [
+                429,
+                "1.8"
+              ],
+              [
+                481,
+                "2.4"
+              ],
+              [
+                519,
+                "V"
+              ]
+            ]
+          },
+          {
+            "r": 10,
+            "c": [
+              [
+                57,
+                "V IT– Negative-going input threshold voltage"
+              ],
+              [
+                265,
+                "V CC = 3.3 V"
+              ],
+              [
+                382,
+                "0.6"
+              ],
+              [
+                429,
+                "1.2"
+              ],
+              [
+                519,
+                "V"
+              ]
+            ]
+          },
+          {
+            "r": 11,
+            "c": [
+              [
+                57,
+                "V IT– Negative-going input threshold voltage"
+              ],
+              [
+                265,
+                "V CC = 5 V"
+              ],
+              [
+                382,
+                "0.8"
+              ],
+              [
+                429,
+                "1.5"
+              ],
+              [
+                519,
+                "V"
+              ]
+            ]
+          },
+          {
+            "r": 12,
+            "c": [
+              [
+                57,
+                "V hys Input hysteresis (V IT+ – V IT– )"
+              ],
+              [
+                382,
+                "0.3"
+              ],
+              [
+                429,
+                "0.3"
+              ],
+              [
+                481,
+                "0.3"
+              ],
+              [
+                519,
+                "V"
+              ]
+            ]
+          },
+          {
+            "r": 13,
+            "c": [
+              [
+                57,
+                "r I Input resistance"
+              ],
+              [
+                265,
+                "V I = ±3 V to ±25 V"
+              ],
+              [
+                382,
+                "3"
+              ],
+              [
+                429,
+                "5"
+              ],
+              [
+                481,
+                "7"
+              ],
+              [
+                519,
+                "kΩ"
+              ]
+            ]
+          },
+          {
+            "r": 14,
+            "c": [
+              [
+                57,
+                "(1)"
+              ],
+              [
+                78,
+                "All typical values are at V"
+              ],
+              [
+                178,
+                "= 3.3 V or V"
+              ],
+              [
+                232,
+                "= 5 V, and T = 25°C."
+              ]
+            ]
+          },
+          {
+            "r": 15,
+            "c": [
+              [
+                167,
+                "CC"
+              ],
+              [
+                221,
+                "CC"
+              ],
+              [
+                275,
+                "A"
+              ]
+            ]
+          },
+          {
+            "r": 16,
+            "c": [
+              [
+                57,
+                "(2)"
+              ],
+              [
+                78,
+                "Test conditions are C1–C4 = 0.1 μF at V"
+              ],
+              [
+                231,
+                "= 3.3 V ± 0.3 V; C1 = 0.047 μF, C2–C4 = 0.33 μF at V"
+              ],
+              [
+                432,
+                "= 5 V ± 0.5 V."
+              ]
+            ]
+          },
+          {
+            "r": 17,
+            "c": [
+              [
+                220,
+                "CC"
+              ],
+              [
+                421,
+                "CC"
+              ]
+            ]
+          }
+        ],
+        "geometry_records": [
+          {
+            "top": 55.361999999999966,
+            "c": [
+              [
+                54,
+                "SLLS410O – JANUARY 2000 – REVISED JUNE 2021"
+              ],
+              [
+                514,
+                "www.ti.com"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.00199999999993,
+                  56.462999999999965,
+                  222.33799999999988,
+                  63.462999999999965
+                ],
+                "text": "SLLS410O – JANUARY 2000 – REVISED JUNE 2021"
+              },
+              {
+                "bbox": [
+                  513.848,
+                  55.361999999999966,
+                  558.0079999999999,
+                  63.361999999999966
+                ],
+                "text": "www.ti.com"
+              }
+            ],
+            "kind": "prose",
+            "r": 1
+          },
+          {
+            "top": 82.09000000000003,
+            "c": [
+              [
+                57,
+                "6.7 Electrical Characteristics — Receiver"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.693,
+                  82.09000000000003,
+                  269.46600000000007,
+                  93.09000000000003
+                ],
+                "text": "6.7 Electrical Characteristics — Receiver"
+              }
+            ],
+            "kind": "prose",
+            "r": 2
+          },
+          {
+            "top": 97.86725000000001,
+            "c": [
+              [
+                57,
+                "over recommended ranges of supply voltage and operating free-air temperature (unless otherwise noted)(2) (see Typical"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.696999999999996,
+                  99.09199999999998,
+                  533.191,
+                  108.09199999999998
+                ],
+                "text": "over recommended ranges of supply voltage and operating free-air temperature (unless otherwise noted)(2) (see Typical"
+              }
+            ],
+            "kind": "prose",
+            "r": 3
+          },
+          {
+            "top": 109.89200000000005,
+            "c": [
+              [
+                57,
+                "Operating Circuit and Capacitor Values)"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.695,
+                  109.89200000000005,
+                  215.10399999999998,
+                  118.89200000000005
+                ],
+                "text": "Operating Circuit and Capacitor Values)"
+              }
+            ],
+            "kind": "prose",
+            "r": 4
+          },
+          {
+            "top": 120.05576923076923,
+            "c": [
+              [
+                57,
+                "PARAMETER"
+              ],
+              [
+                265,
+                "TEST CONDITIONS"
+              ],
+              [
+                382,
+                "MIN"
+              ],
+              [
+                429,
+                "TYP(1)"
+              ],
+              [
+                481,
+                "MAX"
+              ],
+              [
+                519,
+                "UNIT"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.71244444444438,
+                  120.05576923076923,
+                  265.04099999999994,
+                  133.8442307692308
+                ],
+                "text": "PARAMETER",
+                "word_boxes": [
+                  [
+                    135.82799999999997,
+                    122.94299999999998,
+                    185.89999999999998,
+                    130.94299999999998,
+                    "PARAMETER"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  265.04099999999994,
+                  120.05576923076923,
+                  382.4939999999999,
+                  133.8442307692308
+                ],
+                "text": "TEST CONDITIONS",
+                "word_boxes": [
+                  [
+                    287.32,
+                    122.94299999999998,
+                    307.768,
+                    130.94299999999998,
+                    "TEST"
+                  ],
+                  [
+                    309.992,
+                    122.94299999999998,
+                    360.216,
+                    130.94299999999998,
+                    "CONDITIONS"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  120.05576923076923,
+                  428.87699999999995,
+                  133.8442307692308
+                ],
+                "text": "MIN",
+                "word_boxes": [
+                  [
+                    412.21299999999997,
+                    122.94299999999998,
+                    426.87699999999995,
+                    130.94299999999998,
+                    "MIN"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  428.87699999999995,
+                  120.05576923076923,
+                  480.53763078079993,
+                  133.8442307692308
+                ],
+                "text": "TYP(1)",
+                "word_boxes": [
+                  [
+                    454.10900000000004,
+                    121.85399999999993,
+                    477.001,
+                    130.94299999999998,
+                    "TYP(1)"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  480.53763078079993,
+                  120.05576923076923,
+                  519.3359842991111,
+                  133.8442307692308
+                ],
+                "text": "MAX",
+                "word_boxes": [
+                  [
+                    496.824,
+                    122.94299999999998,
+                    514.6,
+                    130.94299999999998,
+                    "MAX"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  519.3359842991111,
+                  120.05576923076923,
+                  555.2851874999999,
+                  133.8442307692308
+                ],
+                "text": "UNIT",
+                "word_boxes": [
+                  [
+                    526.7149999999999,
+                    122.94299999999998,
+                    545.3789999999999,
+                    130.94299999999998,
+                    "UNIT"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 5
+          },
+          {
+            "top": 133.8442307692308,
+            "c": [
+              [
+                57,
+                "V OH High-level output voltage"
+              ],
+              [
+                265,
+                "I OH = –1 mA"
+              ],
+              [
+                382,
+                "V CC – 0.6"
+              ],
+              [
+                429,
+                "V CC – 0.1"
+              ],
+              [
+                519,
+                "V"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.71244444444438,
+                  133.8442307692308,
+                  265.04099999999994,
+                  147.875
+                ],
+                "text": "V OH High-level output voltage",
+                "word_boxes": [
+                  [
+                    58.867999999999924,
+                    136.89299999999992,
+                    64.20399999999992,
+                    144.89299999999992,
+                    "V"
+                  ],
+                  [
+                    96.09799999999993,
+                    136.89299999999992,
+                    131.65799999999996,
+                    144.89299999999992,
+                    "High-level"
+                  ],
+                  [
+                    133.88199999999995,
+                    136.89299999999992,
+                    156.12199999999993,
+                    144.89299999999992,
+                    "output"
+                  ],
+                  [
+                    158.34599999999995,
+                    136.89299999999992,
+                    184.13799999999998,
+                    144.89299999999992,
+                    "voltage"
+                  ],
+                  [
+                    64.20399999999992,
+                    140.0709999999999,
+                    73.20399999999992,
+                    146.0709999999999,
+                    "OH"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  265.04099999999994,
+                  133.8442307692308,
+                  382.4939999999999,
+                  147.875
+                ],
+                "text": "I OH = –1 mA",
+                "word_boxes": [
+                  [
+                    267.2159999999999,
+                    136.89299999999992,
+                    269.4399999999999,
+                    144.89299999999992,
+                    "I"
+                  ],
+                  [
+                    280.6639999999999,
+                    136.89299999999992,
+                    285.3359999999999,
+                    144.89299999999992,
+                    "="
+                  ],
+                  [
+                    287.5599999999999,
+                    136.89299999999992,
+                    296.45599999999985,
+                    144.89299999999992,
+                    "–1"
+                  ],
+                  [
+                    298.6799999999999,
+                    136.89299999999992,
+                    310.6799999999999,
+                    144.89299999999992,
+                    "mA"
+                  ],
+                  [
+                    269.4399999999999,
+                    140.0709999999999,
+                    278.4399999999999,
+                    146.0709999999999,
+                    "OH"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  133.8442307692308,
+                  519.3359842991111,
+                  147.875
+                ],
+                "text": "V CC – 0.6",
+                "word_boxes": [
+                  [
+                    392.8609999999999,
+                    136.89299999999992,
+                    398.1969999999999,
+                    144.89299999999992,
+                    "V"
+                  ],
+                  [
+                    409.08499999999987,
+                    136.89299999999992,
+                    413.53299999999984,
+                    144.89299999999992,
+                    "–"
+                  ],
+                  [
+                    415.7569999999999,
+                    136.89299999999992,
+                    426.87699999999984,
+                    144.89299999999992,
+                    "0.6"
+                  ],
+                  [
+                    398.1969999999999,
+                    140.0709999999999,
+                    406.8609999999999,
+                    146.0709999999999,
+                    "CC"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  133.8442307692308,
+                  519.3359842991111,
+                  147.875
+                ],
+                "text": "V CC – 0.1",
+                "word_boxes": [
+                  [
+                    442.9809999999999,
+                    136.89299999999992,
+                    448.3169999999999,
+                    144.89299999999992,
+                    "V"
+                  ],
+                  [
+                    459.20499999999987,
+                    136.89299999999992,
+                    463.65299999999985,
+                    144.89299999999992,
+                    "–"
+                  ],
+                  [
+                    465.8769999999999,
+                    136.89299999999992,
+                    476.99699999999984,
+                    144.89299999999992,
+                    "0.1"
+                  ],
+                  [
+                    448.3169999999999,
+                    140.0709999999999,
+                    456.9809999999999,
+                    146.0709999999999,
+                    "CC"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  133.8442307692308,
+                  519.3359842991111,
+                  147.875
+                ],
+                "text": "",
+                "word_boxes": []
+              },
+              {
+                "bbox": [
+                  519.3359842991111,
+                  133.8442307692308,
+                  555.2851874999999,
+                  147.875
+                ],
+                "text": "V",
+                "word_boxes": [
+                  [
+                    533.3789999999999,
+                    136.89299999999992,
+                    538.7149999999999,
+                    144.89299999999992,
+                    "V"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 6
+          },
+          {
+            "top": 147.875,
+            "c": [
+              [
+                57,
+                "V OL Low-level output voltage"
+              ],
+              [
+                265,
+                "I OL = 1.6 mA"
+              ],
+              [
+                382,
+                "0.4"
+              ],
+              [
+                429,
+                "0.4"
+              ],
+              [
+                481,
+                "0.4"
+              ],
+              [
+                519,
+                "V"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.71244444444438,
+                  147.875,
+                  265.04099999999994,
+                  161.82500000000005
+                ],
+                "text": "V OL Low-level output voltage",
+                "word_boxes": [
+                  [
+                    58.867999999999924,
+                    150.84299999999996,
+                    64.20399999999992,
+                    158.84299999999996,
+                    "V"
+                  ],
+                  [
+                    96.09799999999993,
+                    150.84299999999996,
+                    129.88199999999995,
+                    158.84299999999996,
+                    "Low-level"
+                  ],
+                  [
+                    132.10599999999994,
+                    150.84299999999996,
+                    154.34599999999995,
+                    158.84299999999996,
+                    "output"
+                  ],
+                  [
+                    156.56999999999994,
+                    150.84299999999996,
+                    182.36199999999997,
+                    158.84299999999996,
+                    "voltage"
+                  ],
+                  [
+                    64.20399999999992,
+                    154.02099999999996,
+                    72.20799999999993,
+                    160.02099999999996,
+                    "OL"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  265.04099999999994,
+                  147.875,
+                  382.4939999999999,
+                  161.82500000000005
+                ],
+                "text": "I OL = 1.6 mA",
+                "word_boxes": [
+                  [
+                    267.2159999999999,
+                    150.84299999999996,
+                    269.4399999999999,
+                    158.84299999999996,
+                    "I"
+                  ],
+                  [
+                    279.6679999999999,
+                    150.84299999999996,
+                    284.3399999999999,
+                    158.84299999999996,
+                    "="
+                  ],
+                  [
+                    286.5639999999999,
+                    150.84299999999996,
+                    297.68399999999986,
+                    158.84299999999996,
+                    "1.6"
+                  ],
+                  [
+                    299.9079999999999,
+                    150.84299999999996,
+                    311.9079999999999,
+                    158.84299999999996,
+                    "mA"
+                  ],
+                  [
+                    269.4399999999999,
+                    154.02099999999996,
+                    277.4439999999999,
+                    160.02099999999996,
+                    "OL"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  147.875,
+                  519.3359842991111,
+                  161.82500000000005
+                ],
+                "text": "0.4",
+                "word_boxes": [
+                  [
+                    503.4799999999999,
+                    150.84299999999996,
+                    514.5999999999999,
+                    158.84299999999996,
+                    "0.4"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  147.875,
+                  519.3359842991111,
+                  161.82500000000005
+                ],
+                "text": "0.4",
+                "word_boxes": [
+                  [
+                    503.4799999999999,
+                    150.84299999999996,
+                    514.5999999999999,
+                    158.84299999999996,
+                    "0.4"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  147.875,
+                  519.3359842991111,
+                  161.82500000000005
+                ],
+                "text": "0.4",
+                "word_boxes": [
+                  [
+                    503.4799999999999,
+                    150.84299999999996,
+                    514.5999999999999,
+                    158.84299999999996,
+                    "0.4"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  519.3359842991111,
+                  147.875,
+                  555.2851874999999,
+                  161.82500000000005
+                ],
+                "text": "V",
+                "word_boxes": [
+                  [
+                    533.3789999999999,
+                    150.84299999999996,
+                    538.7149999999999,
+                    158.84299999999996,
+                    "V"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 7
+          },
+          {
+            "top": 161.82500000000005,
+            "c": [
+              [
+                57,
+                "V IT+ Positive-going input threshold voltage"
+              ],
+              [
+                265,
+                "V CC = 3.3 V"
+              ],
+              [
+                429,
+                "1.5"
+              ],
+              [
+                481,
+                "2.4"
+              ],
+              [
+                519,
+                "V"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.71244444444438,
+                  161.82500000000005,
+                  265.04099999999994,
+                  189.72500000000005
+                ],
+                "text": "V IT+ Positive-going input threshold voltage",
+                "word_boxes": [
+                  [
+                    58.867999999999924,
+                    171.76800000000003,
+                    64.20399999999992,
+                    179.76800000000003,
+                    "V"
+                  ],
+                  [
+                    96.09799999999993,
+                    171.76800000000003,
+                    146.33799999999994,
+                    179.76800000000003,
+                    "Positive-going"
+                  ],
+                  [
+                    148.56199999999995,
+                    171.76800000000003,
+                    165.90599999999995,
+                    179.76800000000003,
+                    "input"
+                  ],
+                  [
+                    168.12999999999994,
+                    171.76800000000003,
+                    201.03399999999996,
+                    179.76800000000003,
+                    "threshold"
+                  ],
+                  [
+                    203.25799999999998,
+                    171.76800000000003,
+                    229.04999999999998,
+                    179.76800000000003,
+                    "voltage"
+                  ],
+                  [
+                    64.20399999999992,
+                    174.9459999999999,
+                    73.04199999999993,
+                    180.9459999999999,
+                    "IT+"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  265.04099999999994,
+                  161.82500000000005,
+                  382.4939999999999,
+                  175.7750000000001
+                ],
+                "text": "V CC = 3.3 V",
+                "word_boxes": [
+                  [
+                    267.2159999999999,
+                    164.793,
+                    272.5519999999999,
+                    172.793,
+                    "V"
+                  ],
+                  [
+                    283.4399999999999,
+                    164.793,
+                    288.1119999999999,
+                    172.793,
+                    "="
+                  ],
+                  [
+                    290.3359999999999,
+                    164.793,
+                    301.4559999999999,
+                    172.793,
+                    "3.3"
+                  ],
+                  [
+                    303.6799999999999,
+                    164.793,
+                    309.0159999999999,
+                    172.793,
+                    "V"
+                  ],
+                  [
+                    272.5519999999999,
+                    167.971,
+                    281.2159999999999,
+                    173.971,
+                    "CC"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  161.82500000000005,
+                  519.3359842991111,
+                  175.7750000000001
+                ],
+                "text": "",
+                "word_boxes": []
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  161.82500000000005,
+                  519.3359842991111,
+                  175.7750000000001
+                ],
+                "text": "1.5",
+                "word_boxes": [
+                  [
+                    465.8769999999999,
+                    164.793,
+                    476.9969999999999,
+                    172.793,
+                    "1.5"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  161.82500000000005,
+                  519.3359842991111,
+                  175.7750000000001
+                ],
+                "text": "2.4",
+                "word_boxes": [
+                  [
+                    503.4799999999999,
+                    164.793,
+                    514.5999999999999,
+                    172.793,
+                    "2.4"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  519.3359842991111,
+                  161.82500000000005,
+                  555.2851874999999,
+                  189.72500000000005
+                ],
+                "text": "V",
+                "word_boxes": [
+                  [
+                    533.3789999999999,
+                    171.76800000000003,
+                    538.7149999999999,
+                    179.76800000000003,
+                    "V"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 8
+          },
+          {
+            "top": 175.7750000000001,
+            "c": [
+              [
+                57,
+                "V IT+ Positive-going input threshold voltage"
+              ],
+              [
+                265,
+                "V CC = 5 V"
+              ],
+              [
+                429,
+                "1.8"
+              ],
+              [
+                481,
+                "2.4"
+              ],
+              [
+                519,
+                "V"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.71244444444438,
+                  161.82500000000005,
+                  265.04099999999994,
+                  189.72500000000005
+                ],
+                "text": "V IT+ Positive-going input threshold voltage",
+                "word_boxes": [
+                  [
+                    58.867999999999924,
+                    171.76800000000003,
+                    64.20399999999992,
+                    179.76800000000003,
+                    "V"
+                  ],
+                  [
+                    96.09799999999993,
+                    171.76800000000003,
+                    146.33799999999994,
+                    179.76800000000003,
+                    "Positive-going"
+                  ],
+                  [
+                    148.56199999999995,
+                    171.76800000000003,
+                    165.90599999999995,
+                    179.76800000000003,
+                    "input"
+                  ],
+                  [
+                    168.12999999999994,
+                    171.76800000000003,
+                    201.03399999999996,
+                    179.76800000000003,
+                    "threshold"
+                  ],
+                  [
+                    203.25799999999998,
+                    171.76800000000003,
+                    229.04999999999998,
+                    179.76800000000003,
+                    "voltage"
+                  ],
+                  [
+                    64.20399999999992,
+                    174.9459999999999,
+                    73.04199999999993,
+                    180.9459999999999,
+                    "IT+"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  265.04099999999994,
+                  175.7750000000001,
+                  382.4939999999999,
+                  189.72500000000005
+                ],
+                "text": "V CC = 5 V",
+                "word_boxes": [
+                  [
+                    267.2159999999999,
+                    178.74299999999994,
+                    272.5519999999999,
+                    186.74299999999994,
+                    "V"
+                  ],
+                  [
+                    283.4399999999999,
+                    178.74299999999994,
+                    288.1119999999999,
+                    186.74299999999994,
+                    "="
+                  ],
+                  [
+                    290.3359999999999,
+                    178.74299999999994,
+                    294.7839999999999,
+                    186.74299999999994,
+                    "5"
+                  ],
+                  [
+                    297.0079999999999,
+                    178.74299999999994,
+                    302.34399999999994,
+                    186.74299999999994,
+                    "V"
+                  ],
+                  [
+                    272.5519999999999,
+                    181.92099999999994,
+                    281.2159999999999,
+                    187.92099999999994,
+                    "CC"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  175.7750000000001,
+                  519.3359842991111,
+                  189.72500000000005
+                ],
+                "text": "",
+                "word_boxes": []
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  175.7750000000001,
+                  519.3359842991111,
+                  189.72500000000005
+                ],
+                "text": "1.8",
+                "word_boxes": [
+                  [
+                    465.8769999999999,
+                    178.74299999999994,
+                    476.9969999999999,
+                    186.74299999999994,
+                    "1.8"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  175.7750000000001,
+                  519.3359842991111,
+                  189.72500000000005
+                ],
+                "text": "2.4",
+                "word_boxes": [
+                  [
+                    503.4799999999999,
+                    178.74299999999994,
+                    514.5999999999999,
+                    186.74299999999994,
+                    "2.4"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  519.3359842991111,
+                  161.82500000000005,
+                  555.2851874999999,
+                  189.72500000000005
+                ],
+                "text": "V",
+                "word_boxes": [
+                  [
+                    533.3789999999999,
+                    171.76800000000003,
+                    538.7149999999999,
+                    179.76800000000003,
+                    "V"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 9
+          },
+          {
+            "top": 189.72500000000005,
+            "c": [
+              [
+                57,
+                "V IT– Negative-going input threshold voltage"
+              ],
+              [
+                265,
+                "V CC = 3.3 V"
+              ],
+              [
+                382,
+                "0.6"
+              ],
+              [
+                429,
+                "1.2"
+              ],
+              [
+                519,
+                "V"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.71244444444438,
+                  189.72500000000005,
+                  265.04099999999994,
+                  217.625
+                ],
+                "text": "V IT– Negative-going input threshold voltage",
+                "word_boxes": [
+                  [
+                    58.86799999999987,
+                    199.668,
+                    64.20399999999987,
+                    207.668,
+                    "V"
+                  ],
+                  [
+                    96.09799999999987,
+                    199.668,
+                    149.89799999999988,
+                    207.668,
+                    "Negative-going"
+                  ],
+                  [
+                    152.12199999999987,
+                    199.668,
+                    169.46599999999987,
+                    207.668,
+                    "input"
+                  ],
+                  [
+                    171.68999999999988,
+                    199.668,
+                    204.5939999999999,
+                    207.668,
+                    "threshold"
+                  ],
+                  [
+                    206.81799999999987,
+                    199.668,
+                    232.6099999999999,
+                    207.668,
+                    "voltage"
+                  ],
+                  [
+                    64.20399999999987,
+                    202.8459999999999,
+                    72.87399999999987,
+                    208.8459999999999,
+                    "IT–"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  265.04099999999994,
+                  189.72500000000005,
+                  382.4939999999999,
+                  203.67500000000007
+                ],
+                "text": "V CC = 3.3 V",
+                "word_boxes": [
+                  [
+                    267.2159999999999,
+                    192.69299999999998,
+                    272.5519999999999,
+                    200.69299999999998,
+                    "V"
+                  ],
+                  [
+                    283.4399999999999,
+                    192.69299999999998,
+                    288.1119999999999,
+                    200.69299999999998,
+                    "="
+                  ],
+                  [
+                    290.3359999999999,
+                    192.69299999999998,
+                    301.4559999999999,
+                    200.69299999999998,
+                    "3.3"
+                  ],
+                  [
+                    303.6799999999999,
+                    192.69299999999998,
+                    309.0159999999999,
+                    200.69299999999998,
+                    "V"
+                  ],
+                  [
+                    272.5519999999999,
+                    195.87099999999998,
+                    281.2159999999999,
+                    201.87099999999998,
+                    "CC"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  189.72500000000005,
+                  519.3359842991111,
+                  203.67500000000007
+                ],
+                "text": "0.6",
+                "word_boxes": [
+                  [
+                    415.7569999999999,
+                    192.69299999999998,
+                    426.8769999999999,
+                    200.69299999999998,
+                    "0.6"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  189.72500000000005,
+                  519.3359842991111,
+                  203.67500000000007
+                ],
+                "text": "1.2",
+                "word_boxes": [
+                  [
+                    465.8769999999999,
+                    192.69299999999998,
+                    476.9969999999999,
+                    200.69299999999998,
+                    "1.2"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  189.72500000000005,
+                  519.3359842991111,
+                  203.67500000000007
+                ],
+                "text": "",
+                "word_boxes": []
+              },
+              {
+                "bbox": [
+                  519.3359842991111,
+                  189.72500000000005,
+                  555.2851874999999,
+                  217.625
+                ],
+                "text": "V",
+                "word_boxes": [
+                  [
+                    533.3789999999999,
+                    199.668,
+                    538.7149999999999,
+                    207.668,
+                    "V"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 10
+          },
+          {
+            "top": 203.67500000000007,
+            "c": [
+              [
+                57,
+                "V IT– Negative-going input threshold voltage"
+              ],
+              [
+                265,
+                "V CC = 5 V"
+              ],
+              [
+                382,
+                "0.8"
+              ],
+              [
+                429,
+                "1.5"
+              ],
+              [
+                519,
+                "V"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.71244444444438,
+                  189.72500000000005,
+                  265.04099999999994,
+                  217.625
+                ],
+                "text": "V IT– Negative-going input threshold voltage",
+                "word_boxes": [
+                  [
+                    58.86799999999987,
+                    199.668,
+                    64.20399999999987,
+                    207.668,
+                    "V"
+                  ],
+                  [
+                    96.09799999999987,
+                    199.668,
+                    149.89799999999988,
+                    207.668,
+                    "Negative-going"
+                  ],
+                  [
+                    152.12199999999987,
+                    199.668,
+                    169.46599999999987,
+                    207.668,
+                    "input"
+                  ],
+                  [
+                    171.68999999999988,
+                    199.668,
+                    204.5939999999999,
+                    207.668,
+                    "threshold"
+                  ],
+                  [
+                    206.81799999999987,
+                    199.668,
+                    232.6099999999999,
+                    207.668,
+                    "voltage"
+                  ],
+                  [
+                    64.20399999999987,
+                    202.8459999999999,
+                    72.87399999999987,
+                    208.8459999999999,
+                    "IT–"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  265.04099999999994,
+                  203.67500000000007,
+                  382.4939999999999,
+                  217.625
+                ],
+                "text": "V CC = 5 V",
+                "word_boxes": [
+                  [
+                    267.2159999999999,
+                    206.64299999999992,
+                    272.5519999999999,
+                    214.64299999999992,
+                    "V"
+                  ],
+                  [
+                    283.4399999999999,
+                    206.64299999999992,
+                    288.1119999999999,
+                    214.64299999999992,
+                    "="
+                  ],
+                  [
+                    290.3359999999999,
+                    206.64299999999992,
+                    294.7839999999999,
+                    214.64299999999992,
+                    "5"
+                  ],
+                  [
+                    297.0079999999999,
+                    206.64299999999992,
+                    302.34399999999994,
+                    214.64299999999992,
+                    "V"
+                  ],
+                  [
+                    272.5519999999999,
+                    209.8209999999999,
+                    281.2159999999999,
+                    215.8209999999999,
+                    "CC"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  203.67500000000007,
+                  519.3359842991111,
+                  217.625
+                ],
+                "text": "0.8",
+                "word_boxes": [
+                  [
+                    415.7569999999999,
+                    206.64299999999992,
+                    426.8769999999999,
+                    214.64299999999992,
+                    "0.8"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  203.67500000000007,
+                  519.3359842991111,
+                  217.625
+                ],
+                "text": "1.5",
+                "word_boxes": [
+                  [
+                    465.8769999999999,
+                    206.64299999999992,
+                    476.9969999999999,
+                    214.64299999999992,
+                    "1.5"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  203.67500000000007,
+                  519.3359842991111,
+                  217.625
+                ],
+                "text": "",
+                "word_boxes": []
+              },
+              {
+                "bbox": [
+                  519.3359842991111,
+                  189.72500000000005,
+                  555.2851874999999,
+                  217.625
+                ],
+                "text": "V",
+                "word_boxes": [
+                  [
+                    533.3789999999999,
+                    199.668,
+                    538.7149999999999,
+                    207.668,
+                    "V"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 11
+          },
+          {
+            "top": 217.625,
+            "c": [
+              [
+                57,
+                "V hys Input hysteresis (V IT+ – V IT– )"
+              ],
+              [
+                382,
+                "0.3"
+              ],
+              [
+                429,
+                "0.3"
+              ],
+              [
+                481,
+                "0.3"
+              ],
+              [
+                519,
+                "V"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.71244444444438,
+                  217.625,
+                  265.04099999999994,
+                  231.57500000000005
+                ],
+                "text": "V hys Input hysteresis (V IT+ – V IT– )",
+                "word_boxes": [
+                  [
+                    58.86799999999987,
+                    220.59299999999996,
+                    64.20399999999987,
+                    228.59299999999996,
+                    "V"
+                  ],
+                  [
+                    96.09799999999987,
+                    220.59299999999996,
+                    113.88999999999987,
+                    228.59299999999996,
+                    "Input"
+                  ],
+                  [
+                    116.11399999999988,
+                    220.59299999999996,
+                    152.12199999999987,
+                    228.59299999999996,
+                    "hysteresis"
+                  ],
+                  [
+                    154.3459999999999,
+                    220.59299999999996,
+                    162.3459999999999,
+                    228.59299999999996,
+                    "(V"
+                  ],
+                  [
+                    173.40799999999984,
+                    220.59299999999996,
+                    177.85599999999985,
+                    228.59299999999996,
+                    "–"
+                  ],
+                  [
+                    180.07999999999987,
+                    220.59299999999996,
+                    185.41599999999988,
+                    228.59299999999996,
+                    "V"
+                  ],
+                  [
+                    194.08599999999987,
+                    220.59299999999996,
+                    196.74999999999986,
+                    228.59299999999996,
+                    ")"
+                  ],
+                  [
+                    64.20399999999987,
+                    223.77099999999996,
+                    73.53999999999986,
+                    229.77099999999996,
+                    "hys"
+                  ],
+                  [
+                    162.3459999999999,
+                    223.77099999999996,
+                    171.18399999999988,
+                    229.77099999999996,
+                    "IT+"
+                  ],
+                  [
+                    185.41599999999988,
+                    223.77099999999996,
+                    194.0859999999999,
+                    229.77099999999996,
+                    "IT–"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  265.04099999999994,
+                  217.625,
+                  382.4939999999999,
+                  231.57500000000005
+                ],
+                "text": "",
+                "word_boxes": []
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  217.625,
+                  519.3359842991111,
+                  231.57500000000005
+                ],
+                "text": "0.3",
+                "word_boxes": [
+                  [
+                    465.8769999999999,
+                    220.59299999999996,
+                    476.9969999999999,
+                    228.59299999999996,
+                    "0.3"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  217.625,
+                  519.3359842991111,
+                  231.57500000000005
+                ],
+                "text": "0.3",
+                "word_boxes": [
+                  [
+                    465.8769999999999,
+                    220.59299999999996,
+                    476.9969999999999,
+                    228.59299999999996,
+                    "0.3"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  217.625,
+                  519.3359842991111,
+                  231.57500000000005
+                ],
+                "text": "0.3",
+                "word_boxes": [
+                  [
+                    465.8769999999999,
+                    220.59299999999996,
+                    476.9969999999999,
+                    228.59299999999996,
+                    "0.3"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  519.3359842991111,
+                  217.625,
+                  555.2851874999999,
+                  231.57500000000005
+                ],
+                "text": "V",
+                "word_boxes": [
+                  [
+                    533.3789999999999,
+                    220.59299999999996,
+                    538.7149999999999,
+                    228.59299999999996,
+                    "V"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 12
+          },
+          {
+            "top": 231.57500000000005,
+            "c": [
+              [
+                57,
+                "r I Input resistance"
+              ],
+              [
+                265,
+                "V I = ±3 V to ±25 V"
+              ],
+              [
+                382,
+                "3"
+              ],
+              [
+                429,
+                "5"
+              ],
+              [
+                481,
+                "7"
+              ],
+              [
+                519,
+                "kΩ"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.71244444444438,
+                  231.57500000000005,
+                  265.04099999999994,
+                  245.5250000000001
+                ],
+                "text": "r I Input resistance",
+                "word_boxes": [
+                  [
+                    58.867999999999924,
+                    234.543,
+                    61.531999999999925,
+                    242.543,
+                    "r"
+                  ],
+                  [
+                    96.09799999999993,
+                    234.543,
+                    113.88999999999993,
+                    242.543,
+                    "Input"
+                  ],
+                  [
+                    116.11399999999993,
+                    234.543,
+                    152.56999999999994,
+                    242.543,
+                    "resistance"
+                  ],
+                  [
+                    61.531999999999925,
+                    237.721,
+                    63.199999999999925,
+                    243.721,
+                    "I"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  265.04099999999994,
+                  231.57500000000005,
+                  382.4939999999999,
+                  245.5250000000001
+                ],
+                "text": "V I = ±3 V to ±25 V",
+                "word_boxes": [
+                  [
+                    267.2159999999999,
+                    234.543,
+                    272.5519999999999,
+                    242.543,
+                    "V"
+                  ],
+                  [
+                    276.4439999999999,
+                    234.543,
+                    281.11599999999993,
+                    242.543,
+                    "="
+                  ],
+                  [
+                    283.3399999999999,
+                    234.543,
+                    292.1799999999999,
+                    242.543,
+                    "±3"
+                  ],
+                  [
+                    294.40399999999994,
+                    234.543,
+                    299.73999999999995,
+                    242.543,
+                    "V"
+                  ],
+                  [
+                    301.96399999999994,
+                    234.543,
+                    308.6359999999999,
+                    242.543,
+                    "to"
+                  ],
+                  [
+                    310.8599999999999,
+                    234.543,
+                    324.1479999999999,
+                    242.543,
+                    "±25"
+                  ],
+                  [
+                    326.3719999999999,
+                    234.543,
+                    331.7079999999999,
+                    242.543,
+                    "V"
+                  ],
+                  [
+                    272.5519999999999,
+                    237.721,
+                    274.2199999999999,
+                    243.721,
+                    "I"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  231.57500000000005,
+                  519.3359842991111,
+                  245.5250000000001
+                ],
+                "text": "3",
+                "word_boxes": [
+                  [
+                    422.42899999999986,
+                    234.543,
+                    426.87699999999984,
+                    242.543,
+                    "3"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  231.57500000000005,
+                  519.3359842991111,
+                  245.5250000000001
+                ],
+                "text": "5",
+                "word_boxes": [
+                  [
+                    472.54899999999986,
+                    234.543,
+                    476.99699999999984,
+                    242.543,
+                    "5"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  382.4939999999999,
+                  231.57500000000005,
+                  519.3359842991111,
+                  245.5250000000001
+                ],
+                "text": "7",
+                "word_boxes": [
+                  [
+                    510.1519999999999,
+                    234.543,
+                    514.5999999999999,
+                    242.543,
+                    "7"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  519.3359842991111,
+                  231.57500000000005,
+                  555.2851874999999,
+                  245.5250000000001
+                ],
+                "text": "kΩ",
+                "word_boxes": [
+                  [
+                    530.9709999999999,
+                    234.543,
+                    541.1149999999999,
+                    242.543,
+                    "kΩ"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 13
+          },
+          {
+            "top": 253.81799999999998,
+            "c": [
+              [
+                57,
+                "(1)"
+              ],
+              [
+                78,
+                "All typical values are at V"
+              ],
+              [
+                178,
+                "= 3.3 V or V"
+              ],
+              [
+                232,
+                "= 5 V, and T = 25°C."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.69299999999993,
+                  253.81799999999998,
+                  66.46899999999992,
+                  261.818
+                ],
+                "text": "(1)"
+              },
+              {
+                "bbox": [
+                  77.94899999999993,
+                  253.81799999999998,
+                  167.31699999999995,
+                  261.818
+                ],
+                "text": "All typical values are at V"
+              },
+              {
+                "bbox": [
+                  178.21699999999993,
+                  253.81799999999998,
+                  220.68899999999996,
+                  261.818
+                ],
+                "text": "= 3.3 V or V"
+              },
+              {
+                "bbox": [
+                  231.57099999999994,
+                  253.81799999999998,
+                  307.86299999999994,
+                  261.818
+                ],
+                "text": "= 5 V, and T = 25°C."
+              }
+            ],
+            "kind": "prose",
+            "r": 14
+          },
+          {
+            "top": 256.996,
+            "c": [
+              [
+                167,
+                "CC"
+              ],
+              [
+                221,
+                "CC"
+              ],
+              [
+                275,
+                "A"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  167.32899999999992,
+                  256.996,
+                  175.9929999999999,
+                  262.996
+                ],
+                "text": "CC"
+              },
+              {
+                "bbox": [
+                  220.68299999999994,
+                  256.996,
+                  229.34699999999992,
+                  262.996
+                ],
+                "text": "CC"
+              },
+              {
+                "bbox": [
+                  274.6449999999999,
+                  256.996,
+                  278.64699999999993,
+                  262.996
+                ],
+                "text": "A"
+              }
+            ],
+            "kind": "prose",
+            "r": 15
+          },
+          {
+            "top": 263.418,
+            "c": [
+              [
+                57,
+                "(2)"
+              ],
+              [
+                78,
+                "Test conditions are C1–C4 = 0.1 μF at V"
+              ],
+              [
+                231,
+                "= 3.3 V ± 0.3 V; C1 = 0.047 μF, C2–C4 = 0.33 μF at V"
+              ],
+              [
+                432,
+                "= 5 V ± 0.5 V."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.69499999999993,
+                  263.418,
+                  66.47099999999993,
+                  271.418
+                ],
+                "text": "(2)"
+              },
+              {
+                "bbox": [
+                  77.95099999999992,
+                  263.418,
+                  220.19899999999996,
+                  271.418
+                ],
+                "text": "Test conditions are C1–C4 = 0.1 μF at V"
+              },
+              {
+                "bbox": [
+                  231.0809999999999,
+                  263.418,
+                  420.72099999999995,
+                  271.418
+                ],
+                "text": "= 3.3 V ± 0.3 V; C1 = 0.047 μF, C2–C4 = 0.33 μF at V"
+              },
+              {
+                "bbox": [
+                  431.6089999999999,
+                  263.418,
+                  479.5209999999999,
+                  271.418
+                ],
+                "text": "= 5 V ± 0.5 V."
+              }
+            ],
+            "kind": "prose",
+            "r": 16
+          },
+          {
+            "top": 266.596,
+            "c": [
+              [
+                220,
+                "CC"
+              ],
+              [
+                421,
+                "CC"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  220.19299999999993,
+                  266.596,
+                  228.8569999999999,
+                  272.596
+                ],
+                "text": "CC"
+              },
+              {
+                "bbox": [
+                  420.72099999999995,
+                  266.596,
+                  429.38499999999993,
+                  272.596
+                ],
+                "text": "CC"
+              }
+            ],
+            "kind": "prose",
+            "r": 17
+          }
+        ],
+        "packet_kind": "table",
+        "table_id": 0,
+        "closure": {
+          "table_index": 0,
+          "table_indices": [
+            0
+          ],
+          "physical_rows": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "first_context_row": 1,
+          "last_context_row": 17,
+          "scope": "All local physical table rows and adjacent original context; cross-page notes unresolved."
+        }
+      },
+      {
+        "doc_id": "max3232",
+        "page": 1,
+        "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+        "url": "https://www.ti.com/lit/ds/symlink/max3232.pdf#page=1",
+        "title": "MAX3232 RS232 transceiver datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "max3232:p1:span1012-2352:484d6bb1c92c",
+        "span_id": "max3232:p1:span1012-2352:484d6bb1c92c",
+        "start": 1012,
+        "end": 2352,
+        "text": "{\"r\":11,\"c\":[[57,\"•\"],[71,\"Operates up to 250 kbit/s\"],[315,\"F\"],[329,\"and\"],[355,\"provides\"],[401,\"the\"],[423,\"electrical\"],[471,\"interface\"],[518,\"between\"]]}\n{\"r\":12,\"c\":[[57,\"•\"],[71,\"Two drivers and two receivers\"],[315,\"an asynchronous communication controller and the\"]]}\n{\"r\":13,\"c\":[[57,\"•\"],[71,\"Low supply current: 300 μA Typical\"],[315,\"serial-port connector. The charge pump and four small\"]]}\n{\"r\":14,\"c\":[[57,\"•\"],[71,\"External capacitors: 4 × 0.1 μF\"],[315,\"external capacitors allow operation from a single 3-V\"]]}\n{\"r\":15,\"c\":[[57,\"•\"],[71,\"Accepts 5-V logic input with 3.3-V supply\"],[315,\"to 5.5-V supply. The devices operate at data signaling\"]]}\n{\"r\":16,\"c\":[[57,\"•\"],[71,\"Alternative high-speed terminal-compatible\"],[315,\"rates up to 250 kbit/s and a maximum of 30-V/μs\"]]}\n{\"r\":17,\"c\":[[71,\"devices (1 Mbit/s)\"],[315,\"driver output slew rate.\"]]}\n{\"r\":18,\"c\":[[71,\"–\"],[85,\"SN65C3232 (–40°C to 85°C)\"]]}\n{\"r\":19,\"c\":[[390,\"Device Information\"]]}\n{\"r\":20,\"c\":[[71,\"–\"],[85,\"SN75C3232 (0°C to 70°C)\"]]}\n{\"r\":21,\"c\":[[315,\"PART NUMBER\"],[395,\"PACKAGE(1)\"],[475,\"BODY SIZE\"]]}\n{\"r\":22,\"c\":[[57,\"2 Applications\"]]}\n{\"r\":23,\"c\":[[315,\"MAX3232\"],[395,\"SOIC (D) (16)\"],[475,\"9.90 mm × 3.91 mm\"]]}\n{\"r\":24,\"c\":[[315,\"MAX3232\"],[395,\"SSOP (DB) (16)\"],[475,\"6.20 mm × 5.30 mm\"]]}\n{\"r\":25,\"c\":[[57,\"•\"],[71,\"Industrial PCs\"]]}\n",
+        "packet_kind": "prose",
+        "table_id": null,
+        "source_rows": [
+          {
+            "r": 11,
+            "c": [
+              [
+                57,
+                "•"
+              ],
+              [
+                71,
+                "Operates up to 250 kbit/s"
+              ],
+              [
+                315,
+                "F"
+              ],
+              [
+                329,
+                "and"
+              ],
+              [
+                355,
+                "provides"
+              ],
+              [
+                401,
+                "the"
+              ],
+              [
+                423,
+                "electrical"
+              ],
+              [
+                471,
+                "interface"
+              ],
+              [
+                518,
+                "between"
+              ]
+            ]
+          },
+          {
+            "r": 12,
+            "c": [
+              [
+                57,
+                "•"
+              ],
+              [
+                71,
+                "Two drivers and two receivers"
+              ],
+              [
+                315,
+                "an asynchronous communication controller and the"
+              ]
+            ]
+          },
+          {
+            "r": 13,
+            "c": [
+              [
+                57,
+                "•"
+              ],
+              [
+                71,
+                "Low supply current: 300 μA Typical"
+              ],
+              [
+                315,
+                "serial-port connector. The charge pump and four small"
+              ]
+            ]
+          },
+          {
+            "r": 14,
+            "c": [
+              [
+                57,
+                "•"
+              ],
+              [
+                71,
+                "External capacitors: 4 × 0.1 μF"
+              ],
+              [
+                315,
+                "external capacitors allow operation from a single 3-V"
+              ]
+            ]
+          },
+          {
+            "r": 15,
+            "c": [
+              [
+                57,
+                "•"
+              ],
+              [
+                71,
+                "Accepts 5-V logic input with 3.3-V supply"
+              ],
+              [
+                315,
+                "to 5.5-V supply. The devices operate at data signaling"
+              ]
+            ]
+          },
+          {
+            "r": 16,
+            "c": [
+              [
+                57,
+                "•"
+              ],
+              [
+                71,
+                "Alternative high-speed terminal-compatible"
+              ],
+              [
+                315,
+                "rates up to 250 kbit/s and a maximum of 30-V/μs"
+              ]
+            ]
+          },
+          {
+            "r": 17,
+            "c": [
+              [
+                71,
+                "devices (1 Mbit/s)"
+              ],
+              [
+                315,
+                "driver output slew rate."
+              ]
+            ]
+          },
+          {
+            "r": 18,
+            "c": [
+              [
+                71,
+                "–"
+              ],
+              [
+                85,
+                "SN65C3232 (–40°C to 85°C)"
+              ]
+            ]
+          },
+          {
+            "r": 19,
+            "c": [
+              [
+                390,
+                "Device Information"
+              ]
+            ]
+          },
+          {
+            "r": 20,
+            "c": [
+              [
+                71,
+                "–"
+              ],
+              [
+                85,
+                "SN75C3232 (0°C to 70°C)"
+              ]
+            ]
+          },
+          {
+            "r": 21,
+            "c": [
+              [
+                315,
+                "PART NUMBER"
+              ],
+              [
+                395,
+                "PACKAGE(1)"
+              ],
+              [
+                475,
+                "BODY SIZE"
+              ]
+            ]
+          },
+          {
+            "r": 22,
+            "c": [
+              [
+                57,
+                "2 Applications"
+              ]
+            ]
+          },
+          {
+            "r": 23,
+            "c": [
+              [
+                315,
+                "MAX3232"
+              ],
+              [
+                395,
+                "SOIC (D) (16)"
+              ],
+              [
+                475,
+                "9.90 mm × 3.91 mm"
+              ]
+            ]
+          },
+          {
+            "r": 24,
+            "c": [
+              [
+                315,
+                "MAX3232"
+              ],
+              [
+                395,
+                "SSOP (DB) (16)"
+              ],
+              [
+                475,
+                "6.20 mm × 5.30 mm"
+              ]
+            ]
+          },
+          {
+            "r": 25,
+            "c": [
+              [
+                57,
+                "•"
+              ],
+              [
+                71,
+                "Industrial PCs"
+              ]
+            ]
+          }
+        ],
+        "layout_sha256": null,
+        "geometry_records": [
+          {
+            "top": 205.99099999999999,
+            "c": [
+              [
+                57,
+                "•"
+              ],
+              [
+                71,
+                "Operates up to 250 kbit/s"
+              ],
+              [
+                315,
+                "F"
+              ],
+              [
+                329,
+                "and"
+              ],
+              [
+                355,
+                "provides"
+              ],
+              [
+                401,
+                "the"
+              ],
+              [
+                423,
+                "electrical"
+              ],
+              [
+                471,
+                "interface"
+              ],
+              [
+                518,
+                "between"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.696999999999996,
+                  205.99099999999999,
+                  60.196999999999996,
+                  215.99099999999999
+                ],
+                "text": "•"
+              },
+              {
+                "bbox": [
+                  70.86699999999999,
+                  205.99099999999999,
+                  182.597,
+                  215.99099999999999
+                ],
+                "text": "Operates up to 250 kbit/s"
+              },
+              {
+                "bbox": [
+                  315.003,
+                  205.99099999999999,
+                  321.113,
+                  215.99099999999999
+                ],
+                "text": "F"
+              },
+              {
+                "bbox": [
+                  329.483,
+                  205.99099999999999,
+                  346.163,
+                  215.99099999999999
+                ],
+                "text": "and"
+              },
+              {
+                "bbox": [
+                  354.533,
+                  205.99099999999999,
+                  392.323,
+                  215.99099999999999
+                ],
+                "text": "provides"
+              },
+              {
+                "bbox": [
+                  400.693,
+                  205.99099999999999,
+                  414.593,
+                  215.99099999999999
+                ],
+                "text": "the"
+              },
+              {
+                "bbox": [
+                  422.963,
+                  205.99099999999999,
+                  462.413,
+                  215.99099999999999
+                ],
+                "text": "electrical"
+              },
+              {
+                "bbox": [
+                  470.783,
+                  205.99099999999999,
+                  509.13300000000004,
+                  215.99099999999999
+                ],
+                "text": "interface"
+              },
+              {
+                "bbox": [
+                  517.503,
+                  205.99099999999999,
+                  555.303,
+                  215.99099999999999
+                ],
+                "text": "between"
+              }
+            ],
+            "kind": "prose",
+            "r": 11
+          },
+          {
+            "top": 217.99099999999999,
+            "c": [
+              [
+                57,
+                "•"
+              ],
+              [
+                71,
+                "Two drivers and two receivers"
+              ],
+              [
+                315,
+                "an asynchronous communication controller and the"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.696999999999996,
+                  217.99099999999999,
+                  60.196999999999996,
+                  227.99099999999999
+                ],
+                "text": "•"
+              },
+              {
+                "bbox": [
+                  70.86699999999999,
+                  217.99099999999999,
+                  203.127,
+                  227.99099999999999
+                ],
+                "text": "Two drivers and two receivers"
+              },
+              {
+                "bbox": [
+                  314.995,
+                  217.99099999999999,
+                  555.255,
+                  227.99099999999999
+                ],
+                "text": "an asynchronous communication controller and the"
+              }
+            ],
+            "kind": "prose",
+            "r": 12
+          },
+          {
+            "top": 229.99099999999999,
+            "c": [
+              [
+                57,
+                "•"
+              ],
+              [
+                71,
+                "Low supply current: 300 μA Typical"
+              ],
+              [
+                315,
+                "serial-port connector. The charge pump and four small"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.696999999999996,
+                  229.99099999999999,
+                  60.196999999999996,
+                  239.99099999999999
+                ],
+                "text": "•"
+              },
+              {
+                "bbox": [
+                  70.86699999999999,
+                  229.99099999999999,
+                  226.14700000000002,
+                  239.99099999999999
+                ],
+                "text": "Low supply current: 300 μA Typical"
+              },
+              {
+                "bbox": [
+                  314.995,
+                  229.99099999999999,
+                  555.0950000000001,
+                  239.99099999999999
+                ],
+                "text": "serial-port connector. The charge pump and four small"
+              }
+            ],
+            "kind": "prose",
+            "r": 13
+          },
+          {
+            "top": 241.99099999999999,
+            "c": [
+              [
+                57,
+                "•"
+              ],
+              [
+                71,
+                "External capacitors: 4 × 0.1 μF"
+              ],
+              [
+                315,
+                "external capacitors allow operation from a single 3-V"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.696999999999996,
+                  241.99099999999999,
+                  60.196999999999996,
+                  251.99099999999999
+                ],
+                "text": "•"
+              },
+              {
+                "bbox": [
+                  70.86699999999999,
+                  241.99099999999999,
+                  206.96700000000004,
+                  251.99099999999999
+                ],
+                "text": "External capacitors: 4 × 0.1 μF"
+              },
+              {
+                "bbox": [
+                  314.995,
+                  241.99099999999999,
+                  555.285,
+                  251.99099999999999
+                ],
+                "text": "external capacitors allow operation from a single 3-V"
+              }
+            ],
+            "kind": "prose",
+            "r": 14
+          },
+          {
+            "top": 253.99099999999999,
+            "c": [
+              [
+                57,
+                "•"
+              ],
+              [
+                71,
+                "Accepts 5-V logic input with 3.3-V supply"
+              ],
+              [
+                315,
+                "to 5.5-V supply. The devices operate at data signaling"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.696999999999996,
+                  253.99099999999999,
+                  60.196999999999996,
+                  263.991
+                ],
+                "text": "•"
+              },
+              {
+                "bbox": [
+                  70.86699999999999,
+                  253.99099999999999,
+                  251.497,
+                  263.991
+                ],
+                "text": "Accepts 5-V logic input with 3.3-V supply"
+              },
+              {
+                "bbox": [
+                  315.002,
+                  253.99099999999999,
+                  555.2819999999999,
+                  263.991
+                ],
+                "text": "to 5.5-V supply. The devices operate at data signaling"
+              }
+            ],
+            "kind": "prose",
+            "r": 15
+          },
+          {
+            "top": 265.991,
+            "c": [
+              [
+                57,
+                "•"
+              ],
+              [
+                71,
+                "Alternative high-speed terminal-compatible"
+              ],
+              [
+                315,
+                "rates up to 250 kbit/s and a maximum of 30-V/μs"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.696999999999996,
+                  265.991,
+                  60.196999999999996,
+                  275.991
+                ],
+                "text": "•"
+              },
+              {
+                "bbox": [
+                  70.86699999999999,
+                  265.991,
+                  260.377,
+                  275.991
+                ],
+                "text": "Alternative high-speed terminal-compatible"
+              },
+              {
+                "bbox": [
+                  315.001,
+                  265.991,
+                  555.31,
+                  275.991
+                ],
+                "text": "rates up to 250 kbit/s and a maximum of 30-V/μs"
+              }
+            ],
+            "kind": "prose",
+            "r": 16
+          },
+          {
+            "top": 277.991,
+            "c": [
+              [
+                71,
+                "devices (1 Mbit/s)"
+              ],
+              [
+                315,
+                "driver output slew rate."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.86699999999999,
+                  277.991,
+                  149.217,
+                  287.991
+                ],
+                "text": "devices (1 Mbit/s)"
+              },
+              {
+                "bbox": [
+                  315.0,
+                  277.991,
+                  416.15,
+                  287.991
+                ],
+                "text": "driver output slew rate."
+              }
+            ],
+            "kind": "prose",
+            "r": 17
+          },
+          {
+            "top": 291.491,
+            "c": [
+              [
+                71,
+                "–"
+              ],
+              [
+                85,
+                "SN65C3232 (–40°C to 85°C)"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.86699999999999,
+                  291.491,
+                  76.42699999999999,
+                  301.491
+                ],
+                "text": "–"
+              },
+              {
+                "bbox": [
+                  85.037,
+                  291.491,
+                  213.08700000000005,
+                  301.491
+                ],
+                "text": "SN65C3232 (–40°C to 85°C)"
+              }
+            ],
+            "kind": "prose",
+            "r": 18
+          },
+          {
+            "top": 295.991,
+            "c": [
+              [
+                390,
+                "Device Information"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  390.14,
+                  295.991,
+                  480.16,
+                  305.991
+                ],
+                "text": "Device Information"
+              }
+            ],
+            "kind": "prose",
+            "r": 19
+          },
+          {
+            "top": 303.491,
+            "c": [
+              [
+                71,
+                "–"
+              ],
+              [
+                85,
+                "SN75C3232 (0°C to 70°C)"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  70.86699999999999,
+                  303.491,
+                  76.42699999999999,
+                  313.491
+                ],
+                "text": "–"
+              },
+              {
+                "bbox": [
+                  85.037,
+                  303.491,
+                  201.96700000000004,
+                  313.491
+                ],
+                "text": "SN75C3232 (0°C to 70°C)"
+              }
+            ],
+            "kind": "prose",
+            "r": 20
+          },
+          {
+            "top": 307.25,
+            "c": [
+              [
+                315,
+                "PART NUMBER"
+              ],
+              [
+                395,
+                "PACKAGE(1)"
+              ],
+              [
+                475,
+                "BODY SIZE"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  315.04375,
+                  307.25,
+                  395.102,
+                  321.05
+                ],
+                "text": "PART NUMBER",
+                "word_boxes": [
+                  [
+                    325.791,
+                    310.14300000000003,
+                    346.97499999999997,
+                    318.14300000000003,
+                    "PART"
+                  ],
+                  [
+                    349.199,
+                    310.14300000000003,
+                    384.303,
+                    318.14300000000003,
+                    "NUMBER"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  395.102,
+                  307.25,
+                  475.2048571428572,
+                  321.05
+                ],
+                "text": "PACKAGE(1)",
+                "word_boxes": [
+                  [
+                    397.277,
+                    309.05400000000003,
+                    444.017,
+                    318.14300000000003,
+                    "PACKAGE(1)"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  475.2048571428572,
+                  307.25,
+                  555.282,
+                  321.05
+                ],
+                "text": "BODY SIZE",
+                "word_boxes": [
+                  [
+                    477.38,
+                    310.14300000000003,
+                    500.492,
+                    318.14300000000003,
+                    "BODY"
+                  ],
+                  [
+                    502.716,
+                    310.14300000000003,
+                    520.5,
+                    318.14300000000003,
+                    "SIZE"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 21
+          },
+          {
+            "top": 320.489,
+            "c": [
+              [
+                57,
+                "2 Applications"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.695,
+                  320.489,
+                  138.715,
+                  332.489
+                ],
+                "text": "2 Applications"
+              }
+            ],
+            "kind": "prose",
+            "r": 22
+          },
+          {
+            "top": 321.05,
+            "c": [
+              [
+                315,
+                "MAX3232"
+              ],
+              [
+                395,
+                "SOIC (D) (16)"
+              ],
+              [
+                475,
+                "9.90 mm × 3.91 mm"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  315.04375,
+                  321.05,
+                  395.102,
+                  386.5249999999999
+                ],
+                "text": "MAX3232",
+                "word_boxes": [
+                  [
+                    317.175,
+                    349.818,
+                    352.303,
+                    357.818,
+                    "MAX3232"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  395.102,
+                  321.05,
+                  475.2048571428572,
+                  335.075
+                ],
+                "text": "SOIC (D) (16)",
+                "word_boxes": [
+                  [
+                    397.277,
+                    324.093,
+                    416.837,
+                    332.093,
+                    "SOIC"
+                  ],
+                  [
+                    419.061,
+                    324.093,
+                    430.16499999999996,
+                    332.093,
+                    "(D)"
+                  ],
+                  [
+                    432.389,
+                    324.093,
+                    446.613,
+                    332.093,
+                    "(16)"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  475.2048571428572,
+                  321.05,
+                  555.282,
+                  335.075
+                ],
+                "text": "9.90 mm × 3.91 mm",
+                "word_boxes": [
+                  [
+                    477.38,
+                    324.093,
+                    492.948,
+                    332.093,
+                    "9.90"
+                  ],
+                  [
+                    495.172,
+                    324.093,
+                    508.5,
+                    332.093,
+                    "mm"
+                  ],
+                  [
+                    510.724,
+                    324.093,
+                    515.396,
+                    332.093,
+                    "×"
+                  ],
+                  [
+                    517.62,
+                    324.093,
+                    533.188,
+                    332.093,
+                    "3.91"
+                  ],
+                  [
+                    535.412,
+                    324.093,
+                    548.74,
+                    332.093,
+                    "mm"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 23
+          },
+          {
+            "top": 335.075,
+            "c": [
+              [
+                315,
+                "MAX3232"
+              ],
+              [
+                395,
+                "SSOP (DB) (16)"
+              ],
+              [
+                475,
+                "6.20 mm × 5.30 mm"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  315.04375,
+                  321.05,
+                  395.102,
+                  386.5249999999999
+                ],
+                "text": "MAX3232",
+                "word_boxes": [
+                  [
+                    317.175,
+                    349.818,
+                    352.303,
+                    357.818,
+                    "MAX3232"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  395.102,
+                  335.075,
+                  475.2048571428572,
+                  349.025
+                ],
+                "text": "SSOP (DB) (16)",
+                "word_boxes": [
+                  [
+                    397.277,
+                    338.043,
+                    419.509,
+                    346.043,
+                    "SSOP"
+                  ],
+                  [
+                    421.733,
+                    338.043,
+                    438.173,
+                    346.043,
+                    "(DB)"
+                  ],
+                  [
+                    440.397,
+                    338.043,
+                    454.621,
+                    346.043,
+                    "(16)"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  475.2048571428572,
+                  335.075,
+                  555.282,
+                  349.025
+                ],
+                "text": "6.20 mm × 5.30 mm",
+                "word_boxes": [
+                  [
+                    477.38,
+                    338.043,
+                    492.948,
+                    346.043,
+                    "6.20"
+                  ],
+                  [
+                    495.172,
+                    338.043,
+                    508.5,
+                    346.043,
+                    "mm"
+                  ],
+                  [
+                    510.724,
+                    338.043,
+                    515.396,
+                    346.043,
+                    "×"
+                  ],
+                  [
+                    517.62,
+                    338.043,
+                    533.188,
+                    346.043,
+                    "5.30"
+                  ],
+                  [
+                    535.412,
+                    338.043,
+                    548.74,
+                    346.043,
+                    "mm"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 24
+          },
+          {
+            "top": 339.491,
+            "c": [
+              [
+                57,
+                "•"
+              ],
+              [
+                71,
+                "Industrial PCs"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.695,
+                  339.491,
+                  60.195,
+                  349.491
+                ],
+                "text": "•"
+              },
+              {
+                "bbox": [
+                  70.865,
+                  339.491,
+                  133.105,
+                  349.491
+                ],
+                "text": "Industrial PCs"
+              }
+            ],
+            "kind": "prose",
+            "r": 25
+          }
+        ]
+      },
+      {
+        "doc_id": "max3232",
+        "page": 7,
+        "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+        "url": "https://www.ti.com/lit/ds/symlink/max3232.pdf#page=7",
+        "title": "MAX3232 RS232 transceiver datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "max3232:p7:span0-1296:484d6bb1c92c",
+        "span_id": "max3232:p7:span0-1296:484d6bb1c92c",
+        "start": 0,
+        "end": 1296,
+        "text": "{\"r\":0,\"c\":[[518,\"MAX3232\"]]}\n{\"r\":1,\"c\":[[54,\"www.ti.com\"],[390,\"SLLS410O – JANUARY 2000 – REVISED JUNE 2021\"]]}\n{\"r\":2,\"c\":[[57,\"6.9 Typical Characteristics\"]]}\n{\"r\":3,\"c\":[[97,\"6\"],[346,\"1\"]]}\n{\"r\":4,\"c\":[[258,\"VOH\"]]}\n{\"r\":5,\"c\":[[97,\"5\"],[346,\"0\"]]}\n{\"r\":6,\"c\":[[342,\"±1\"]]}\n{\"r\":7,\"c\":[[97,\"4\"]]}\n{\"r\":8,\"c\":[[87,\")V(\"],[333,\")V( ±2\"]]}\n{\"r\":9,\"c\":[[91,\"HO 3\"]]}\n{\"r\":10,\"c\":[[336,\"LO\"]]}\n{\"r\":11,\"c\":[[87,\"V\"],[333,\"V ±3\"]]}\n{\"r\":12,\"c\":[[97,\"2\"]]}\n{\"r\":13,\"c\":[[342,\"±4\"]]}\n{\"r\":14,\"c\":[[97,\"1\"],[342,\"±5\"]]}\n{\"r\":15,\"c\":[[508,\"VOL\"]]}\n{\"r\":16,\"c\":[[97,\"0\"],[342,\"±6\"]]}\n{\"r\":17,\"c\":[[105,\"0\"],[141,\"5\"],[175,\"10\"],[211,\"15\"],[247,\"20\"],[283,\"25\"],[354,\"0\"],[390,\"5\"],[424,\"10\"],[460,\"15\"],[496,\"20\"],[532,\"25\"]]}\n{\"r\":18,\"c\":[[166,\"Output Current (mA)\"],[415,\"Output Current (mA)\"]]}\n{\"r\":19,\"c\":[[283,\"C001\"],[533,\"C001\"]]}\n{\"r\":20,\"c\":[[91,\"V\"],[107,\"= 3.3 V\"],[340,\"V\"],[357,\"= 3.3 V\"]]}\n{\"r\":21,\"c\":[[96,\"CC\"],[346,\"CC\"]]}\n{\"r\":22,\"c\":[[67,\"Figure 6-1. DOUT V\"],[151,\"vs Load Current, Both Drivers Loaded\"],[317,\"Figure 6-2. DOUT V\"],[400,\"vs Load Current, Both Drivers Loaded\"]]}\n{\"r\":23,\"c\":[[140,\"OH\"],[390,\"OL\"]]}\n{\"r\":24,\"c\":[[54,\"Copyright © 2021 Texas Instruments Incorporated\"],[438,\"Submit Document Feedback\"],[560,\"7\"]]}\n{\"r\":25,\"c\":[[250,\"Product Folder Links: MAX3232\"]]}",
+        "packet_kind": "prose",
+        "table_id": null,
+        "source_rows": [
+          {
+            "r": 0,
+            "c": [
+              [
+                518,
+                "MAX3232"
+              ]
+            ]
+          },
+          {
+            "r": 1,
+            "c": [
+              [
+                54,
+                "www.ti.com"
+              ],
+              [
+                390,
+                "SLLS410O – JANUARY 2000 – REVISED JUNE 2021"
+              ]
+            ]
+          },
+          {
+            "r": 2,
+            "c": [
+              [
+                57,
+                "6.9 Typical Characteristics"
+              ]
+            ]
+          },
+          {
+            "r": 3,
+            "c": [
+              [
+                97,
+                "6"
+              ],
+              [
+                346,
+                "1"
+              ]
+            ]
+          },
+          {
+            "r": 4,
+            "c": [
+              [
+                258,
+                "VOH"
+              ]
+            ]
+          },
+          {
+            "r": 5,
+            "c": [
+              [
+                97,
+                "5"
+              ],
+              [
+                346,
+                "0"
+              ]
+            ]
+          },
+          {
+            "r": 6,
+            "c": [
+              [
+                342,
+                "±1"
+              ]
+            ]
+          },
+          {
+            "r": 7,
+            "c": [
+              [
+                97,
+                "4"
+              ]
+            ]
+          },
+          {
+            "r": 8,
+            "c": [
+              [
+                87,
+                ")V("
+              ],
+              [
+                333,
+                ")V( ±2"
+              ]
+            ]
+          },
+          {
+            "r": 9,
+            "c": [
+              [
+                91,
+                "HO 3"
+              ]
+            ]
+          },
+          {
+            "r": 10,
+            "c": [
+              [
+                336,
+                "LO"
+              ]
+            ]
+          },
+          {
+            "r": 11,
+            "c": [
+              [
+                87,
+                "V"
+              ],
+              [
+                333,
+                "V ±3"
+              ]
+            ]
+          },
+          {
+            "r": 12,
+            "c": [
+              [
+                97,
+                "2"
+              ]
+            ]
+          },
+          {
+            "r": 13,
+            "c": [
+              [
+                342,
+                "±4"
+              ]
+            ]
+          },
+          {
+            "r": 14,
+            "c": [
+              [
+                97,
+                "1"
+              ],
+              [
+                342,
+                "±5"
+              ]
+            ]
+          },
+          {
+            "r": 15,
+            "c": [
+              [
+                508,
+                "VOL"
+              ]
+            ]
+          },
+          {
+            "r": 16,
+            "c": [
+              [
+                97,
+                "0"
+              ],
+              [
+                342,
+                "±6"
+              ]
+            ]
+          },
+          {
+            "r": 17,
+            "c": [
+              [
+                105,
+                "0"
+              ],
+              [
+                141,
+                "5"
+              ],
+              [
+                175,
+                "10"
+              ],
+              [
+                211,
+                "15"
+              ],
+              [
+                247,
+                "20"
+              ],
+              [
+                283,
+                "25"
+              ],
+              [
+                354,
+                "0"
+              ],
+              [
+                390,
+                "5"
+              ],
+              [
+                424,
+                "10"
+              ],
+              [
+                460,
+                "15"
+              ],
+              [
+                496,
+                "20"
+              ],
+              [
+                532,
+                "25"
+              ]
+            ]
+          },
+          {
+            "r": 18,
+            "c": [
+              [
+                166,
+                "Output Current (mA)"
+              ],
+              [
+                415,
+                "Output Current (mA)"
+              ]
+            ]
+          },
+          {
+            "r": 19,
+            "c": [
+              [
+                283,
+                "C001"
+              ],
+              [
+                533,
+                "C001"
+              ]
+            ]
+          },
+          {
+            "r": 20,
+            "c": [
+              [
+                91,
+                "V"
+              ],
+              [
+                107,
+                "= 3.3 V"
+              ],
+              [
+                340,
+                "V"
+              ],
+              [
+                357,
+                "= 3.3 V"
+              ]
+            ]
+          },
+          {
+            "r": 21,
+            "c": [
+              [
+                96,
+                "CC"
+              ],
+              [
+                346,
+                "CC"
+              ]
+            ]
+          },
+          {
+            "r": 22,
+            "c": [
+              [
+                67,
+                "Figure 6-1. DOUT V"
+              ],
+              [
+                151,
+                "vs Load Current, Both Drivers Loaded"
+              ],
+              [
+                317,
+                "Figure 6-2. DOUT V"
+              ],
+              [
+                400,
+                "vs Load Current, Both Drivers Loaded"
+              ]
+            ]
+          },
+          {
+            "r": 23,
+            "c": [
+              [
+                140,
+                "OH"
+              ],
+              [
+                390,
+                "OL"
+              ]
+            ]
+          },
+          {
+            "r": 24,
+            "c": [
+              [
+                54,
+                "Copyright © 2021 Texas Instruments Incorporated"
+              ],
+              [
+                438,
+                "Submit Document Feedback"
+              ],
+              [
+                560,
+                "7"
+              ]
+            ]
+          },
+          {
+            "r": 25,
+            "c": [
+              [
+                250,
+                "Product Folder Links: MAX3232"
+              ]
+            ]
+          }
+        ],
+        "layout_sha256": null,
+        "geometry_records": [
+          {
+            "top": 45.86099999999999,
+            "c": [
+              [
+                518,
+                "MAX3232"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  517.9769999999999,
+                  45.86099999999999,
+                  557.9909999999999,
+                  54.86099999999999
+                ],
+                "text": "MAX3232"
+              }
+            ],
+            "kind": "prose",
+            "r": 0
+          },
+          {
+            "top": 55.361999999999966,
+            "c": [
+              [
+                54,
+                "www.ti.com"
+              ],
+              [
+                390,
+                "SLLS410O – JANUARY 2000 – REVISED JUNE 2021"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  53.99999999999996,
+                  55.361999999999966,
+                  98.15999999999995,
+                  63.361999999999966
+                ],
+                "text": "www.ti.com"
+              },
+              {
+                "bbox": [
+                  389.6479999999999,
+                  56.462999999999965,
+                  557.9839999999999,
+                  63.462999999999965
+                ],
+                "text": "SLLS410O – JANUARY 2000 – REVISED JUNE 2021"
+              }
+            ],
+            "kind": "prose",
+            "r": 1
+          },
+          {
+            "top": 76.09000000000003,
+            "c": [
+              [
+                57,
+                "6.9 Typical Characteristics"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  56.693,
+                  76.09000000000003,
+                  194.66600000000003,
+                  87.09000000000003
+                ],
+                "text": "6.9 Typical Characteristics"
+              }
+            ],
+            "kind": "prose",
+            "r": 2
+          },
+          {
+            "top": 99.31653386943992,
+            "c": [
+              [
+                97,
+                "6"
+              ],
+              [
+                346,
+                "1"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  96.846636647,
+                  99.31653386943992,
+                  100.59637604059999,
+                  106.06058594943988
+                ],
+                "text": "6"
+              },
+              {
+                "bbox": [
+                  346.15355912819996,
+                  99.33550979484005,
+                  349.90329852179997,
+                  106.07956187484001
+                ],
+                "text": "1"
+              }
+            ],
+            "kind": "prose",
+            "r": 3
+          },
+          {
+            "top": 110.77948445943991,
+            "c": [
+              [
+                258,
+                "VOH"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  258.0564773,
+                  110.77948445943991,
+                  272.6981417655771,
+                  117.52353653943987
+                ],
+                "text": "VOH"
+              }
+            ],
+            "kind": "prose",
+            "r": 4
+          },
+          {
+            "top": 116.87392109484006,
+            "c": [
+              [
+                97,
+                "5"
+              ],
+              [
+                346,
+                "0"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  96.846636647,
+                  119.73269808214002,
+                  100.59637604059999,
+                  126.47675016213998
+                ],
+                "text": "5"
+              },
+              {
+                "bbox": [
+                  346.15355912819996,
+                  116.87392109484006,
+                  349.90329852179997,
+                  123.61797317484002
+                ],
+                "text": "0"
+              }
+            ],
+            "kind": "prose",
+            "r": 5
+          },
+          {
+            "top": 133.04890986600003,
+            "c": [
+              [
+                342,
+                "±1"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  342.383509809,
+                  133.04890986600003,
+                  349.8548492718,
+                  141.26316529943995
+                ],
+                "text": "±1"
+              }
+            ],
+            "kind": "prose",
+            "r": 6
+          },
+          {
+            "top": 140.12957973213997,
+            "c": [
+              [
+                97,
+                "4"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  96.846636647,
+                  140.12957973213997,
+                  100.59637604059999,
+                  146.87363181213993
+                ],
+                "text": "4"
+              }
+            ],
+            "kind": "prose",
+            "r": 7
+          },
+          {
+            "top": 150.58732116600004,
+            "c": [
+              [
+                87,
+                ")V("
+              ],
+              [
+                333,
+                ")V( ±2"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  87.25085571080001,
+                  152.63122899367102,
+                  93.9949913108,
+                  161.61438520219974
+                ],
+                "text": ")V("
+              },
+              {
+                "bbox": [
+                  332.78869785779995,
+                  153.16388657556104,
+                  349.8548492718,
+                  162.14704278408976
+                ],
+                "text": ")V( ±2"
+              }
+            ],
+            "kind": "prose",
+            "r": 8
+          },
+          {
+            "top": 160.54574394483996,
+            "c": [
+              [
+                91,
+                "HO 3"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  90.60648952519999,
+                  163.45647809657373,
+                  100.59637604059999,
+                  170.21894326545998
+                ],
+                "text": "HO 3"
+              }
+            ],
+            "kind": "prose",
+            "r": 9
+          },
+          {
+            "top": 164.04431869081372,
+            "c": [
+              [
+                336,
+                "LO"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  336.1439537680499,
+                  164.04431869081372,
+                  340.67880356804994,
+                  170.05400811545996
+                ],
+                "text": "LO"
+              }
+            ],
+            "kind": "prose",
+            "r": 10
+          },
+          {
+            "top": 168.11584894140003,
+            "c": [
+              [
+                87,
+                "V"
+              ],
+              [
+                333,
+                "V ±3"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  87.25085571080001,
+                  170.25553168594,
+                  93.9949913108,
+                  174.7538144233
+                ],
+                "text": "V"
+              },
+              {
+                "bbox": [
+                  332.78869785779995,
+                  170.09059653594,
+                  349.8548492718,
+                  176.33010437483995
+                ],
+                "text": "V ±3"
+              }
+            ],
+            "kind": "prose",
+            "r": 11
+          },
+          {
+            "top": 180.94262559484002,
+            "c": [
+              [
+                97,
+                "2"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  96.846636647,
+                  180.94262559484002,
+                  100.59637604059999,
+                  187.68667767483998
+                ],
+                "text": "2"
+              }
+            ],
+            "kind": "prose",
+            "r": 12
+          },
+          {
+            "top": 185.65426024140004,
+            "c": [
+              [
+                342,
+                "±4"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  342.383509809,
+                  185.65426024140004,
+                  349.8548492718,
+                  193.86851567483995
+                ],
+                "text": "±4"
+              }
+            ],
+            "kind": "prose",
+            "r": 13
+          },
+          {
+            "top": 201.35917739673994,
+            "c": [
+              [
+                97,
+                "1"
+              ],
+              [
+                342,
+                "±5"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  96.846636647,
+                  201.35917739673994,
+                  100.59637604059999,
+                  208.1032294767399
+                ],
+                "text": "1"
+              },
+              {
+                "bbox": [
+                  342.383509809,
+                  203.19267154140005,
+                  349.8548492718,
+                  211.40692697483996
+                ],
+                "text": "±5"
+              }
+            ],
+            "kind": "prose",
+            "r": 14
+          },
+          {
+            "top": 210.59328034674002,
+            "c": [
+              [
+                508,
+                "VOL"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  507.94486829999994,
+                  210.59328034674002,
+                  521.467006255977,
+                  217.33733242673998
+                ],
+                "text": "VOL"
+              }
+            ],
+            "kind": "prose",
+            "r": 15
+          },
+          {
+            "top": 220.72158690600008,
+            "c": [
+              [
+                97,
+                "0"
+              ],
+              [
+                342,
+                "±6"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  96.846636647,
+                  221.75605904674,
+                  100.59637604059999,
+                  228.50011112673997
+                ],
+                "text": "0"
+              },
+              {
+                "bbox": [
+                  342.383509809,
+                  220.72158690600008,
+                  349.8548492718,
+                  228.93584233944
+                ],
+                "text": "±6"
+              }
+            ],
+            "kind": "prose",
+            "r": 16
+          },
+          {
+            "top": 229.84688669944,
+            "c": [
+              [
+                105,
+                "0"
+              ],
+              [
+                141,
+                "5"
+              ],
+              [
+                175,
+                "10"
+              ],
+              [
+                211,
+                "15"
+              ],
+              [
+                247,
+                "20"
+              ],
+              [
+                283,
+                "25"
+              ],
+              [
+                354,
+                "0"
+              ],
+              [
+                390,
+                "5"
+              ],
+              [
+                424,
+                "10"
+              ],
+              [
+                460,
+                "15"
+              ],
+              [
+                496,
+                "20"
+              ],
+              [
+                532,
+                "25"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  104.5693695782,
+                  229.84688669944,
+                  108.31910897179999,
+                  236.59093877943997
+                ],
+                "text": "0"
+              },
+              {
+                "bbox": [
+                  140.586493191356,
+                  229.84688669944,
+                  144.336232584956,
+                  236.59093877943997
+                ],
+                "text": "5"
+              },
+              {
+                "bbox": [
+                  174.733400561276,
+                  229.84688669944,
+                  182.2040061528212,
+                  236.59093877943997
+                ],
+                "text": "10"
+              },
+              {
+                "bbox": [
+                  210.7508530859252,
+                  229.84688669944,
+                  218.22145867747042,
+                  236.59093877943997
+                ],
+                "text": "15"
+              },
+              {
+                "bbox": [
+                  246.7774101936344,
+                  229.84688669944,
+                  254.24801578517966,
+                  236.59093877943997
+                ],
+                "text": "20"
+              },
+              {
+                "bbox": [
+                  282.79486271828364,
+                  229.84688669944,
+                  290.2654801120662,
+                  236.59093877943997
+                ],
+                "text": "25"
+              },
+              {
+                "bbox": [
+                  353.8762920594,
+                  230.12867910957607,
+                  357.63896158884,
+                  236.89598654157612
+                ],
+                "text": "0"
+              },
+              {
+                "bbox": [
+                  389.893363347366,
+                  230.12867910957607,
+                  393.656032876806,
+                  236.89598654157612
+                ],
+                "text": "5"
+              },
+              {
+                "bbox": [
+                  424.040266066158,
+                  230.12867910957607,
+                  431.52383895186995,
+                  236.89598654157612
+                ],
+                "text": "10"
+              },
+              {
+                "bbox": [
+                  460.0577320283811,
+                  230.12867910957607,
+                  467.541304914093,
+                  236.89598654157612
+                ],
+                "text": "15"
+              },
+              {
+                "bbox": [
+                  496.0842662948658,
+                  230.12867910957607,
+                  503.5678391805777,
+                  236.89598654157612
+                ],
+                "text": "20"
+              },
+              {
+                "bbox": [
+                  532.101732257089,
+                  230.12867910957607,
+                  539.5853169857355,
+                  236.89598654157612
+                ],
+                "text": "25"
+              }
+            ],
+            "kind": "prose",
+            "r": 17
+          },
+          {
+            "top": 240.55526119336594,
+            "c": [
+              [
+                166,
+                "Output Current (mA)"
+              ],
+              [
+                415,
+                "Output Current (mA)"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  165.7509662,
+                  240.55526119336594,
+                  227.15118790569693,
+                  247.322568625366
+                ],
+                "text": "Output Current (mA)"
+              },
+              {
+                "bbox": [
+                  415.05796619999995,
+                  240.86385152079004,
+                  476.4697477969027,
+                  247.60790360079
+                ],
+                "text": "Output Current (mA)"
+              }
+            ],
+            "kind": "prose",
+            "r": 18
+          },
+          {
+            "top": 244.07717863570906,
+            "c": [
+              [
+                283,
+                "C001"
+              ],
+              [
+                533,
+                "C001"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  283.24039745,
+                  244.07717863570906,
+                  292.34222805151876,
+                  247.914311715709
+                ],
+                "text": "C001"
+              },
+              {
+                "bbox": [
+                  532.54739745,
+                  244.4451786357091,
+                  541.6492280515187,
+                  248.28231171570906
+                ],
+                "text": "C001"
+              }
+            ],
+            "kind": "prose",
+            "r": 19
+          },
+          {
+            "top": 253.05999999999995,
+            "c": [
+              [
+                91,
+                "V"
+              ],
+              [
+                107,
+                "= 3.3 V"
+              ],
+              [
+                340,
+                "V"
+              ],
+              [
+                357,
+                "= 3.3 V"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  91.148,
+                  253.05999999999995,
+                  96.484,
+                  261.05999999999995
+                ],
+                "text": "V"
+              },
+              {
+                "bbox": [
+                  107.372,
+                  253.05999999999995,
+                  132.948,
+                  261.05999999999995
+                ],
+                "text": "= 3.3 V"
+              },
+              {
+                "bbox": [
+                  340.4549999999999,
+                  253.42799999999988,
+                  345.79099999999994,
+                  261.4279999999999
+                ],
+                "text": "V"
+              },
+              {
+                "bbox": [
+                  356.6789999999999,
+                  253.42799999999988,
+                  382.25499999999994,
+                  261.4279999999999
+                ],
+                "text": "= 3.3 V"
+              }
+            ],
+            "kind": "prose",
+            "r": 20
+          },
+          {
+            "top": 256.23799999999994,
+            "c": [
+              [
+                96,
+                "CC"
+              ],
+              [
+                346,
+                "CC"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  96.484,
+                  256.23799999999994,
+                  105.14799999999998,
+                  262.23799999999994
+                ],
+                "text": "CC"
+              },
+              {
+                "bbox": [
+                  345.79099999999994,
+                  256.6059999999999,
+                  354.4549999999999,
+                  262.6059999999999
+                ],
+                "text": "CC"
+              }
+            ],
+            "kind": "prose",
+            "r": 21
+          },
+          {
+            "top": 267.85900000000004,
+            "c": [
+              [
+                67,
+                "Figure 6-1. DOUT V"
+              ],
+              [
+                151,
+                "vs Load Current, Both Drivers Loaded"
+              ],
+              [
+                317,
+                "Figure 6-2. DOUT V"
+              ],
+              [
+                400,
+                "vs Load Current, Both Drivers Loaded"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  67.05199999999996,
+                  267.85900000000004,
+                  139.94799999999998,
+                  275.85900000000004
+                ],
+                "text": "Figure 6-1. DOUT V"
+              },
+              {
+                "bbox": [
+                  151.17199999999997,
+                  267.85900000000004,
+                  295.64399999999995,
+                  275.85900000000004
+                ],
+                "text": "vs Load Current, Both Drivers Loaded"
+              },
+              {
+                "bbox": [
+                  316.69499999999994,
+                  268.22799999999995,
+                  389.59099999999995,
+                  276.22799999999995
+                ],
+                "text": "Figure 6-2. DOUT V"
+              },
+              {
+                "bbox": [
+                  400.14899999999994,
+                  268.22799999999995,
+                  544.621,
+                  276.22799999999995
+                ],
+                "text": "vs Load Current, Both Drivers Loaded"
+              }
+            ],
+            "kind": "prose",
+            "r": 22
+          },
+          {
+            "top": 271.0369999999999,
+            "c": [
+              [
+                140,
+                "OH"
+              ],
+              [
+                390,
+                "OL"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  139.94799999999998,
+                  271.0369999999999,
+                  148.94799999999998,
+                  277.0369999999999
+                ],
+                "text": "OH"
+              },
+              {
+                "bbox": [
+                  389.59099999999995,
+                  271.40599999999995,
+                  397.92499999999995,
+                  277.40599999999995
+                ],
+                "text": "OL"
+              }
+            ],
+            "kind": "prose",
+            "r": 23
+          },
+          {
+            "top": 748.0930000000001,
+            "c": [
+              [
+                54,
+                "Copyright © 2021 Texas Instruments Incorporated"
+              ],
+              [
+                438,
+                "Submit Document Feedback"
+              ],
+              [
+                560,
+                "7"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  53.99999999999994,
+                  748.094,
+                  208.5599999999999,
+                  755.094
+                ],
+                "text": "Copyright © 2021 Texas Instruments Incorporated"
+              },
+              {
+                "bbox": [
+                  438.00699999999995,
+                  748.1930000000001,
+                  538.935,
+                  756.1930000000001
+                ],
+                "text": "Submit Document Feedback"
+              },
+              {
+                "bbox": [
+                  559.787,
+                  748.0930000000001,
+                  564.235,
+                  756.0930000000001
+                ],
+                "text": "7"
+              }
+            ],
+            "kind": "prose",
+            "r": 24
+          },
+          {
+            "top": 763.993,
+            "c": [
+              [
+                250,
+                "Product Folder Links: MAX3232"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  249.528,
+                  763.993,
+                  362.464,
+                  771.993
+                ],
+                "text": "Product Folder Links: MAX3232"
+              }
+            ],
+            "kind": "prose",
+            "r": 25
+          }
+        ]
+      }
+    ],
+    "budget": {
+      "budget_chars": 6000,
+      "max_pages": 5,
+      "used_chars": 5250,
+      "selected_pages": 4,
+      "selection": "physical_table_dependency_closure_multistart",
+      "condition_aliases": [],
+      "objective": 27.288690315338975,
+      "trials": [
+        {
+          "seed": null,
+          "objective": 27.288690315338975,
+          "chars": 5250
+        },
+        {
+          "seed": "max3232:p5:span0-4376:484d6bb1c92c",
+          "objective": 25.37679284183758,
+          "chars": 5716
+        },
+        {
+          "seed": "max3232:p5:span1446-2312:484d6bb1c92c",
+          "objective": 27.288690315338975,
+          "chars": 5250
+        },
+        {
+          "seed": "max3232:p5:span2275-4376:484d6bb1c92c",
+          "objective": 23.861076819553,
+          "chars": 5958
+        },
+        {
+          "seed": "max3232:p1:span1012-2352:484d6bb1c92c",
+          "objective": 27.288690315338975,
+          "chars": 5250
+        },
+        {
+          "seed": "max3232:p7:span0-1296:484d6bb1c92c",
+          "objective": 27.288690315338975,
+          "chars": 5250
+        },
+        {
+          "seed": "max3232:p6:span0-3958:484d6bb1c92c",
+          "objective": 24.981081869532694,
+          "chars": 4824
+        },
+        {
+          "seed": "max3232:p4:span0-5076:484d6bb1c92c",
+          "objective": 24.67364169486815,
+          "chars": 5942
+        },
+        {
+          "seed": "max3232:p5:span0-1476:484d6bb1c92c",
+          "objective": 23.178205310609385,
+          "chars": 5860
+        },
+        {
+          "seed": "max3232:p6:span1740-3794:484d6bb1c92c",
+          "objective": 27.288690315338975,
+          "chars": 5556
+        },
+        {
+          "seed": "max3232:p6:span29-1777:484d6bb1c92c",
+          "objective": 27.288690315338975,
+          "chars": 5250
+        },
+        {
+          "seed": "max3232:p1:span1810-3126:484d6bb1c92c",
+          "objective": 26.602239526936845,
+          "chars": 5226
+        },
+        {
+          "seed": "max3232:p4:span2817-4912:484d6bb1c92c",
+          "objective": 27.098580026535338,
+          "chars": 5597
+        },
+        {
+          "seed": "max3232:p4:span29-2234:484d6bb1c92c",
+          "objective": 27.04197480031015,
+          "chars": 5707
+        },
+        {
+          "seed": "max3232:p4:span1876-3097:484d6bb1c92c",
+          "objective": 26.73893111208846,
+          "chars": 4723
+        }
+      ],
+      "rejected_packets": [],
+      "pages": [
+        {
+          "doc_id": "max3232",
+          "page": 5,
+          "layout_chars": 4376,
+          "selected_chars": 866
+        },
+        {
+          "doc_id": "max3232",
+          "page": 6,
+          "layout_chars": 3958,
+          "selected_chars": 1748
+        },
+        {
+          "doc_id": "max3232",
+          "page": 1,
+          "layout_chars": 3701,
+          "selected_chars": 1340
+        },
+        {
+          "doc_id": "max3232",
+          "page": 7,
+          "layout_chars": 1296,
+          "selected_chars": 1296
+        },
+        {
+          "doc_id": "max3232",
+          "page": 4,
+          "layout_chars": 5076,
+          "selected_chars": 0
+        }
+      ],
+      "note": "Only original contiguous ranges are sent to generation/verifier. No gold pages, reference answers, or generated table cells enter selection."
+    },
+    "claims": [
+      {
+        "claim": "No load, V CC = 3.3 V to 5 V, the typical supply current is 0.3 mA.",
+        "check": {
+          "version": "physical-row-numeric-verifier-v1",
+          "method": "deterministic_physical_row_unit_role_condition",
+          "verdict": "supported",
+          "scope": "parsed_affirmative_numeric_atoms_only",
+          "atoms": [
+            {
+              "quantity": {
+                "raw": "0.3 mA",
+                "number": 0.3,
+                "unit": "mA",
+                "value_si": 0.0003,
+                "dimension": "current",
+                "start": 60,
+                "end": 66
+              },
+              "subject_concepts": [
+                "current"
+              ],
+              "subject_symbols": [],
+              "role": "typ",
+              "modes": [],
+              "packages": [],
+              "condition_quantities": [
+                {
+                  "raw": "3.3 V to 5 V",
+                  "number": 3.3,
+                  "unit": "V",
+                  "value_si": 3.3,
+                  "dimension": "voltage",
+                  "start": 16,
+                  "end": 19,
+                  "range_role": "min"
+                },
+                {
+                  "raw": "3.3 V to 5 V",
+                  "number": 5.0,
+                  "unit": "V",
+                  "value_si": 5.0,
+                  "dimension": "voltage",
+                  "start": 25,
+                  "end": 26,
+                  "range_role": "max"
+                }
+              ],
+              "verdict": "supported",
+              "reason": "bound_value_unit_role_condition_match",
+              "source_facts": [
+                {
+                  "doc_id": "max3232",
+                  "page": 5,
+                  "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+                  "span_id": "max3232:p5:span1446-2312:484d6bb1c92c",
+                  "table_index": 1,
+                  "row": 18,
+                  "role": "typ",
+                  "subject": "I CC Supply current",
+                  "symbols": [],
+                  "concepts": [
+                    "current"
+                  ],
+                  "conditions": "No load, V CC = 3.3 V to 5 V",
+                  "modes": [],
+                  "packages": [],
+                  "condition_quantities": [
+                    {
+                      "raw": "3.3 V to 5 V",
+                      "number": 3.3,
+                      "unit": "V",
+                      "value_si": 3.3,
+                      "dimension": "voltage",
+                      "start": 36,
+                      "end": 39,
+                      "range_role": "min"
+                    },
+                    {
+                      "raw": "3.3 V to 5 V",
+                      "number": 5.0,
+                      "unit": "V",
+                      "value_si": 5.0,
+                      "dimension": "voltage",
+                      "start": 45,
+                      "end": 46,
+                      "range_role": "max"
+                    }
+                  ],
+                  "default_context": "report. 6.5 Electrical Characteristics — Device over recommended ranges of supply voltage and operating free-air temperature (unless otherwise noted)(2) (see Typical Operating Circuit and Capacitor Values)",
+                  "dimension": "current",
+                  "unit": "mA",
+                  "number": 0.3,
+                  "value_si": 0.0003,
+                  "binding": {
+                    "kind": "physical_table_cells",
+                    "value_cell": {
+                      "row": 18,
+                      "column": 460,
+                      "text": "0.3",
+                      "bbox": [
+                        428.93725,
+                        312.96923076923076,
+                        521.143,
+                        327.0
+                      ],
+                      "word_boxes": [
+                        [
+                          478.22,
+                          316.01800000000003,
+                          489.34000000000003,
+                          324.01800000000003,
+                          "0.3"
+                        ]
+                      ]
+                    },
+                    "role_header": {
+                      "row": 17,
+                      "column": 460,
+                      "text": "TYP(1)",
+                      "bbox": [
+                        460.1395,
+                        299.1807692307693,
+                        491.342,
+                        312.96923076923076
+                      ],
+                      "word_boxes": [
+                        [
+                          466.452,
+                          300.97900000000004,
+                          489.344,
+                          310.06800000000004,
+                          "TYP(1)"
+                        ]
+                      ]
+                    },
+                    "unit_cell": {
+                      "row": 18,
+                      "column": 521,
+                      "text": "mA",
+                      "bbox": [
+                        521.143,
+                        312.96923076923076,
+                        555.2832272727272,
+                        327.0
+                      ],
+                      "word_boxes": [
+                        [
+                          532.928,
+                          316.01800000000003,
+                          544.928,
+                          324.01800000000003,
+                          "mA"
+                        ]
+                      ]
+                    },
+                    "unit_header": {
+                      "row": 17,
+                      "column": 521,
+                      "text": "UNIT",
+                      "bbox": [
+                        521.143,
+                        299.1807692307693,
+                        555.2832272727272,
+                        312.96923076923076
+                      ],
+                      "word_boxes": [
+                        [
+                          529.592,
+                          302.06800000000004,
+                          548.256,
+                          310.06800000000004,
+                          "UNIT"
+                        ]
+                      ]
+                    },
+                    "subject_cells": [
+                      {
+                        "row": 18,
+                        "column": 57,
+                        "text": "I CC Supply current",
+                        "bbox": [
+                          56.85244051618697,
+                          312.96923076923076,
+                          247.65200000000002,
+                          327.0
+                        ],
+                        "word_boxes": [
+                          [
+                            58.86800000000004,
+                            316.01800000000003,
+                            61.09200000000004,
+                            324.01800000000003,
+                            "I"
+                          ],
+                          [
+                            89.89500000000004,
+                            316.01800000000003,
+                            114.35100000000004,
+                            324.01800000000003,
+                            "Supply"
+                          ],
+                          [
+                            116.57500000000005,
+                            316.01800000000003,
+                            141.47100000000003,
+                            324.01800000000003,
+                            "current"
+                          ],
+                          [
+                            61.09200000000004,
+                            319.196,
+                            69.75600000000003,
+                            325.196,
+                            "CC"
+                          ]
+                        ]
+                      }
+                    ],
+                    "condition_cells": [
+                      {
+                        "row": 18,
+                        "column": 248,
+                        "text": "No load, V CC = 3.3 V to 5 V",
+                        "bbox": [
+                          247.65200000000002,
+                          312.96923076923076,
+                          428.93725,
+                          327.0
+                        ],
+                        "word_boxes": [
+                          [
+                            249.82700000000003,
+                            316.01800000000003,
+                            260.05100000000004,
+                            324.01800000000003,
+                            "No"
+                          ],
+                          [
+                            262.27500000000003,
+                            316.01800000000003,
+                            279.619,
+                            324.01800000000003,
+                            "load,"
+                          ],
+                          [
+                            334.52200000000005,
+                            316.01800000000003,
+                            339.85800000000006,
+                            324.01800000000003,
+                            "V"
+                          ],
+                          [
+                            350.74600000000004,
+                            316.01800000000003,
+                            355.41800000000006,
+                            324.01800000000003,
+                            "="
+                          ],
+                          [
+                            357.64200000000005,
+                            316.01800000000003,
+                            368.76200000000006,
+                            324.01800000000003,
+                            "3.3"
+                          ],
+                          [
+                            370.98600000000005,
+                            316.01800000000003,
+                            376.32200000000006,
+                            324.01800000000003,
+                            "V"
+                          ],
+                          [
+                            378.54600000000005,
+                            316.01800000000003,
+                            385.218,
+                            324.01800000000003,
+                            "to"
+                          ],
+                          [
+                            387.44200000000006,
+                            316.01800000000003,
+                            391.89000000000004,
+                            324.01800000000003,
+                            "5"
+                          ],
+                          [
+                            394.11400000000003,
+                            316.01800000000003,
+                            399.45000000000005,
+                            324.01800000000003,
+                            "V"
+                          ],
+                          [
+                            339.85800000000006,
+                            319.196,
+                            348.52200000000005,
+                            325.196,
+                            "CC"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "source_fact_count": 16,
+          "deferred_sources": [],
+          "reason": "see_atom_verdicts",
+          "limits": "Does not prove whole-answer entailment or completeness. No model, gold labels or question-derived facts are used."
+        }
+      },
+      {
+        "claim": "No load, V CC = 3.3 V to 5 V, the typical supply current is 1 mA.",
+        "check": {
+          "version": "physical-row-numeric-verifier-v1",
+          "method": "deterministic_physical_row_unit_role_condition",
+          "verdict": "contradicted",
+          "scope": "parsed_affirmative_numeric_atoms_only",
+          "atoms": [
+            {
+              "quantity": {
+                "raw": "1 mA",
+                "number": 1.0,
+                "unit": "mA",
+                "value_si": 0.001,
+                "dimension": "current",
+                "start": 60,
+                "end": 64
+              },
+              "subject_concepts": [
+                "current"
+              ],
+              "subject_symbols": [],
+              "role": "typ",
+              "modes": [],
+              "packages": [],
+              "condition_quantities": [
+                {
+                  "raw": "3.3 V to 5 V",
+                  "number": 3.3,
+                  "unit": "V",
+                  "value_si": 3.3,
+                  "dimension": "voltage",
+                  "start": 16,
+                  "end": 19,
+                  "range_role": "min"
+                },
+                {
+                  "raw": "3.3 V to 5 V",
+                  "number": 5.0,
+                  "unit": "V",
+                  "value_si": 5.0,
+                  "dimension": "voltage",
+                  "start": 25,
+                  "end": 26,
+                  "range_role": "max"
+                }
+              ],
+              "verdict": "contradicted",
+              "reason": "bound_row_numeric_value_mismatch",
+              "source_facts": [
+                {
+                  "doc_id": "max3232",
+                  "page": 5,
+                  "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+                  "span_id": "max3232:p5:span1446-2312:484d6bb1c92c",
+                  "table_index": 1,
+                  "row": 18,
+                  "role": "typ",
+                  "subject": "I CC Supply current",
+                  "symbols": [],
+                  "concepts": [
+                    "current"
+                  ],
+                  "conditions": "No load, V CC = 3.3 V to 5 V",
+                  "modes": [],
+                  "packages": [],
+                  "condition_quantities": [
+                    {
+                      "raw": "3.3 V to 5 V",
+                      "number": 3.3,
+                      "unit": "V",
+                      "value_si": 3.3,
+                      "dimension": "voltage",
+                      "start": 36,
+                      "end": 39,
+                      "range_role": "min"
+                    },
+                    {
+                      "raw": "3.3 V to 5 V",
+                      "number": 5.0,
+                      "unit": "V",
+                      "value_si": 5.0,
+                      "dimension": "voltage",
+                      "start": 45,
+                      "end": 46,
+                      "range_role": "max"
+                    }
+                  ],
+                  "default_context": "report. 6.5 Electrical Characteristics — Device over recommended ranges of supply voltage and operating free-air temperature (unless otherwise noted)(2) (see Typical Operating Circuit and Capacitor Values)",
+                  "dimension": "current",
+                  "unit": "mA",
+                  "number": 0.3,
+                  "value_si": 0.0003,
+                  "binding": {
+                    "kind": "physical_table_cells",
+                    "value_cell": {
+                      "row": 18,
+                      "column": 460,
+                      "text": "0.3",
+                      "bbox": [
+                        428.93725,
+                        312.96923076923076,
+                        521.143,
+                        327.0
+                      ],
+                      "word_boxes": [
+                        [
+                          478.22,
+                          316.01800000000003,
+                          489.34000000000003,
+                          324.01800000000003,
+                          "0.3"
+                        ]
+                      ]
+                    },
+                    "role_header": {
+                      "row": 17,
+                      "column": 460,
+                      "text": "TYP(1)",
+                      "bbox": [
+                        460.1395,
+                        299.1807692307693,
+                        491.342,
+                        312.96923076923076
+                      ],
+                      "word_boxes": [
+                        [
+                          466.452,
+                          300.97900000000004,
+                          489.344,
+                          310.06800000000004,
+                          "TYP(1)"
+                        ]
+                      ]
+                    },
+                    "unit_cell": {
+                      "row": 18,
+                      "column": 521,
+                      "text": "mA",
+                      "bbox": [
+                        521.143,
+                        312.96923076923076,
+                        555.2832272727272,
+                        327.0
+                      ],
+                      "word_boxes": [
+                        [
+                          532.928,
+                          316.01800000000003,
+                          544.928,
+                          324.01800000000003,
+                          "mA"
+                        ]
+                      ]
+                    },
+                    "unit_header": {
+                      "row": 17,
+                      "column": 521,
+                      "text": "UNIT",
+                      "bbox": [
+                        521.143,
+                        299.1807692307693,
+                        555.2832272727272,
+                        312.96923076923076
+                      ],
+                      "word_boxes": [
+                        [
+                          529.592,
+                          302.06800000000004,
+                          548.256,
+                          310.06800000000004,
+                          "UNIT"
+                        ]
+                      ]
+                    },
+                    "subject_cells": [
+                      {
+                        "row": 18,
+                        "column": 57,
+                        "text": "I CC Supply current",
+                        "bbox": [
+                          56.85244051618697,
+                          312.96923076923076,
+                          247.65200000000002,
+                          327.0
+                        ],
+                        "word_boxes": [
+                          [
+                            58.86800000000004,
+                            316.01800000000003,
+                            61.09200000000004,
+                            324.01800000000003,
+                            "I"
+                          ],
+                          [
+                            89.89500000000004,
+                            316.01800000000003,
+                            114.35100000000004,
+                            324.01800000000003,
+                            "Supply"
+                          ],
+                          [
+                            116.57500000000005,
+                            316.01800000000003,
+                            141.47100000000003,
+                            324.01800000000003,
+                            "current"
+                          ],
+                          [
+                            61.09200000000004,
+                            319.196,
+                            69.75600000000003,
+                            325.196,
+                            "CC"
+                          ]
+                        ]
+                      }
+                    ],
+                    "condition_cells": [
+                      {
+                        "row": 18,
+                        "column": 248,
+                        "text": "No load, V CC = 3.3 V to 5 V",
+                        "bbox": [
+                          247.65200000000002,
+                          312.96923076923076,
+                          428.93725,
+                          327.0
+                        ],
+                        "word_boxes": [
+                          [
+                            249.82700000000003,
+                            316.01800000000003,
+                            260.05100000000004,
+                            324.01800000000003,
+                            "No"
+                          ],
+                          [
+                            262.27500000000003,
+                            316.01800000000003,
+                            279.619,
+                            324.01800000000003,
+                            "load,"
+                          ],
+                          [
+                            334.52200000000005,
+                            316.01800000000003,
+                            339.85800000000006,
+                            324.01800000000003,
+                            "V"
+                          ],
+                          [
+                            350.74600000000004,
+                            316.01800000000003,
+                            355.41800000000006,
+                            324.01800000000003,
+                            "="
+                          ],
+                          [
+                            357.64200000000005,
+                            316.01800000000003,
+                            368.76200000000006,
+                            324.01800000000003,
+                            "3.3"
+                          ],
+                          [
+                            370.98600000000005,
+                            316.01800000000003,
+                            376.32200000000006,
+                            324.01800000000003,
+                            "V"
+                          ],
+                          [
+                            378.54600000000005,
+                            316.01800000000003,
+                            385.218,
+                            324.01800000000003,
+                            "to"
+                          ],
+                          [
+                            387.44200000000006,
+                            316.01800000000003,
+                            391.89000000000004,
+                            324.01800000000003,
+                            "5"
+                          ],
+                          [
+                            394.11400000000003,
+                            316.01800000000003,
+                            399.45000000000005,
+                            324.01800000000003,
+                            "V"
+                          ],
+                          [
+                            339.85800000000006,
+                            319.196,
+                            348.52200000000005,
+                            325.196,
+                            "CC"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "source_fact_count": 16,
+          "deferred_sources": [],
+          "reason": "see_atom_verdicts",
+          "limits": "Does not prove whole-answer entailment or completeness. No model, gold labels or question-derived facts are used."
+        }
+      },
+      {
+        "claim": "The typical supply current at no load is 0.3 mA.",
+        "check": {
+          "version": "physical-row-numeric-verifier-v1",
+          "method": "deterministic_physical_row_unit_role_condition",
+          "verdict": "unknown",
+          "scope": "parsed_affirmative_numeric_atoms_only",
+          "atoms": [
+            {
+              "quantity": {
+                "raw": "0.3 mA",
+                "number": 0.3,
+                "unit": "mA",
+                "value_si": 0.0003,
+                "dimension": "current",
+                "start": 41,
+                "end": 47
+              },
+              "subject_concepts": [
+                "current"
+              ],
+              "subject_symbols": [],
+              "role": "typ",
+              "modes": [],
+              "packages": [],
+              "condition_quantities": [],
+              "verdict": "unknown",
+              "reason": "source_numeric_condition_omitted_in_claim",
+              "condition_failures": [
+                "source_numeric_condition_omitted_in_claim"
+              ]
+            }
+          ],
+          "source_fact_count": 16,
+          "deferred_sources": [],
+          "reason": "see_atom_verdicts",
+          "limits": "Does not prove whole-answer entailment or completeness. No model, gold labels or question-derived facts are used."
+        }
+      }
+    ],
+    "retrieved_pages": [
+      5,
+      6,
+      1,
+      7,
+      4,
+      12,
+      10
+    ],
+    "retrieval_trace": {
+      "mode": "domain_teacher_v4",
+      "language": "en",
+      "teacher_pairs": 16,
+      "teacher_forward_batches": 1,
+      "student_forward_batches": 0,
+      "candidate_pairs": 16,
+      "latency_ms": 618.7609999997221,
+      "teacher_identity": {
+        "repo": "Qwen/Qwen3-Reranker-0.6B",
+        "revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+        "weight_sha256": "27cd75a405b9c1b46b59abfd88aaa209e6fed2a1972cde9b70e7659537c5e65b",
+        "max_input_tokens": 512,
+        "yes_token_id": 9693,
+        "no_token_id": 2152,
+        "instruction": "Retrieve chip-manual evidence that directly answers the question. Match the parameter, min/typ/max column, unit, operating mode and complete test conditions. Topic overlap or a correct value under a different condition is insufficient.",
+        "prompt_sha256": "a382f806df87ddb2befc2354bc9cff7cb3df3d5f60bc20747848013a11422765",
+        "interpretation": "Actually trained domain ranking preference adapter; not generative SFT or factual verification.",
+        "kind": "domain_lora_v4",
+        "adapter_sha256": "470e1f1d24e4403d517c5806d42f18dd72a8fe70e5fcd788fd188ce8b50e7b5c",
+        "selection_split": "dev",
+        "rank": 8,
+        "score_space": "raw_yes_minus_no_logits"
+      },
+      "gate_split": "dev",
+      "escalated": true,
+      "method": "domain_teacher_v4",
+      "query": "What is the typical supply current of MAX3232 with no load and VCC 3.3 V to 5 V?",
+      "corpus": "v3",
+      "documents": 20,
+      "full_text_chunks": 10668
+    },
+    "metrics": {
+      "retrieval_ms": 2753.7691999987146,
+      "total_ms": 2975.90449999916,
+      "generation_calls": 0
+    },
+    "scope": "Original-PDF retrieval, closed source budget and deterministic numeric atoms; no generated answer or whole-answer correctness claim."
+  }
+}

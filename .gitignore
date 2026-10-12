@@ -2,6 +2,15 @@
 .cache/
 .runtime/
 .experiments/
+.publication/
 __pycache__/
 *.pyc
+.pytest_cache/
+*.log
 .env*
+*.safetensors
+*.bin
+data/corpus-v3/geometry/
+data/corpus-v3/pages.jsonl
+data/corpus-v3/index/chunks.jsonl
+pytest-*/

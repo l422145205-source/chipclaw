@@ -1,0 +1,305 @@
+{
+  "artifact": {
+    "adapter_sha256": "470e1f1d24e4403d517c5806d42f18dd72a8fe70e5fcd788fd188ce8b50e7b5c",
+    "base_sha256": "27cd75a405b9c1b46b59abfd88aaa209e6fed2a1972cde9b70e7659537c5e65b",
+    "base_revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+    "rank": 8,
+    "trainable_parameters": 1835008,
+    "training_updates": 360,
+    "selected_epoch": 2,
+    "selection_split": "dev",
+    "nonzero_lora_B_tensors": 84,
+    "dataset_sha256": {
+      "queries.jsonl": "125f03d2a409961edd54dc982cd0a4e7681cdda5494c29d2d430b0ef382337a4",
+      "passages.jsonl": "d2e85409d1ac6a1089e64e2689639601eddda972e1d6b0ade1b6a83481f02f84"
+    },
+    "instruction": "Retrieve chip-manual evidence that directly answers the question. Match the parameter, min/typ/max column, unit, operating mode and complete test conditions. Topic overlap or a correct value under a different condition is insufficient."
+  },
+  "baseline_domain_prompt_dev": {
+    "all": {
+      "n": 680,
+      "mrr10": 0.8866316526610644,
+      "top1": 561,
+      "condition_pairs": 202,
+      "condition_correct": 190
+    },
+    "languages": {
+      "en": {
+        "n": 340,
+        "mrr10": 0.8865336134453782,
+        "top1": 278,
+        "condition_pairs": 101,
+        "condition_correct": 94
+      },
+      "zh": {
+        "n": 340,
+        "mrr10": 0.8867296918767507,
+        "top1": 283,
+        "condition_pairs": 101,
+        "condition_correct": 96
+      }
+    },
+    "devices": {
+      "ads1220": {
+        "n": 234,
+        "mrr10": 0.8997150997150997,
+        "top1": 196,
+        "condition_pairs": 98,
+        "condition_correct": 90
+      },
+      "bmi160": {
+        "n": 230,
+        "mrr10": 0.8727087646652864,
+        "top1": 184,
+        "condition_pairs": 64,
+        "condition_correct": 60
+      },
+      "ina219": {
+        "n": 82,
+        "mrr10": 0.8341753774680604,
+        "top1": 62,
+        "condition_pairs": 4,
+        "condition_correct": 4
+      },
+      "tca9548a": {
+        "n": 134,
+        "mrr10": 0.9197820421701018,
+        "top1": 119,
+        "condition_pairs": 36,
+        "condition_correct": 36
+      }
+    }
+  },
+  "selected_dev_mrr10": 0.9533000700280112,
+  "reused_holdout": {
+    "all": {
+      "n": 1042,
+      "mrr10": 0.96864317704049,
+      "top1": 988,
+      "condition_pairs": 240,
+      "condition_correct": 240
+    },
+    "languages": {
+      "en": {
+        "n": 521,
+        "mrr10": 0.967548670139841,
+        "top1": 494,
+        "condition_pairs": 120,
+        "condition_correct": 120
+      },
+      "zh": {
+        "n": 521,
+        "mrr10": 0.9697376839411389,
+        "top1": 494,
+        "condition_pairs": 120,
+        "condition_correct": 120
+      }
+    },
+    "devices": {
+      "bme280": {
+        "n": 230,
+        "mrr10": 0.9760869565217392,
+        "top1": 221,
+        "condition_pairs": 50,
+        "condition_correct": 50
+      },
+      "bmi270": {
+        "n": 158,
+        "mrr10": 0.9336045810729355,
+        "top1": 140,
+        "condition_pairs": 4,
+        "condition_correct": 4
+      },
+      "hdc3020": {
+        "n": 228,
+        "mrr10": 0.9802631578947368,
+        "top1": 220,
+        "condition_pairs": 80,
+        "condition_correct": 80
+      },
+      "ina226": {
+        "n": 160,
+        "mrr10": 0.9671875,
+        "top1": 152,
+        "condition_pairs": 58,
+        "condition_correct": 58
+      },
+      "ina228": {
+        "n": 142,
+        "mrr10": 0.9706572769953052,
+        "top1": 135,
+        "condition_pairs": 36,
+        "condition_correct": 36
+      },
+      "sn65hvd230": {
+        "n": 124,
+        "mrr10": 0.9776881720430107,
+        "top1": 120,
+        "condition_pairs": 12,
+        "condition_correct": 12
+      }
+    }
+  },
+  "peak_vram_bytes": 3217220096,
+  "elapsed_seconds": 1717.8015313,
+  "history": [
+    {
+      "epoch": 1,
+      "updates": 180,
+      "mean_loss": 0.22347353049111243,
+      "dev": {
+        "all": {
+          "n": 680,
+          "mrr10": 0.945406162464986,
+          "top1": 621,
+          "condition_pairs": 202,
+          "condition_correct": 202
+        },
+        "languages": {
+          "en": {
+            "n": 340,
+            "mrr10": 0.9466666666666667,
+            "top1": 311,
+            "condition_pairs": 101,
+            "condition_correct": 101
+          },
+          "zh": {
+            "n": 340,
+            "mrr10": 0.9441456582633052,
+            "top1": 310,
+            "condition_pairs": 101,
+            "condition_correct": 101
+          }
+        },
+        "devices": {
+          "ads1220": {
+            "n": 234,
+            "mrr10": 0.9649216524216524,
+            "top1": 221,
+            "condition_pairs": 98,
+            "condition_correct": 98
+          },
+          "bmi160": {
+            "n": 230,
+            "mrr10": 0.9392753623188406,
+            "top1": 207,
+            "condition_pairs": 64,
+            "condition_correct": 64
+          },
+          "ina219": {
+            "n": 82,
+            "mrr10": 0.8868031358885017,
+            "top1": 68,
+            "condition_pairs": 4,
+            "condition_correct": 4
+          },
+          "tca9548a": {
+            "n": 134,
+            "mrr10": 0.9577114427860697,
+            "top1": 125,
+            "condition_pairs": 36,
+            "condition_correct": 36
+          }
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "updates": 360,
+      "mean_loss": 0.058976576767885994,
+      "dev": {
+        "all": {
+          "n": 680,
+          "mrr10": 0.9533000700280112,
+          "top1": 628,
+          "condition_pairs": 202,
+          "condition_correct": 202
+        },
+        "languages": {
+          "en": {
+            "n": 340,
+            "mrr10": 0.9532142857142858,
+            "top1": 314,
+            "condition_pairs": 101,
+            "condition_correct": 101
+          },
+          "zh": {
+            "n": 340,
+            "mrr10": 0.9533858543417367,
+            "top1": 314,
+            "condition_pairs": 101,
+            "condition_correct": 101
+          }
+        },
+        "devices": {
+          "ads1220": {
+            "n": 234,
+            "mrr10": 0.9657814407814408,
+            "top1": 221,
+            "condition_pairs": 98,
+            "condition_correct": 98
+          },
+          "bmi160": {
+            "n": 230,
+            "mrr10": 0.9484782608695652,
+            "top1": 210,
+            "condition_pairs": 64,
+            "condition_correct": 64
+          },
+          "ina219": {
+            "n": 82,
+            "mrr10": 0.897575493612079,
+            "top1": 69,
+            "condition_pairs": 4,
+            "condition_correct": 4
+          },
+          "tca9548a": {
+            "n": 134,
+            "mrr10": 0.9738805970149254,
+            "top1": 128,
+            "condition_pairs": 36,
+            "condition_correct": 36
+          }
+        }
+      }
+    }
+  ],
+  "protocol": {
+    "base": {
+      "repo": "Qwen/Qwen3-Reranker-0.6B",
+      "revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+      "weight_sha256": "27cd75a405b9c1b46b59abfd88aaa209e6fed2a1972cde9b70e7659537c5e65b",
+      "max_input_tokens": 512,
+      "yes_token_id": 9693,
+      "no_token_id": 2152,
+      "instruction": "Retrieve chip-manual evidence that directly answers the question. Match the parameter, min/typ/max column, unit, operating mode and complete test conditions. Topic overlap or a correct value under a different condition is insufficient.",
+      "prompt_sha256": "a382f806df87ddb2befc2354bc9cff7cb3df3d5f60bc20747848013a11422765",
+      "interpretation": "Two-logit normalized teacher preference, not factual truth or an API call."
+    },
+    "rank": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "trainable_parameters": 1835008,
+    "full_parameters": 597611520,
+    "epochs": 2,
+    "updates": 360,
+    "query_lists_per_batch": 4,
+    "candidates_per_list": 8,
+    "max_pair_tokens": 512,
+    "seed": 42,
+    "lr": 0.0002,
+    "objective": "Source-anchor listwise CE plus physical condition-pair softplus on last-position yes-minus-no logits; no generative token loss or self-KL.",
+    "ranking_score": "Raw yes-minus-no logits at training and evaluation; do not sort saturated sigmoid probabilities.",
+    "dataset_sha256": {
+      "queries.jsonl": "125f03d2a409961edd54dc982cd0a4e7681cdda5494c29d2d430b0ef382337a4",
+      "passages.jsonl": "d2e85409d1ac6a1089e64e2689639601eddda972e1d6b0ade1b6a83481f02f84"
+    },
+    "selection": "Dev ranking only, two checkpoints finalized before reused holdout scoring; previous holdout has already been published.",
+    "source_sha256": "e45a4355062c8bd47fabfac1112ac12837f6c7d76638c001044b5a1fbe359866"
+  }
+}

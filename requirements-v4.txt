@@ -1,0 +1,2 @@
+# v4 uses the same pinned runtime; PEFT and native fast tokenizers are included.
+-r requirements-v3.txt

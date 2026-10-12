@@ -1,0 +1,16 @@
+{
+  "en": {
+    "forms": 1578,
+    "tokens": 37734,
+    "unknown": 0,
+    "forms_with_unknown": 0,
+    "unknown_fraction": 0.0
+  },
+  "zh": {
+    "forms": 1578,
+    "tokens": 40286,
+    "unknown": 0,
+    "forms_with_unknown": 0,
+    "unknown_fraction": 0.0
+  }
+}

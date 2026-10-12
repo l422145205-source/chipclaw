@@ -1,0 +1,226 @@
+{
+  "same_multilingual_base": {
+    "all": {
+      "n": 1042,
+      "mrr10": 0.8694116930201383,
+      "top1": 819,
+      "condition_pairs": 240,
+      "condition_correct": 172
+    },
+    "languages": {
+      "en": {
+        "n": 521,
+        "mrr10": 0.8790512750205648,
+        "top1": 415,
+        "condition_pairs": 120,
+        "condition_correct": 80
+      },
+      "zh": {
+        "n": 521,
+        "mrr10": 0.8597721110197117,
+        "top1": 404,
+        "condition_pairs": 120,
+        "condition_correct": 92
+      }
+    },
+    "devices": {
+      "bme280": {
+        "n": 230,
+        "mrr10": 0.8653312629399585,
+        "top1": 178,
+        "condition_pairs": 50,
+        "condition_correct": 35
+      },
+      "bmi270": {
+        "n": 158,
+        "mrr10": 0.8853099256580269,
+        "top1": 130,
+        "condition_pairs": 4,
+        "condition_correct": 4
+      },
+      "hdc3020": {
+        "n": 228,
+        "mrr10": 0.8573882623224729,
+        "top1": 173,
+        "condition_pairs": 80,
+        "condition_correct": 55
+      },
+      "ina226": {
+        "n": 160,
+        "mrr10": 0.8802678571428573,
+        "top1": 128,
+        "condition_pairs": 58,
+        "condition_correct": 45
+      },
+      "ina228": {
+        "n": 142,
+        "mrr10": 0.868035993740219,
+        "top1": 111,
+        "condition_pairs": 36,
+        "condition_correct": 27
+      },
+      "sn65hvd230": {
+        "n": 124,
+        "mrr10": 0.8663978494623656,
+        "top1": 99,
+        "condition_pairs": 12,
+        "condition_correct": 6
+      }
+    }
+  },
+  "selected_multilingual": {
+    "all": {
+      "n": 1042,
+      "mrr10": 0.9606084148310635,
+      "top1": 976,
+      "condition_pairs": 240,
+      "condition_correct": 237
+    },
+    "languages": {
+      "en": {
+        "n": 521,
+        "mrr10": 0.9639018371264052,
+        "top1": 491,
+        "condition_pairs": 120,
+        "condition_correct": 119
+      },
+      "zh": {
+        "n": 521,
+        "mrr10": 0.9573149925357219,
+        "top1": 485,
+        "condition_pairs": 120,
+        "condition_correct": 118
+      }
+    },
+    "devices": {
+      "bme280": {
+        "n": 230,
+        "mrr10": 0.9793478260869565,
+        "top1": 222,
+        "condition_pairs": 50,
+        "condition_correct": 50
+      },
+      "bmi270": {
+        "n": 158,
+        "mrr10": 0.9087552742616034,
+        "top1": 134,
+        "condition_pairs": 4,
+        "condition_correct": 4
+      },
+      "hdc3020": {
+        "n": 228,
+        "mrr10": 0.9692060011138959,
+        "top1": 217,
+        "condition_pairs": 80,
+        "condition_correct": 77
+      },
+      "ina226": {
+        "n": 160,
+        "mrr10": 0.9622395833333334,
+        "top1": 150,
+        "condition_pairs": 58,
+        "condition_correct": 58
+      },
+      "ina228": {
+        "n": 142,
+        "mrr10": 0.9679577464788731,
+        "top1": 135,
+        "condition_pairs": 36,
+        "condition_correct": 36
+      },
+      "sn65hvd230": {
+        "n": 124,
+        "mrr10": 0.9655913978494624,
+        "top1": 118,
+        "condition_pairs": 12,
+        "condition_correct": 12
+      }
+    }
+  },
+  "prior_english_student": {
+    "all": {
+      "n": 1042,
+      "mrr10": 0.9360056210584042,
+      "top1": 931,
+      "condition_pairs": 240,
+      "condition_correct": 200
+    },
+    "languages": {
+      "en": {
+        "n": 521,
+        "mrr10": 0.951978033695884,
+        "top1": 482,
+        "condition_pairs": 120,
+        "condition_correct": 116
+      },
+      "zh": {
+        "n": 521,
+        "mrr10": 0.9200332084209243,
+        "top1": 449,
+        "condition_pairs": 120,
+        "condition_correct": 84
+      }
+    },
+    "devices": {
+      "bme280": {
+        "n": 230,
+        "mrr10": 0.9520703933747412,
+        "top1": 210,
+        "condition_pairs": 50,
+        "condition_correct": 42
+      },
+      "bmi270": {
+        "n": 158,
+        "mrr10": 0.8986286919831222,
+        "top1": 133,
+        "condition_pairs": 4,
+        "condition_correct": 4
+      },
+      "hdc3020": {
+        "n": 228,
+        "mrr10": 0.9356725146198831,
+        "top1": 204,
+        "condition_pairs": 80,
+        "condition_correct": 67
+      },
+      "ina226": {
+        "n": 160,
+        "mrr10": 0.9191840277777779,
+        "top1": 137,
+        "condition_pairs": 58,
+        "condition_correct": 48
+      },
+      "ina228": {
+        "n": 142,
+        "mrr10": 0.9475743348982785,
+        "top1": 130,
+        "condition_pairs": 36,
+        "condition_correct": 30
+      },
+      "sn65hvd230": {
+        "n": 124,
+        "mrr10": 0.9629032258064517,
+        "top1": 117,
+        "condition_pairs": 12,
+        "condition_correct": 9
+      }
+    }
+  },
+  "same_backbone_training_delta": {
+    "semantic_clusters": 521,
+    "mean_delta": 0.09119672181092527,
+    "descriptive_95_interval": [
+      0.07491387517899034,
+      0.10843560536818696
+    ]
+  },
+  "cross_backbone_total_delta": {
+    "semantic_clusters": 521,
+    "mean_delta": 0.024602793772659417,
+    "descriptive_95_interval": [
+      0.01308564116625537,
+      0.03673364523352527
+    ]
+  },
+  "scope": "Previously used controlled source-anchor holdout; paired semantic clusters, not human QA confidence or architecture-only causal attribution."
+}

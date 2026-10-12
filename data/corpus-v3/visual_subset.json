@@ -1,0 +1,2169 @@
+{
+  "version": "visual-pages-v3",
+  "frozen_before_query_generation": true,
+  "selection": "12/device: 10 table/register/digit density + 2 layout-rich remaining; all selection query independent.",
+  "query_dependent_pages_added": 0,
+  "pages": [
+    {
+      "doc_id": "stm32f103",
+      "page": 5,
+      "source_sha256": "1e54ce18e6c34c5b4a78986f26e245e143748c721009fc9af5953795c30686bc",
+      "category": "MCU",
+      "table_score": 80,
+      "layout_score": 63,
+      "characters": 10919
+    },
+    {
+      "doc_id": "stm32f103",
+      "page": 7,
+      "source_sha256": "1e54ce18e6c34c5b4a78986f26e245e143748c721009fc9af5953795c30686bc",
+      "category": "MCU",
+      "table_score": 80,
+      "layout_score": 64,
+      "characters": 10165
+    },
+    {
+      "doc_id": "stm32f103",
+      "page": 39,
+      "source_sha256": "1e54ce18e6c34c5b4a78986f26e245e143748c721009fc9af5953795c30686bc",
+      "category": "MCU",
+      "table_score": 180,
+      "layout_score": 22,
+      "characters": 20210
+    },
+    {
+      "doc_id": "stm32f103",
+      "page": 41,
+      "source_sha256": "1e54ce18e6c34c5b4a78986f26e245e143748c721009fc9af5953795c30686bc",
+      "category": "MCU",
+      "table_score": 180,
+      "layout_score": 22,
+      "characters": 26063
+    },
+    {
+      "doc_id": "stm32f103",
+      "page": 47,
+      "source_sha256": "1e54ce18e6c34c5b4a78986f26e245e143748c721009fc9af5953795c30686bc",
+      "category": "MCU",
+      "table_score": 195,
+      "layout_score": 21,
+      "characters": 24225
+    },
+    {
+      "doc_id": "stm32f103",
+      "page": 48,
+      "source_sha256": "1e54ce18e6c34c5b4a78986f26e245e143748c721009fc9af5953795c30686bc",
+      "category": "MCU",
+      "table_score": 195,
+      "layout_score": 21,
+      "characters": 24554
+    },
+    {
+      "doc_id": "stm32f103",
+      "page": 65,
+      "source_sha256": "1e54ce18e6c34c5b4a78986f26e245e143748c721009fc9af5953795c30686bc",
+      "category": "MCU",
+      "table_score": 195,
+      "layout_score": 23,
+      "characters": 12257
+    },
+    {
+      "doc_id": "stm32f103",
+      "page": 74,
+      "source_sha256": "1e54ce18e6c34c5b4a78986f26e245e143748c721009fc9af5953795c30686bc",
+      "category": "MCU",
+      "table_score": 178,
+      "layout_score": 24,
+      "characters": 21843
+    },
+    {
+      "doc_id": "stm32f103",
+      "page": 84,
+      "source_sha256": "1e54ce18e6c34c5b4a78986f26e245e143748c721009fc9af5953795c30686bc",
+      "category": "MCU",
+      "table_score": 180,
+      "layout_score": 22,
+      "characters": 28175
+    },
+    {
+      "doc_id": "stm32f103",
+      "page": 88,
+      "source_sha256": "1e54ce18e6c34c5b4a78986f26e245e143748c721009fc9af5953795c30686bc",
+      "category": "MCU",
+      "table_score": 180,
+      "layout_score": 21,
+      "characters": 34650
+    },
+    {
+      "doc_id": "stm32f103",
+      "page": 94,
+      "source_sha256": "1e54ce18e6c34c5b4a78986f26e245e143748c721009fc9af5953795c30686bc",
+      "category": "MCU",
+      "table_score": 180,
+      "layout_score": 21,
+      "characters": 34621
+    },
+    {
+      "doc_id": "stm32f103",
+      "page": 99,
+      "source_sha256": "1e54ce18e6c34c5b4a78986f26e245e143748c721009fc9af5953795c30686bc",
+      "category": "MCU",
+      "table_score": 180,
+      "layout_score": 21,
+      "characters": 34791
+    },
+    {
+      "doc_id": "rp2040",
+      "page": 3,
+      "source_sha256": "be56fbb75ba0ae9e26558a73c93ac3e75c2ad4e6878d3b6703de2a76d886ea8c",
+      "category": "MCU",
+      "table_score": 95,
+      "layout_score": 20,
+      "characters": 22696
+    },
+    {
+      "doc_id": "rp2040",
+      "page": 4,
+      "source_sha256": "be56fbb75ba0ae9e26558a73c93ac3e75c2ad4e6878d3b6703de2a76d886ea8c",
+      "category": "MCU",
+      "table_score": 95,
+      "layout_score": 20,
+      "characters": 24381
+    },
+    {
+      "doc_id": "rp2040",
+      "page": 7,
+      "source_sha256": "be56fbb75ba0ae9e26558a73c93ac3e75c2ad4e6878d3b6703de2a76d886ea8c",
+      "category": "MCU",
+      "table_score": 95,
+      "layout_score": 20,
+      "characters": 24418
+    },
+    {
+      "doc_id": "rp2040",
+      "page": 161,
+      "source_sha256": "be56fbb75ba0ae9e26558a73c93ac3e75c2ad4e6878d3b6703de2a76d886ea8c",
+      "category": "MCU",
+      "table_score": 129,
+      "layout_score": 21,
+      "characters": 5600
+    },
+    {
+      "doc_id": "rp2040",
+      "page": 166,
+      "source_sha256": "be56fbb75ba0ae9e26558a73c93ac3e75c2ad4e6878d3b6703de2a76d886ea8c",
+      "category": "MCU",
+      "table_score": 119,
+      "layout_score": 26,
+      "characters": 4324
+    },
+    {
+      "doc_id": "rp2040",
+      "page": 167,
+      "source_sha256": "be56fbb75ba0ae9e26558a73c93ac3e75c2ad4e6878d3b6703de2a76d886ea8c",
+      "category": "MCU",
+      "table_score": 140,
+      "layout_score": 24,
+      "characters": 4150
+    },
+    {
+      "doc_id": "rp2040",
+      "page": 168,
+      "source_sha256": "be56fbb75ba0ae9e26558a73c93ac3e75c2ad4e6878d3b6703de2a76d886ea8c",
+      "category": "MCU",
+      "table_score": 142,
+      "layout_score": 21,
+      "characters": 4062
+    },
+    {
+      "doc_id": "rp2040",
+      "page": 174,
+      "source_sha256": "be56fbb75ba0ae9e26558a73c93ac3e75c2ad4e6878d3b6703de2a76d886ea8c",
+      "category": "MCU",
+      "table_score": 95,
+      "layout_score": 20,
+      "characters": 4297
+    },
+    {
+      "doc_id": "rp2040",
+      "page": 175,
+      "source_sha256": "be56fbb75ba0ae9e26558a73c93ac3e75c2ad4e6878d3b6703de2a76d886ea8c",
+      "category": "MCU",
+      "table_score": 95,
+      "layout_score": 20,
+      "characters": 4581
+    },
+    {
+      "doc_id": "rp2040",
+      "page": 450,
+      "source_sha256": "be56fbb75ba0ae9e26558a73c93ac3e75c2ad4e6878d3b6703de2a76d886ea8c",
+      "category": "MCU",
+      "table_score": 37,
+      "layout_score": 32,
+      "characters": 10983
+    },
+    {
+      "doc_id": "rp2040",
+      "page": 594,
+      "source_sha256": "be56fbb75ba0ae9e26558a73c93ac3e75c2ad4e6878d3b6703de2a76d886ea8c",
+      "category": "MCU",
+      "table_score": 53,
+      "layout_score": 30,
+      "characters": 5184
+    },
+    {
+      "doc_id": "rp2040",
+      "page": 623,
+      "source_sha256": "be56fbb75ba0ae9e26558a73c93ac3e75c2ad4e6878d3b6703de2a76d886ea8c",
+      "category": "MCU",
+      "table_score": 147,
+      "layout_score": 22,
+      "characters": 4388
+    },
+    {
+      "doc_id": "tmp117",
+      "page": 5,
+      "source_sha256": "637a143dda6317d22222e265de47ceac72ba6aed4461ad460efbe84e16b936df",
+      "category": "environment",
+      "table_score": 158,
+      "layout_score": 20,
+      "characters": 4844
+    },
+    {
+      "doc_id": "tmp117",
+      "page": 6,
+      "source_sha256": "637a143dda6317d22222e265de47ceac72ba6aed4461ad460efbe84e16b936df",
+      "category": "environment",
+      "table_score": 180,
+      "layout_score": 20,
+      "characters": 6691
+    },
+    {
+      "doc_id": "tmp117",
+      "page": 7,
+      "source_sha256": "637a143dda6317d22222e265de47ceac72ba6aed4461ad460efbe84e16b936df",
+      "category": "environment",
+      "table_score": 176,
+      "layout_score": 20,
+      "characters": 5779
+    },
+    {
+      "doc_id": "tmp117",
+      "page": 8,
+      "source_sha256": "637a143dda6317d22222e265de47ceac72ba6aed4461ad460efbe84e16b936df",
+      "category": "environment",
+      "table_score": 22,
+      "layout_score": 25,
+      "characters": 1150
+    },
+    {
+      "doc_id": "tmp117",
+      "page": 9,
+      "source_sha256": "637a143dda6317d22222e265de47ceac72ba6aed4461ad460efbe84e16b936df",
+      "category": "environment",
+      "table_score": 25,
+      "layout_score": 26,
+      "characters": 1408
+    },
+    {
+      "doc_id": "tmp117",
+      "page": 13,
+      "source_sha256": "637a143dda6317d22222e265de47ceac72ba6aed4461ad460efbe84e16b936df",
+      "category": "environment",
+      "table_score": 90,
+      "layout_score": 22,
+      "characters": 2850
+    },
+    {
+      "doc_id": "tmp117",
+      "page": 27,
+      "source_sha256": "637a143dda6317d22222e265de47ceac72ba6aed4461ad460efbe84e16b936df",
+      "category": "environment",
+      "table_score": 95,
+      "layout_score": 23,
+      "characters": 7348
+    },
+    {
+      "doc_id": "tmp117",
+      "page": 28,
+      "source_sha256": "637a143dda6317d22222e265de47ceac72ba6aed4461ad460efbe84e16b936df",
+      "category": "environment",
+      "table_score": 87,
+      "layout_score": 22,
+      "characters": 2835
+    },
+    {
+      "doc_id": "tmp117",
+      "page": 29,
+      "source_sha256": "637a143dda6317d22222e265de47ceac72ba6aed4461ad460efbe84e16b936df",
+      "category": "environment",
+      "table_score": 95,
+      "layout_score": 24,
+      "characters": 4157
+    },
+    {
+      "doc_id": "tmp117",
+      "page": 30,
+      "source_sha256": "637a143dda6317d22222e265de47ceac72ba6aed4461ad460efbe84e16b936df",
+      "category": "environment",
+      "table_score": 95,
+      "layout_score": 24,
+      "characters": 5745
+    },
+    {
+      "doc_id": "tmp117",
+      "page": 31,
+      "source_sha256": "637a143dda6317d22222e265de47ceac72ba6aed4461ad460efbe84e16b936df",
+      "category": "environment",
+      "table_score": 92,
+      "layout_score": 24,
+      "characters": 3470
+    },
+    {
+      "doc_id": "tmp117",
+      "page": 32,
+      "source_sha256": "637a143dda6317d22222e265de47ceac72ba6aed4461ad460efbe84e16b936df",
+      "category": "environment",
+      "table_score": 89,
+      "layout_score": 24,
+      "characters": 3416
+    },
+    {
+      "doc_id": "ina226",
+      "page": 4,
+      "source_sha256": "c9b67f886d4a5241a5e070723f7b61867409eeb27eed768b9cdd9cb17e03ca2d",
+      "category": "current_monitor",
+      "table_score": 153,
+      "layout_score": 20,
+      "characters": 5984
+    },
+    {
+      "doc_id": "ina226",
+      "page": 5,
+      "source_sha256": "c9b67f886d4a5241a5e070723f7b61867409eeb27eed768b9cdd9cb17e03ca2d",
+      "category": "current_monitor",
+      "table_score": 180,
+      "layout_score": 20,
+      "characters": 7490
+    },
+    {
+      "doc_id": "ina226",
+      "page": 6,
+      "source_sha256": "c9b67f886d4a5241a5e070723f7b61867409eeb27eed768b9cdd9cb17e03ca2d",
+      "category": "current_monitor",
+      "table_score": 132,
+      "layout_score": 20,
+      "characters": 2392
+    },
+    {
+      "doc_id": "ina226",
+      "page": 7,
+      "source_sha256": "c9b67f886d4a5241a5e070723f7b61867409eeb27eed768b9cdd9cb17e03ca2d",
+      "category": "current_monitor",
+      "table_score": 19,
+      "layout_score": 26,
+      "characters": 1148
+    },
+    {
+      "doc_id": "ina226",
+      "page": 19,
+      "source_sha256": "c9b67f886d4a5241a5e070723f7b61867409eeb27eed768b9cdd9cb17e03ca2d",
+      "category": "current_monitor",
+      "table_score": 41,
+      "layout_score": 29,
+      "characters": 2792
+    },
+    {
+      "doc_id": "ina226",
+      "page": 21,
+      "source_sha256": "c9b67f886d4a5241a5e070723f7b61867409eeb27eed768b9cdd9cb17e03ca2d",
+      "category": "current_monitor",
+      "table_score": 141,
+      "layout_score": 21,
+      "characters": 3736
+    },
+    {
+      "doc_id": "ina226",
+      "page": 22,
+      "source_sha256": "c9b67f886d4a5241a5e070723f7b61867409eeb27eed768b9cdd9cb17e03ca2d",
+      "category": "current_monitor",
+      "table_score": 88,
+      "layout_score": 23,
+      "characters": 5223
+    },
+    {
+      "doc_id": "ina226",
+      "page": 23,
+      "source_sha256": "c9b67f886d4a5241a5e070723f7b61867409eeb27eed768b9cdd9cb17e03ca2d",
+      "category": "current_monitor",
+      "table_score": 80,
+      "layout_score": 26,
+      "characters": 4955
+    },
+    {
+      "doc_id": "ina226",
+      "page": 24,
+      "source_sha256": "c9b67f886d4a5241a5e070723f7b61867409eeb27eed768b9cdd9cb17e03ca2d",
+      "category": "current_monitor",
+      "table_score": 95,
+      "layout_score": 25,
+      "characters": 4467
+    },
+    {
+      "doc_id": "ina226",
+      "page": 26,
+      "source_sha256": "c9b67f886d4a5241a5e070723f7b61867409eeb27eed768b9cdd9cb17e03ca2d",
+      "category": "current_monitor",
+      "table_score": 95,
+      "layout_score": 24,
+      "characters": 4466
+    },
+    {
+      "doc_id": "ina226",
+      "page": 28,
+      "source_sha256": "c9b67f886d4a5241a5e070723f7b61867409eeb27eed768b9cdd9cb17e03ca2d",
+      "category": "current_monitor",
+      "table_score": 85,
+      "layout_score": 23,
+      "characters": 2920
+    },
+    {
+      "doc_id": "ina226",
+      "page": 30,
+      "source_sha256": "c9b67f886d4a5241a5e070723f7b61867409eeb27eed768b9cdd9cb17e03ca2d",
+      "category": "current_monitor",
+      "table_score": 95,
+      "layout_score": 40,
+      "characters": 4156
+    },
+    {
+      "doc_id": "bme280",
+      "page": 5,
+      "source_sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+      "category": "environment",
+      "table_score": 95,
+      "layout_score": 20,
+      "characters": 37767
+    },
+    {
+      "doc_id": "bme280",
+      "page": 8,
+      "source_sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+      "category": "environment",
+      "table_score": 134,
+      "layout_score": 21,
+      "characters": 5521
+    },
+    {
+      "doc_id": "bme280",
+      "page": 9,
+      "source_sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+      "category": "environment",
+      "table_score": 161,
+      "layout_score": 22,
+      "characters": 6232
+    },
+    {
+      "doc_id": "bme280",
+      "page": 10,
+      "source_sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+      "category": "environment",
+      "table_score": 130,
+      "layout_score": 22,
+      "characters": 5716
+    },
+    {
+      "doc_id": "bme280",
+      "page": 11,
+      "source_sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+      "category": "environment",
+      "table_score": 160,
+      "layout_score": 21,
+      "characters": 7034
+    },
+    {
+      "doc_id": "bme280",
+      "page": 13,
+      "source_sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+      "category": "environment",
+      "table_score": 121,
+      "layout_score": 22,
+      "characters": 4313
+    },
+    {
+      "doc_id": "bme280",
+      "page": 24,
+      "source_sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+      "category": "environment",
+      "table_score": 95,
+      "layout_score": 23,
+      "characters": 5362
+    },
+    {
+      "doc_id": "bme280",
+      "page": 29,
+      "source_sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+      "category": "environment",
+      "table_score": 80,
+      "layout_score": 27,
+      "characters": 3961
+    },
+    {
+      "doc_id": "bme280",
+      "page": 30,
+      "source_sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+      "category": "environment",
+      "table_score": 82,
+      "layout_score": 25,
+      "characters": 4415
+    },
+    {
+      "doc_id": "bme280",
+      "page": 35,
+      "source_sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+      "category": "environment",
+      "table_score": 183,
+      "layout_score": 25,
+      "characters": 11460
+    },
+    {
+      "doc_id": "bme280",
+      "page": 36,
+      "source_sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+      "category": "environment",
+      "table_score": 135,
+      "layout_score": 24,
+      "characters": 6469
+    },
+    {
+      "doc_id": "bme280",
+      "page": 37,
+      "source_sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+      "category": "environment",
+      "table_score": 122,
+      "layout_score": 22,
+      "characters": 5065
+    },
+    {
+      "doc_id": "msp430g2553",
+      "page": 23,
+      "source_sha256": "ec033a3ef8d9ca06a9b6e884c2954afb4b0d232b78061b9ec98ccd418236af21",
+      "category": "MCU",
+      "table_score": 179,
+      "layout_score": 22,
+      "characters": 3952
+    },
+    {
+      "doc_id": "msp430g2553",
+      "page": 26,
+      "source_sha256": "ec033a3ef8d9ca06a9b6e884c2954afb4b0d232b78061b9ec98ccd418236af21",
+      "category": "MCU",
+      "table_score": 158,
+      "layout_score": 22,
+      "characters": 2693
+    },
+    {
+      "doc_id": "msp430g2553",
+      "page": 27,
+      "source_sha256": "ec033a3ef8d9ca06a9b6e884c2954afb4b0d232b78061b9ec98ccd418236af21",
+      "category": "MCU",
+      "table_score": 125,
+      "layout_score": 26,
+      "characters": 2429
+    },
+    {
+      "doc_id": "msp430g2553",
+      "page": 29,
+      "source_sha256": "ec033a3ef8d9ca06a9b6e884c2954afb4b0d232b78061b9ec98ccd418236af21",
+      "category": "MCU",
+      "table_score": 180,
+      "layout_score": 20,
+      "characters": 4685
+    },
+    {
+      "doc_id": "msp430g2553",
+      "page": 30,
+      "source_sha256": "ec033a3ef8d9ca06a9b6e884c2954afb4b0d232b78061b9ec98ccd418236af21",
+      "category": "MCU",
+      "table_score": 180,
+      "layout_score": 20,
+      "characters": 4122
+    },
+    {
+      "doc_id": "msp430g2553",
+      "page": 32,
+      "source_sha256": "ec033a3ef8d9ca06a9b6e884c2954afb4b0d232b78061b9ec98ccd418236af21",
+      "category": "MCU",
+      "table_score": 180,
+      "layout_score": 20,
+      "characters": 5605
+    },
+    {
+      "doc_id": "msp430g2553",
+      "page": 35,
+      "source_sha256": "ec033a3ef8d9ca06a9b6e884c2954afb4b0d232b78061b9ec98ccd418236af21",
+      "category": "MCU",
+      "table_score": 180,
+      "layout_score": 24,
+      "characters": 5306
+    },
+    {
+      "doc_id": "msp430g2553",
+      "page": 37,
+      "source_sha256": "ec033a3ef8d9ca06a9b6e884c2954afb4b0d232b78061b9ec98ccd418236af21",
+      "category": "MCU",
+      "table_score": 188,
+      "layout_score": 20,
+      "characters": 4067
+    },
+    {
+      "doc_id": "msp430g2553",
+      "page": 38,
+      "source_sha256": "ec033a3ef8d9ca06a9b6e884c2954afb4b0d232b78061b9ec98ccd418236af21",
+      "category": "MCU",
+      "table_score": 175,
+      "layout_score": 20,
+      "characters": 3803
+    },
+    {
+      "doc_id": "msp430g2553",
+      "page": 39,
+      "source_sha256": "ec033a3ef8d9ca06a9b6e884c2954afb4b0d232b78061b9ec98ccd418236af21",
+      "category": "MCU",
+      "table_score": 180,
+      "layout_score": 20,
+      "characters": 6621
+    },
+    {
+      "doc_id": "msp430g2553",
+      "page": 40,
+      "source_sha256": "ec033a3ef8d9ca06a9b6e884c2954afb4b0d232b78061b9ec98ccd418236af21",
+      "category": "MCU",
+      "table_score": 180,
+      "layout_score": 20,
+      "characters": 5879
+    },
+    {
+      "doc_id": "msp430g2553",
+      "page": 58,
+      "source_sha256": "ec033a3ef8d9ca06a9b6e884c2954afb4b0d232b78061b9ec98ccd418236af21",
+      "category": "MCU",
+      "table_score": 146,
+      "layout_score": 30,
+      "characters": 2586
+    },
+    {
+      "doc_id": "ads1115",
+      "page": 3,
+      "source_sha256": "eefff4d412ce2dcd7e659f47238edc9b2fa02e5971f2625af730502033701834",
+      "category": "ADC",
+      "table_score": 80,
+      "layout_score": 23,
+      "characters": 4229
+    },
+    {
+      "doc_id": "ads1115",
+      "page": 4,
+      "source_sha256": "eefff4d412ce2dcd7e659f47238edc9b2fa02e5971f2625af730502033701834",
+      "category": "ADC",
+      "table_score": 166,
+      "layout_score": 21,
+      "characters": 5644
+    },
+    {
+      "doc_id": "ads1115",
+      "page": 5,
+      "source_sha256": "eefff4d412ce2dcd7e659f47238edc9b2fa02e5971f2625af730502033701834",
+      "category": "ADC",
+      "table_score": 180,
+      "layout_score": 20,
+      "characters": 6140
+    },
+    {
+      "doc_id": "ads1115",
+      "page": 6,
+      "source_sha256": "eefff4d412ce2dcd7e659f47238edc9b2fa02e5971f2625af730502033701834",
+      "category": "ADC",
+      "table_score": 163,
+      "layout_score": 22,
+      "characters": 4455
+    },
+    {
+      "doc_id": "ads1115",
+      "page": 11,
+      "source_sha256": "eefff4d412ce2dcd7e659f47238edc9b2fa02e5971f2625af730502033701834",
+      "category": "ADC",
+      "table_score": 80,
+      "layout_score": 26,
+      "characters": 5208
+    },
+    {
+      "doc_id": "ads1115",
+      "page": 14,
+      "source_sha256": "eefff4d412ce2dcd7e659f47238edc9b2fa02e5971f2625af730502033701834",
+      "category": "ADC",
+      "table_score": 24,
+      "layout_score": 27,
+      "characters": 3033
+    },
+    {
+      "doc_id": "ads1115",
+      "page": 25,
+      "source_sha256": "eefff4d412ce2dcd7e659f47238edc9b2fa02e5971f2625af730502033701834",
+      "category": "ADC",
+      "table_score": 95,
+      "layout_score": 24,
+      "characters": 5801
+    },
+    {
+      "doc_id": "ads1115",
+      "page": 27,
+      "source_sha256": "eefff4d412ce2dcd7e659f47238edc9b2fa02e5971f2625af730502033701834",
+      "category": "ADC",
+      "table_score": 83,
+      "layout_score": 24,
+      "characters": 3210
+    },
+    {
+      "doc_id": "ads1115",
+      "page": 36,
+      "source_sha256": "eefff4d412ce2dcd7e659f47238edc9b2fa02e5971f2625af730502033701834",
+      "category": "ADC",
+      "table_score": 40,
+      "layout_score": 28,
+      "characters": 2940
+    },
+    {
+      "doc_id": "ads1115",
+      "page": 42,
+      "source_sha256": "eefff4d412ce2dcd7e659f47238edc9b2fa02e5971f2625af730502033701834",
+      "category": "ADC",
+      "table_score": 80,
+      "layout_score": 20,
+      "characters": 7338
+    },
+    {
+      "doc_id": "ads1115",
+      "page": 43,
+      "source_sha256": "eefff4d412ce2dcd7e659f47238edc9b2fa02e5971f2625af730502033701834",
+      "category": "ADC",
+      "table_score": 80,
+      "layout_score": 20,
+      "characters": 6286
+    },
+    {
+      "doc_id": "ads1115",
+      "page": 45,
+      "source_sha256": "eefff4d412ce2dcd7e659f47238edc9b2fa02e5971f2625af730502033701834",
+      "category": "ADC",
+      "table_score": 80,
+      "layout_score": 20,
+      "characters": 4199
+    },
+    {
+      "doc_id": "ads1220",
+      "page": 3,
+      "source_sha256": "218e25810febc1d740287cebe0678d844817a5db9191cba59cb471647ace3ac4",
+      "category": "ADC",
+      "table_score": 80,
+      "layout_score": 20,
+      "characters": 4916
+    },
+    {
+      "doc_id": "ads1220",
+      "page": 5,
+      "source_sha256": "218e25810febc1d740287cebe0678d844817a5db9191cba59cb471647ace3ac4",
+      "category": "ADC",
+      "table_score": 132,
+      "layout_score": 20,
+      "characters": 3118
+    },
+    {
+      "doc_id": "ads1220",
+      "page": 7,
+      "source_sha256": "218e25810febc1d740287cebe0678d844817a5db9191cba59cb471647ace3ac4",
+      "category": "ADC",
+      "table_score": 180,
+      "layout_score": 20,
+      "characters": 7432
+    },
+    {
+      "doc_id": "ads1220",
+      "page": 8,
+      "source_sha256": "218e25810febc1d740287cebe0678d844817a5db9191cba59cb471647ace3ac4",
+      "category": "ADC",
+      "table_score": 180,
+      "layout_score": 20,
+      "characters": 6710
+    },
+    {
+      "doc_id": "ads1220",
+      "page": 9,
+      "source_sha256": "218e25810febc1d740287cebe0678d844817a5db9191cba59cb471647ace3ac4",
+      "category": "ADC",
+      "table_score": 135,
+      "layout_score": 22,
+      "characters": 4137
+    },
+    {
+      "doc_id": "ads1220",
+      "page": 16,
+      "source_sha256": "218e25810febc1d740287cebe0678d844817a5db9191cba59cb471647ace3ac4",
+      "category": "ADC",
+      "table_score": 80,
+      "layout_score": 36,
+      "characters": 5762
+    },
+    {
+      "doc_id": "ads1220",
+      "page": 17,
+      "source_sha256": "218e25810febc1d740287cebe0678d844817a5db9191cba59cb471647ace3ac4",
+      "category": "ADC",
+      "table_score": 80,
+      "layout_score": 24,
+      "characters": 6321
+    },
+    {
+      "doc_id": "ads1220",
+      "page": 18,
+      "source_sha256": "218e25810febc1d740287cebe0678d844817a5db9191cba59cb471647ace3ac4",
+      "category": "ADC",
+      "table_score": 80,
+      "layout_score": 22,
+      "characters": 3178
+    },
+    {
+      "doc_id": "ads1220",
+      "page": 33,
+      "source_sha256": "218e25810febc1d740287cebe0678d844817a5db9191cba59cb471647ace3ac4",
+      "category": "ADC",
+      "table_score": 95,
+      "layout_score": 24,
+      "characters": 4027
+    },
+    {
+      "doc_id": "ads1220",
+      "page": 54,
+      "source_sha256": "218e25810febc1d740287cebe0678d844817a5db9191cba59cb471647ace3ac4",
+      "category": "ADC",
+      "table_score": 54,
+      "layout_score": 31,
+      "characters": 2894
+    },
+    {
+      "doc_id": "ads1220",
+      "page": 61,
+      "source_sha256": "218e25810febc1d740287cebe0678d844817a5db9191cba59cb471647ace3ac4",
+      "category": "ADC",
+      "table_score": 26,
+      "layout_score": 29,
+      "characters": 1235
+    },
+    {
+      "doc_id": "ads1220",
+      "page": 68,
+      "source_sha256": "218e25810febc1d740287cebe0678d844817a5db9191cba59cb471647ace3ac4",
+      "category": "ADC",
+      "table_score": 82,
+      "layout_score": 25,
+      "characters": 6962
+    },
+    {
+      "doc_id": "ads1256",
+      "page": 3,
+      "source_sha256": "9da3323db162b59329ec1a865829441ff1605279cd802fe879649b6f54e100e6",
+      "category": "ADC",
+      "table_score": 180,
+      "layout_score": 20,
+      "characters": 7282
+    },
+    {
+      "doc_id": "ads1256",
+      "page": 5,
+      "source_sha256": "9da3323db162b59329ec1a865829441ff1605279cd802fe879649b6f54e100e6",
+      "category": "ADC",
+      "table_score": 80,
+      "layout_score": 20,
+      "characters": 10059
+    },
+    {
+      "doc_id": "ads1256",
+      "page": 6,
+      "source_sha256": "9da3323db162b59329ec1a865829441ff1605279cd802fe879649b6f54e100e6",
+      "category": "ADC",
+      "table_score": 133,
+      "layout_score": 21,
+      "characters": 6096
+    },
+    {
+      "doc_id": "ads1256",
+      "page": 7,
+      "source_sha256": "9da3323db162b59329ec1a865829441ff1605279cd802fe879649b6f54e100e6",
+      "category": "ADC",
+      "table_score": 133,
+      "layout_score": 23,
+      "characters": 3297
+    },
+    {
+      "doc_id": "ads1256",
+      "page": 10,
+      "source_sha256": "9da3323db162b59329ec1a865829441ff1605279cd802fe879649b6f54e100e6",
+      "category": "ADC",
+      "table_score": 80,
+      "layout_score": 20,
+      "characters": 12464
+    },
+    {
+      "doc_id": "ads1256",
+      "page": 12,
+      "source_sha256": "9da3323db162b59329ec1a865829441ff1605279cd802fe879649b6f54e100e6",
+      "category": "ADC",
+      "table_score": 80,
+      "layout_score": 33,
+      "characters": 6516
+    },
+    {
+      "doc_id": "ads1256",
+      "page": 16,
+      "source_sha256": "9da3323db162b59329ec1a865829441ff1605279cd802fe879649b6f54e100e6",
+      "category": "ADC",
+      "table_score": 79,
+      "layout_score": 30,
+      "characters": 5599
+    },
+    {
+      "doc_id": "ads1256",
+      "page": 18,
+      "source_sha256": "9da3323db162b59329ec1a865829441ff1605279cd802fe879649b6f54e100e6",
+      "category": "ADC",
+      "table_score": 95,
+      "layout_score": 24,
+      "characters": 6787
+    },
+    {
+      "doc_id": "ads1256",
+      "page": 19,
+      "source_sha256": "9da3323db162b59329ec1a865829441ff1605279cd802fe879649b6f54e100e6",
+      "category": "ADC",
+      "table_score": 80,
+      "layout_score": 29,
+      "characters": 5355
+    },
+    {
+      "doc_id": "ads1256",
+      "page": 25,
+      "source_sha256": "9da3323db162b59329ec1a865829441ff1605279cd802fe879649b6f54e100e6",
+      "category": "ADC",
+      "table_score": 95,
+      "layout_score": 26,
+      "characters": 7043
+    },
+    {
+      "doc_id": "ads1256",
+      "page": 31,
+      "source_sha256": "9da3323db162b59329ec1a865829441ff1605279cd802fe879649b6f54e100e6",
+      "category": "ADC",
+      "table_score": 93,
+      "layout_score": 20,
+      "characters": 3416
+    },
+    {
+      "doc_id": "ads1256",
+      "page": 32,
+      "source_sha256": "9da3323db162b59329ec1a865829441ff1605279cd802fe879649b6f54e100e6",
+      "category": "ADC",
+      "table_score": 82,
+      "layout_score": 20,
+      "characters": 3529
+    },
+    {
+      "doc_id": "ina219",
+      "page": 4,
+      "source_sha256": "58004eda854d07478e6fc6f4398c114f60a3bcf18d4877471c7c1a306d1fa1cb",
+      "category": "current_monitor",
+      "table_score": 163,
+      "layout_score": 20,
+      "characters": 6005
+    },
+    {
+      "doc_id": "ina219",
+      "page": 5,
+      "source_sha256": "58004eda854d07478e6fc6f4398c114f60a3bcf18d4877471c7c1a306d1fa1cb",
+      "category": "current_monitor",
+      "table_score": 195,
+      "layout_score": 21,
+      "characters": 8693
+    },
+    {
+      "doc_id": "ina219",
+      "page": 6,
+      "source_sha256": "58004eda854d07478e6fc6f4398c114f60a3bcf18d4877471c7c1a306d1fa1cb",
+      "category": "current_monitor",
+      "table_score": 170,
+      "layout_score": 21,
+      "characters": 4832
+    },
+    {
+      "doc_id": "ina219",
+      "page": 7,
+      "source_sha256": "58004eda854d07478e6fc6f4398c114f60a3bcf18d4877471c7c1a306d1fa1cb",
+      "category": "current_monitor",
+      "table_score": 18,
+      "layout_score": 26,
+      "characters": 1078
+    },
+    {
+      "doc_id": "ina219",
+      "page": 8,
+      "source_sha256": "58004eda854d07478e6fc6f4398c114f60a3bcf18d4877471c7c1a306d1fa1cb",
+      "category": "current_monitor",
+      "table_score": 17,
+      "layout_score": 25,
+      "characters": 1054
+    },
+    {
+      "doc_id": "ina219",
+      "page": 19,
+      "source_sha256": "58004eda854d07478e6fc6f4398c114f60a3bcf18d4877471c7c1a306d1fa1cb",
+      "category": "current_monitor",
+      "table_score": 95,
+      "layout_score": 24,
+      "characters": 3223
+    },
+    {
+      "doc_id": "ina219",
+      "page": 20,
+      "source_sha256": "58004eda854d07478e6fc6f4398c114f60a3bcf18d4877471c7c1a306d1fa1cb",
+      "category": "current_monitor",
+      "table_score": 95,
+      "layout_score": 24,
+      "characters": 5319
+    },
+    {
+      "doc_id": "ina219",
+      "page": 21,
+      "source_sha256": "58004eda854d07478e6fc6f4398c114f60a3bcf18d4877471c7c1a306d1fa1cb",
+      "category": "current_monitor",
+      "table_score": 95,
+      "layout_score": 24,
+      "characters": 2987
+    },
+    {
+      "doc_id": "ina219",
+      "page": 22,
+      "source_sha256": "58004eda854d07478e6fc6f4398c114f60a3bcf18d4877471c7c1a306d1fa1cb",
+      "category": "current_monitor",
+      "table_score": 95,
+      "layout_score": 21,
+      "characters": 9462
+    },
+    {
+      "doc_id": "ina219",
+      "page": 23,
+      "source_sha256": "58004eda854d07478e6fc6f4398c114f60a3bcf18d4877471c7c1a306d1fa1cb",
+      "category": "current_monitor",
+      "table_score": 95,
+      "layout_score": 23,
+      "characters": 4657
+    },
+    {
+      "doc_id": "ina219",
+      "page": 26,
+      "source_sha256": "58004eda854d07478e6fc6f4398c114f60a3bcf18d4877471c7c1a306d1fa1cb",
+      "category": "current_monitor",
+      "table_score": 83,
+      "layout_score": 23,
+      "characters": 3859
+    },
+    {
+      "doc_id": "ina219",
+      "page": 29,
+      "source_sha256": "58004eda854d07478e6fc6f4398c114f60a3bcf18d4877471c7c1a306d1fa1cb",
+      "category": "current_monitor",
+      "table_score": 80,
+      "layout_score": 20,
+      "characters": 7518
+    },
+    {
+      "doc_id": "ina228",
+      "page": 3,
+      "source_sha256": "a138d39eeee04f8388426fed204c2f4012e75d36e95b60b0751ef003cd277447",
+      "category": "current_monitor",
+      "table_score": 144,
+      "layout_score": 22,
+      "characters": 4554
+    },
+    {
+      "doc_id": "ina228",
+      "page": 5,
+      "source_sha256": "a138d39eeee04f8388426fed204c2f4012e75d36e95b60b0751ef003cd277447",
+      "category": "current_monitor",
+      "table_score": 180,
+      "layout_score": 20,
+      "characters": 6842
+    },
+    {
+      "doc_id": "ina228",
+      "page": 6,
+      "source_sha256": "a138d39eeee04f8388426fed204c2f4012e75d36e95b60b0751ef003cd277447",
+      "category": "current_monitor",
+      "table_score": 140,
+      "layout_score": 20,
+      "characters": 2744
+    },
+    {
+      "doc_id": "ina228",
+      "page": 20,
+      "source_sha256": "a138d39eeee04f8388426fed204c2f4012e75d36e95b60b0751ef003cd277447",
+      "category": "current_monitor",
+      "table_score": 44,
+      "layout_score": 29,
+      "characters": 2810
+    },
+    {
+      "doc_id": "ina228",
+      "page": 25,
+      "source_sha256": "a138d39eeee04f8388426fed204c2f4012e75d36e95b60b0751ef003cd277447",
+      "category": "current_monitor",
+      "table_score": 68,
+      "layout_score": 28,
+      "characters": 3281
+    },
+    {
+      "doc_id": "ina228",
+      "page": 28,
+      "source_sha256": "a138d39eeee04f8388426fed204c2f4012e75d36e95b60b0751ef003cd277447",
+      "category": "current_monitor",
+      "table_score": 66,
+      "layout_score": 28,
+      "characters": 4493
+    },
+    {
+      "doc_id": "ina228",
+      "page": 29,
+      "source_sha256": "a138d39eeee04f8388426fed204c2f4012e75d36e95b60b0751ef003cd277447",
+      "category": "current_monitor",
+      "table_score": 62,
+      "layout_score": 29,
+      "characters": 4131
+    },
+    {
+      "doc_id": "ina228",
+      "page": 32,
+      "source_sha256": "a138d39eeee04f8388426fed204c2f4012e75d36e95b60b0751ef003cd277447",
+      "category": "current_monitor",
+      "table_score": 95,
+      "layout_score": 22,
+      "characters": 4752
+    },
+    {
+      "doc_id": "ina228",
+      "page": 33,
+      "source_sha256": "a138d39eeee04f8388426fed204c2f4012e75d36e95b60b0751ef003cd277447",
+      "category": "current_monitor",
+      "table_score": 80,
+      "layout_score": 21,
+      "characters": 6362
+    },
+    {
+      "doc_id": "ina228",
+      "page": 34,
+      "source_sha256": "a138d39eeee04f8388426fed204c2f4012e75d36e95b60b0751ef003cd277447",
+      "category": "current_monitor",
+      "table_score": 71,
+      "layout_score": 22,
+      "characters": 4814
+    },
+    {
+      "doc_id": "ina228",
+      "page": 36,
+      "source_sha256": "a138d39eeee04f8388426fed204c2f4012e75d36e95b60b0751ef003cd277447",
+      "category": "current_monitor",
+      "table_score": 65,
+      "layout_score": 25,
+      "characters": 4728
+    },
+    {
+      "doc_id": "ina228",
+      "page": 37,
+      "source_sha256": "a138d39eeee04f8388426fed204c2f4012e75d36e95b60b0751ef003cd277447",
+      "category": "current_monitor",
+      "table_score": 80,
+      "layout_score": 28,
+      "characters": 4377
+    },
+    {
+      "doc_id": "hdc1080",
+      "page": 4,
+      "source_sha256": "ff9fed45056ad05762d46f11905f1f14df425b8a8ef2d0d9cbb813c5711735e4",
+      "category": "environment",
+      "table_score": 151,
+      "layout_score": 21,
+      "characters": 4812
+    },
+    {
+      "doc_id": "hdc1080",
+      "page": 5,
+      "source_sha256": "ff9fed45056ad05762d46f11905f1f14df425b8a8ef2d0d9cbb813c5711735e4",
+      "category": "environment",
+      "table_score": 195,
+      "layout_score": 21,
+      "characters": 7544
+    },
+    {
+      "doc_id": "hdc1080",
+      "page": 6,
+      "source_sha256": "ff9fed45056ad05762d46f11905f1f14df425b8a8ef2d0d9cbb813c5711735e4",
+      "category": "environment",
+      "table_score": 129,
+      "layout_score": 21,
+      "characters": 3040
+    },
+    {
+      "doc_id": "hdc1080",
+      "page": 7,
+      "source_sha256": "ff9fed45056ad05762d46f11905f1f14df425b8a8ef2d0d9cbb813c5711735e4",
+      "category": "environment",
+      "table_score": 13,
+      "layout_score": 26,
+      "characters": 1267
+    },
+    {
+      "doc_id": "hdc1080",
+      "page": 9,
+      "source_sha256": "ff9fed45056ad05762d46f11905f1f14df425b8a8ef2d0d9cbb813c5711735e4",
+      "category": "environment",
+      "table_score": 39,
+      "layout_score": 20,
+      "characters": 2834
+    },
+    {
+      "doc_id": "hdc1080",
+      "page": 10,
+      "source_sha256": "ff9fed45056ad05762d46f11905f1f14df425b8a8ef2d0d9cbb813c5711735e4",
+      "category": "environment",
+      "table_score": 33,
+      "layout_score": 23,
+      "characters": 2978
+    },
+    {
+      "doc_id": "hdc1080",
+      "page": 11,
+      "source_sha256": "ff9fed45056ad05762d46f11905f1f14df425b8a8ef2d0d9cbb813c5711735e4",
+      "category": "environment",
+      "table_score": 63,
+      "layout_score": 24,
+      "characters": 3201
+    },
+    {
+      "doc_id": "hdc1080",
+      "page": 12,
+      "source_sha256": "ff9fed45056ad05762d46f11905f1f14df425b8a8ef2d0d9cbb813c5711735e4",
+      "category": "environment",
+      "table_score": 43,
+      "layout_score": 25,
+      "characters": 1900
+    },
+    {
+      "doc_id": "hdc1080",
+      "page": 14,
+      "source_sha256": "ff9fed45056ad05762d46f11905f1f14df425b8a8ef2d0d9cbb813c5711735e4",
+      "category": "environment",
+      "table_score": 53,
+      "layout_score": 23,
+      "characters": 4842
+    },
+    {
+      "doc_id": "hdc1080",
+      "page": 15,
+      "source_sha256": "ff9fed45056ad05762d46f11905f1f14df425b8a8ef2d0d9cbb813c5711735e4",
+      "category": "environment",
+      "table_score": 88,
+      "layout_score": 25,
+      "characters": 4205
+    },
+    {
+      "doc_id": "hdc1080",
+      "page": 18,
+      "source_sha256": "ff9fed45056ad05762d46f11905f1f14df425b8a8ef2d0d9cbb813c5711735e4",
+      "category": "environment",
+      "table_score": 26,
+      "layout_score": 24,
+      "characters": 2493
+    },
+    {
+      "doc_id": "hdc1080",
+      "page": 26,
+      "source_sha256": "ff9fed45056ad05762d46f11905f1f14df425b8a8ef2d0d9cbb813c5711735e4",
+      "category": "environment",
+      "table_score": 44,
+      "layout_score": 20,
+      "characters": 5913
+    },
+    {
+      "doc_id": "hdc3020",
+      "page": 3,
+      "source_sha256": "733d31c0cfce545c4caa1e2a3b03ed3ca7191dbc165f171a0e2650b679328cc7",
+      "category": "environment",
+      "table_score": 80,
+      "layout_score": 21,
+      "characters": 4804
+    },
+    {
+      "doc_id": "hdc3020",
+      "page": 5,
+      "source_sha256": "733d31c0cfce545c4caa1e2a3b03ed3ca7191dbc165f171a0e2650b679328cc7",
+      "category": "environment",
+      "table_score": 161,
+      "layout_score": 20,
+      "characters": 6036
+    },
+    {
+      "doc_id": "hdc3020",
+      "page": 6,
+      "source_sha256": "733d31c0cfce545c4caa1e2a3b03ed3ca7191dbc165f171a0e2650b679328cc7",
+      "category": "environment",
+      "table_score": 180,
+      "layout_score": 20,
+      "characters": 6285
+    },
+    {
+      "doc_id": "hdc3020",
+      "page": 7,
+      "source_sha256": "733d31c0cfce545c4caa1e2a3b03ed3ca7191dbc165f171a0e2650b679328cc7",
+      "category": "environment",
+      "table_score": 156,
+      "layout_score": 20,
+      "characters": 5214
+    },
+    {
+      "doc_id": "hdc3020",
+      "page": 8,
+      "source_sha256": "733d31c0cfce545c4caa1e2a3b03ed3ca7191dbc165f171a0e2650b679328cc7",
+      "category": "environment",
+      "table_score": 177,
+      "layout_score": 20,
+      "characters": 6675
+    },
+    {
+      "doc_id": "hdc3020",
+      "page": 9,
+      "source_sha256": "733d31c0cfce545c4caa1e2a3b03ed3ca7191dbc165f171a0e2650b679328cc7",
+      "category": "environment",
+      "table_score": 154,
+      "layout_score": 21,
+      "characters": 3678
+    },
+    {
+      "doc_id": "hdc3020",
+      "page": 10,
+      "source_sha256": "733d31c0cfce545c4caa1e2a3b03ed3ca7191dbc165f171a0e2650b679328cc7",
+      "category": "environment",
+      "table_score": 80,
+      "layout_score": 26,
+      "characters": 4235
+    },
+    {
+      "doc_id": "hdc3020",
+      "page": 18,
+      "source_sha256": "733d31c0cfce545c4caa1e2a3b03ed3ca7191dbc165f171a0e2650b679328cc7",
+      "category": "environment",
+      "table_score": 80,
+      "layout_score": 23,
+      "characters": 4656
+    },
+    {
+      "doc_id": "hdc3020",
+      "page": 21,
+      "source_sha256": "733d31c0cfce545c4caa1e2a3b03ed3ca7191dbc165f171a0e2650b679328cc7",
+      "category": "environment",
+      "table_score": 77,
+      "layout_score": 25,
+      "characters": 4832
+    },
+    {
+      "doc_id": "hdc3020",
+      "page": 22,
+      "source_sha256": "733d31c0cfce545c4caa1e2a3b03ed3ca7191dbc165f171a0e2650b679328cc7",
+      "category": "environment",
+      "table_score": 39,
+      "layout_score": 30,
+      "characters": 3318
+    },
+    {
+      "doc_id": "hdc3020",
+      "page": 23,
+      "source_sha256": "733d31c0cfce545c4caa1e2a3b03ed3ca7191dbc165f171a0e2650b679328cc7",
+      "category": "environment",
+      "table_score": 39,
+      "layout_score": 31,
+      "characters": 2871
+    },
+    {
+      "doc_id": "hdc3020",
+      "page": 28,
+      "source_sha256": "733d31c0cfce545c4caa1e2a3b03ed3ca7191dbc165f171a0e2650b679328cc7",
+      "category": "environment",
+      "table_score": 80,
+      "layout_score": 27,
+      "characters": 5028
+    },
+    {
+      "doc_id": "opt3001",
+      "page": 4,
+      "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+      "category": "environment",
+      "table_score": 145,
+      "layout_score": 20,
+      "characters": 4743
+    },
+    {
+      "doc_id": "opt3001",
+      "page": 5,
+      "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+      "category": "environment",
+      "table_score": 195,
+      "layout_score": 20,
+      "characters": 7548
+    },
+    {
+      "doc_id": "opt3001",
+      "page": 6,
+      "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+      "category": "environment",
+      "table_score": 139,
+      "layout_score": 21,
+      "characters": 5048
+    },
+    {
+      "doc_id": "opt3001",
+      "page": 7,
+      "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+      "category": "environment",
+      "table_score": 26,
+      "layout_score": 26,
+      "characters": 1793
+    },
+    {
+      "doc_id": "opt3001",
+      "page": 8,
+      "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+      "category": "environment",
+      "table_score": 21,
+      "layout_score": 26,
+      "characters": 1300
+    },
+    {
+      "doc_id": "opt3001",
+      "page": 14,
+      "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+      "category": "environment",
+      "table_score": 87,
+      "layout_score": 25,
+      "characters": 6594
+    },
+    {
+      "doc_id": "opt3001",
+      "page": 15,
+      "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+      "category": "environment",
+      "table_score": 83,
+      "layout_score": 24,
+      "characters": 6451
+    },
+    {
+      "doc_id": "opt3001",
+      "page": 20,
+      "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+      "category": "environment",
+      "table_score": 95,
+      "layout_score": 27,
+      "characters": 5767
+    },
+    {
+      "doc_id": "opt3001",
+      "page": 21,
+      "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+      "category": "environment",
+      "table_score": 95,
+      "layout_score": 25,
+      "characters": 5746
+    },
+    {
+      "doc_id": "opt3001",
+      "page": 24,
+      "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+      "category": "environment",
+      "table_score": 95,
+      "layout_score": 25,
+      "characters": 5919
+    },
+    {
+      "doc_id": "opt3001",
+      "page": 25,
+      "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+      "category": "environment",
+      "table_score": 65,
+      "layout_score": 23,
+      "characters": 3402
+    },
+    {
+      "doc_id": "opt3001",
+      "page": 26,
+      "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+      "category": "environment",
+      "table_score": 70,
+      "layout_score": 24,
+      "characters": 3486
+    },
+    {
+      "doc_id": "bmi160",
+      "page": 5,
+      "source_sha256": "0c3dca28517322bdcfcef9be8b1dd2b872ff9df9464d0088c17ccc4a67472f3b",
+      "category": "motion",
+      "table_score": 95,
+      "layout_score": 20,
+      "characters": 7679
+    },
+    {
+      "doc_id": "bmi160",
+      "page": 7,
+      "source_sha256": "0c3dca28517322bdcfcef9be8b1dd2b872ff9df9464d0088c17ccc4a67472f3b",
+      "category": "motion",
+      "table_score": 148,
+      "layout_score": 21,
+      "characters": 4899
+    },
+    {
+      "doc_id": "bmi160",
+      "page": 8,
+      "source_sha256": "0c3dca28517322bdcfcef9be8b1dd2b872ff9df9464d0088c17ccc4a67472f3b",
+      "category": "motion",
+      "table_score": 152,
+      "layout_score": 21,
+      "characters": 5379
+    },
+    {
+      "doc_id": "bmi160",
+      "page": 9,
+      "source_sha256": "0c3dca28517322bdcfcef9be8b1dd2b872ff9df9464d0088c17ccc4a67472f3b",
+      "category": "motion",
+      "table_score": 149,
+      "layout_score": 21,
+      "characters": 5556
+    },
+    {
+      "doc_id": "bmi160",
+      "page": 10,
+      "source_sha256": "0c3dca28517322bdcfcef9be8b1dd2b872ff9df9464d0088c17ccc4a67472f3b",
+      "category": "motion",
+      "table_score": 128,
+      "layout_score": 21,
+      "characters": 3680
+    },
+    {
+      "doc_id": "bmi160",
+      "page": 11,
+      "source_sha256": "0c3dca28517322bdcfcef9be8b1dd2b872ff9df9464d0088c17ccc4a67472f3b",
+      "category": "motion",
+      "table_score": 129,
+      "layout_score": 22,
+      "characters": 3007
+    },
+    {
+      "doc_id": "bmi160",
+      "page": 16,
+      "source_sha256": "0c3dca28517322bdcfcef9be8b1dd2b872ff9df9464d0088c17ccc4a67472f3b",
+      "category": "motion",
+      "table_score": 95,
+      "layout_score": 21,
+      "characters": 4052
+    },
+    {
+      "doc_id": "bmi160",
+      "page": 34,
+      "source_sha256": "0c3dca28517322bdcfcef9be8b1dd2b872ff9df9464d0088c17ccc4a67472f3b",
+      "category": "motion",
+      "table_score": 77,
+      "layout_score": 24,
+      "characters": 3591
+    },
+    {
+      "doc_id": "bmi160",
+      "page": 89,
+      "source_sha256": "0c3dca28517322bdcfcef9be8b1dd2b872ff9df9464d0088c17ccc4a67472f3b",
+      "category": "motion",
+      "table_score": 121,
+      "layout_score": 22,
+      "characters": 4202
+    },
+    {
+      "doc_id": "bmi160",
+      "page": 90,
+      "source_sha256": "0c3dca28517322bdcfcef9be8b1dd2b872ff9df9464d0088c17ccc4a67472f3b",
+      "category": "motion",
+      "table_score": 137,
+      "layout_score": 21,
+      "characters": 3003
+    },
+    {
+      "doc_id": "bmi160",
+      "page": 94,
+      "source_sha256": "0c3dca28517322bdcfcef9be8b1dd2b872ff9df9464d0088c17ccc4a67472f3b",
+      "category": "motion",
+      "table_score": 126,
+      "layout_score": 22,
+      "characters": 3271
+    },
+    {
+      "doc_id": "bmi160",
+      "page": 114,
+      "source_sha256": "0c3dca28517322bdcfcef9be8b1dd2b872ff9df9464d0088c17ccc4a67472f3b",
+      "category": "motion",
+      "table_score": 88,
+      "layout_score": 26,
+      "characters": 3864
+    },
+    {
+      "doc_id": "bmi270",
+      "page": 5,
+      "source_sha256": "f68ce3c74f011a80bbe4b0279c4abe9609a71a5dcda75a951381d77112e005fb",
+      "category": "motion",
+      "table_score": 95,
+      "layout_score": 20,
+      "characters": 11045
+    },
+    {
+      "doc_id": "bmi270",
+      "page": 6,
+      "source_sha256": "f68ce3c74f011a80bbe4b0279c4abe9609a71a5dcda75a951381d77112e005fb",
+      "category": "motion",
+      "table_score": 95,
+      "layout_score": 20,
+      "characters": 12106
+    },
+    {
+      "doc_id": "bmi270",
+      "page": 7,
+      "source_sha256": "f68ce3c74f011a80bbe4b0279c4abe9609a71a5dcda75a951381d77112e005fb",
+      "category": "motion",
+      "table_score": 95,
+      "layout_score": 20,
+      "characters": 12042
+    },
+    {
+      "doc_id": "bmi270",
+      "page": 8,
+      "source_sha256": "f68ce3c74f011a80bbe4b0279c4abe9609a71a5dcda75a951381d77112e005fb",
+      "category": "motion",
+      "table_score": 95,
+      "layout_score": 20,
+      "characters": 10462
+    },
+    {
+      "doc_id": "bmi270",
+      "page": 10,
+      "source_sha256": "f68ce3c74f011a80bbe4b0279c4abe9609a71a5dcda75a951381d77112e005fb",
+      "category": "motion",
+      "table_score": 95,
+      "layout_score": 58,
+      "characters": 9426
+    },
+    {
+      "doc_id": "bmi270",
+      "page": 16,
+      "source_sha256": "f68ce3c74f011a80bbe4b0279c4abe9609a71a5dcda75a951381d77112e005fb",
+      "category": "motion",
+      "table_score": 128,
+      "layout_score": 21,
+      "characters": 9378
+    },
+    {
+      "doc_id": "bmi270",
+      "page": 28,
+      "source_sha256": "f68ce3c74f011a80bbe4b0279c4abe9609a71a5dcda75a951381d77112e005fb",
+      "category": "motion",
+      "table_score": 83,
+      "layout_score": 23,
+      "characters": 9786
+    },
+    {
+      "doc_id": "bmi270",
+      "page": 30,
+      "source_sha256": "f68ce3c74f011a80bbe4b0279c4abe9609a71a5dcda75a951381d77112e005fb",
+      "category": "motion",
+      "table_score": 80,
+      "layout_score": 24,
+      "characters": 9852
+    },
+    {
+      "doc_id": "bmi270",
+      "page": 35,
+      "source_sha256": "f68ce3c74f011a80bbe4b0279c4abe9609a71a5dcda75a951381d77112e005fb",
+      "category": "motion",
+      "table_score": 95,
+      "layout_score": 20,
+      "characters": 7877
+    },
+    {
+      "doc_id": "bmi270",
+      "page": 67,
+      "source_sha256": "f68ce3c74f011a80bbe4b0279c4abe9609a71a5dcda75a951381d77112e005fb",
+      "category": "motion",
+      "table_score": 94,
+      "layout_score": 20,
+      "characters": 7709
+    },
+    {
+      "doc_id": "bmi270",
+      "page": 123,
+      "source_sha256": "f68ce3c74f011a80bbe4b0279c4abe9609a71a5dcda75a951381d77112e005fb",
+      "category": "motion",
+      "table_score": 144,
+      "layout_score": 21,
+      "characters": 9190
+    },
+    {
+      "doc_id": "bmi270",
+      "page": 128,
+      "source_sha256": "f68ce3c74f011a80bbe4b0279c4abe9609a71a5dcda75a951381d77112e005fb",
+      "category": "motion",
+      "table_score": 131,
+      "layout_score": 21,
+      "characters": 17991
+    },
+    {
+      "doc_id": "sn65hvd230",
+      "page": 5,
+      "source_sha256": "e98fc0c59168c035d7958111924dae7e21e46ab45bdfd6400aef048299d6d716",
+      "category": "interface",
+      "table_score": 136,
+      "layout_score": 21,
+      "characters": 4025
+    },
+    {
+      "doc_id": "sn65hvd230",
+      "page": 6,
+      "source_sha256": "e98fc0c59168c035d7958111924dae7e21e46ab45bdfd6400aef048299d6d716",
+      "category": "interface",
+      "table_score": 61,
+      "layout_score": 21,
+      "characters": 5649
+    },
+    {
+      "doc_id": "sn65hvd230",
+      "page": 7,
+      "source_sha256": "e98fc0c59168c035d7958111924dae7e21e46ab45bdfd6400aef048299d6d716",
+      "category": "interface",
+      "table_score": 180,
+      "layout_score": 30,
+      "characters": 6278
+    },
+    {
+      "doc_id": "sn65hvd230",
+      "page": 8,
+      "source_sha256": "e98fc0c59168c035d7958111924dae7e21e46ab45bdfd6400aef048299d6d716",
+      "category": "interface",
+      "table_score": 180,
+      "layout_score": 30,
+      "characters": 6606
+    },
+    {
+      "doc_id": "sn65hvd230",
+      "page": 9,
+      "source_sha256": "e98fc0c59168c035d7958111924dae7e21e46ab45bdfd6400aef048299d6d716",
+      "category": "interface",
+      "table_score": 126,
+      "layout_score": 21,
+      "characters": 1793
+    },
+    {
+      "doc_id": "sn65hvd230",
+      "page": 10,
+      "source_sha256": "e98fc0c59168c035d7958111924dae7e21e46ab45bdfd6400aef048299d6d716",
+      "category": "interface",
+      "table_score": 12,
+      "layout_score": 26,
+      "characters": 1150
+    },
+    {
+      "doc_id": "sn65hvd230",
+      "page": 11,
+      "source_sha256": "e98fc0c59168c035d7958111924dae7e21e46ab45bdfd6400aef048299d6d716",
+      "category": "interface",
+      "table_score": 11,
+      "layout_score": 26,
+      "characters": 1416
+    },
+    {
+      "doc_id": "sn65hvd230",
+      "page": 16,
+      "source_sha256": "e98fc0c59168c035d7958111924dae7e21e46ab45bdfd6400aef048299d6d716",
+      "category": "interface",
+      "table_score": 40,
+      "layout_score": 22,
+      "characters": 2086
+    },
+    {
+      "doc_id": "sn65hvd230",
+      "page": 23,
+      "source_sha256": "e98fc0c59168c035d7958111924dae7e21e46ab45bdfd6400aef048299d6d716",
+      "category": "interface",
+      "table_score": 40,
+      "layout_score": 24,
+      "characters": 5111
+    },
+    {
+      "doc_id": "sn65hvd230",
+      "page": 28,
+      "source_sha256": "e98fc0c59168c035d7958111924dae7e21e46ab45bdfd6400aef048299d6d716",
+      "category": "interface",
+      "table_score": 42,
+      "layout_score": 22,
+      "characters": 3339
+    },
+    {
+      "doc_id": "sn65hvd230",
+      "page": 36,
+      "source_sha256": "e98fc0c59168c035d7958111924dae7e21e46ab45bdfd6400aef048299d6d716",
+      "category": "interface",
+      "table_score": 69,
+      "layout_score": 20,
+      "characters": 5873
+    },
+    {
+      "doc_id": "sn65hvd230",
+      "page": 40,
+      "source_sha256": "e98fc0c59168c035d7958111924dae7e21e46ab45bdfd6400aef048299d6d716",
+      "category": "interface",
+      "table_score": 68,
+      "layout_score": 20,
+      "characters": 7424
+    },
+    {
+      "doc_id": "max3232",
+      "page": 3,
+      "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+      "category": "interface",
+      "table_score": 28,
+      "layout_score": 22,
+      "characters": 2189
+    },
+    {
+      "doc_id": "max3232",
+      "page": 4,
+      "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+      "category": "interface",
+      "table_score": 175,
+      "layout_score": 20,
+      "characters": 5573
+    },
+    {
+      "doc_id": "max3232",
+      "page": 5,
+      "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+      "category": "interface",
+      "table_score": 180,
+      "layout_score": 20,
+      "characters": 4471
+    },
+    {
+      "doc_id": "max3232",
+      "page": 6,
+      "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+      "category": "interface",
+      "table_score": 180,
+      "layout_score": 23,
+      "characters": 4355
+    },
+    {
+      "doc_id": "max3232",
+      "page": 8,
+      "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+      "category": "interface",
+      "table_score": 25,
+      "layout_score": 23,
+      "characters": 1231
+    },
+    {
+      "doc_id": "max3232",
+      "page": 12,
+      "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+      "category": "interface",
+      "table_score": 36,
+      "layout_score": 22,
+      "characters": 1558
+    },
+    {
+      "doc_id": "max3232",
+      "page": 15,
+      "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+      "category": "interface",
+      "table_score": 80,
+      "layout_score": 20,
+      "characters": 7405
+    },
+    {
+      "doc_id": "max3232",
+      "page": 17,
+      "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+      "category": "interface",
+      "table_score": 80,
+      "layout_score": 20,
+      "characters": 4045
+    },
+    {
+      "doc_id": "max3232",
+      "page": 18,
+      "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+      "category": "interface",
+      "table_score": 73,
+      "layout_score": 20,
+      "characters": 2295
+    },
+    {
+      "doc_id": "max3232",
+      "page": 20,
+      "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+      "category": "interface",
+      "table_score": 39,
+      "layout_score": 20,
+      "characters": 4738
+    },
+    {
+      "doc_id": "max3232",
+      "page": 24,
+      "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+      "category": "interface",
+      "table_score": 43,
+      "layout_score": 20,
+      "characters": 6233
+    },
+    {
+      "doc_id": "max3232",
+      "page": 27,
+      "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+      "category": "interface",
+      "table_score": 43,
+      "layout_score": 20,
+      "characters": 5231
+    },
+    {
+      "doc_id": "tca9548a",
+      "page": 3,
+      "source_sha256": "2137822fd7128945ea44e83f4e100a932b30964d763715eeffe217ee6080a2dc",
+      "category": "interface",
+      "table_score": 80,
+      "layout_score": 23,
+      "characters": 4556
+    },
+    {
+      "doc_id": "tca9548a",
+      "page": 4,
+      "source_sha256": "2137822fd7128945ea44e83f4e100a932b30964d763715eeffe217ee6080a2dc",
+      "category": "interface",
+      "table_score": 160,
+      "layout_score": 20,
+      "characters": 5312
+    },
+    {
+      "doc_id": "tca9548a",
+      "page": 6,
+      "source_sha256": "2137822fd7128945ea44e83f4e100a932b30964d763715eeffe217ee6080a2dc",
+      "category": "interface",
+      "table_score": 180,
+      "layout_score": 20,
+      "characters": 8341
+    },
+    {
+      "doc_id": "tca9548a",
+      "page": 7,
+      "source_sha256": "2137822fd7128945ea44e83f4e100a932b30964d763715eeffe217ee6080a2dc",
+      "category": "interface",
+      "table_score": 180,
+      "layout_score": 21,
+      "characters": 8508
+    },
+    {
+      "doc_id": "tca9548a",
+      "page": 8,
+      "source_sha256": "2137822fd7128945ea44e83f4e100a932b30964d763715eeffe217ee6080a2dc",
+      "category": "interface",
+      "table_score": 131,
+      "layout_score": 22,
+      "characters": 3038
+    },
+    {
+      "doc_id": "tca9548a",
+      "page": 9,
+      "source_sha256": "2137822fd7128945ea44e83f4e100a932b30964d763715eeffe217ee6080a2dc",
+      "category": "interface",
+      "table_score": 14,
+      "layout_score": 24,
+      "characters": 1226
+    },
+    {
+      "doc_id": "tca9548a",
+      "page": 15,
+      "source_sha256": "2137822fd7128945ea44e83f4e100a932b30964d763715eeffe217ee6080a2dc",
+      "category": "interface",
+      "table_score": 34,
+      "layout_score": 25,
+      "characters": 1932
+    },
+    {
+      "doc_id": "tca9548a",
+      "page": 18,
+      "source_sha256": "2137822fd7128945ea44e83f4e100a932b30964d763715eeffe217ee6080a2dc",
+      "category": "interface",
+      "table_score": 68,
+      "layout_score": 22,
+      "characters": 3704
+    },
+    {
+      "doc_id": "tca9548a",
+      "page": 23,
+      "source_sha256": "2137822fd7128945ea44e83f4e100a932b30964d763715eeffe217ee6080a2dc",
+      "category": "interface",
+      "table_score": 144,
+      "layout_score": 33,
+      "characters": 2654
+    },
+    {
+      "doc_id": "tca9548a",
+      "page": 26,
+      "source_sha256": "2137822fd7128945ea44e83f4e100a932b30964d763715eeffe217ee6080a2dc",
+      "category": "interface",
+      "table_score": 42,
+      "layout_score": 21,
+      "characters": 3534
+    },
+    {
+      "doc_id": "tca9548a",
+      "page": 28,
+      "source_sha256": "2137822fd7128945ea44e83f4e100a932b30964d763715eeffe217ee6080a2dc",
+      "category": "interface",
+      "table_score": 80,
+      "layout_score": 20,
+      "characters": 5932
+    },
+    {
+      "doc_id": "tca9548a",
+      "page": 30,
+      "source_sha256": "2137822fd7128945ea44e83f4e100a932b30964d763715eeffe217ee6080a2dc",
+      "category": "interface",
+      "table_score": 67,
+      "layout_score": 20,
+      "characters": 3131
+    },
+    {
+      "doc_id": "dac80501",
+      "page": 4,
+      "source_sha256": "51dcb60423765d2521c62af621e2d6c7f4d38c9aa48deec4b4044d49decbbc20",
+      "category": "DAC",
+      "table_score": 163,
+      "layout_score": 20,
+      "characters": 5123
+    },
+    {
+      "doc_id": "dac80501",
+      "page": 5,
+      "source_sha256": "51dcb60423765d2521c62af621e2d6c7f4d38c9aa48deec4b4044d49decbbc20",
+      "category": "DAC",
+      "table_score": 180,
+      "layout_score": 20,
+      "characters": 5759
+    },
+    {
+      "doc_id": "dac80501",
+      "page": 6,
+      "source_sha256": "51dcb60423765d2521c62af621e2d6c7f4d38c9aa48deec4b4044d49decbbc20",
+      "category": "DAC",
+      "table_score": 175,
+      "layout_score": 20,
+      "characters": 5651
+    },
+    {
+      "doc_id": "dac80501",
+      "page": 7,
+      "source_sha256": "51dcb60423765d2521c62af621e2d6c7f4d38c9aa48deec4b4044d49decbbc20",
+      "category": "DAC",
+      "table_score": 180,
+      "layout_score": 20,
+      "characters": 7075
+    },
+    {
+      "doc_id": "dac80501",
+      "page": 8,
+      "source_sha256": "51dcb60423765d2521c62af621e2d6c7f4d38c9aa48deec4b4044d49decbbc20",
+      "category": "DAC",
+      "table_score": 148,
+      "layout_score": 20,
+      "characters": 2834
+    },
+    {
+      "doc_id": "dac80501",
+      "page": 11,
+      "source_sha256": "51dcb60423765d2521c62af621e2d6c7f4d38c9aa48deec4b4044d49decbbc20",
+      "category": "DAC",
+      "table_score": 22,
+      "layout_score": 26,
+      "characters": 1022
+    },
+    {
+      "doc_id": "dac80501",
+      "page": 12,
+      "source_sha256": "51dcb60423765d2521c62af621e2d6c7f4d38c9aa48deec4b4044d49decbbc20",
+      "category": "DAC",
+      "table_score": 26,
+      "layout_score": 26,
+      "characters": 1146
+    },
+    {
+      "doc_id": "dac80501",
+      "page": 27,
+      "source_sha256": "51dcb60423765d2521c62af621e2d6c7f4d38c9aa48deec4b4044d49decbbc20",
+      "category": "DAC",
+      "table_score": 95,
+      "layout_score": 27,
+      "characters": 3363
+    },
+    {
+      "doc_id": "dac80501",
+      "page": 28,
+      "source_sha256": "51dcb60423765d2521c62af621e2d6c7f4d38c9aa48deec4b4044d49decbbc20",
+      "category": "DAC",
+      "table_score": 82,
+      "layout_score": 22,
+      "characters": 2711
+    },
+    {
+      "doc_id": "dac80501",
+      "page": 29,
+      "source_sha256": "51dcb60423765d2521c62af621e2d6c7f4d38c9aa48deec4b4044d49decbbc20",
+      "category": "DAC",
+      "table_score": 87,
+      "layout_score": 25,
+      "characters": 4683
+    },
+    {
+      "doc_id": "dac80501",
+      "page": 31,
+      "source_sha256": "51dcb60423765d2521c62af621e2d6c7f4d38c9aa48deec4b4044d49decbbc20",
+      "category": "DAC",
+      "table_score": 85,
+      "layout_score": 24,
+      "characters": 5395
+    },
+    {
+      "doc_id": "dac80501",
+      "page": 32,
+      "source_sha256": "51dcb60423765d2521c62af621e2d6c7f4d38c9aa48deec4b4044d49decbbc20",
+      "category": "DAC",
+      "table_score": 84,
+      "layout_score": 24,
+      "characters": 3481
+    }
+  ],
+  "corpus_sha256": "af36870b2f1458cc5c7473ce1c236b9608cceecb061af381dd64b00363d0893c"
+}

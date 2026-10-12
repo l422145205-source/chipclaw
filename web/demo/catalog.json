@@ -1,0 +1,377 @@
+{
+  "recorded_at": "2026-10-11",
+  "source": "reports/runtime-v4",
+  "documents": [
+    {
+      "id": "stm32f103",
+      "title": "STM32F103x8 / STM32F103xB datasheet",
+      "url": "https://www.st.com/resource/en/datasheet/stm32f103cb.pdf",
+      "category": "MCU",
+      "series": "stm32f1",
+      "legacy": true
+    },
+    {
+      "id": "rp2040",
+      "title": "RP2040 datasheet",
+      "url": "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf",
+      "category": "MCU",
+      "series": "rp2040",
+      "legacy": true
+    },
+    {
+      "id": "tmp117",
+      "title": "TMP117 digital temperature sensor datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/tmp117.pdf",
+      "category": "environment",
+      "series": "tmp11x",
+      "legacy": true
+    },
+    {
+      "id": "ina226",
+      "title": "INA226 current voltage and power monitor datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/ina226.pdf",
+      "category": "current_monitor",
+      "series": "ina22x",
+      "legacy": true
+    },
+    {
+      "id": "bme280",
+      "title": "BME280 humidity pressure temperature sensor datasheet",
+      "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf",
+      "category": "environment",
+      "series": "bme280",
+      "legacy": true
+    },
+    {
+      "id": "msp430g2553",
+      "title": "MSP430G2x53/G2x13 mixed signal MCU datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/msp430g2553.pdf",
+      "category": "MCU",
+      "series": "msp430g2"
+    },
+    {
+      "id": "ads1115",
+      "title": "ADS1113/ADS1114/ADS1115 ADC datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/ads1115.pdf",
+      "category": "ADC",
+      "series": "ads111x"
+    },
+    {
+      "id": "ads1220",
+      "title": "ADS1220 24-bit ADC datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/ads1220.pdf",
+      "category": "ADC",
+      "series": "ads122x"
+    },
+    {
+      "id": "ads1256",
+      "title": "ADS1255/ADS1256 ADC datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/ads1256.pdf",
+      "category": "ADC",
+      "series": "ads125x"
+    },
+    {
+      "id": "ina219",
+      "title": "INA219 current and power monitor datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/ina219.pdf",
+      "category": "current_monitor",
+      "series": "ina21x"
+    },
+    {
+      "id": "ina228",
+      "title": "INA228 20-bit current voltage power monitor datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/ina228.pdf",
+      "category": "current_monitor",
+      "series": "ina22x"
+    },
+    {
+      "id": "hdc1080",
+      "title": "HDC1080 humidity and temperature sensor datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/hdc1080.pdf",
+      "category": "environment",
+      "series": "hdc10xx"
+    },
+    {
+      "id": "hdc3020",
+      "title": "HDC3020/HDC3021/HDC3022 humidity sensor datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/hdc3020.pdf",
+      "category": "environment",
+      "series": "hdc30xx"
+    },
+    {
+      "id": "opt3001",
+      "title": "OPT3001 ambient light sensor datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/opt3001.pdf",
+      "category": "environment",
+      "series": "opt300x"
+    },
+    {
+      "id": "bmi160",
+      "title": "BMI160 low power inertial measurement unit datasheet",
+      "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi160-ds000.pdf",
+      "category": "motion",
+      "series": "bmi16x"
+    },
+    {
+      "id": "bmi270",
+      "title": "BMI270 inertial measurement unit datasheet",
+      "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf",
+      "category": "motion",
+      "series": "bmi27x"
+    },
+    {
+      "id": "sn65hvd230",
+      "title": "SN65HVD230/231/232 CAN transceiver datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf",
+      "category": "interface",
+      "series": "sn65hvd23x"
+    },
+    {
+      "id": "max3232",
+      "title": "MAX3232 RS232 transceiver datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/max3232.pdf",
+      "category": "interface",
+      "series": "max3232"
+    },
+    {
+      "id": "tca9548a",
+      "title": "TCA9548A I2C switch datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/tca9548a.pdf",
+      "category": "interface",
+      "series": "tca954x"
+    },
+    {
+      "id": "dac80501",
+      "title": "DAC80501/70501/60501 DAC datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/dac80501.pdf",
+      "category": "DAC",
+      "series": "dacx0501"
+    }
+  ],
+  "runs": [
+    {
+      "id": "adaptive_v4-en",
+      "file": "adaptive_v4-en.json",
+      "doc_id": "max3232",
+      "question": "What is the typical supply current of MAX3232 with no load and VCC 3.3 V to 5 V?",
+      "method": "adaptive_v4",
+      "sha256": "fb9374d9abec18b3d4ab6ccdc7e9039bd4207aad100521d1e3298c8d0d4b5d7d"
+    },
+    {
+      "id": "adaptive_v4-zh",
+      "file": "adaptive_v4-zh.json",
+      "doc_id": "max3232",
+      "question": "MAX3232 在空载、VCC 3.3 V 至 5 V 时，典型供电电流是多少？",
+      "method": "adaptive_v4",
+      "sha256": "2f3ab805c2df230f02f218172ff0a77415fa87e2df0d92667eb7196cec8d7fe9"
+    },
+    {
+      "id": "corpus-ads1115",
+      "file": "corpus-ads1115.json",
+      "doc_id": "ads1115",
+      "question": "For ADS1115 under FSR = ±2.048V, DC supply variation, what specification applies to offset power-supply rejection?",
+      "method": "multilingual_v4",
+      "sha256": "a3e0e6e25f9bf10615dfbf41488defa470e5922b5b099b8097a409ae5fcb3382"
+    },
+    {
+      "id": "corpus-ads1220",
+      "file": "corpus-ads1220.json",
+      "doc_id": "ads1220",
+      "question": "ADS1220 在 Normal mode, gain = 32 条件下，IAVDD Analog supply current(2) 的典型规格是什么？",
+      "method": "multilingual_v4",
+      "sha256": "0ffcb39d74aed27655941c44d99b4a75c1ffe4825927aa041924c8b72f6d9e9f"
+    },
+    {
+      "id": "corpus-ads1256",
+      "file": "corpus-ads1256.json",
+      "doc_id": "ads1256",
+      "question": "For ADS1256, what specification applies to sync/pdwn rising edge to clkin rising edge?",
+      "method": "multilingual_v4",
+      "sha256": "e18dccee1eeeb562af57f9ae3ada6f671ed9ce4710d19871197741bd85bfb8a3"
+    },
+    {
+      "id": "corpus-bme280",
+      "file": "corpus-bme280.json",
+      "doc_id": "bme280",
+      "question": "BME280 如何实现 Sensor mode transitions 的功能？",
+      "method": "multilingual_v4",
+      "sha256": "5a8ee8d3323be7a8aefb55057ade913a1d53887a8d9ae8b8875bf2270e6dd45d"
+    },
+    {
+      "id": "corpus-bmi160",
+      "file": "corpus-bmi160.json",
+      "doc_id": "bmi160",
+      "question": "For BMI160 under best fit straight line, what is the typical value of sensitivity change over supply voltage s a,vdd?",
+      "method": "multilingual_v4",
+      "sha256": "d1dea6fcb038bad5089bcc0ce5ce5d84ca6e4b46808f00e786fc33b0383d89a3"
+    },
+    {
+      "id": "corpus-bmi270",
+      "file": "corpus-bmi270.json",
+      "doc_id": "bmi270",
+      "question": "BMI270 在 Normal and performance 条件下，Output Data Rate 的规定规格是什么？",
+      "method": "multilingual_v4",
+      "sha256": "fd4e5c7f07fde31f866dbc741d24ff527deb6667553c3935f7638d949ddd4b99"
+    },
+    {
+      "id": "corpus-dac80501",
+      "file": "corpus-dac80501.json",
+      "doc_id": "dac80501",
+      "question": "For DAC80501, what is the maximum value of input current current into vdd, agnd, vout?",
+      "method": "multilingual_v4",
+      "sha256": "a7fb6e55e15c4918f49ce3cdd465fb343f950b1cd3b0a087350d789eb8482be6"
+    },
+    {
+      "id": "corpus-hdc1080",
+      "file": "corpus-hdc1080.json",
+      "doc_id": "hdc1080",
+      "question": "HDC1080 如何实现 I2C Interface Timing Requirements 的功能？",
+      "method": "multilingual_v4",
+      "sha256": "34079f6d54667db41b55017c5d665e0c52ac9bab9228f4772609459ccfe0011f"
+    },
+    {
+      "id": "corpus-hdc3020",
+      "file": "corpus-hdc3020.json",
+      "doc_id": "hdc3020",
+      "question": "For HDC3020 under Low Power Mode 0 (lowest noise), what is the typical value of i dd_active active current(1)?",
+      "method": "multilingual_v4",
+      "sha256": "1d15b7345ef33faa1a4d1134228e8d33c7c2c00e8424703a79abcfc05ccb0cd6"
+    },
+    {
+      "id": "corpus-ina219",
+      "file": "corpus-ina219.json",
+      "doc_id": "ina219",
+      "question": "INA219 如何实现 Design Requirements 的功能？",
+      "method": "multilingual_v4",
+      "sha256": "221b79ab68302a814790d9a815a00eefd432ddbdb20b0b58eae607fba077e46d"
+    },
+    {
+      "id": "corpus-ina226",
+      "file": "corpus-ina226.json",
+      "doc_id": "ina226",
+      "question": "For INA226, what is the typical value of vpor power-on reset threshold?",
+      "method": "multilingual_v4",
+      "sha256": "04a183484ab4d53d56cbb1b3577d1a3953fffc8de263c9e327030737627e08c9"
+    },
+    {
+      "id": "corpus-ina228",
+      "file": "corpus-ina228.json",
+      "doc_id": "ina228",
+      "question": "INA228 在 SDA, SCL 条件下，V IH Logic input level, high 的最大规格是什么？",
+      "method": "multilingual_v4",
+      "sha256": "1e1b6011bad76ee39d2afe17d4855e7a64b02ad5ced028ec1fb2095c5fe664c9"
+    },
+    {
+      "id": "corpus-max3232",
+      "file": "corpus-max3232.json",
+      "doc_id": "max3232",
+      "question": "For MAX3232 under No load, V CC = 3.3 V to 5 V, what is the maximum value of i cc supply current?",
+      "method": "multilingual_v4",
+      "sha256": "843ae898c6101cea1635fbcd103b75e8e9b5c9d7cb7908e01c5fcaa3da844fa9"
+    },
+    {
+      "id": "corpus-msp430g2553",
+      "file": "corpus-msp430g2553.json",
+      "doc_id": "msp430g2553",
+      "question": "MSP430G2553 在 Reference supply current,; REFON = 1, REFOUT = 0 条件下，IREF+ 的规定规格是什么？",
+      "method": "multilingual_v4",
+      "sha256": "d7ab9c7817d748d609422cafed16e8c6d989a2a6e859cf31cc8e9339dd408ba8"
+    },
+    {
+      "id": "corpus-opt3001",
+      "file": "corpus-opt3001.json",
+      "doc_id": "opt3001",
+      "question": "How does OPT3001 handle general-call reset command?",
+      "method": "multilingual_v4",
+      "sha256": "1689ff3ec541c77e271501e7397cb88a681cafa5a6e985e2dff1c87af8cf7126"
+    },
+    {
+      "id": "corpus-rp2040",
+      "file": "corpus-rp2040.json",
+      "doc_id": "rp2040",
+      "question": "RP2040 在 LDRH Rd, [Rn, #<imm>] 条件下，Halfword, immediate offset 的规定规格是什么？",
+      "method": "multilingual_v4",
+      "sha256": "6e0903563267f37c14678969576b13e7dbe41c17b2931f64dce0caf08cc66a0d"
+    },
+    {
+      "id": "corpus-sn65hvd230",
+      "file": "corpus-sn65hvd230.json",
+      "doc_id": "sn65hvd230",
+      "question": "For SN65HVD230 under RS with 10 kΩ to ground, what specification applies to propagation delay time, low-to-high-level?",
+      "method": "multilingual_v4",
+      "sha256": "92cb465efaf493041ccb4acd99799660293987b5c152fb03672686fb5e2a12cf"
+    },
+    {
+      "id": "corpus-stm32f103",
+      "file": "corpus-stm32f103.json",
+      "doc_id": "stm32f103",
+      "question": "STM32F103，t (2) CAL Calibration time 的典型规格是什么？",
+      "method": "multilingual_v4",
+      "sha256": "73316912e226a9abd60a097727cec2956d5e5baad6b84554aa4257f313feb25f"
+    },
+    {
+      "id": "corpus-tca9548a",
+      "file": "corpus-tca9548a.json",
+      "doc_id": "tca9548a",
+      "question": "For TCA9548A under VO = 0.4 V, IO = 10 mA, what is the minimum value of ron switch-on resistance?",
+      "method": "multilingual_v4",
+      "sha256": "2847c0d348df800257fdaae9cfe344063f2b556261bcd52c0073d2d202a3cabb"
+    },
+    {
+      "id": "corpus-tmp117",
+      "file": "corpus-tmp117.json",
+      "doc_id": "tmp117",
+      "question": "TMP117，Data retention time 的典型规格是什么？",
+      "method": "multilingual_v4",
+      "sha256": "33f1086be865239ee1cbbd219c0ddda5ec13e7ea83adc5ba4a6df425cda3dc09"
+    },
+    {
+      "id": "domain_teacher_v4-en",
+      "file": "domain_teacher_v4-en.json",
+      "doc_id": "max3232",
+      "question": "What is the typical supply current of MAX3232 with no load and VCC 3.3 V to 5 V?",
+      "method": "domain_teacher_v4",
+      "sha256": "354b5a3c66363c0a7180f464475ef7e984295fa87d227f5624055ae63459afef"
+    },
+    {
+      "id": "domain_teacher_v4-zh",
+      "file": "domain_teacher_v4-zh.json",
+      "doc_id": "max3232",
+      "question": "MAX3232 在空载、VCC 3.3 V 至 5 V 时，典型供电电流是多少？",
+      "method": "domain_teacher_v4",
+      "sha256": "a65850f494ad7200f265ae503f167f7886c5452419e597a57df4845d5aea52be"
+    },
+    {
+      "id": "multilingual_v4-en",
+      "file": "multilingual_v4-en.json",
+      "doc_id": "max3232",
+      "question": "What is the typical supply current of MAX3232 with no load and VCC 3.3 V to 5 V?",
+      "method": "multilingual_v4",
+      "sha256": "a219c068ad3f9668bf65444c3f0bef631ca4a9bdabb26e071192e03fa8208d76"
+    },
+    {
+      "id": "multilingual_v4-zh",
+      "file": "multilingual_v4-zh.json",
+      "doc_id": "max3232",
+      "question": "MAX3232 在空载、VCC 3.3 V 至 5 V 时，典型供电电流是多少？",
+      "method": "multilingual_v4",
+      "sha256": "b4f2918b6a03aa27623674c9f4b4a60c4b131dd8767ede333b2e5dfdb45a2878"
+    },
+    {
+      "id": "visual_fusion_v4-en",
+      "file": "visual_fusion_v4-en.json",
+      "doc_id": "max3232",
+      "question": "What is the typical supply current of MAX3232 with no load and VCC 3.3 V to 5 V?",
+      "method": "visual_fusion_v4",
+      "sha256": "0a01b5819e7cdffa8207486a41bf6def2bbd957392f59c7e9a8f0c8a42e95983"
+    },
+    {
+      "id": "visual_fusion_v4-zh",
+      "file": "visual_fusion_v4-zh.json",
+      "doc_id": "max3232",
+      "question": "MAX3232 在空载、VCC 3.3 V 至 5 V 时，典型供电电流是多少？",
+      "method": "visual_fusion_v4",
+      "sha256": "dad80d96fbfcdb88794ac6389163574deeed4e4152c879b5064024b406717d66"
+    }
+  ]
+}

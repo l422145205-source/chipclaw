@@ -1,0 +1,2865 @@
+{
+  "intent_id": "qv3-0850",
+  "request": {
+    "question": "INA219 如何实现 Design Requirements 的功能？",
+    "doc_id": "ina219",
+    "retrieval_method": "multilingual_v4",
+    "budget_chars": 6000
+  },
+  "http_status": 200,
+  "result": {
+    "query": "INA219 如何实现 Design Requirements 的功能？",
+    "doc_id": "ina219",
+    "retrieval_method": "multilingual_v4",
+    "evidence": [
+      {
+        "doc_id": "ina219",
+        "page": 25,
+        "source_sha256": "58004eda854d07478e6fc6f4398c114f60a3bcf18d4877471c7c1a306d1fa1cb",
+        "url": "https://www.ti.com/lit/ds/symlink/ina219.pdf#page=25",
+        "title": "INA219 current and power monitor datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "ina219:p25:span0-1300:58004eda854d",
+        "span_id": "ina219:p25:span0-1300:58004eda854d",
+        "start": 0,
+        "end": 1300,
+        "text": "{\"r\":0,\"c\":[[524,\"INA219\"]]}\n{\"r\":1,\"c\":[[54,\"www.ti.com\"],[372,\"SBOS448G–AUGUST 2008–REVISED DECEMBER 2015\"]]}\n{\"r\":2,\"c\":[[54,\"9\"],[71,\"Application and Implementation\"]]}\n{\"r\":3,\"c\":[[292,\"NOTE\"]]}\n{\"r\":4,\"c\":[[104,\"Information in the following applications sections is not part of the TI component\"]]}\n{\"r\":5,\"c\":[[104,\"specification, and TI does not warrant its accuracy or completeness. TI’s customers are\"]]}\n{\"r\":6,\"c\":[[104,\"responsible for determining suitability of components for their purposes. Customers should\"]]}\n{\"r\":7,\"c\":[[104,\"validate and test their design implementation to confirm system functionality.\"]]}\n{\"r\":8,\"c\":[[54,\"9.1\"],[79,\"Application Information\"]]}\n{\"r\":9,\"c\":[[54,\"The INA219 is a current shunt and power monitor with an I2C- and SMBus-compatible interface. The device\"]]}\n{\"r\":10,\"c\":[[54,\"monitors both a shunt voltage drop and bus supply voltage. Programmable calibration value, combined with an\"]]}\n{\"r\":11,\"c\":[[54,\"internal multiplier, enable readouts of current and power.\"]]}\n{\"r\":12,\"c\":[[54,\"9.2\"],[79,\"Typical Application\"]]}\n{\"r\":13,\"c\":[[54,\"Figure 28 shows a typical application circuit for the INA219. Use a 0.1-μF ceramic capacitor for power-supply\"]]}\n{\"r\":14,\"c\":[[54,\"bypassing, placed as closely as possible to the supply and ground pins.\"]]}\n",
+        "packet_kind": "prose",
+        "table_id": null,
+        "source_rows": [
+          {
+            "r": 0,
+            "c": [
+              [
+                524,
+                "INA219"
+              ]
+            ]
+          },
+          {
+            "r": 1,
+            "c": [
+              [
+                54,
+                "www.ti.com"
+              ],
+              [
+                372,
+                "SBOS448G–AUGUST 2008–REVISED DECEMBER 2015"
+              ]
+            ]
+          },
+          {
+            "r": 2,
+            "c": [
+              [
+                54,
+                "9"
+              ],
+              [
+                71,
+                "Application and Implementation"
+              ]
+            ]
+          },
+          {
+            "r": 3,
+            "c": [
+              [
+                292,
+                "NOTE"
+              ]
+            ]
+          },
+          {
+            "r": 4,
+            "c": [
+              [
+                104,
+                "Information in the following applications sections is not part of the TI component"
+              ]
+            ]
+          },
+          {
+            "r": 5,
+            "c": [
+              [
+                104,
+                "specification, and TI does not warrant its accuracy or completeness. TI’s customers are"
+              ]
+            ]
+          },
+          {
+            "r": 6,
+            "c": [
+              [
+                104,
+                "responsible for determining suitability of components for their purposes. Customers should"
+              ]
+            ]
+          },
+          {
+            "r": 7,
+            "c": [
+              [
+                104,
+                "validate and test their design implementation to confirm system functionality."
+              ]
+            ]
+          },
+          {
+            "r": 8,
+            "c": [
+              [
+                54,
+                "9.1"
+              ],
+              [
+                79,
+                "Application Information"
+              ]
+            ]
+          },
+          {
+            "r": 9,
+            "c": [
+              [
+                54,
+                "The INA219 is a current shunt and power monitor with an I2C- and SMBus-compatible interface. The device"
+              ]
+            ]
+          },
+          {
+            "r": 10,
+            "c": [
+              [
+                54,
+                "monitors both a shunt voltage drop and bus supply voltage. Programmable calibration value, combined with an"
+              ]
+            ]
+          },
+          {
+            "r": 11,
+            "c": [
+              [
+                54,
+                "internal multiplier, enable readouts of current and power."
+              ]
+            ]
+          },
+          {
+            "r": 12,
+            "c": [
+              [
+                54,
+                "9.2"
+              ],
+              [
+                79,
+                "Typical Application"
+              ]
+            ]
+          },
+          {
+            "r": 13,
+            "c": [
+              [
+                54,
+                "Figure 28 shows a typical application circuit for the INA219. Use a 0.1-μF ceramic capacitor for power-supply"
+              ]
+            ]
+          },
+          {
+            "r": 14,
+            "c": [
+              [
+                54,
+                "bypassing, placed as closely as possible to the supply and ground pins."
+              ]
+            ]
+          }
+        ],
+        "layout_sha256": null,
+        "geometry_records": [
+          {
+            "top": 41.10000000000002,
+            "c": [
+              [
+                524,
+                "INA219"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  524.1,
+                  41.10000000000002,
+                  557.99,
+                  51.10000000000002
+                ],
+                "text": "INA219"
+              }
+            ],
+            "kind": "prose",
+            "r": 0
+          },
+          {
+            "top": 55.26999999999998,
+            "c": [
+              [
+                54,
+                "www.ti.com"
+              ],
+              [
+                372,
+                "SBOS448G–AUGUST 2008–REVISED DECEMBER 2015"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  55.26999999999998,
+                  96.179445,
+                  62.26999999999998
+                ],
+                "text": "www.ti.com"
+              },
+              {
+                "bbox": [
+                  372.3,
+                  55.26999999999998,
+                  557.6080000000001,
+                  62.26999999999998
+                ],
+                "text": "SBOS448G–AUGUST 2008–REVISED DECEMBER 2015"
+              }
+            ],
+            "kind": "prose",
+            "r": 1
+          },
+          {
+            "top": 74.51999999999998,
+            "c": [
+              [
+                54,
+                "9"
+              ],
+              [
+                71,
+                "Application and Implementation"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  74.51999999999998,
+                  60.672,
+                  86.51999999999998
+                ],
+                "text": "9"
+              },
+              {
+                "bbox": [
+                  70.97,
+                  74.51999999999998,
+                  253.33599999999996,
+                  86.51999999999998
+                ],
+                "text": "Application and Implementation"
+              }
+            ],
+            "kind": "prose",
+            "r": 2
+          },
+          {
+            "top": 102.10000000000002,
+            "c": [
+              [
+                292,
+                "NOTE"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  292.1,
+                  102.10000000000002,
+                  319.85,
+                  112.10000000000002
+                ],
+                "text": "NOTE"
+              }
+            ],
+            "kind": "prose",
+            "r": 3
+          },
+          {
+            "top": 113.10000000000002,
+            "c": [
+              [
+                104,
+                "Information in the following applications sections is not part of the TI component"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  104.4,
+                  113.10000000000002,
+                  507.28999999999996,
+                  123.10000000000002
+                ],
+                "text": "Information in the following applications sections is not part of the TI component"
+              }
+            ],
+            "kind": "prose",
+            "r": 4
+          },
+          {
+            "top": 124.10000000000002,
+            "c": [
+              [
+                104,
+                "specification, and TI does not warrant its accuracy or completeness. TI’s customers are"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  104.4,
+                  124.10000000000002,
+                  507.0599999999999,
+                  134.10000000000002
+                ],
+                "text": "specification, and TI does not warrant its accuracy or completeness. TI’s customers are"
+              }
+            ],
+            "kind": "prose",
+            "r": 5
+          },
+          {
+            "top": 135.10000000000002,
+            "c": [
+              [
+                104,
+                "responsible for determining suitability of components for their purposes. Customers should"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  104.4,
+                  135.10000000000002,
+                  507.09999999999997,
+                  145.10000000000002
+                ],
+                "text": "responsible for determining suitability of components for their purposes. Customers should"
+              }
+            ],
+            "kind": "prose",
+            "r": 6
+          },
+          {
+            "top": 146.10000000000002,
+            "c": [
+              [
+                104,
+                "validate and test their design implementation to confirm system functionality."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  104.4,
+                  146.10000000000002,
+                  443.61,
+                  156.10000000000002
+                ],
+                "text": "validate and test their design implementation to confirm system functionality."
+              }
+            ],
+            "kind": "prose",
+            "r": 7
+          },
+          {
+            "top": 177.20999999999992,
+            "c": [
+              [
+                54,
+                "9.1"
+              ],
+              [
+                79,
+                "Application Information"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  177.20999999999992,
+                  69.279,
+                  188.20999999999992
+                ],
+                "text": "9.1"
+              },
+              {
+                "bbox": [
+                  79.08,
+                  177.20999999999992,
+                  202.634,
+                  188.20999999999992
+                ],
+                "text": "Application Information"
+              }
+            ],
+            "kind": "prose",
+            "r": 8
+          },
+          {
+            "top": 193.26999999999998,
+            "c": [
+              [
+                54,
+                "The INA219 is a current shunt and power monitor with an I2C- and SMBus-compatible interface. The device"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  194.89999999999998,
+                  557.62,
+                  204.89999999999998
+                ],
+                "text": "The INA219 is a current shunt and power monitor with an I2C- and SMBus-compatible interface. The device"
+              }
+            ],
+            "kind": "prose",
+            "r": 9
+          },
+          {
+            "top": 205.89999999999998,
+            "c": [
+              [
+                54,
+                "monitors both a shunt voltage drop and bus supply voltage. Programmable calibration value, combined with an"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  205.89999999999998,
+                  557.76,
+                  215.89999999999998
+                ],
+                "text": "monitors both a shunt voltage drop and bus supply voltage. Programmable calibration value, combined with an"
+              }
+            ],
+            "kind": "prose",
+            "r": 10
+          },
+          {
+            "top": 216.89999999999998,
+            "c": [
+              [
+                54,
+                "internal multiplier, enable readouts of current and power."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  216.89999999999998,
+                  305.58000000000004,
+                  226.89999999999998
+                ],
+                "text": "internal multiplier, enable readouts of current and power."
+              }
+            ],
+            "kind": "prose",
+            "r": 11
+          },
+          {
+            "top": 239.01,
+            "c": [
+              [
+                54,
+                "9.2"
+              ],
+              [
+                79,
+                "Typical Application"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  239.01,
+                  69.279,
+                  250.01
+                ],
+                "text": "9.2"
+              },
+              {
+                "bbox": [
+                  79.08,
+                  239.01,
+                  180.058,
+                  250.01
+                ],
+                "text": "Typical Application"
+              }
+            ],
+            "kind": "prose",
+            "r": 12
+          },
+          {
+            "top": 256.70000000000005,
+            "c": [
+              [
+                54,
+                "Figure 28 shows a typical application circuit for the INA219. Use a 0.1-μF ceramic capacitor for power-supply"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  256.70000000000005,
+                  557.58,
+                  266.70000000000005
+                ],
+                "text": "Figure 28 shows a typical application circuit for the INA219. Use a 0.1-μF ceramic capacitor for power-supply"
+              }
+            ],
+            "kind": "prose",
+            "r": 13
+          },
+          {
+            "top": 267.70000000000005,
+            "c": [
+              [
+                54,
+                "bypassing, placed as closely as possible to the supply and ground pins."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  267.70000000000005,
+                  372.65,
+                  277.70000000000005
+                ],
+                "text": "bypassing, placed as closely as possible to the supply and ground pins."
+              }
+            ],
+            "kind": "prose",
+            "r": 14
+          }
+        ]
+      },
+      {
+        "doc_id": "ina219",
+        "page": 25,
+        "source_sha256": "58004eda854d07478e6fc6f4398c114f60a3bcf18d4877471c7c1a306d1fa1cb",
+        "url": "https://www.ti.com/lit/ds/symlink/ina219.pdf#page=25",
+        "title": "INA219 current and power monitor datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "ina219:p25:span2366-3733:58004eda854d",
+        "span_id": "ina219:p25:span2366-3733:58004eda854d",
+        "start": 2366,
+        "end": 3733,
+        "text": "{\"r\":26,\"c\":[[54,\"(0V to 26V)\"],[137,\"Load\"],[253,\"3V to 5.5V)\"]]}\n{\"r\":27,\"c\":[[79,\"RF1\"],[131,\"RF2\"]]}\n{\"r\":28,\"c\":[[105,\"CF\"],[289,\"C B Y P ASS\"]]}\n{\"r\":29,\"c\":[[289,\"0. 1 m F\"]]}\n{\"r\":30,\"c\":[[289,\"(typical)\"]]}\n{\"r\":31,\"c\":[[411,\"R P U L L UP\"],[454,\"R P U L L UP\"]]}\n{\"r\":32,\"c\":[[89,\"VIN+\"],[121,\"VIN-\"]]}\n{\"r\":33,\"c\":[[413,\"3 . 3 k W\"],[456,\"3 . 3 k W\"]]}\n{\"r\":34,\"c\":[[377,\"INA219\"],[411,\"(typical)\"],[454,\"(typical)\"]]}\n{\"r\":35,\"c\":[[339,\"I2 C Inte r face\"]]}\n{\"r\":36,\"c\":[[248,\"´\"],[275,\"Power Register\"]]}\n{\"r\":37,\"c\":[[528,\"Data (SDA)\"]]}\n{\"r\":38,\"c\":[[339,\"I2 C Inte r face\"],[401,\"SCL\"]]}\n{\"r\":39,\"c\":[[528,\"Clock (SCL)\"]]}\n{\"r\":40,\"c\":[[339,\"I2 C Inte r face\"]]}\n{\"r\":41,\"c\":[[274,\"Current Register\"]]}\n{\"r\":42,\"c\":[[150,\"PGA\"],[203,\"ADC\"]]}\n{\"r\":43,\"c\":[[274,\"Voltage Register\"]]}\n{\"r\":44,\"c\":[[121,\"GND\"]]}\n{\"r\":45,\"c\":[[216,\"Figure 28. Typical Application Circuit\"]]}\n{\"r\":46,\"c\":[[54,\"9.2.1\"],[85,\"Design Requirements\"]]}\n{\"r\":47,\"c\":[[54,\"The INA219 measures the voltage across a current-sensing resistor (R\"],[400,\") when current passes through the\"]]}\n{\"r\":48,\"c\":[[376,\"SHUNT\"]]}\n{\"r\":49,\"c\":[[54,\"resistor. The device also measures the bus supply voltage, and calculates power when calibrated. This section\"]]}\n{\"r\":50,\"c\":[[54,\"goes through the steps to program the device for power measurements, and shows the register results Table 8.\"]]}\n",
+        "packet_kind": "prose",
+        "table_id": null,
+        "source_rows": [
+          {
+            "r": 26,
+            "c": [
+              [
+                54,
+                "(0V to 26V)"
+              ],
+              [
+                137,
+                "Load"
+              ],
+              [
+                253,
+                "3V to 5.5V)"
+              ]
+            ]
+          },
+          {
+            "r": 27,
+            "c": [
+              [
+                79,
+                "RF1"
+              ],
+              [
+                131,
+                "RF2"
+              ]
+            ]
+          },
+          {
+            "r": 28,
+            "c": [
+              [
+                105,
+                "CF"
+              ],
+              [
+                289,
+                "C B Y P ASS"
+              ]
+            ]
+          },
+          {
+            "r": 29,
+            "c": [
+              [
+                289,
+                "0. 1 m F"
+              ]
+            ]
+          },
+          {
+            "r": 30,
+            "c": [
+              [
+                289,
+                "(typical)"
+              ]
+            ]
+          },
+          {
+            "r": 31,
+            "c": [
+              [
+                411,
+                "R P U L L UP"
+              ],
+              [
+                454,
+                "R P U L L UP"
+              ]
+            ]
+          },
+          {
+            "r": 32,
+            "c": [
+              [
+                89,
+                "VIN+"
+              ],
+              [
+                121,
+                "VIN-"
+              ]
+            ]
+          },
+          {
+            "r": 33,
+            "c": [
+              [
+                413,
+                "3 . 3 k W"
+              ],
+              [
+                456,
+                "3 . 3 k W"
+              ]
+            ]
+          },
+          {
+            "r": 34,
+            "c": [
+              [
+                377,
+                "INA219"
+              ],
+              [
+                411,
+                "(typical)"
+              ],
+              [
+                454,
+                "(typical)"
+              ]
+            ]
+          },
+          {
+            "r": 35,
+            "c": [
+              [
+                339,
+                "I2 C Inte r face"
+              ]
+            ]
+          },
+          {
+            "r": 36,
+            "c": [
+              [
+                248,
+                "´"
+              ],
+              [
+                275,
+                "Power Register"
+              ]
+            ]
+          },
+          {
+            "r": 37,
+            "c": [
+              [
+                528,
+                "Data (SDA)"
+              ]
+            ]
+          },
+          {
+            "r": 38,
+            "c": [
+              [
+                339,
+                "I2 C Inte r face"
+              ],
+              [
+                401,
+                "SCL"
+              ]
+            ]
+          },
+          {
+            "r": 39,
+            "c": [
+              [
+                528,
+                "Clock (SCL)"
+              ]
+            ]
+          },
+          {
+            "r": 40,
+            "c": [
+              [
+                339,
+                "I2 C Inte r face"
+              ]
+            ]
+          },
+          {
+            "r": 41,
+            "c": [
+              [
+                274,
+                "Current Register"
+              ]
+            ]
+          },
+          {
+            "r": 42,
+            "c": [
+              [
+                150,
+                "PGA"
+              ],
+              [
+                203,
+                "ADC"
+              ]
+            ]
+          },
+          {
+            "r": 43,
+            "c": [
+              [
+                274,
+                "Voltage Register"
+              ]
+            ]
+          },
+          {
+            "r": 44,
+            "c": [
+              [
+                121,
+                "GND"
+              ]
+            ]
+          },
+          {
+            "r": 45,
+            "c": [
+              [
+                216,
+                "Figure 28. Typical Application Circuit"
+              ]
+            ]
+          },
+          {
+            "r": 46,
+            "c": [
+              [
+                54,
+                "9.2.1"
+              ],
+              [
+                85,
+                "Design Requirements"
+              ]
+            ]
+          },
+          {
+            "r": 47,
+            "c": [
+              [
+                54,
+                "The INA219 measures the voltage across a current-sensing resistor (R"
+              ],
+              [
+                400,
+                ") when current passes through the"
+              ]
+            ]
+          },
+          {
+            "r": 48,
+            "c": [
+              [
+                376,
+                "SHUNT"
+              ]
+            ]
+          },
+          {
+            "r": 49,
+            "c": [
+              [
+                54,
+                "resistor. The device also measures the bus supply voltage, and calculates power when calibrated. This section"
+              ]
+            ]
+          },
+          {
+            "r": 50,
+            "c": [
+              [
+                54,
+                "goes through the steps to program the device for power measurements, and shows the register results Table 8."
+              ]
+            ]
+          }
+        ],
+        "layout_sha256": null,
+        "geometry_records": [
+          {
+            "top": 386.847617042761,
+            "c": [
+              [
+                54,
+                "(0V to 26V)"
+              ],
+              [
+                137,
+                "Load"
+              ],
+              [
+                253,
+                "3V to 5.5V)"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  53.6801285945,
+                  389.70617192076094,
+                  81.68881902645799,
+                  395.2436749717609
+                ],
+                "text": "(0V to 26V)"
+              },
+              {
+                "bbox": [
+                  136.84287093,
+                  386.847617042761,
+                  149.158277715424,
+                  392.385120093761
+                ],
+                "text": "Load"
+              },
+              {
+                "bbox": [
+                  252.96276125000003,
+                  387.787170948761,
+                  280.66688901415307,
+                  393.324673999761
+                ],
+                "text": "3V to 5.5V)"
+              }
+            ],
+            "kind": "prose",
+            "r": 26
+          },
+          {
+            "top": 404.1070160500935,
+            "c": [
+              [
+                79,
+                "RF1"
+              ],
+              [
+                131,
+                "RF2"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  78.89180085250001,
+                  404.1070160500935,
+                  87.46588927800352,
+                  410.8607508984655
+                ],
+                "text": "RF1"
+              },
+              {
+                "bbox": [
+                  131.2126600245,
+                  404.1070160500935,
+                  139.78674845000353,
+                  410.8607508984655
+                ],
+                "text": "RF2"
+              }
+            ],
+            "kind": "prose",
+            "r": 27
+          },
+          {
+            "top": 409.68382659276097,
+            "c": [
+              [
+                105,
+                "CF"
+              ],
+              [
+                289,
+                "C B Y P ASS"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  105.32430004000001,
+                  411.7429693050935,
+                  111.70937530299402,
+                  418.496650621394
+                ],
+                "text": "CF"
+              },
+              {
+                "bbox": [
+                  289.4763757,
+                  409.68382659276097,
+                  309.01167128623393,
+                  416.4697947557244
+                ],
+                "text": "C B Y P ASS"
+              }
+            ],
+            "kind": "prose",
+            "r": 28
+          },
+          {
+            "top": 416.8053068082609,
+            "c": [
+              [
+                289,
+                "0. 1 m F"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  289.4951674780001,
+                  416.8053068082609,
+                  303.7670571538882,
+                  422.37049737451594
+                ],
+                "text": "0. 1 m F"
+              }
+            ],
+            "kind": "prose",
+            "r": 29
+          },
+          {
+            "top": 423.034851203261,
+            "c": [
+              [
+                289,
+                "(typical)"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  289.4951674780001,
+                  423.034851203261,
+                  308.87642815650014,
+                  428.572354254261
+                ],
+                "text": "(typical)"
+              }
+            ],
+            "kind": "prose",
+            "r": 30
+          },
+          {
+            "top": 434.90890982009347,
+            "c": [
+              [
+                411,
+                "R P U L L UP"
+              ],
+              [
+                454,
+                "R P U L L UP"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  410.5909508915001,
+                  434.90890982009347,
+                  429.88783724906375,
+                  441.66264466846553
+                ],
+                "text": "R P U L L UP"
+              },
+              {
+                "bbox": [
+                  453.64103336200014,
+                  434.90890982009347,
+                  472.9379197195638,
+                  441.66264466846553
+                ],
+                "text": "R P U L L UP"
+              }
+            ],
+            "kind": "prose",
+            "r": 31
+          },
+          {
+            "top": 438.08468530809347,
+            "c": [
+              [
+                89,
+                "VIN+"
+              ],
+              [
+                121,
+                "VIN-"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  89.32066899,
+                  438.08470280509346,
+                  99.23230108418397,
+                  444.83843765346546
+                ],
+                "text": "VIN+"
+              },
+              {
+                "bbox": [
+                  120.96202507750007,
+                  438.08468530809347,
+                  129.88552467276187,
+                  444.8384201564655
+                ],
+                "text": "VIN-"
+              }
+            ],
+            "kind": "prose",
+            "r": 32
+          },
+          {
+            "top": 442.8591091950935,
+            "c": [
+              [
+                413,
+                "3 . 3 k W"
+              ],
+              [
+                456,
+                "3 . 3 k W"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  412.9144300125001,
+                  442.8591091950935,
+                  427.5642048619281,
+                  448.397879072636
+                ],
+                "text": "3 . 3 k W"
+              },
+              {
+                "bbox": [
+                  455.96451248300014,
+                  442.8591091950935,
+                  470.61428733242815,
+                  448.397879072636
+                ],
+                "text": "3 . 3 k W"
+              }
+            ],
+            "kind": "prose",
+            "r": 33
+          },
+          {
+            "top": 449.05926737859346,
+            "c": [
+              [
+                377,
+                "INA219"
+              ],
+              [
+                411,
+                "(typical)"
+              ],
+              [
+                454,
+                "(typical)"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  376.81177635000006,
+                  451.77862454065047,
+                  395.19581742849255,
+                  457.29108063615047
+                ],
+                "text": "INA219"
+              },
+              {
+                "bbox": [
+                  410.5933392320001,
+                  449.05926737859346,
+                  429.88258756175014,
+                  454.5704811870935
+                ],
+                "text": "(typical)"
+              },
+              {
+                "bbox": [
+                  453.6434217025002,
+                  449.05926737859346,
+                  472.9326700322502,
+                  454.5704811870935
+                ],
+                "text": "(typical)"
+              }
+            ],
+            "kind": "prose",
+            "r": 34
+          },
+          {
+            "top": 466.3916926,
+            "c": [
+              [
+                339,
+                "I2 C Inte r face"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  338.66394210000004,
+                  466.3916926,
+                  391.216444055,
+                  513.2709060354999
+                ],
+                "text": "I2 C Inte r face",
+                "word_boxes": [
+                  [
+                    354.3142562290001,
+                    497.83945112759346,
+                    363.5069608615781,
+                    503.3506649360935,
+                    "Inte"
+                  ],
+                  [
+                    361.18695535000006,
+                    489.77543159796545,
+                    364.90678350083806,
+                    497.1935668695935,
+                    "I2"
+                  ],
+                  [
+                    363.5069608615781,
+                    497.83945112759346,
+                    365.3421950598086,
+                    503.3506649360935,
+                    "r"
+                  ],
+                  [
+                    364.9071128501585,
+                    491.68235306109347,
+                    368.88620921989553,
+                    497.1935668695935,
+                    "C"
+                  ],
+                  [
+                    365.3421950598086,
+                    497.83945112759346,
+                    375.7583891578736,
+                    503.3506649360935,
+                    "face"
+                  ]
+                ]
+              },
+              null
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 35
+          },
+          {
+            "top": 468.84646500972,
+            "c": [
+              [
+                248,
+                "´"
+              ],
+              [
+                275,
+                "Power Register"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  248.49752685,
+                  468.84646500972,
+                  253.78060191220501,
+                  478.46955255472
+                ],
+                "text": "´"
+              },
+              {
+                "bbox": [
+                  275.13320995000004,
+                  471.13977275009347,
+                  312.8023563310976,
+                  476.6509865585935
+                ],
+                "text": "Power Register"
+              }
+            ],
+            "kind": "prose",
+            "r": 36
+          },
+          {
+            "top": 473.459470183244,
+            "c": [
+              [
+                528,
+                "Data (SDA)"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  528.2526856000001,
+                  473.459470183244,
+                  556.654228649248,
+                  479.015327587244
+                ],
+                "text": "Data (SDA)"
+              }
+            ],
+            "kind": "prose",
+            "r": 37
+          },
+          {
+            "top": 474.6917007475,
+            "c": [
+              [
+                339,
+                "I2 C Inte r face"
+              ],
+              [
+                401,
+                "SCL"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  338.66394210000004,
+                  466.3916926,
+                  391.216444055,
+                  513.2709060354999
+                ],
+                "text": "I2 C Inte r face",
+                "word_boxes": [
+                  [
+                    354.3142562290001,
+                    497.83945112759346,
+                    363.5069608615781,
+                    503.3506649360935,
+                    "Inte"
+                  ],
+                  [
+                    361.18695535000006,
+                    489.77543159796545,
+                    364.90678350083806,
+                    497.1935668695935,
+                    "I2"
+                  ],
+                  [
+                    363.5069608615781,
+                    497.83945112759346,
+                    365.3421950598086,
+                    503.3506649360935,
+                    "r"
+                  ],
+                  [
+                    364.9071128501585,
+                    491.68235306109347,
+                    368.88620921989553,
+                    497.1935668695935,
+                    "C"
+                  ],
+                  [
+                    365.3421950598086,
+                    497.83945112759346,
+                    375.7583891578736,
+                    503.3506649360935,
+                    "face"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  400.575939295,
+                  474.6917007475,
+                  434.994987875,
+                  489.2574283375
+                ],
+                "text": "SCL",
+                "word_boxes": [
+                  [
+                    403.71275771250004,
+                    482.6895424500935,
+                    414.4320685700326,
+                    488.2007562585935,
+                    "SCL"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 38
+          },
+          {
+            "top": 486.86514667324394,
+            "c": [
+              [
+                528,
+                "Clock (SCL)"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  528.2526856000001,
+                  486.86514667324394,
+                  558.193201150156,
+                  492.42100407724394
+                ],
+                "text": "Clock (SCL)"
+              }
+            ],
+            "kind": "prose",
+            "r": 39
+          },
+          {
+            "top": 489.2574283375,
+            "c": [
+              [
+                339,
+                "I2 C Inte r face"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  338.66394210000004,
+                  466.3916926,
+                  391.216444055,
+                  513.2709060354999
+                ],
+                "text": "I2 C Inte r face",
+                "word_boxes": [
+                  [
+                    354.3142562290001,
+                    497.83945112759346,
+                    363.5069608615781,
+                    503.3506649360935,
+                    "Inte"
+                  ],
+                  [
+                    361.18695535000006,
+                    489.77543159796545,
+                    364.90678350083806,
+                    497.1935668695935,
+                    "I2"
+                  ],
+                  [
+                    363.5069608615781,
+                    497.83945112759346,
+                    365.3421950598086,
+                    503.3506649360935,
+                    "r"
+                  ],
+                  [
+                    364.9071128501585,
+                    491.68235306109347,
+                    368.88620921989553,
+                    497.1935668695935,
+                    "C"
+                  ],
+                  [
+                    365.3421950598086,
+                    497.83945112759346,
+                    375.7583891578736,
+                    503.3506649360935,
+                    "face"
+                  ]
+                ]
+              },
+              null
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 40
+          },
+          {
+            "top": 493.54004454509345,
+            "c": [
+              [
+                274,
+                "Current Register"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  273.8550541000001,
+                  493.54004454509345,
+                  314.2798073853476,
+                  499.0512583535935
+                ],
+                "text": "Current Register"
+              }
+            ],
+            "kind": "prose",
+            "r": 41
+          },
+          {
+            "top": 507.17080244309346,
+            "c": [
+              [
+                150,
+                "PGA"
+              ],
+              [
+                203,
+                "ADC"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  150.09659472350006,
+                  507.17866241918796,
+                  161.73627828705207,
+                  512.689876227688
+                ],
+                "text": "PGA"
+              },
+              {
+                "bbox": [
+                  203.38073373350008,
+                  507.17080244309346,
+                  215.01490608324357,
+                  512.6820162515935
+                ],
+                "text": "ADC"
+              }
+            ],
+            "kind": "prose",
+            "r": 42
+          },
+          {
+            "top": 515.8380463750934,
+            "c": [
+              [
+                274,
+                "Voltage Register"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  273.97840795,
+                  515.8380463750934,
+                  314.4132605346516,
+                  521.3492601835935
+                ],
+                "text": "Voltage Register"
+              }
+            ],
+            "kind": "prose",
+            "r": 43
+          },
+          {
+            "top": 542.0699162120935,
+            "c": [
+              [
+                121,
+                "GND"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  120.53715417500001,
+                  542.0699162120935,
+                  132.783071257487,
+                  547.5811300205935
+                ],
+                "text": "GND"
+              }
+            ],
+            "kind": "prose",
+            "r": 44
+          },
+          {
+            "top": 563.6,
+            "c": [
+              [
+                216,
+                "Figure 28. Typical Application Circuit"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  215.9,
+                  563.6,
+                  395.74,
+                  573.6
+                ],
+                "text": "Figure 28. Typical Application Circuit"
+              }
+            ],
+            "kind": "prose",
+            "r": 45
+          },
+          {
+            "top": 588.8,
+            "c": [
+              [
+                54,
+                "9.2.1"
+              ],
+              [
+                85,
+                "Design Requirements"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  588.8,
+                  76.22,
+                  598.8
+                ],
+                "text": "9.2.1"
+              },
+              {
+                "bbox": [
+                  85.42,
+                  588.8,
+                  188.37,
+                  598.8
+                ],
+                "text": "Design Requirements"
+              }
+            ],
+            "kind": "prose",
+            "r": 46
+          },
+          {
+            "top": 605.7,
+            "c": [
+              [
+                54,
+                "The INA219 measures the voltage across a current-sensing resistor (R"
+              ],
+              [
+                400,
+                ") when current passes through the"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  605.7,
+                  376.0,
+                  615.7
+                ],
+                "text": "The INA219 measures the voltage across a current-sensing resistor (R"
+              },
+              {
+                "bbox": [
+                  400.09,
+                  605.7,
+                  556.9,
+                  615.7
+                ],
+                "text": ") when current passes through the"
+              }
+            ],
+            "kind": "prose",
+            "r": 47
+          },
+          {
+            "top": 610.0699999999999,
+            "c": [
+              [
+                376,
+                "SHUNT"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  376.0,
+                  610.0699999999999,
+                  400.094,
+                  617.0699999999999
+                ],
+                "text": "SHUNT"
+              }
+            ],
+            "kind": "prose",
+            "r": 48
+          },
+          {
+            "top": 616.7,
+            "c": [
+              [
+                54,
+                "resistor. The device also measures the bus supply voltage, and calculates power when calibrated. This section"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  616.7,
+                  557.7299999999999,
+                  626.7
+                ],
+                "text": "resistor. The device also measures the bus supply voltage, and calculates power when calibrated. This section"
+              }
+            ],
+            "kind": "prose",
+            "r": 49
+          },
+          {
+            "top": 627.7,
+            "c": [
+              [
+                54,
+                "goes through the steps to program the device for power measurements, and shows the register results Table 8."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  627.7,
+                  549.4699999999999,
+                  637.7
+                ],
+                "text": "goes through the steps to program the device for power measurements, and shows the register results Table 8."
+              }
+            ],
+            "kind": "prose",
+            "r": 50
+          }
+        ]
+      },
+      {
+        "doc_id": "ina219",
+        "page": 28,
+        "source_sha256": "58004eda854d07478e6fc6f4398c114f60a3bcf18d4877471c7c1a306d1fa1cb",
+        "url": "https://www.ti.com/lit/ds/symlink/ina219.pdf#page=28",
+        "title": "INA219 current and power monitor datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "ina219:p28:span0-2341:58004eda854d",
+        "span_id": "ina219:p28:span0-2341:58004eda854d",
+        "start": 0,
+        "end": 2341,
+        "text": "{\"r\":0,\"c\":[[54,\"INA219\"]]}\n{\"r\":1,\"c\":[[54,\"SBOS448G–AUGUST 2008–REVISED DECEMBER 2015\"],[515,\"www.ti.com\"]]}\n{\"r\":2,\"c\":[[54,\"12\"],[78,\"Device and Documentation Support\"]]}\n{\"r\":3,\"c\":[[54,\"12.1\"],[85,\"Community Resources\"]]}\n{\"r\":4,\"c\":[[54,\"The following links connect to TI community resources. Linked contents are provided \\\"AS IS\\\" by the respective\"]]}\n{\"r\":5,\"c\":[[54,\"contributors. They do not constitute TI specifications and do not necessarily reflect TI's views; see TI's Terms of\"]]}\n{\"r\":6,\"c\":[[54,\"Use.\"]]}\n{\"r\":7,\"c\":[[54,\"TI E2E™ Online Community TI's Engineer-to-Engineer (E2E) Community. Created to foster collaboration\"]]}\n{\"r\":8,\"c\":[[114,\"among engineers. At e2e.ti.com, you can ask questions, share knowledge, explore ideas and help\"]]}\n{\"r\":9,\"c\":[[114,\"solve problems with fellow engineers.\"]]}\n{\"r\":10,\"c\":[[54,\"Design Support TI's Design Support Quickly find helpful E2E forums along with design support tools and\"]]}\n{\"r\":11,\"c\":[[114,\"contact information for technical support.\"]]}\n{\"r\":12,\"c\":[[54,\"12.2\"],[85,\"Trademarks\"]]}\n{\"r\":13,\"c\":[[54,\"E2E is a trademark of Texas Instruments.\"]]}\n{\"r\":14,\"c\":[[54,\"All other trademarks are the property of their respective owners.\"]]}\n{\"r\":15,\"c\":[[54,\"12.3\"],[85,\"Electrostatic Discharge Caution\"]]}\n{\"r\":16,\"c\":[[89,\"These devices have limited built-in ESD protection. The leads should be shorted together or the device placed in conductive foam\"]]}\n{\"r\":17,\"c\":[[89,\"during storage or handling to prevent electrostatic damage to the MOS gates.\"]]}\n{\"r\":18,\"c\":[[54,\"12.4\"],[85,\"Glossary\"]]}\n{\"r\":19,\"c\":[[54,\"SLYZ022 — TI Glossary.\"]]}\n{\"r\":20,\"c\":[[72,\"This glossary lists and explains terms, acronyms, and definitions.\"]]}\n{\"r\":21,\"c\":[[54,\"13\"],[78,\"Mechanical, Packaging, and Orderable Information\"]]}\n{\"r\":22,\"c\":[[54,\"The following pages include mechanical, packaging, and orderable information. This information is the most\"]]}\n{\"r\":23,\"c\":[[54,\"current data available for the designated devices. This data is subject to change without notice and revision of\"]]}\n{\"r\":24,\"c\":[[54,\"this document. For browser-based versions of this data sheet, refer to the left-hand navigation.\"]]}\n{\"r\":25,\"c\":[[54,\"28\"],[84,\"Submit Documentation Feedback\"],[380,\"Copyright © 2008–2015, Texas Instruments Incorporated\"]]}\n{\"r\":26,\"c\":[[253,\"Product Folder Links: INA219\"]]}",
+        "packet_kind": "prose",
+        "table_id": null,
+        "source_rows": [
+          {
+            "r": 0,
+            "c": [
+              [
+                54,
+                "INA219"
+              ]
+            ]
+          },
+          {
+            "r": 1,
+            "c": [
+              [
+                54,
+                "SBOS448G–AUGUST 2008–REVISED DECEMBER 2015"
+              ],
+              [
+                515,
+                "www.ti.com"
+              ]
+            ]
+          },
+          {
+            "r": 2,
+            "c": [
+              [
+                54,
+                "12"
+              ],
+              [
+                78,
+                "Device and Documentation Support"
+              ]
+            ]
+          },
+          {
+            "r": 3,
+            "c": [
+              [
+                54,
+                "12.1"
+              ],
+              [
+                85,
+                "Community Resources"
+              ]
+            ]
+          },
+          {
+            "r": 4,
+            "c": [
+              [
+                54,
+                "The following links connect to TI community resources. Linked contents are provided \"AS IS\" by the respective"
+              ]
+            ]
+          },
+          {
+            "r": 5,
+            "c": [
+              [
+                54,
+                "contributors. They do not constitute TI specifications and do not necessarily reflect TI's views; see TI's Terms of"
+              ]
+            ]
+          },
+          {
+            "r": 6,
+            "c": [
+              [
+                54,
+                "Use."
+              ]
+            ]
+          },
+          {
+            "r": 7,
+            "c": [
+              [
+                54,
+                "TI E2E™ Online Community TI's Engineer-to-Engineer (E2E) Community. Created to foster collaboration"
+              ]
+            ]
+          },
+          {
+            "r": 8,
+            "c": [
+              [
+                114,
+                "among engineers. At e2e.ti.com, you can ask questions, share knowledge, explore ideas and help"
+              ]
+            ]
+          },
+          {
+            "r": 9,
+            "c": [
+              [
+                114,
+                "solve problems with fellow engineers."
+              ]
+            ]
+          },
+          {
+            "r": 10,
+            "c": [
+              [
+                54,
+                "Design Support TI's Design Support Quickly find helpful E2E forums along with design support tools and"
+              ]
+            ]
+          },
+          {
+            "r": 11,
+            "c": [
+              [
+                114,
+                "contact information for technical support."
+              ]
+            ]
+          },
+          {
+            "r": 12,
+            "c": [
+              [
+                54,
+                "12.2"
+              ],
+              [
+                85,
+                "Trademarks"
+              ]
+            ]
+          },
+          {
+            "r": 13,
+            "c": [
+              [
+                54,
+                "E2E is a trademark of Texas Instruments."
+              ]
+            ]
+          },
+          {
+            "r": 14,
+            "c": [
+              [
+                54,
+                "All other trademarks are the property of their respective owners."
+              ]
+            ]
+          },
+          {
+            "r": 15,
+            "c": [
+              [
+                54,
+                "12.3"
+              ],
+              [
+                85,
+                "Electrostatic Discharge Caution"
+              ]
+            ]
+          },
+          {
+            "r": 16,
+            "c": [
+              [
+                89,
+                "These devices have limited built-in ESD protection. The leads should be shorted together or the device placed in conductive foam"
+              ]
+            ]
+          },
+          {
+            "r": 17,
+            "c": [
+              [
+                89,
+                "during storage or handling to prevent electrostatic damage to the MOS gates."
+              ]
+            ]
+          },
+          {
+            "r": 18,
+            "c": [
+              [
+                54,
+                "12.4"
+              ],
+              [
+                85,
+                "Glossary"
+              ]
+            ]
+          },
+          {
+            "r": 19,
+            "c": [
+              [
+                54,
+                "SLYZ022 — TI Glossary."
+              ]
+            ]
+          },
+          {
+            "r": 20,
+            "c": [
+              [
+                72,
+                "This glossary lists and explains terms, acronyms, and definitions."
+              ]
+            ]
+          },
+          {
+            "r": 21,
+            "c": [
+              [
+                54,
+                "13"
+              ],
+              [
+                78,
+                "Mechanical, Packaging, and Orderable Information"
+              ]
+            ]
+          },
+          {
+            "r": 22,
+            "c": [
+              [
+                54,
+                "The following pages include mechanical, packaging, and orderable information. This information is the most"
+              ]
+            ]
+          },
+          {
+            "r": 23,
+            "c": [
+              [
+                54,
+                "current data available for the designated devices. This data is subject to change without notice and revision of"
+              ]
+            ]
+          },
+          {
+            "r": 24,
+            "c": [
+              [
+                54,
+                "this document. For browser-based versions of this data sheet, refer to the left-hand navigation."
+              ]
+            ]
+          },
+          {
+            "r": 25,
+            "c": [
+              [
+                54,
+                "28"
+              ],
+              [
+                84,
+                "Submit Documentation Feedback"
+              ],
+              [
+                380,
+                "Copyright © 2008–2015, Texas Instruments Incorporated"
+              ]
+            ]
+          },
+          {
+            "r": 26,
+            "c": [
+              [
+                253,
+                "Product Folder Links: INA219"
+              ]
+            ]
+          }
+        ],
+        "layout_sha256": null,
+        "geometry_records": [
+          {
+            "top": 41.10000000000002,
+            "c": [
+              [
+                54,
+                "INA219"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  41.10000000000002,
+                  87.89000000000001,
+                  51.10000000000002
+                ],
+                "text": "INA219"
+              }
+            ],
+            "kind": "prose",
+            "r": 0
+          },
+          {
+            "top": 55.26999999999998,
+            "c": [
+              [
+                54,
+                "SBOS448G–AUGUST 2008–REVISED DECEMBER 2015"
+              ],
+              [
+                515,
+                "www.ti.com"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  55.26999999999998,
+                  239.20799999999997,
+                  62.26999999999998
+                ],
+                "text": "SBOS448G–AUGUST 2008–REVISED DECEMBER 2015"
+              },
+              {
+                "bbox": [
+                  515.4,
+                  55.26999999999998,
+                  557.579445,
+                  62.26999999999998
+                ],
+                "text": "www.ti.com"
+              }
+            ],
+            "kind": "prose",
+            "r": 1
+          },
+          {
+            "top": 74.51999999999998,
+            "c": [
+              [
+                54,
+                "12"
+              ],
+              [
+                78,
+                "Device and Documentation Support"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  74.51999999999998,
+                  67.344,
+                  86.51999999999998
+                ],
+                "text": "12"
+              },
+              {
+                "bbox": [
+                  77.74,
+                  74.51999999999998,
+                  281.726,
+                  86.51999999999998
+                ],
+                "text": "Device and Documentation Support"
+              }
+            ],
+            "kind": "prose",
+            "r": 2
+          },
+          {
+            "top": 101.30999999999995,
+            "c": [
+              [
+                54,
+                "12.1"
+              ],
+              [
+                85,
+                "Community Resources"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  101.30999999999995,
+                  75.395,
+                  112.30999999999995
+                ],
+                "text": "12.1"
+              },
+              {
+                "bbox": [
+                  85.2,
+                  101.30999999999995,
+                  205.181,
+                  112.30999999999995
+                ],
+                "text": "Community Resources"
+              }
+            ],
+            "kind": "prose",
+            "r": 3
+          },
+          {
+            "top": 119.0,
+            "c": [
+              [
+                54,
+                "The following links connect to TI community resources. Linked contents are provided \"AS IS\" by the respective"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  119.0,
+                  556.4,
+                  129.0
+                ],
+                "text": "The following links connect to TI community resources. Linked contents are provided \"AS IS\" by the respective"
+              }
+            ],
+            "kind": "prose",
+            "r": 4
+          },
+          {
+            "top": 130.0,
+            "c": [
+              [
+                54,
+                "contributors. They do not constitute TI specifications and do not necessarily reflect TI's views; see TI's Terms of"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  130.0,
+                  556.65,
+                  140.0
+                ],
+                "text": "contributors. They do not constitute TI specifications and do not necessarily reflect TI's views; see TI's Terms of"
+              }
+            ],
+            "kind": "prose",
+            "r": 5
+          },
+          {
+            "top": 141.0,
+            "c": [
+              [
+                54,
+                "Use."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  141.0,
+                  74.47,
+                  151.0
+                ],
+                "text": "Use."
+              }
+            ],
+            "kind": "prose",
+            "r": 6
+          },
+          {
+            "top": 158.0,
+            "c": [
+              [
+                54,
+                "TI E2E™ Online Community TI's Engineer-to-Engineer (E2E) Community. Created to foster collaboration"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  158.0,
+                  539.2,
+                  168.0
+                ],
+                "text": "TI E2E™ Online Community TI's Engineer-to-Engineer (E2E) Community. Created to foster collaboration"
+              }
+            ],
+            "kind": "prose",
+            "r": 7
+          },
+          {
+            "top": 169.0,
+            "c": [
+              [
+                114,
+                "among engineers. At e2e.ti.com, you can ask questions, share knowledge, explore ideas and help"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  114.0,
+                  169.0,
+                  549.76,
+                  179.0
+                ],
+                "text": "among engineers. At e2e.ti.com, you can ask questions, share knowledge, explore ideas and help"
+              }
+            ],
+            "kind": "prose",
+            "r": 8
+          },
+          {
+            "top": 180.0,
+            "c": [
+              [
+                114,
+                "solve problems with fellow engineers."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  114.0,
+                  180.0,
+                  280.46000000000004,
+                  190.0
+                ],
+                "text": "solve problems with fellow engineers."
+              }
+            ],
+            "kind": "prose",
+            "r": 9
+          },
+          {
+            "top": 197.0,
+            "c": [
+              [
+                54,
+                "Design Support TI's Design Support Quickly find helpful E2E forums along with design support tools and"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  197.0,
+                  530.8799999999999,
+                  207.0
+                ],
+                "text": "Design Support TI's Design Support Quickly find helpful E2E forums along with design support tools and"
+              }
+            ],
+            "kind": "prose",
+            "r": 10
+          },
+          {
+            "top": 208.0,
+            "c": [
+              [
+                114,
+                "contact information for technical support."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  114.0,
+                  208.0,
+                  294.88,
+                  218.0
+                ],
+                "text": "contact information for technical support."
+              }
+            ],
+            "kind": "prose",
+            "r": 11
+          },
+          {
+            "top": 228.20999999999992,
+            "c": [
+              [
+                54,
+                "12.2"
+              ],
+              [
+                85,
+                "Trademarks"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  228.20999999999992,
+                  75.395,
+                  239.20999999999992
+                ],
+                "text": "12.2"
+              },
+              {
+                "bbox": [
+                  85.2,
+                  228.20999999999992,
+                  147.537,
+                  239.20999999999992
+                ],
+                "text": "Trademarks"
+              }
+            ],
+            "kind": "prose",
+            "r": 12
+          },
+          {
+            "top": 243.60000000000002,
+            "c": [
+              [
+                54,
+                "E2E is a trademark of Texas Instruments."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  243.60000000000002,
+                  239.19000000000003,
+                  253.60000000000002
+                ],
+                "text": "E2E is a trademark of Texas Instruments."
+              }
+            ],
+            "kind": "prose",
+            "r": 13
+          },
+          {
+            "top": 254.60000000000002,
+            "c": [
+              [
+                54,
+                "All other trademarks are the property of their respective owners."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  254.60000000000002,
+                  338.22,
+                  264.6
+                ],
+                "text": "All other trademarks are the property of their respective owners."
+              }
+            ],
+            "kind": "prose",
+            "r": 14
+          },
+          {
+            "top": 270.7099999999999,
+            "c": [
+              [
+                54,
+                "12.3"
+              ],
+              [
+                85,
+                "Electrostatic Discharge Caution"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  270.7099999999999,
+                  75.395,
+                  281.71
+                ],
+                "text": "12.3"
+              },
+              {
+                "bbox": [
+                  85.2,
+                  270.7099999999999,
+                  251.828,
+                  281.71
+                ],
+                "text": "Electrostatic Discharge Caution"
+              }
+            ],
+            "kind": "prose",
+            "r": 15
+          },
+          {
+            "top": 291.18,
+            "c": [
+              [
+                89,
+                "These devices have limited built-in ESD protection. The leads should be shorted together or the device placed in conductive foam"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  89.2,
+                  291.18,
+                  556.106,
+                  299.18
+                ],
+                "text": "These devices have limited built-in ESD protection. The leads should be shorted together or the device placed in conductive foam"
+              }
+            ],
+            "kind": "prose",
+            "r": 16
+          },
+          {
+            "top": 300.18,
+            "c": [
+              [
+                89,
+                "during storage or handling to prevent electrostatic damage to the MOS gates."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  89.2,
+                  300.18,
+                  364.49600000000004,
+                  308.18
+                ],
+                "text": "during storage or handling to prevent electrostatic damage to the MOS gates."
+              }
+            ],
+            "kind": "prose",
+            "r": 17
+          },
+          {
+            "top": 326.21,
+            "c": [
+              [
+                54,
+                "12.4"
+              ],
+              [
+                85,
+                "Glossary"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  326.21,
+                  75.395,
+                  337.21
+                ],
+                "text": "12.4"
+              },
+              {
+                "bbox": [
+                  85.2,
+                  326.21,
+                  132.247,
+                  337.21
+                ],
+                "text": "Glossary"
+              }
+            ],
+            "kind": "prose",
+            "r": 18
+          },
+          {
+            "top": 343.87,
+            "c": [
+              [
+                54,
+                "SLYZ022 — TI Glossary."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  343.90000000000003,
+                  165.68,
+                  353.90000000000003
+                ],
+                "text": "SLYZ022 — TI Glossary."
+              }
+            ],
+            "kind": "prose",
+            "r": 19
+          },
+          {
+            "top": 357.3,
+            "c": [
+              [
+                72,
+                "This glossary lists and explains terms, acronyms, and definitions."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  72.0,
+                  357.3,
+                  361.0,
+                  367.3
+                ],
+                "text": "This glossary lists and explains terms, acronyms, and definitions."
+              }
+            ],
+            "kind": "prose",
+            "r": 20
+          },
+          {
+            "top": 385.52,
+            "c": [
+              [
+                54,
+                "13"
+              ],
+              [
+                78,
+                "Mechanical, Packaging, and Orderable Information"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  385.52,
+                  67.344,
+                  397.52
+                ],
+                "text": "13"
+              },
+              {
+                "bbox": [
+                  77.74,
+                  385.52,
+                  367.27799999999996,
+                  397.52
+                ],
+                "text": "Mechanical, Packaging, and Orderable Information"
+              }
+            ],
+            "kind": "prose",
+            "r": 21
+          },
+          {
+            "top": 407.1,
+            "c": [
+              [
+                54,
+                "The following pages include mechanical, packaging, and orderable information. This information is the most"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  407.1,
+                  556.64,
+                  417.1
+                ],
+                "text": "The following pages include mechanical, packaging, and orderable information. This information is the most"
+              }
+            ],
+            "kind": "prose",
+            "r": 22
+          },
+          {
+            "top": 418.1,
+            "c": [
+              [
+                54,
+                "current data available for the designated devices. This data is subject to change without notice and revision of"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  418.1,
+                  557.5899999999999,
+                  428.1
+                ],
+                "text": "current data available for the designated devices. This data is subject to change without notice and revision of"
+              }
+            ],
+            "kind": "prose",
+            "r": 23
+          },
+          {
+            "top": 429.1,
+            "c": [
+              [
+                54,
+                "this document. For browser-based versions of this data sheet, refer to the left-hand navigation."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  429.1,
+                  474.11999999999995,
+                  439.1
+                ],
+                "text": "this document. For browser-based versions of this data sheet, refer to the left-hand navigation."
+              }
+            ],
+            "kind": "prose",
+            "r": 24
+          },
+          {
+            "top": 740.856,
+            "c": [
+              [
+                54,
+                "28"
+              ],
+              [
+                84,
+                "Submit Documentation Feedback"
+              ],
+              [
+                380,
+                "Copyright © 2008–2015, Texas Instruments Incorporated"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  740.88,
+                  62.896,
+                  748.88
+                ],
+                "text": "28"
+              },
+              {
+                "bbox": [
+                  84.0,
+                  740.856,
+                  202.58,
+                  748.856
+                ],
+                "text": "Submit Documentation Feedback"
+              },
+              {
+                "bbox": [
+                  380.4,
+                  741.67,
+                  557.7940000000001,
+                  748.67
+                ],
+                "text": "Copyright © 2008–2015, Texas Instruments Incorporated"
+              }
+            ],
+            "kind": "prose",
+            "r": 25
+          },
+          {
+            "top": 755.856,
+            "c": [
+              [
+                253,
+                "Product Folder Links: INA219"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  253.4,
+                  755.88,
+                  358.36400000000003,
+                  763.88
+                ],
+                "text": "Product Folder Links: INA219"
+              }
+            ],
+            "kind": "prose",
+            "r": 26
+          }
+        ]
+      }
+    ],
+    "budget": {
+      "budget_chars": 6000,
+      "max_pages": 5,
+      "used_chars": 5008,
+      "selected_pages": 2,
+      "selection": "physical_table_dependency_closure_multistart",
+      "condition_aliases": [],
+      "objective": 16.16510550323635,
+      "trials": [
+        {
+          "seed": null,
+          "objective": 16.16510550323635,
+          "chars": 5008
+        },
+        {
+          "seed": "ina219:p25:span2366-3733:58004eda854d",
+          "objective": 16.16510550323635,
+          "chars": 5008
+        },
+        {
+          "seed": "ina219:p25:span0-1300:58004eda854d",
+          "objective": 16.16510550323635,
+          "chars": 5008
+        },
+        {
+          "seed": "ina219:p28:span0-2341:58004eda854d",
+          "objective": 16.16510550323635,
+          "chars": 5008
+        },
+        {
+          "seed": "ina219:p25:span2582-3191:58004eda854d",
+          "objective": 11.134051690284757,
+          "chars": 4250
+        },
+        {
+          "seed": "ina219:p18:span499-2360:58004eda854d",
+          "objective": 15.407305203148988,
+          "chars": 4528
+        }
+      ],
+      "rejected_packets": [],
+      "pages": [
+        {
+          "doc_id": "ina219",
+          "page": 25,
+          "layout_chars": 4612,
+          "selected_chars": 2667
+        },
+        {
+          "doc_id": "ina219",
+          "page": 11,
+          "layout_chars": 4351,
+          "selected_chars": 0
+        },
+        {
+          "doc_id": "ina219",
+          "page": 9,
+          "layout_chars": 4005,
+          "selected_chars": 0
+        },
+        {
+          "doc_id": "ina219",
+          "page": 28,
+          "layout_chars": 2341,
+          "selected_chars": 2341
+        },
+        {
+          "doc_id": "ina219",
+          "page": 18,
+          "layout_chars": 2535,
+          "selected_chars": 0
+        }
+      ],
+      "note": "Only original contiguous ranges are sent to generation/verifier. No gold pages, reference answers, or generated table cells enter selection."
+    },
+    "claims": [],
+    "retrieved_pages": [
+      25,
+      11,
+      9,
+      28,
+      18,
+      14,
+      10,
+      1
+    ],
+    "retrieval_trace": {
+      "mode": "multilingual_v4",
+      "language": "zh",
+      "predicted_page_rr_gain": -0.01678426062535256,
+      "escalated": false,
+      "teacher_pairs": 0,
+      "teacher_forward_batches": 0,
+      "student_forward_batches": 1,
+      "candidate_pairs": 16,
+      "latency_ms": 17.249000000447268,
+      "gate_split": "dev",
+      "student_weight_sha256": "978fc11c24c22da4e81d8051acb89c367472d534dc6761596535496cfcb52a50",
+      "teacher_identity": {
+        "repo": "Qwen/Qwen3-Reranker-0.6B",
+        "revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+        "weight_sha256": "27cd75a405b9c1b46b59abfd88aaa209e6fed2a1972cde9b70e7659537c5e65b",
+        "max_input_tokens": 512,
+        "yes_token_id": 9693,
+        "no_token_id": 2152,
+        "instruction": "Retrieve chip-manual evidence that directly answers the question. Match the parameter, min/typ/max column, unit, operating mode and complete test conditions. Topic overlap or a correct value under a different condition is insufficient.",
+        "prompt_sha256": "a382f806df87ddb2befc2354bc9cff7cb3df3d5f60bc20747848013a11422765",
+        "interpretation": "Actually trained domain ranking preference adapter; not generative SFT or factual verification.",
+        "kind": "domain_lora_v4",
+        "adapter_sha256": "470e1f1d24e4403d517c5806d42f18dd72a8fe70e5fcd788fd188ce8b50e7b5c",
+        "selection_split": "dev",
+        "rank": 8,
+        "score_space": "raw_yes_minus_no_logits"
+      },
+      "candidate_scope": "Actual full-chunk BM25/RRF candidates; no source-page injection; weak source-page ranking labels.",
+      "method": "multilingual_v4",
+      "query": "INA219 如何实现 Design Requirements 的功能？",
+      "corpus": "v3",
+      "documents": 20,
+      "full_text_chunks": 10668
+    },
+    "metrics": {
+      "retrieval_ms": 21.529100000407198,
+      "total_ms": 219.94839999933902,
+      "generation_calls": 0
+    },
+    "scope": "Original-PDF retrieval, closed source budget and deterministic numeric atoms; no generated answer or whole-answer correctness claim."
+  }
+}

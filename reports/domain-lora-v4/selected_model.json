@@ -1,0 +1,16 @@
+{
+  "adapter_sha256": "470e1f1d24e4403d517c5806d42f18dd72a8fe70e5fcd788fd188ce8b50e7b5c",
+  "base_sha256": "27cd75a405b9c1b46b59abfd88aaa209e6fed2a1972cde9b70e7659537c5e65b",
+  "base_revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+  "rank": 8,
+  "trainable_parameters": 1835008,
+  "training_updates": 360,
+  "selected_epoch": 2,
+  "selection_split": "dev",
+  "nonzero_lora_B_tensors": 84,
+  "dataset_sha256": {
+    "queries.jsonl": "125f03d2a409961edd54dc982cd0a4e7681cdda5494c29d2d430b0ef382337a4",
+    "passages.jsonl": "d2e85409d1ac6a1089e64e2689639601eddda972e1d6b0ade1b6a83481f02f84"
+  },
+  "instruction": "Retrieve chip-manual evidence that directly answers the question. Match the parameter, min/typ/max column, unit, operating mode and complete test conditions. Topic overlap or a correct value under a different condition is insufficient."
+}

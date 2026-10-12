@@ -1,0 +1,6 @@
+{
+  "teacher": ".cache/v3/models/Qwen--Qwen3-Reranker-0.6B/e61197ed45024b0ed8a2d74b80b4d909f1255473",
+  "visual_adapter": ".cache/v3/models/vidore--colSmol-256M/c79b633e17e060cc109b11aa2bf92a1517d3bd6f",
+  "visual_base": ".cache/v3/models/vidore--ColSmolVLM-Instruct-256M-base/99ca96f1f6b95b3a69e6abef74a2416cb738fed0",
+  "base_revision": "99ca96f1f6b95b3a69e6abef74a2416cb738fed0"
+}

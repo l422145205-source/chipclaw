@@ -1,0 +1,37 @@
+{
+  "base_repo": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+  "base_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+  "base_weight_sha256": "5daeca2481a76b5976a2bdc32f0a78532b6716da4f8cd3ff59460ef8d2f359b4",
+  "dataset_sha256": {
+    "queries.jsonl": "125f03d2a409961edd54dc982cd0a4e7681cdda5494c29d2d430b0ef382337a4",
+    "passages.jsonl": "d2e85409d1ac6a1089e64e2689639601eddda972e1d6b0ade1b6a83481f02f84"
+  },
+  "teacher_scores_sha256": "1a2706398a174b55134dc5b6f62e5798df22f414ce7903579656d7c1b88ac975",
+  "train_intents": 717,
+  "dev_intents": 340,
+  "holdout_intents": 521,
+  "seed": 42,
+  "epochs": 3,
+  "batch_query_lists": 4,
+  "candidate_sample_size": 8,
+  "steps_each_arm": 540,
+  "learning_rate": 2e-05,
+  "objective": "source-anchor CE + physical-role/condition pairwise softplus + optional teacher listwise KL",
+  "sampling": "identical teacher-score quantile sampling and language schedule across arms",
+  "selection": "dev only; both arms finalized before any reused v3 holdout scoring",
+  "holdout_note": "Previously reported v3 holdout, reused for regression; not a new unseen benchmark or independent human QA.",
+  "arms": [
+    [
+      "multilingual_no_kd",
+      false
+    ],
+    [
+      "multilingual_kl",
+      true
+    ]
+  ],
+  "source_sha256": {
+    "scripts/train_multilingual_v4.py": "3040f4fc5f617ec24e590f2e2b0d6886f86b0eac96837a4437172d8da19478fe",
+    "chipclaw/distillation_v3.py": "6bdcb9dd2f965f76a6651901476fa6310575bf21588cda90707a2ce17efc17ef"
+  }
+}

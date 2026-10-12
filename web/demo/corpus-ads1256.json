@@ -1,0 +1,5073 @@
+{
+  "intent_id": "qv3-0231",
+  "request": {
+    "question": "For ADS1256, what specification applies to sync/pdwn rising edge to clkin rising edge?",
+    "doc_id": "ads1256",
+    "retrieval_method": "multilingual_v4",
+    "budget_chars": 6000
+  },
+  "http_status": 200,
+  "result": {
+    "query": "For ADS1256, what specification applies to sync/pdwn rising edge to clkin rising edge?",
+    "doc_id": "ads1256",
+    "retrieval_method": "multilingual_v4",
+    "evidence": [
+      {
+        "doc_id": "ads1256",
+        "page": 7,
+        "source_sha256": "9da3323db162b59329ec1a865829441ff1605279cd802fe879649b6f54e100e6",
+        "url": "https://www.ti.com/lit/ds/symlink/ads1256.pdf#page=7",
+        "title": "ADS1255/ADS1256 ADC datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "ads1256:p7:span1086-1752:9da3323db162",
+        "span_id": "ads1256:p7:span1086-1752:9da3323db162",
+        "start": 1086,
+        "end": 1752,
+        "text": "{\"r\":20,\"c\":[[261,\"16\"],[406,\"16B\"]]}\n{\"r\":21,\"c\":[[184,\"RESET,SYNC/PDWN\"],[357,\"SYNC/PDWN\"]]}\n{\"r\":22,\"c\":[[216,\"Figure 3. RESET and SYNC/PDWN Timing\"]]}\n{\"r\":23,\"c\":[[67,\"TIMING CHARACTERISTICS FOR FIGURE 3\"]]}\n{\"r\":24,\"c\":[[66,\"SYMBOL\"],[116,\"DESCRIPTION\"],[452,\"MIN MAX\"],[522,\"UNIT\"]]}\n{\"r\":25,\"c\":[[66,\"t16\"],[116,\"RESET, SYNC/PDWN, pulse width\"],[452,\"4\"],[522,\"τ CLKIN (1)\"]]}\n{\"r\":26,\"c\":[[66,\"t16B\"],[116,\"SYNC/PDWN rising edge to CLKIN rising edge\"],[452,\"−25 25\"],[522,\"ns\"]]}\n{\"r\":27,\"c\":[[70,\"(1) τ\"],[106,\"= master clock period = 1/fCLKIN.\"]]}\n{\"r\":28,\"c\":[[85,\"CLKIN\"]]}\n{\"r\":29,\"c\":[[366,\"t\"]]}\n{\"r\":30,\"c\":[[367,\"17\"]]}\n{\"r\":31,\"c\":[[230,\"DRDY\"]]}\n",
+        "source_rows": [
+          {
+            "r": 20,
+            "c": [
+              [
+                261,
+                "16"
+              ],
+              [
+                406,
+                "16B"
+              ]
+            ]
+          },
+          {
+            "r": 21,
+            "c": [
+              [
+                184,
+                "RESET,SYNC/PDWN"
+              ],
+              [
+                357,
+                "SYNC/PDWN"
+              ]
+            ]
+          },
+          {
+            "r": 22,
+            "c": [
+              [
+                216,
+                "Figure 3. RESET and SYNC/PDWN Timing"
+              ]
+            ]
+          },
+          {
+            "r": 23,
+            "c": [
+              [
+                67,
+                "TIMING CHARACTERISTICS FOR FIGURE 3"
+              ]
+            ]
+          },
+          {
+            "r": 24,
+            "c": [
+              [
+                66,
+                "SYMBOL"
+              ],
+              [
+                116,
+                "DESCRIPTION"
+              ],
+              [
+                452,
+                "MIN MAX"
+              ],
+              [
+                522,
+                "UNIT"
+              ]
+            ]
+          },
+          {
+            "r": 25,
+            "c": [
+              [
+                66,
+                "t16"
+              ],
+              [
+                116,
+                "RESET, SYNC/PDWN, pulse width"
+              ],
+              [
+                452,
+                "4"
+              ],
+              [
+                522,
+                "τ CLKIN (1)"
+              ]
+            ]
+          },
+          {
+            "r": 26,
+            "c": [
+              [
+                66,
+                "t16B"
+              ],
+              [
+                116,
+                "SYNC/PDWN rising edge to CLKIN rising edge"
+              ],
+              [
+                452,
+                "−25 25"
+              ],
+              [
+                522,
+                "ns"
+              ]
+            ]
+          },
+          {
+            "r": 27,
+            "c": [
+              [
+                70,
+                "(1) τ"
+              ],
+              [
+                106,
+                "= master clock period = 1/fCLKIN."
+              ]
+            ]
+          },
+          {
+            "r": 28,
+            "c": [
+              [
+                85,
+                "CLKIN"
+              ]
+            ]
+          },
+          {
+            "r": 29,
+            "c": [
+              [
+                366,
+                "t"
+              ]
+            ]
+          },
+          {
+            "r": 30,
+            "c": [
+              [
+                367,
+                "17"
+              ]
+            ]
+          },
+          {
+            "r": 31,
+            "c": [
+              [
+                230,
+                "DRDY"
+              ]
+            ]
+          }
+        ],
+        "geometry_records": [
+          {
+            "top": 307.03000000000003,
+            "c": [
+              [
+                261,
+                "16"
+              ],
+              [
+                406,
+                "16B"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  261.36,
+                  307.27000000000004,
+                  266.779,
+                  312.27000000000004
+                ],
+                "text": "16"
+              },
+              {
+                "bbox": [
+                  405.6,
+                  307.03000000000003,
+                  414.694,
+                  312.03000000000003
+                ],
+                "text": "16B"
+              }
+            ],
+            "kind": "prose",
+            "r": 20
+          },
+          {
+            "top": 321.842,
+            "c": [
+              [
+                184,
+                "RESET,SYNC/PDWN"
+              ],
+              [
+                357,
+                "SYNC/PDWN"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  183.6,
+                  321.842,
+                  253.453,
+                  328.842
+                ],
+                "text": "RESET,SYNC/PDWN"
+              },
+              {
+                "bbox": [
+                  356.64,
+                  321.842,
+                  399.37219999999996,
+                  328.842
+                ],
+                "text": "SYNC/PDWN"
+              }
+            ],
+            "kind": "prose",
+            "r": 21
+          },
+          {
+            "top": 340.21999999999997,
+            "c": [
+              [
+                216,
+                "Figure 3. RESET and SYNC/PDWN Timing"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  216.48,
+                  340.21999999999997,
+                  415.953,
+                  350.21999999999997
+                ],
+                "text": "Figure 3. RESET and SYNC/PDWN Timing"
+              }
+            ],
+            "kind": "prose",
+            "r": 22
+          },
+          {
+            "top": 374.74600000000004,
+            "c": [
+              [
+                67,
+                "TIMING CHARACTERISTICS FOR FIGURE 3"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.72,
+                  374.74600000000004,
+                  294.48929999999996,
+                  385.74600000000004
+                ],
+                "text": "TIMING CHARACTERISTICS FOR FIGURE 3"
+              }
+            ],
+            "kind": "prose",
+            "r": 23
+          },
+          {
+            "top": 387.71999999999997,
+            "c": [
+              [
+                66,
+                "SYMBOL"
+              ],
+              [
+                116,
+                "DESCRIPTION"
+              ],
+              [
+                452,
+                "MIN MAX"
+              ],
+              [
+                522,
+                "UNIT"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  387.71999999999997,
+                  116.03586206896551,
+                  401.15999999999997
+                ],
+                "text": "SYMBOL",
+                "word_boxes": [
+                  [
+                    72.96,
+                    391.168,
+                    107.184,
+                    399.168,
+                    "SYMBOL"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  116.03586206896551,
+                  387.71999999999997,
+                  452.039985,
+                  401.15999999999997
+                ],
+                "text": "DESCRIPTION",
+                "word_boxes": [
+                  [
+                    118.56,
+                    391.168,
+                    173.23200000000003,
+                    399.168,
+                    "DESCRIPTION"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  452.039985,
+                  387.71999999999997,
+                  522.360015,
+                  401.15999999999997
+                ],
+                "text": "MIN MAX",
+                "word_boxes": [
+                  [
+                    468.0,
+                    391.168,
+                    482.664,
+                    399.168,
+                    "MIN"
+                  ],
+                  [
+                    500.1599,
+                    391.168,
+                    517.9359000000001,
+                    399.168,
+                    "MAX"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  522.360015,
+                  387.71999999999997,
+                  567.240015,
+                  401.15999999999997
+                ],
+                "text": "UNIT",
+                "word_boxes": [
+                  [
+                    534.96,
+                    391.168,
+                    553.624,
+                    399.168,
+                    "UNIT"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 1,
+            "r": 24
+          },
+          {
+            "top": 401.15999999999997,
+            "c": [
+              [
+                66,
+                "t16"
+              ],
+              [
+                116,
+                "RESET, SYNC/PDWN, pulse width"
+              ],
+              [
+                452,
+                "4"
+              ],
+              [
+                522,
+                "τ CLKIN (1)"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  401.15999999999997,
+                  116.03586206896551,
+                  416.76000000000005
+                ],
+                "text": "t16",
+                "word_boxes": [
+                  [
+                    85.2,
+                    405.088,
+                    94.57305000000001,
+                    414.399,
+                    "t16"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  116.03586206896551,
+                  401.15999999999997,
+                  452.039985,
+                  416.76000000000005
+                ],
+                "text": "RESET, SYNC/PDWN, pulse width",
+                "word_boxes": [
+                  [
+                    118.56,
+                    405.32800000000003,
+                    146.224,
+                    413.32800000000003,
+                    "RESET,"
+                  ],
+                  [
+                    148.3576,
+                    405.32800000000003,
+                    199.024,
+                    413.32800000000003,
+                    "SYNC/PDWN,"
+                  ],
+                  [
+                    201.08960000000002,
+                    405.32800000000003,
+                    219.89280000000002,
+                    413.32800000000003,
+                    "pulse"
+                  ],
+                  [
+                    221.9584,
+                    405.32800000000003,
+                    240.31360000000004,
+                    413.32800000000003,
+                    "width"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  452.039985,
+                  401.15999999999997,
+                  522.360015,
+                  416.76000000000005
+                ],
+                "text": "4",
+                "word_boxes": [
+                  [
+                    478.08,
+                    405.088,
+                    482.52799999999996,
+                    413.088,
+                    "4"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  522.360015,
+                  401.15999999999997,
+                  567.240015,
+                  416.76000000000005
+                ],
+                "text": "τ CLKIN (1)",
+                "word_boxes": [
+                  [
+                    528.96,
+                    403.12,
+                    532.472,
+                    411.12,
+                    "τ"
+                  ],
+                  [
+                    532.3199,
+                    407.899,
+                    551.41235,
+                    414.399,
+                    "CLKIN"
+                  ],
+                  [
+                    551.2797499999999,
+                    403.81895000000003,
+                    559.2032499999999,
+                    410.31895000000003,
+                    "(1)"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 1,
+            "r": 25
+          },
+          {
+            "top": 416.76000000000005,
+            "c": [
+              [
+                66,
+                "t16B"
+              ],
+              [
+                116,
+                "SYNC/PDWN rising edge to CLKIN rising edge"
+              ],
+              [
+                452,
+                "−25 25"
+              ],
+              [
+                522,
+                "ns"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  416.76000000000005,
+                  116.03586206896551,
+                  431.4
+                ],
+                "text": "t16B",
+                "word_boxes": [
+                  [
+                    83.04,
+                    420.68800000000005,
+                    96.7336,
+                    429.99899999999997,
+                    "t16B"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  116.03586206896551,
+                  416.76000000000005,
+                  452.039985,
+                  431.4
+                ],
+                "text": "SYNC/PDWN rising edge to CLKIN rising edge",
+                "word_boxes": [
+                  [
+                    118.56,
+                    420.928,
+                    167.304,
+                    428.928,
+                    "SYNC/PDWN"
+                  ],
+                  [
+                    169.1832,
+                    420.928,
+                    187.8912,
+                    428.928,
+                    "rising"
+                  ],
+                  [
+                    189.9536,
+                    420.928,
+                    207.5032,
+                    428.928,
+                    "edge"
+                  ],
+                  [
+                    209.5656,
+                    420.928,
+                    216.15679999999998,
+                    428.928,
+                    "to"
+                  ],
+                  [
+                    218.21919999999997,
+                    420.928,
+                    241.456,
+                    428.928,
+                    "CLKIN"
+                  ],
+                  [
+                    243.51839999999999,
+                    420.928,
+                    262.22639999999996,
+                    428.928,
+                    "rising"
+                  ],
+                  [
+                    264.2888,
+                    420.928,
+                    281.8384,
+                    428.928,
+                    "edge"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  452.039985,
+                  416.76000000000005,
+                  522.360015,
+                  431.4
+                ],
+                "text": "−25 25",
+                "word_boxes": [
+                  [
+                    469.44,
+                    420.68800000000005,
+                    483.008,
+                    428.68800000000005,
+                    "−25"
+                  ],
+                  [
+                    509.0399,
+                    420.68800000000005,
+                    517.9359,
+                    428.68800000000005,
+                    "25"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  522.360015,
+                  416.76000000000005,
+                  567.240015,
+                  431.4
+                ],
+                "text": "ns",
+                "word_boxes": [
+                  [
+                    539.9999,
+                    420.68800000000005,
+                    548.4479,
+                    428.68800000000005,
+                    "ns"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 1,
+            "r": 26
+          },
+          {
+            "top": 436.72,
+            "c": [
+              [
+                70,
+                "(1) τ"
+              ],
+              [
+                106,
+                "= master clock period = 1/fCLKIN."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  69.6,
+                  437.419,
+                  85.112,
+                  444.72
+                ],
+                "text": "(1) τ"
+              },
+              {
+                "bbox": [
+                  106.0752,
+                  438.68800000000005,
+                  219.664,
+                  447.99899999999997
+                ],
+                "text": "= master clock period = 1/fCLKIN."
+              }
+            ],
+            "kind": "prose",
+            "r": 27
+          },
+          {
+            "top": 441.49899999999997,
+            "c": [
+              [
+                85,
+                "CLKIN"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  84.96,
+                  441.49899999999997,
+                  104.05245,
+                  447.99899999999997
+                ],
+                "text": "CLKIN"
+              }
+            ],
+            "kind": "prose",
+            "r": 28
+          },
+          {
+            "top": 467.762,
+            "c": [
+              [
+                366,
+                "t"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  365.52,
+                  467.762,
+                  367.466,
+                  474.762
+                ],
+                "text": "t"
+              }
+            ],
+            "kind": "prose",
+            "r": 29
+          },
+          {
+            "top": 471.19,
+            "c": [
+              [
+                367,
+                "17"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  367.44,
+                  471.19,
+                  373.0995,
+                  476.19
+                ],
+                "text": "17"
+              }
+            ],
+            "kind": "prose",
+            "r": 30
+          },
+          {
+            "top": 484.082,
+            "c": [
+              [
+                230,
+                "DRDY"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  230.16,
+                  484.082,
+                  249.94480000000001,
+                  491.082
+                ],
+                "text": "DRDY"
+              }
+            ],
+            "kind": "prose",
+            "r": 31
+          }
+        ],
+        "packet_kind": "table",
+        "table_id": 1,
+        "closure": {
+          "table_index": 1,
+          "table_indices": [
+            1
+          ],
+          "physical_rows": [
+            24,
+            25,
+            26
+          ],
+          "first_context_row": 20,
+          "last_context_row": 31,
+          "scope": "All local physical table rows and adjacent original context; cross-page notes unresolved."
+        }
+      },
+      {
+        "doc_id": "ads1256",
+        "page": 27,
+        "source_sha256": "9da3323db162b59329ec1a865829441ff1605279cd802fe879649b6f54e100e6",
+        "url": "https://www.ti.com/lit/ds/symlink/ads1256.pdf#page=27",
+        "title": "ADS1255/ADS1256 ADC datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "ads1256:p27:span4501-5868:9da3323db162",
+        "span_id": "ads1256:p27:span4501-5868:9da3323db162",
+        "start": 4501,
+        "end": 5868,
+        "text": "{\"r\":49,\"c\":[[66,\"Synchronization\"],[142,\"can\"],[165,\"be\"],[183,\"achieved\"],[229,\"either\"],[261,\"using\"],[291,\"the\"]]}\n{\"r\":50,\"c\":[[328,\"operation, the reset releases automatically.\"]]}\n{\"r\":51,\"c\":[[66,\"SYNC/PDWN pin or with the SYNC command. To use the\"]]}\n{\"r\":52,\"c\":[[66,\"SYNC/PDWN pin, take it low and then high, making sure\"],[328,\"On reset, the configuration registers are initialized to their\"]]}\n{\"r\":53,\"c\":[[66,\"to meet timing specification t\"],[197,\"and t\"],[231,\". Synchronization\"],[328,\"default state except for the CLK0 and CLK1 bits in the\"]]}\n{\"r\":54,\"c\":[[186,\"16\"],[218,\"16B\"]]}\n{\"r\":55,\"c\":[[66,\"occurs\"],[106,\"after\"],[136,\"SYNC/PDWN\"],[207,\"is\"],[225,\"taken\"],[260,\"high.\"],[292,\"No\"],[328,\"ADCON register that control the D0/CLKOUT pin. These\"]]}\n{\"r\":56,\"c\":[[66,\"communication is possible on the serial interface while\"],[328,\"bits are only initialized to the default state when RESET is\"]]}\n{\"r\":57,\"c\":[[66,\"SYNC/PDWN is low. If the SYNC/PDWN pin is held low for\"],[328,\"performed using the RESET pin. After releasing from\"]]}\n{\"r\":58,\"c\":[[66,\"20 DRDY periods the ADS1255/6 will enter Power-Down\"],[328,\"RESET, self-calibration is performed, regardless of the\"]]}\n{\"r\":59,\"c\":[[66,\"mode.\"],[328,\"reset method or the state of the ACAL bit before RESET.\"]]}\n{\"r\":60,\"c\":[[66,\"To synchronize using the SYNC command, first shift in all\"]]}\n",
+        "packet_kind": "prose",
+        "table_id": null,
+        "source_rows": [
+          {
+            "r": 49,
+            "c": [
+              [
+                66,
+                "Synchronization"
+              ],
+              [
+                142,
+                "can"
+              ],
+              [
+                165,
+                "be"
+              ],
+              [
+                183,
+                "achieved"
+              ],
+              [
+                229,
+                "either"
+              ],
+              [
+                261,
+                "using"
+              ],
+              [
+                291,
+                "the"
+              ]
+            ]
+          },
+          {
+            "r": 50,
+            "c": [
+              [
+                328,
+                "operation, the reset releases automatically."
+              ]
+            ]
+          },
+          {
+            "r": 51,
+            "c": [
+              [
+                66,
+                "SYNC/PDWN pin or with the SYNC command. To use the"
+              ]
+            ]
+          },
+          {
+            "r": 52,
+            "c": [
+              [
+                66,
+                "SYNC/PDWN pin, take it low and then high, making sure"
+              ],
+              [
+                328,
+                "On reset, the configuration registers are initialized to their"
+              ]
+            ]
+          },
+          {
+            "r": 53,
+            "c": [
+              [
+                66,
+                "to meet timing specification t"
+              ],
+              [
+                197,
+                "and t"
+              ],
+              [
+                231,
+                ". Synchronization"
+              ],
+              [
+                328,
+                "default state except for the CLK0 and CLK1 bits in the"
+              ]
+            ]
+          },
+          {
+            "r": 54,
+            "c": [
+              [
+                186,
+                "16"
+              ],
+              [
+                218,
+                "16B"
+              ]
+            ]
+          },
+          {
+            "r": 55,
+            "c": [
+              [
+                66,
+                "occurs"
+              ],
+              [
+                106,
+                "after"
+              ],
+              [
+                136,
+                "SYNC/PDWN"
+              ],
+              [
+                207,
+                "is"
+              ],
+              [
+                225,
+                "taken"
+              ],
+              [
+                260,
+                "high."
+              ],
+              [
+                292,
+                "No"
+              ],
+              [
+                328,
+                "ADCON register that control the D0/CLKOUT pin. These"
+              ]
+            ]
+          },
+          {
+            "r": 56,
+            "c": [
+              [
+                66,
+                "communication is possible on the serial interface while"
+              ],
+              [
+                328,
+                "bits are only initialized to the default state when RESET is"
+              ]
+            ]
+          },
+          {
+            "r": 57,
+            "c": [
+              [
+                66,
+                "SYNC/PDWN is low. If the SYNC/PDWN pin is held low for"
+              ],
+              [
+                328,
+                "performed using the RESET pin. After releasing from"
+              ]
+            ]
+          },
+          {
+            "r": 58,
+            "c": [
+              [
+                66,
+                "20 DRDY periods the ADS1255/6 will enter Power-Down"
+              ],
+              [
+                328,
+                "RESET, self-calibration is performed, regardless of the"
+              ]
+            ]
+          },
+          {
+            "r": 59,
+            "c": [
+              [
+                66,
+                "mode."
+              ],
+              [
+                328,
+                "reset method or the state of the ACAL bit before RESET."
+              ]
+            ]
+          },
+          {
+            "r": 60,
+            "c": [
+              [
+                66,
+                "To synchronize using the SYNC command, first shift in all"
+              ]
+            ]
+          }
+        ],
+        "layout_sha256": null,
+        "geometry_records": [
+          {
+            "top": 515.076,
+            "c": [
+              [
+                66,
+                "Synchronization"
+              ],
+              [
+                142,
+                "can"
+              ],
+              [
+                165,
+                "be"
+              ],
+              [
+                183,
+                "achieved"
+              ],
+              [
+                229,
+                "either"
+              ],
+              [
+                261,
+                "using"
+              ],
+              [
+                291,
+                "the"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  65.75999999999999,
+                  515.076,
+                  133.34300000000002,
+                  524.576
+                ],
+                "text": "Synchronization"
+              },
+              {
+                "bbox": [
+                  141.6327,
+                  515.076,
+                  156.9467,
+                  524.576
+                ],
+                "text": "can"
+              },
+              {
+                "bbox": [
+                  164.7652,
+                  515.076,
+                  175.32920000000004,
+                  524.576
+                ],
+                "text": "be"
+              },
+              {
+                "bbox": [
+                  183.14770000000004,
+                  515.076,
+                  221.16670000000005,
+                  524.576
+                ],
+                "text": "achieved"
+              },
+              {
+                "bbox": [
+                  228.98520000000005,
+                  515.076,
+                  252.74470000000008,
+                  524.576
+                ],
+                "text": "either"
+              },
+              {
+                "bbox": [
+                  260.56320000000005,
+                  515.076,
+                  283.2682000000001,
+                  524.576
+                ],
+                "text": "using"
+              },
+              {
+                "bbox": [
+                  291.0867000000001,
+                  515.076,
+                  304.2917000000001,
+                  524.576
+                ],
+                "text": "the"
+              }
+            ],
+            "kind": "prose",
+            "r": 49
+          },
+          {
+            "top": 522.51625,
+            "c": [
+              [
+                328,
+                "operation, the reset releases automatically."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  328.3198,
+                  522.51625,
+                  509.0345000000001,
+                  532.01625
+                ],
+                "text": "operation, the reset releases automatically."
+              }
+            ],
+            "kind": "prose",
+            "r": 50
+          },
+          {
+            "top": 526.5957000000001,
+            "c": [
+              [
+                66,
+                "SYNC/PDWN pin or with the SYNC command. To use the"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  65.75999999999999,
+                  526.5957000000001,
+                  304.44500000000005,
+                  536.097
+                ],
+                "text": "SYNC/PDWN pin or with the SYNC command. To use the"
+              }
+            ],
+            "kind": "prose",
+            "r": 51
+          },
+          {
+            "top": 537.87585,
+            "c": [
+              [
+                66,
+                "SYNC/PDWN pin, take it low and then high, making sure"
+              ],
+              [
+                328,
+                "On reset, the configuration registers are initialized to their"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  65.76035,
+                  538.1167,
+                  304.33290000000005,
+                  547.617
+                ],
+                "text": "SYNC/PDWN pin, take it low and then high, making sure"
+              },
+              {
+                "bbox": [
+                  328.3198,
+                  537.87585,
+                  566.9541000000004,
+                  547.37585
+                ],
+                "text": "On reset, the configuration registers are initialized to their"
+              }
+            ],
+            "kind": "prose",
+            "r": 52
+          },
+          {
+            "top": 549.39555,
+            "c": [
+              [
+                66,
+                "to meet timing specification t"
+              ],
+              [
+                197,
+                "and t"
+              ],
+              [
+                231,
+                ". Synchronization"
+              ],
+              [
+                328,
+                "default state except for the CLK0 and CLK1 bits in the"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  65.76035,
+                  549.3973,
+                  185.52970000000008,
+                  558.8973
+                ],
+                "text": "to meet timing specification t"
+              },
+              {
+                "bbox": [
+                  196.7592,
+                  549.3969999999999,
+                  217.72,
+                  558.8969999999999
+                ],
+                "text": "and t"
+              },
+              {
+                "bbox": [
+                  231.36,
+                  549.3969999999999,
+                  304.31145,
+                  558.8969999999999
+                ],
+                "text": ". Synchronization"
+              },
+              {
+                "bbox": [
+                  328.3198,
+                  549.39555,
+                  566.8724,
+                  558.89555
+                ],
+                "text": "default state except for the CLK0 and CLK1 bits in the"
+              }
+            ],
+            "kind": "prose",
+            "r": 53
+          },
+          {
+            "top": 552.7496,
+            "c": [
+              [
+                186,
+                "16"
+              ],
+              [
+                218,
+                "16B"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  185.52,
+                  552.7496,
+                  194.06468,
+                  560.3496
+                ],
+                "text": "16"
+              },
+              {
+                "bbox": [
+                  217.68,
+                  552.7496,
+                  231.38736,
+                  560.3496
+                ],
+                "text": "16B"
+              }
+            ],
+            "kind": "prose",
+            "r": 54
+          },
+          {
+            "top": 560.91525,
+            "c": [
+              [
+                66,
+                "occurs"
+              ],
+              [
+                106,
+                "after"
+              ],
+              [
+                136,
+                "SYNC/PDWN"
+              ],
+              [
+                207,
+                "is"
+              ],
+              [
+                225,
+                "taken"
+              ],
+              [
+                260,
+                "high."
+              ],
+              [
+                292,
+                "No"
+              ],
+              [
+                328,
+                "ADCON register that control the D0/CLKOUT pin. These"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  65.75980000000001,
+                  560.9167,
+                  93.73730000000002,
+                  570.4167
+                ],
+                "text": "occurs"
+              },
+              {
+                "bbox": [
+                  105.57715000000002,
+                  560.9167,
+                  124.58665000000002,
+                  570.4167
+                ],
+                "text": "after"
+              },
+              {
+                "bbox": [
+                  136.32675,
+                  560.9167,
+                  194.3835,
+                  570.417
+                ],
+                "text": "SYNC/PDWN"
+              },
+              {
+                "bbox": [
+                  206.5308,
+                  560.917,
+                  213.38979999999998,
+                  570.417
+                ],
+                "text": "is"
+              },
+              {
+                "bbox": [
+                  225.04059999999998,
+                  560.917,
+                  248.2776,
+                  570.417
+                ],
+                "text": "taken"
+              },
+              {
+                "bbox": [
+                  259.9284,
+                  560.917,
+                  280.5244,
+                  570.417
+                ],
+                "text": "high."
+              },
+              {
+                "bbox": [
+                  292.1752,
+                  560.917,
+                  304.3162,
+                  570.417
+                ],
+                "text": "No"
+              },
+              {
+                "bbox": [
+                  328.3198,
+                  560.91525,
+                  566.8695500000002,
+                  570.41525
+                ],
+                "text": "ADCON register that control the D0/CLKOUT pin. These"
+              }
+            ],
+            "kind": "prose",
+            "r": 55
+          },
+          {
+            "top": 572.4349500000001,
+            "c": [
+              [
+                66,
+                "communication is possible on the serial interface while"
+              ],
+              [
+                328,
+                "bits are only initialized to the default state when RESET is"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  65.75979999999998,
+                  572.4367,
+                  304.28865000000013,
+                  581.9367
+                ],
+                "text": "communication is possible on the serial interface while"
+              },
+              {
+                "bbox": [
+                  328.3198,
+                  572.4349500000001,
+                  566.9426999999998,
+                  581.9349500000001
+                ],
+                "text": "bits are only initialized to the default state when RESET is"
+              }
+            ],
+            "kind": "prose",
+            "r": 56
+          },
+          {
+            "top": 583.71525,
+            "c": [
+              [
+                66,
+                "SYNC/PDWN is low. If the SYNC/PDWN pin is held low for"
+              ],
+              [
+                328,
+                "performed using the RESET pin. After releasing from"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  65.75979999999998,
+                  583.9564,
+                  304.5667000000001,
+                  593.457
+                ],
+                "text": "SYNC/PDWN is low. If the SYNC/PDWN pin is held low for"
+              },
+              {
+                "bbox": [
+                  328.3198,
+                  583.71525,
+                  566.8735,
+                  593.217
+                ],
+                "text": "performed using the RESET pin. After releasing from"
+              }
+            ],
+            "kind": "prose",
+            "r": 57
+          },
+          {
+            "top": 595.2366999999999,
+            "c": [
+              [
+                66,
+                "20 DRDY periods the ADS1255/6 will enter Power-Down"
+              ],
+              [
+                328,
+                "RESET, self-calibration is performed, regardless of the"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  65.76045000000002,
+                  595.2373,
+                  304.32695,
+                  604.7373
+                ],
+                "text": "20 DRDY periods the ADS1255/6 will enter Power-Down"
+              },
+              {
+                "bbox": [
+                  328.31995,
+                  595.2366999999999,
+                  566.86305,
+                  604.7366999999999
+                ],
+                "text": "RESET, self-calibration is performed, regardless of the"
+              }
+            ],
+            "kind": "prose",
+            "r": 58
+          },
+          {
+            "top": 606.7564,
+            "c": [
+              [
+                66,
+                "mode."
+              ],
+              [
+                328,
+                "reset method or the state of the ACAL bit before RESET."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  65.7601,
+                  606.7567,
+                  92.1606,
+                  616.2567
+                ],
+                "text": "mode."
+              },
+              {
+                "bbox": [
+                  328.31995,
+                  606.7564,
+                  566.8839500000001,
+                  616.2564
+                ],
+                "text": "reset method or the state of the ACAL bit before RESET."
+              }
+            ],
+            "kind": "prose",
+            "r": 59
+          },
+          {
+            "top": 622.35665,
+            "c": [
+              [
+                66,
+                "To synchronize using the SYNC command, first shift in all"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  65.7601,
+                  622.35665,
+                  304.3506999999998,
+                  631.85665
+                ],
+                "text": "To synchronize using the SYNC command, first shift in all"
+              }
+            ],
+            "kind": "prose",
+            "r": 60
+          }
+        ]
+      },
+      {
+        "doc_id": "ads1256",
+        "page": 5,
+        "source_sha256": "9da3323db162b59329ec1a865829441ff1605279cd802fe879649b6f54e100e6",
+        "url": "https://www.ti.com/lit/ds/symlink/ads1256.pdf#page=5",
+        "title": "ADS1255/ADS1256 ADC datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "ads1256:p5:span0-1315:9da3323db162",
+        "span_id": "ads1256:p5:span0-1315:9da3323db162",
+        "start": 0,
+        "end": 1315,
+        "text": "{\"r\":0,\"c\":[[518,\"ADS1255\"]]}\n{\"r\":1,\"c\":[[518,\"ADS1256\"]]}\n{\"r\":2,\"c\":[[87,\"www.ti.com\"]]}\n{\"r\":3,\"c\":[[388,\"SBAS288K − JUNE 2003 − REVISED SEPTEMBER 2013\"]]}\n{\"r\":4,\"c\":[[265,\"PIN ASSIGNMENTS\"]]}\n{\"r\":5,\"c\":[[282,\"SSOP PACKAGE\"],[404,\"AVDD 1\"],[495,\"28 D3\"]]}\n{\"r\":6,\"c\":[[292,\"(TOP VIEW)\"],[403,\"AGND 2\"],[495,\"27 D2\"]]}\n{\"r\":7,\"c\":[[108,\"AVDD 1\"],[199,\"20 D1\"],[400,\"VREFN 3\"],[495,\"26 D1\"]]}\n{\"r\":8,\"c\":[[107,\"AGND 2\"],[199,\"19 D0/CLKOUT\"],[400,\"VREFP 4\"],[495,\"25 D0/CLKOUT\"]]}\n{\"r\":9,\"c\":[[104,\"VREFN 3\"],[199,\"18 SCLK\"],[396,\"AINCOM 5\"],[495,\"24 SCLK\"]]}\n{\"r\":10,\"c\":[[104,\"VREFP 4\"],[199,\"17 DIN\"],[407,\"AIN0 6\"],[495,\"23 DIN\"]]}\n{\"r\":11,\"c\":[[100,\"AINCOM 5\"],[199,\"16 DOUT\"],[407,\"AIN1 7\"],[495,\"22 DOUT\"]]}\n{\"r\":12,\"c\":[[150,\"ADS1255\"],[446,\"ADS1256\"]]}\n{\"r\":13,\"c\":[[110,\"AIN0 6\"],[199,\"15 DRDY\"],[407,\"AIN2 8\"],[495,\"21 DRDY\"]]}\n{\"r\":14,\"c\":[[110,\"AIN1 7\"],[199,\"14 CS\"],[407,\"AIN3 9\"],[495,\"20 CS\"]]}\n{\"r\":15,\"c\":[[85,\"SYNC, PDWN 8\"],[199,\"13 XTAL1/CLKIN\"],[407,\"AIN4 10\"],[495,\"19 XTAL1/CLKIN\"]]}\n{\"r\":16,\"c\":[[104,\"RESET 9\"],[199,\"12 XTAL2\"],[407,\"AIN5 11\"],[495,\"18 XTAL2\"]]}\n{\"r\":17,\"c\":[[107,\"DVDD 10\"],[199,\"11 DGND\"],[407,\"AIN6 12\"],[495,\"17 DGND\"]]}\n{\"r\":18,\"c\":[[407,\"AIN7 13\"],[495,\"16 DVDD\"]]}\n{\"r\":19,\"c\":[[382,\"SYNC, PDWN 14\"],[495,\"15 RESET\"]]}\n{\"r\":20,\"c\":[[266,\"Terminal Functions\"]]}\n",
+        "packet_kind": "prose",
+        "table_id": null,
+        "source_rows": [
+          {
+            "r": 0,
+            "c": [
+              [
+                518,
+                "ADS1255"
+              ]
+            ]
+          },
+          {
+            "r": 1,
+            "c": [
+              [
+                518,
+                "ADS1256"
+              ]
+            ]
+          },
+          {
+            "r": 2,
+            "c": [
+              [
+                87,
+                "www.ti.com"
+              ]
+            ]
+          },
+          {
+            "r": 3,
+            "c": [
+              [
+                388,
+                "SBAS288K − JUNE 2003 − REVISED SEPTEMBER 2013"
+              ]
+            ]
+          },
+          {
+            "r": 4,
+            "c": [
+              [
+                265,
+                "PIN ASSIGNMENTS"
+              ]
+            ]
+          },
+          {
+            "r": 5,
+            "c": [
+              [
+                282,
+                "SSOP PACKAGE"
+              ],
+              [
+                404,
+                "AVDD 1"
+              ],
+              [
+                495,
+                "28 D3"
+              ]
+            ]
+          },
+          {
+            "r": 6,
+            "c": [
+              [
+                292,
+                "(TOP VIEW)"
+              ],
+              [
+                403,
+                "AGND 2"
+              ],
+              [
+                495,
+                "27 D2"
+              ]
+            ]
+          },
+          {
+            "r": 7,
+            "c": [
+              [
+                108,
+                "AVDD 1"
+              ],
+              [
+                199,
+                "20 D1"
+              ],
+              [
+                400,
+                "VREFN 3"
+              ],
+              [
+                495,
+                "26 D1"
+              ]
+            ]
+          },
+          {
+            "r": 8,
+            "c": [
+              [
+                107,
+                "AGND 2"
+              ],
+              [
+                199,
+                "19 D0/CLKOUT"
+              ],
+              [
+                400,
+                "VREFP 4"
+              ],
+              [
+                495,
+                "25 D0/CLKOUT"
+              ]
+            ]
+          },
+          {
+            "r": 9,
+            "c": [
+              [
+                104,
+                "VREFN 3"
+              ],
+              [
+                199,
+                "18 SCLK"
+              ],
+              [
+                396,
+                "AINCOM 5"
+              ],
+              [
+                495,
+                "24 SCLK"
+              ]
+            ]
+          },
+          {
+            "r": 10,
+            "c": [
+              [
+                104,
+                "VREFP 4"
+              ],
+              [
+                199,
+                "17 DIN"
+              ],
+              [
+                407,
+                "AIN0 6"
+              ],
+              [
+                495,
+                "23 DIN"
+              ]
+            ]
+          },
+          {
+            "r": 11,
+            "c": [
+              [
+                100,
+                "AINCOM 5"
+              ],
+              [
+                199,
+                "16 DOUT"
+              ],
+              [
+                407,
+                "AIN1 7"
+              ],
+              [
+                495,
+                "22 DOUT"
+              ]
+            ]
+          },
+          {
+            "r": 12,
+            "c": [
+              [
+                150,
+                "ADS1255"
+              ],
+              [
+                446,
+                "ADS1256"
+              ]
+            ]
+          },
+          {
+            "r": 13,
+            "c": [
+              [
+                110,
+                "AIN0 6"
+              ],
+              [
+                199,
+                "15 DRDY"
+              ],
+              [
+                407,
+                "AIN2 8"
+              ],
+              [
+                495,
+                "21 DRDY"
+              ]
+            ]
+          },
+          {
+            "r": 14,
+            "c": [
+              [
+                110,
+                "AIN1 7"
+              ],
+              [
+                199,
+                "14 CS"
+              ],
+              [
+                407,
+                "AIN3 9"
+              ],
+              [
+                495,
+                "20 CS"
+              ]
+            ]
+          },
+          {
+            "r": 15,
+            "c": [
+              [
+                85,
+                "SYNC, PDWN 8"
+              ],
+              [
+                199,
+                "13 XTAL1/CLKIN"
+              ],
+              [
+                407,
+                "AIN4 10"
+              ],
+              [
+                495,
+                "19 XTAL1/CLKIN"
+              ]
+            ]
+          },
+          {
+            "r": 16,
+            "c": [
+              [
+                104,
+                "RESET 9"
+              ],
+              [
+                199,
+                "12 XTAL2"
+              ],
+              [
+                407,
+                "AIN5 11"
+              ],
+              [
+                495,
+                "18 XTAL2"
+              ]
+            ]
+          },
+          {
+            "r": 17,
+            "c": [
+              [
+                107,
+                "DVDD 10"
+              ],
+              [
+                199,
+                "11 DGND"
+              ],
+              [
+                407,
+                "AIN6 12"
+              ],
+              [
+                495,
+                "17 DGND"
+              ]
+            ]
+          },
+          {
+            "r": 18,
+            "c": [
+              [
+                407,
+                "AIN7 13"
+              ],
+              [
+                495,
+                "16 DVDD"
+              ]
+            ]
+          },
+          {
+            "r": 19,
+            "c": [
+              [
+                382,
+                "SYNC, PDWN 14"
+              ],
+              [
+                495,
+                "15 RESET"
+              ]
+            ]
+          },
+          {
+            "r": 20,
+            "c": [
+              [
+                266,
+                "Terminal Functions"
+              ]
+            ]
+          }
+        ],
+        "layout_sha256": null,
+        "geometry_records": [
+          {
+            "top": 13.490000000000009,
+            "c": [
+              [
+                518,
+                "ADS1255"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  517.9199,
+                  13.490000000000009,
+                  567.6899,
+                  27.49000000000001
+                ],
+                "text": "ADS1255"
+              }
+            ],
+            "kind": "prose",
+            "r": 0
+          },
+          {
+            "top": 27.41020000000003,
+            "c": [
+              [
+                518,
+                "ADS1256"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  517.9199,
+                  27.41020000000003,
+                  567.6899,
+                  41.41020000000003
+                ],
+                "text": "ADS1256"
+              }
+            ],
+            "kind": "prose",
+            "r": 1
+          },
+          {
+            "top": 47.041999999999916,
+            "c": [
+              [
+                87,
+                "www.ti.com"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  87.12,
+                  47.041999999999916,
+                  126.0064,
+                  54.041999999999916
+                ],
+                "text": "www.ti.com"
+              }
+            ],
+            "kind": "prose",
+            "r": 2
+          },
+          {
+            "top": 60.48199999999997,
+            "c": [
+              [
+                388,
+                "SBAS288K − JUNE 2003 − REVISED SEPTEMBER 2013"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  387.84,
+                  60.48199999999997,
+                  566.9406000000001,
+                  67.48199999999997
+                ],
+                "text": "SBAS288K − JUNE 2003 − REVISED SEPTEMBER 2013"
+              }
+            ],
+            "kind": "prose",
+            "r": 3
+          },
+          {
+            "top": 77.86599999999999,
+            "c": [
+              [
+                265,
+                "PIN ASSIGNMENTS"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  264.96,
+                  77.86599999999999,
+                  367.6824,
+                  88.86599999999999
+                ],
+                "text": "PIN ASSIGNMENTS"
+              }
+            ],
+            "kind": "prose",
+            "r": 4
+          },
+          {
+            "top": 100.28800000000001,
+            "c": [
+              [
+                282,
+                "SSOP PACKAGE"
+              ],
+              [
+                404,
+                "AVDD 1"
+              ],
+              [
+                495,
+                "28 D3"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  282.0,
+                  100.28800000000001,
+                  345.7072,
+                  108.28800000000001
+                ],
+                "text": "SSOP PACKAGE"
+              },
+              {
+                "bbox": [
+                  403.68,
+                  102.03600000000006,
+                  430.296,
+                  108.75599999999997
+                ],
+                "text": "AVDD 1"
+              },
+              {
+                "bbox": [
+                  495.1199,
+                  102.75599999999997,
+                  514.5479,
+                  108.75599999999997
+                ],
+                "text": "28 D3"
+              }
+            ],
+            "kind": "prose",
+            "r": 5
+          },
+          {
+            "top": 114.03600000000006,
+            "c": [
+              [
+                292,
+                "(TOP VIEW)"
+              ],
+              [
+                403,
+                "AGND 2"
+              ],
+              [
+                495,
+                "27 D2"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  292.32,
+                  114.20799999999997,
+                  336.0592,
+                  122.20799999999997
+                ],
+                "text": "(TOP VIEW)"
+              },
+              {
+                "bbox": [
+                  402.72,
+                  114.51600000000008,
+                  430.296,
+                  121.23599999999999
+                ],
+                "text": "AGND 2"
+              },
+              {
+                "bbox": [
+                  495.1199,
+                  115.23599999999999,
+                  514.5479,
+                  121.23599999999999
+                ],
+                "text": "27 D2"
+              }
+            ],
+            "kind": "prose",
+            "r": 6
+          },
+          {
+            "top": 126.27599999999995,
+            "c": [
+              [
+                108,
+                "AVDD 1"
+              ],
+              [
+                199,
+                "20 D1"
+              ],
+              [
+                400,
+                "VREFN 3"
+              ],
+              [
+                495,
+                "26 D1"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  107.52,
+                  126.27599999999995,
+                  133.89590000000004,
+                  132.51599999999996
+                ],
+                "text": "AVDD 1"
+              },
+              {
+                "bbox": [
+                  198.96,
+                  126.51599999999996,
+                  218.14800000000002,
+                  132.51599999999996
+                ],
+                "text": "20 D1"
+              },
+              {
+                "bbox": [
+                  399.84000000000003,
+                  126.51600000000008,
+                  430.296,
+                  133.236
+                ],
+                "text": "VREFN 3"
+              },
+              {
+                "bbox": [
+                  495.1199,
+                  127.23599999999999,
+                  514.5479,
+                  133.236
+                ],
+                "text": "26 D1"
+              }
+            ],
+            "kind": "prose",
+            "r": 7
+          },
+          {
+            "top": 138.51599999999996,
+            "c": [
+              [
+                107,
+                "AGND 2"
+              ],
+              [
+                199,
+                "19 D0/CLKOUT"
+              ],
+              [
+                400,
+                "VREFP 4"
+              ],
+              [
+                495,
+                "25 D0/CLKOUT"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  106.56,
+                  138.75599999999997,
+                  133.89600000000002,
+                  144.75599999999997
+                ],
+                "text": "AGND 2"
+              },
+              {
+                "bbox": [
+                  198.96,
+                  138.99599999999998,
+                  244.812,
+                  144.99599999999998
+                ],
+                "text": "19 D0/CLKOUT"
+              },
+              {
+                "bbox": [
+                  400.08000000000004,
+                  138.9960000000001,
+                  430.296,
+                  145.476
+                ],
+                "text": "VREFP 4"
+              },
+              {
+                "bbox": [
+                  495.1199,
+                  139.476,
+                  541.2119000000001,
+                  145.476
+                ],
+                "text": "25 D0/CLKOUT"
+              }
+            ],
+            "kind": "prose",
+            "r": 8
+          },
+          {
+            "top": 150.51599999999996,
+            "c": [
+              [
+                104,
+                "VREFN 3"
+              ],
+              [
+                199,
+                "18 SCLK"
+              ],
+              [
+                396,
+                "AINCOM 5"
+              ],
+              [
+                495,
+                "24 SCLK"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  103.68,
+                  150.51599999999996,
+                  133.89600000000002,
+                  156.99599999999998
+                ],
+                "text": "VREFN 3"
+              },
+              {
+                "bbox": [
+                  198.96,
+                  150.99599999999998,
+                  226.812,
+                  156.99599999999998
+                ],
+                "text": "18 SCLK"
+              },
+              {
+                "bbox": [
+                  396.00000000000006,
+                  151.2360000000001,
+                  430.296,
+                  157.716
+                ],
+                "text": "AINCOM 5"
+              },
+              {
+                "bbox": [
+                  495.1199,
+                  151.716,
+                  523.2119,
+                  157.716
+                ],
+                "text": "24 SCLK"
+              }
+            ],
+            "kind": "prose",
+            "r": 9
+          },
+          {
+            "top": 162.99599999999998,
+            "c": [
+              [
+                104,
+                "VREFP 4"
+              ],
+              [
+                199,
+                "17 DIN"
+              ],
+              [
+                407,
+                "AIN0 6"
+              ],
+              [
+                495,
+                "23 DIN"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  103.92,
+                  163.236,
+                  133.89600000000002,
+                  169.476
+                ],
+                "text": "VREFP 4"
+              },
+              {
+                "bbox": [
+                  198.96,
+                  163.236,
+                  220.812,
+                  169.236
+                ],
+                "text": "17 DIN"
+              },
+              {
+                "bbox": [
+                  406.56000000000006,
+                  163.2360000000001,
+                  430.296,
+                  169.476
+                ],
+                "text": "AIN0 6"
+              },
+              {
+                "bbox": [
+                  495.1199,
+                  163.476,
+                  517.2119,
+                  169.4760000000001
+                ],
+                "text": "23 DIN"
+              }
+            ],
+            "kind": "prose",
+            "r": 10
+          },
+          {
+            "top": 174.9960000000001,
+            "c": [
+              [
+                100,
+                "AINCOM 5"
+              ],
+              [
+                199,
+                "16 DOUT"
+              ],
+              [
+                407,
+                "AIN1 7"
+              ],
+              [
+                495,
+                "22 DOUT"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  100.08,
+                  175.236,
+                  133.89600000000002,
+                  181.716
+                ],
+                "text": "AINCOM 5"
+              },
+              {
+                "bbox": [
+                  198.96,
+                  175.476,
+                  227.478,
+                  181.476
+                ],
+                "text": "16 DOUT"
+              },
+              {
+                "bbox": [
+                  406.56000000000006,
+                  174.9960000000001,
+                  430.296,
+                  182.19600000000003
+                ],
+                "text": "AIN1 7"
+              },
+              {
+                "bbox": [
+                  495.1199,
+                  176.19600000000003,
+                  523.8779000000001,
+                  182.19600000000003
+                ],
+                "text": "22 DOUT"
+              }
+            ],
+            "kind": "prose",
+            "r": 11
+          },
+          {
+            "top": 180.688,
+            "c": [
+              [
+                150,
+                "ADS1255"
+              ],
+              [
+                446,
+                "ADS1256"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  150.24,
+                  180.688,
+                  184.92000000000002,
+                  188.688
+                ],
+                "text": "ADS1255"
+              },
+              {
+                "bbox": [
+                  446.40000000000003,
+                  180.688,
+                  481.08000000000004,
+                  188.688
+                ],
+                "text": "ADS1256"
+              }
+            ],
+            "kind": "prose",
+            "r": 12
+          },
+          {
+            "top": 186.99599999999998,
+            "c": [
+              [
+                110,
+                "AIN0 6"
+              ],
+              [
+                199,
+                "15 DRDY"
+              ],
+              [
+                407,
+                "AIN2 8"
+              ],
+              [
+                495,
+                "21 DRDY"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  110.4,
+                  187.236,
+                  133.89600000000002,
+                  193.236
+                ],
+                "text": "AIN0 6"
+              },
+              {
+                "bbox": [
+                  198.96,
+                  187.236,
+                  227.47800000000004,
+                  193.716
+                ],
+                "text": "15 DRDY"
+              },
+              {
+                "bbox": [
+                  406.5599,
+                  187.476,
+                  430.296,
+                  193.95600000000002
+                ],
+                "text": "AIN2 8"
+              },
+              {
+                "bbox": [
+                  495.1199,
+                  187.95600000000002,
+                  523.8779,
+                  193.95600000000002
+                ],
+                "text": "21 DRDY"
+              }
+            ],
+            "kind": "prose",
+            "r": 13
+          },
+          {
+            "top": 198.99599999999998,
+            "c": [
+              [
+                110,
+                "AIN1 7"
+              ],
+              [
+                199,
+                "14 CS"
+              ],
+              [
+                407,
+                "AIN3 9"
+              ],
+              [
+                495,
+                "20 CS"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  110.4,
+                  198.99599999999998,
+                  133.89600000000002,
+                  205.236
+                ],
+                "text": "AIN1 7"
+              },
+              {
+                "bbox": [
+                  198.96,
+                  199.95600000000002,
+                  218.814,
+                  205.95600000000002
+                ],
+                "text": "14 CS"
+              },
+              {
+                "bbox": [
+                  406.5599,
+                  199.476,
+                  430.296,
+                  205.716
+                ],
+                "text": "AIN3 9"
+              },
+              {
+                "bbox": [
+                  495.1199,
+                  199.716,
+                  515.2139,
+                  206.19600000000014
+                ],
+                "text": "20 CS"
+              }
+            ],
+            "kind": "prose",
+            "r": 14
+          },
+          {
+            "top": 211.476,
+            "c": [
+              [
+                85,
+                "SYNC, PDWN 8"
+              ],
+              [
+                199,
+                "13 XTAL1/CLKIN"
+              ],
+              [
+                407,
+                "AIN4 10"
+              ],
+              [
+                495,
+                "19 XTAL1/CLKIN"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  85.44,
+                  211.716,
+                  133.89600000000002,
+                  217.716
+                ],
+                "text": "SYNC, PDWN 8"
+              },
+              {
+                "bbox": [
+                  198.96,
+                  211.716,
+                  249.01319999999998,
+                  217.716
+                ],
+                "text": "13 XTAL1/CLKIN"
+              },
+              {
+                "bbox": [
+                  406.5599,
+                  211.95600000000002,
+                  431.952,
+                  218.43600000000004
+                ],
+                "text": "AIN4 10"
+              },
+              {
+                "bbox": [
+                  495.1199,
+                  212.43600000000004,
+                  545.4131,
+                  218.43600000000004
+                ],
+                "text": "19 XTAL1/CLKIN"
+              }
+            ],
+            "kind": "prose",
+            "r": 15
+          },
+          {
+            "top": 223.476,
+            "c": [
+              [
+                104,
+                "RESET 9"
+              ],
+              [
+                199,
+                "12 XTAL2"
+              ],
+              [
+                407,
+                "AIN5 11"
+              ],
+              [
+                495,
+                "18 XTAL2"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  103.92,
+                  223.476,
+                  133.89600000000002,
+                  229.95600000000002
+                ],
+                "text": "RESET 9"
+              },
+              {
+                "bbox": [
+                  198.96,
+                  223.716,
+                  229.0152,
+                  229.716
+                ],
+                "text": "12 XTAL2"
+              },
+              {
+                "bbox": [
+                  406.5599,
+                  224.19600000000003,
+                  431.7348,
+                  231.15600000000006
+                ],
+                "text": "AIN5 11"
+              },
+              {
+                "bbox": [
+                  495.1199,
+                  225.15600000000006,
+                  525.4151,
+                  231.15600000000006
+                ],
+                "text": "18 XTAL2"
+              }
+            ],
+            "kind": "prose",
+            "r": 16
+          },
+          {
+            "top": 235.716,
+            "c": [
+              [
+                107,
+                "DVDD 10"
+              ],
+              [
+                199,
+                "11 DGND"
+              ],
+              [
+                407,
+                "AIN6 12"
+              ],
+              [
+                495,
+                "17 DGND"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  107.04,
+                  236.19600000000003,
+                  135.79200000000003,
+                  242.19600000000003
+                ],
+                "text": "DVDD 10"
+              },
+              {
+                "bbox": [
+                  198.96,
+                  236.19600000000003,
+                  228.14399999999998,
+                  242.43600000000004
+                ],
+                "text": "11 DGND"
+              },
+              {
+                "bbox": [
+                  406.5599,
+                  235.716,
+                  431.952,
+                  242.91600000000005
+                ],
+                "text": "AIN6 12"
+              },
+              {
+                "bbox": [
+                  495.1199,
+                  236.91600000000005,
+                  524.5439,
+                  242.91600000000005
+                ],
+                "text": "17 DGND"
+              }
+            ],
+            "kind": "prose",
+            "r": 17
+          },
+          {
+            "top": 248.67600000000004,
+            "c": [
+              [
+                407,
+                "AIN7 13"
+              ],
+              [
+                495,
+                "16 DVDD"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  406.5599,
+                  248.67600000000004,
+                  431.952,
+                  254.67600000000004
+                ],
+                "text": "AIN7 13"
+              },
+              {
+                "bbox": [
+                  495.1199,
+                  248.67600000000004,
+                  523.8779000000001,
+                  254.67600000000004
+                ],
+                "text": "16 DVDD"
+              }
+            ],
+            "kind": "prose",
+            "r": 18
+          },
+          {
+            "top": 260.196,
+            "c": [
+              [
+                382,
+                "SYNC, PDWN 14"
+              ],
+              [
+                495,
+                "15 RESET"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  381.6000000000001,
+                  260.196,
+                  431.952,
+                  267.3960000000001
+                ],
+                "text": "SYNC, PDWN 14"
+              },
+              {
+                "bbox": [
+                  495.1199,
+                  261.3960000000001,
+                  526.8839,
+                  267.3960000000001
+                ],
+                "text": "15 RESET"
+              }
+            ],
+            "kind": "prose",
+            "r": 19
+          },
+          {
+            "top": 290.50600000000003,
+            "c": [
+              [
+                266,
+                "Terminal Functions"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  265.68,
+                  290.50600000000003,
+                  367.21000000000004,
+                  301.50600000000003
+                ],
+                "text": "Terminal Functions"
+              }
+            ],
+            "kind": "prose",
+            "r": 20
+          }
+        ]
+      },
+      {
+        "doc_id": "ads1256",
+        "page": 5,
+        "source_sha256": "9da3323db162b59329ec1a865829441ff1605279cd802fe879649b6f54e100e6",
+        "url": "https://www.ti.com/lit/ds/symlink/ads1256.pdf#page=5",
+        "title": "ADS1255/ADS1256 ADC datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "ads1256:p5:span2365-3717:9da3323db162",
+        "span_id": "ads1256:p5:span2365-3717:9da3323db162",
+        "start": 2365,
+        "end": 3717,
+        "text": "{\"r\":34,\"c\":[[66,\"AIN7 — 13\"],[235,\"Analog input\"],[348,\"Analog input 7\"]]}\n{\"r\":35,\"c\":[[66,\"SYNC/PDWN 8 14\"],[235,\"Digital input(1)(2): active low\"],[348,\"Synchronization / power down input\"]]}\n{\"r\":36,\"c\":[[66,\"RESET 9 15\"],[235,\"Digital input(1)(2): active low\"],[348,\"Reset input\"]]}\n{\"r\":37,\"c\":[[66,\"DVDD 10 16\"],[235,\"Digital\"],[348,\"Digital power supply\"]]}\n{\"r\":38,\"c\":[[66,\"DGND 11 17\"],[235,\"Digital\"],[348,\"Digital ground\"]]}\n{\"r\":39,\"c\":[[66,\"XTAL2 12 18\"],[235,\"Digital(3)\"],[348,\"Crystal oscillator connection\"]]}\n{\"r\":40,\"c\":[[66,\"XTAL1/CLKIN 13 19\"],[235,\"Digital/Digital input(2)\"],[348,\"Crystal oscillator connection / external clock input\"]]}\n{\"r\":41,\"c\":[[66,\"CS 14 20\"],[235,\"Digital input(1)(2): active low\"],[348,\"Chip select\"]]}\n{\"r\":42,\"c\":[[66,\"DRDY 15 21\"],[235,\"Digital output: active low\"],[348,\"Data ready output\"]]}\n{\"r\":43,\"c\":[[66,\"DOUT 16 22\"],[235,\"Digital output\"],[348,\"Serial data output\"]]}\n{\"r\":44,\"c\":[[66,\"DIN 17 23\"],[235,\"Digital input(1)(2)\"],[348,\"Serial data input\"]]}\n{\"r\":45,\"c\":[[66,\"SCLK 18 24\"],[235,\"Digital input(1)(2)\"],[348,\"Serial clock input\"]]}\n{\"r\":46,\"c\":[[66,\"D0/CLKOUT 19 25\"],[235,\"Digital IO(4)\"],[348,\"Digital I/O 0 / clock output\"]]}\n{\"r\":47,\"c\":[[66,\"D1 20 26\"],[235,\"Digital IO(4)\"],[348,\"Digital I/O 1\"]]}\n{\"r\":48,\"c\":[[66,\"D2 — 27\"],[235,\"Digital IO(4)\"],[348,\"Digital I/O 2\"]]}\n",
+        "packet_kind": "prose",
+        "table_id": null,
+        "source_rows": [
+          {
+            "r": 34,
+            "c": [
+              [
+                66,
+                "AIN7 — 13"
+              ],
+              [
+                235,
+                "Analog input"
+              ],
+              [
+                348,
+                "Analog input 7"
+              ]
+            ]
+          },
+          {
+            "r": 35,
+            "c": [
+              [
+                66,
+                "SYNC/PDWN 8 14"
+              ],
+              [
+                235,
+                "Digital input(1)(2): active low"
+              ],
+              [
+                348,
+                "Synchronization / power down input"
+              ]
+            ]
+          },
+          {
+            "r": 36,
+            "c": [
+              [
+                66,
+                "RESET 9 15"
+              ],
+              [
+                235,
+                "Digital input(1)(2): active low"
+              ],
+              [
+                348,
+                "Reset input"
+              ]
+            ]
+          },
+          {
+            "r": 37,
+            "c": [
+              [
+                66,
+                "DVDD 10 16"
+              ],
+              [
+                235,
+                "Digital"
+              ],
+              [
+                348,
+                "Digital power supply"
+              ]
+            ]
+          },
+          {
+            "r": 38,
+            "c": [
+              [
+                66,
+                "DGND 11 17"
+              ],
+              [
+                235,
+                "Digital"
+              ],
+              [
+                348,
+                "Digital ground"
+              ]
+            ]
+          },
+          {
+            "r": 39,
+            "c": [
+              [
+                66,
+                "XTAL2 12 18"
+              ],
+              [
+                235,
+                "Digital(3)"
+              ],
+              [
+                348,
+                "Crystal oscillator connection"
+              ]
+            ]
+          },
+          {
+            "r": 40,
+            "c": [
+              [
+                66,
+                "XTAL1/CLKIN 13 19"
+              ],
+              [
+                235,
+                "Digital/Digital input(2)"
+              ],
+              [
+                348,
+                "Crystal oscillator connection / external clock input"
+              ]
+            ]
+          },
+          {
+            "r": 41,
+            "c": [
+              [
+                66,
+                "CS 14 20"
+              ],
+              [
+                235,
+                "Digital input(1)(2): active low"
+              ],
+              [
+                348,
+                "Chip select"
+              ]
+            ]
+          },
+          {
+            "r": 42,
+            "c": [
+              [
+                66,
+                "DRDY 15 21"
+              ],
+              [
+                235,
+                "Digital output: active low"
+              ],
+              [
+                348,
+                "Data ready output"
+              ]
+            ]
+          },
+          {
+            "r": 43,
+            "c": [
+              [
+                66,
+                "DOUT 16 22"
+              ],
+              [
+                235,
+                "Digital output"
+              ],
+              [
+                348,
+                "Serial data output"
+              ]
+            ]
+          },
+          {
+            "r": 44,
+            "c": [
+              [
+                66,
+                "DIN 17 23"
+              ],
+              [
+                235,
+                "Digital input(1)(2)"
+              ],
+              [
+                348,
+                "Serial data input"
+              ]
+            ]
+          },
+          {
+            "r": 45,
+            "c": [
+              [
+                66,
+                "SCLK 18 24"
+              ],
+              [
+                235,
+                "Digital input(1)(2)"
+              ],
+              [
+                348,
+                "Serial clock input"
+              ]
+            ]
+          },
+          {
+            "r": 46,
+            "c": [
+              [
+                66,
+                "D0/CLKOUT 19 25"
+              ],
+              [
+                235,
+                "Digital IO(4)"
+              ],
+              [
+                348,
+                "Digital I/O 0 / clock output"
+              ]
+            ]
+          },
+          {
+            "r": 47,
+            "c": [
+              [
+                66,
+                "D1 20 26"
+              ],
+              [
+                235,
+                "Digital IO(4)"
+              ],
+              [
+                348,
+                "Digital I/O 1"
+              ]
+            ]
+          },
+          {
+            "r": 48,
+            "c": [
+              [
+                66,
+                "D2 — 27"
+              ],
+              [
+                235,
+                "Digital IO(4)"
+              ],
+              [
+                348,
+                "Digital I/O 2"
+              ]
+            ]
+          }
+        ],
+        "layout_sha256": null,
+        "geometry_records": [
+          {
+            "top": 480.84,
+            "c": [
+              [
+                66,
+                "AIN7 — 13"
+              ],
+              [
+                235,
+                "Analog input"
+              ],
+              [
+                348,
+                "Analog input 7"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  480.84,
+                  234.6,
+                  494.14284785714284
+                ],
+                "text": "AIN7 — 13",
+                "word_boxes": [
+                  [
+                    69.6,
+                    483.32800000000003,
+                    87.38399999999999,
+                    491.32800000000003,
+                    "AIN7"
+                  ],
+                  [
+                    164.16,
+                    483.32800000000003,
+                    172.16,
+                    491.32800000000003,
+                    "—"
+                  ],
+                  [
+                    207.6,
+                    483.32800000000003,
+                    216.496,
+                    491.32800000000003,
+                    "13"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  234.6,
+                  480.84,
+                  347.88,
+                  494.14284785714284
+                ],
+                "text": "Analog input",
+                "word_boxes": [
+                  [
+                    269.28,
+                    483.32800000000003,
+                    293.65199999999993,
+                    491.32800000000003,
+                    "Analog"
+                  ],
+                  [
+                    295.66319999999996,
+                    483.32800000000003,
+                    312.5816,
+                    491.32800000000003,
+                    "input"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  347.88,
+                  480.84,
+                  567.240015,
+                  494.14284785714284
+                ],
+                "text": "Analog input 7",
+                "word_boxes": [
+                  [
+                    351.36,
+                    483.32800000000003,
+                    375.74,
+                    491.32800000000003,
+                    "Analog"
+                  ],
+                  [
+                    377.75440000000003,
+                    483.32800000000003,
+                    394.6792,
+                    491.32800000000003,
+                    "input"
+                  ],
+                  [
+                    396.69360000000006,
+                    483.32800000000003,
+                    401.14160000000004,
+                    491.32800000000003,
+                    "7"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 34
+          },
+          {
+            "top": 494.14284785714284,
+            "c": [
+              [
+                66,
+                "SYNC/PDWN 8 14"
+              ],
+              [
+                235,
+                "Digital input(1)(2): active low"
+              ],
+              [
+                348,
+                "Synchronization / power down input"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  494.14284785714284,
+                  234.6,
+                  507.2399858333333
+                ],
+                "text": "SYNC/PDWN 8 14",
+                "word_boxes": [
+                  [
+                    69.6,
+                    496.76800000000003,
+                    118.34400000000001,
+                    504.76800000000003,
+                    "SYNC/PDWN"
+                  ],
+                  [
+                    165.84,
+                    496.76800000000003,
+                    170.288,
+                    504.76800000000003,
+                    "8"
+                  ],
+                  [
+                    207.6,
+                    496.76800000000003,
+                    216.496,
+                    504.76800000000003,
+                    "14"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  234.6,
+                  494.14284785714284,
+                  347.88,
+                  507.2399858333333
+                ],
+                "text": "Digital input(1)(2): active low",
+                "word_boxes": [
+                  [
+                    243.36,
+                    496.76800000000003,
+                    265.0128,
+                    504.76800000000003,
+                    "Digital"
+                  ],
+                  [
+                    267.0464,
+                    495.49899999999997,
+                    301.984,
+                    504.76800000000003,
+                    "input(1)(2):"
+                  ],
+                  [
+                    304.0928,
+                    496.76800000000003,
+                    324.70079999999996,
+                    504.76800000000003,
+                    "active"
+                  ],
+                  [
+                    326.8096,
+                    496.76800000000003,
+                    338.6944,
+                    504.76800000000003,
+                    "low"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  347.88,
+                  494.14284785714284,
+                  567.240015,
+                  507.2399858333333
+                ],
+                "text": "Synchronization / power down input",
+                "word_boxes": [
+                  [
+                    351.36,
+                    496.76800000000003,
+                    407.1632,
+                    504.76800000000003,
+                    "Synchronization"
+                  ],
+                  [
+                    409.22880000000004,
+                    496.76800000000003,
+                    411.4528,
+                    504.76800000000003,
+                    "/"
+                  ],
+                  [
+                    413.51840000000004,
+                    496.76800000000003,
+                    434.9856,
+                    504.76800000000003,
+                    "power"
+                  ],
+                  [
+                    437.0512,
+                    496.76800000000003,
+                    455.93359999999996,
+                    504.76800000000003,
+                    "down"
+                  ],
+                  [
+                    457.9992,
+                    496.76800000000003,
+                    475.02639999999997,
+                    504.76800000000003,
+                    "input"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 35
+          },
+          {
+            "top": 507.2399858333333,
+            "c": [
+              [
+                66,
+                "RESET 9 15"
+              ],
+              [
+                235,
+                "Digital input(1)(2): active low"
+              ],
+              [
+                348,
+                "Reset input"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  507.2399858333333,
+                  234.6,
+                  520.4399999999999
+                ],
+                "text": "RESET 9 15",
+                "word_boxes": [
+                  [
+                    69.6,
+                    510.208,
+                    96.27199999999999,
+                    518.2080000000001,
+                    "RESET"
+                  ],
+                  [
+                    165.84,
+                    510.208,
+                    170.288,
+                    518.2080000000001,
+                    "9"
+                  ],
+                  [
+                    207.6,
+                    510.208,
+                    216.496,
+                    518.2080000000001,
+                    "15"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  234.6,
+                  507.2399858333333,
+                  347.88,
+                  520.4399999999999
+                ],
+                "text": "Digital input(1)(2): active low",
+                "word_boxes": [
+                  [
+                    243.36,
+                    510.208,
+                    265.0128,
+                    518.2080000000001,
+                    "Digital"
+                  ],
+                  [
+                    267.0464,
+                    508.93899999999996,
+                    301.984,
+                    518.2080000000001,
+                    "input(1)(2):"
+                  ],
+                  [
+                    304.0928,
+                    510.208,
+                    324.70079999999996,
+                    518.2080000000001,
+                    "active"
+                  ],
+                  [
+                    326.8096,
+                    510.208,
+                    338.6944,
+                    518.2080000000001,
+                    "low"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  347.88,
+                  507.2399858333333,
+                  567.240015,
+                  520.4399999999999
+                ],
+                "text": "Reset input",
+                "word_boxes": [
+                  [
+                    351.36,
+                    510.208,
+                    371.9392,
+                    518.2080000000001,
+                    "Reset"
+                  ],
+                  [
+                    374.0048,
+                    510.208,
+                    391.032,
+                    518.2080000000001,
+                    "input"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 36
+          },
+          {
+            "top": 520.4399999999999,
+            "c": [
+              [
+                66,
+                "DVDD 10 16"
+              ],
+              [
+                235,
+                "Digital"
+              ],
+              [
+                348,
+                "Digital power supply"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  520.4399999999999,
+                  234.6,
+                  532.9200149999999
+                ],
+                "text": "DVDD 10 16",
+                "word_boxes": [
+                  [
+                    69.6,
+                    522.928,
+                    92.264,
+                    530.928,
+                    "DVDD"
+                  ],
+                  [
+                    163.68,
+                    522.928,
+                    172.57600000000002,
+                    530.928,
+                    "10"
+                  ],
+                  [
+                    207.6,
+                    522.928,
+                    216.496,
+                    530.928,
+                    "16"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  234.6,
+                  520.4399999999999,
+                  347.88,
+                  532.9200149999999
+                ],
+                "text": "Digital",
+                "word_boxes": [
+                  [
+                    280.8,
+                    522.928,
+                    301.0496,
+                    530.928,
+                    "Digital"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  347.88,
+                  520.4399999999999,
+                  567.240015,
+                  532.9200149999999
+                ],
+                "text": "Digital power supply",
+                "word_boxes": [
+                  [
+                    351.36,
+                    522.928,
+                    373.13280000000003,
+                    530.928,
+                    "Digital"
+                  ],
+                  [
+                    375.20640000000003,
+                    522.928,
+                    396.6896,
+                    530.928,
+                    "power"
+                  ],
+                  [
+                    398.76320000000004,
+                    522.928,
+                    421.5072,
+                    530.928,
+                    "supply"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 37
+          },
+          {
+            "top": 532.9200149999999,
+            "c": [
+              [
+                66,
+                "DGND 11 17"
+              ],
+              [
+                235,
+                "Digital"
+              ],
+              [
+                348,
+                "Digital ground"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  532.9200149999999,
+                  234.6,
+                  545.4
+                ],
+                "text": "DGND 11 17",
+                "word_boxes": [
+                  [
+                    69.6,
+                    535.408,
+                    92.40559999999999,
+                    543.408,
+                    "DGND"
+                  ],
+                  [
+                    163.92,
+                    535.408,
+                    172.2064,
+                    543.408,
+                    "11"
+                  ],
+                  [
+                    207.6,
+                    535.408,
+                    216.496,
+                    543.408,
+                    "17"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  234.6,
+                  532.9200149999999,
+                  347.88,
+                  545.4
+                ],
+                "text": "Digital",
+                "word_boxes": [
+                  [
+                    280.08,
+                    535.408,
+                    302.304,
+                    543.408,
+                    "Digital"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  347.88,
+                  532.9200149999999,
+                  567.240015,
+                  545.4
+                ],
+                "text": "Digital ground",
+                "word_boxes": [
+                  [
+                    351.36,
+                    535.408,
+                    372.9984,
+                    543.408,
+                    "Digital"
+                  ],
+                  [
+                    375.0272,
+                    535.408,
+                    399.4432,
+                    543.408,
+                    "ground"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 38
+          },
+          {
+            "top": 545.4,
+            "c": [
+              [
+                66,
+                "XTAL2 12 18"
+              ],
+              [
+                235,
+                "Digital(3)"
+              ],
+              [
+                348,
+                "Crystal oscillator connection"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  545.4,
+                  234.6,
+                  558.12
+                ],
+                "text": "XTAL2 12 18",
+                "word_boxes": [
+                  [
+                    69.6,
+                    547.8879999999999,
+                    93.43359999999998,
+                    555.8879999999999,
+                    "XTAL2"
+                  ],
+                  [
+                    163.68,
+                    547.8879999999999,
+                    172.57600000000002,
+                    555.8879999999999,
+                    "12"
+                  ],
+                  [
+                    207.6,
+                    547.8879999999999,
+                    216.496,
+                    555.8879999999999,
+                    "18"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  234.6,
+                  545.4,
+                  347.88,
+                  558.12
+                ],
+                "text": "Digital(3)",
+                "word_boxes": [
+                  [
+                    276.24,
+                    546.619,
+                    305.5235,
+                    555.8879999999999,
+                    "Digital(3)"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  347.88,
+                  545.4,
+                  567.240015,
+                  558.12
+                ],
+                "text": "Crystal oscillator connection",
+                "word_boxes": [
+                  [
+                    351.36,
+                    547.8879999999999,
+                    375.9024,
+                    555.8879999999999,
+                    "Crystal"
+                  ],
+                  [
+                    378.01120000000003,
+                    547.8879999999999,
+                    409.0528,
+                    555.8879999999999,
+                    "oscillator"
+                  ],
+                  [
+                    411.1616,
+                    547.8879999999999,
+                    449.3312,
+                    555.8879999999999,
+                    "connection"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 39
+          },
+          {
+            "top": 558.12,
+            "c": [
+              [
+                66,
+                "XTAL1/CLKIN 13 19"
+              ],
+              [
+                235,
+                "Digital/Digital input(2)"
+              ],
+              [
+                348,
+                "Crystal oscillator connection / external clock input"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  558.12,
+                  234.6,
+                  571.0800008333334
+                ],
+                "text": "XTAL1/CLKIN 13 19",
+                "word_boxes": [
+                  [
+                    69.6,
+                    560.608,
+                    119.21759999999999,
+                    568.608,
+                    "XTAL1/CLKIN"
+                  ],
+                  [
+                    163.68,
+                    560.608,
+                    172.57600000000002,
+                    568.608,
+                    "13"
+                  ],
+                  [
+                    207.6,
+                    560.608,
+                    216.496,
+                    568.608,
+                    "19"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  234.6,
+                  558.12,
+                  347.88,
+                  571.0800008333334
+                ],
+                "text": "Digital/Digital input(2)",
+                "word_boxes": [
+                  [
+                    254.88,
+                    560.608,
+                    300.264,
+                    568.608,
+                    "Digital/Digital"
+                  ],
+                  [
+                    302.30400000000003,
+                    559.3389999999999,
+                    327.1235,
+                    568.608,
+                    "input(2)"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  347.88,
+                  558.12,
+                  567.240015,
+                  571.0800008333334
+                ],
+                "text": "Crystal oscillator connection / external clock input",
+                "word_boxes": [
+                  [
+                    351.36,
+                    560.608,
+                    375.88320000000004,
+                    568.608,
+                    "Crystal"
+                  ],
+                  [
+                    377.98560000000003,
+                    560.608,
+                    408.9984,
+                    568.608,
+                    "oscillator"
+                  ],
+                  [
+                    411.10080000000005,
+                    560.608,
+                    449.24160000000006,
+                    568.608,
+                    "connection"
+                  ],
+                  [
+                    451.34400000000005,
+                    560.608,
+                    453.56800000000004,
+                    568.608,
+                    "/"
+                  ],
+                  [
+                    455.6704000000001,
+                    560.608,
+                    483.7008000000001,
+                    568.608,
+                    "external"
+                  ],
+                  [
+                    485.80320000000006,
+                    560.608,
+                    503.7840000000001,
+                    568.608,
+                    "clock"
+                  ],
+                  [
+                    505.8864000000001,
+                    560.608,
+                    522.9872000000001,
+                    568.608,
+                    "input"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 40
+          },
+          {
+            "top": 571.0800008333334,
+            "c": [
+              [
+                66,
+                "CS 14 20"
+              ],
+              [
+                235,
+                "Digital input(1)(2): active low"
+              ],
+              [
+                348,
+                "Chip select"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  571.0800008333334,
+                  234.6,
+                  584.7599991666666
+                ],
+                "text": "CS 14 20",
+                "word_boxes": [
+                  [
+                    69.6,
+                    574.048,
+                    80.71199999999999,
+                    582.048,
+                    "CS"
+                  ],
+                  [
+                    163.68,
+                    574.048,
+                    172.57600000000002,
+                    582.048,
+                    "14"
+                  ],
+                  [
+                    207.6,
+                    574.048,
+                    216.496,
+                    582.048,
+                    "20"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  234.6,
+                  571.0800008333334,
+                  347.88,
+                  584.7599991666666
+                ],
+                "text": "Digital input(1)(2): active low",
+                "word_boxes": [
+                  [
+                    243.36,
+                    574.048,
+                    265.0128,
+                    582.048,
+                    "Digital"
+                  ],
+                  [
+                    267.0464,
+                    572.779,
+                    301.984,
+                    582.048,
+                    "input(1)(2):"
+                  ],
+                  [
+                    304.0928,
+                    574.048,
+                    324.70079999999996,
+                    582.048,
+                    "active"
+                  ],
+                  [
+                    326.8096,
+                    574.048,
+                    338.6944,
+                    582.048,
+                    "low"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  347.88,
+                  571.0800008333334,
+                  567.240015,
+                  584.7599991666666
+                ],
+                "text": "Chip select",
+                "word_boxes": [
+                  [
+                    351.36,
+                    574.048,
+                    367.6184,
+                    582.048,
+                    "Chip"
+                  ],
+                  [
+                    369.716,
+                    574.048,
+                    390.296,
+                    582.048,
+                    "select"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 41
+          },
+          {
+            "top": 584.7599991666666,
+            "c": [
+              [
+                66,
+                "DRDY 15 21"
+              ],
+              [
+                235,
+                "Digital output: active low"
+              ],
+              [
+                348,
+                "Data ready output"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  584.7599991666666,
+                  234.6,
+                  597.72
+                ],
+                "text": "DRDY 15 21",
+                "word_boxes": [
+                  [
+                    69.6,
+                    587.728,
+                    92.264,
+                    595.728,
+                    "DRDY"
+                  ],
+                  [
+                    163.68,
+                    587.728,
+                    172.57600000000002,
+                    595.728,
+                    "15"
+                  ],
+                  [
+                    207.6,
+                    587.728,
+                    216.496,
+                    595.728,
+                    "21"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  234.6,
+                  584.7599991666666,
+                  347.88,
+                  597.72
+                ],
+                "text": "Digital output: active low",
+                "word_boxes": [
+                  [
+                    248.88,
+                    587.728,
+                    270.6384,
+                    595.728,
+                    "Digital"
+                  ],
+                  [
+                    272.7072,
+                    587.728,
+                    296.7056,
+                    595.728,
+                    "output:"
+                  ],
+                  [
+                    298.7744,
+                    587.728,
+                    319.2824,
+                    595.728,
+                    "active"
+                  ],
+                  [
+                    321.3512,
+                    587.728,
+                    333.196,
+                    595.728,
+                    "low"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  347.88,
+                  584.7599991666666,
+                  567.240015,
+                  597.72
+                ],
+                "text": "Data ready output",
+                "word_boxes": [
+                  [
+                    351.36,
+                    587.728,
+                    368.0016,
+                    595.728,
+                    "Data"
+                  ],
+                  [
+                    370.05600000000004,
+                    587.728,
+                    389.7248,
+                    595.728,
+                    "ready"
+                  ],
+                  [
+                    391.7792,
+                    587.728,
+                    413.5952,
+                    595.728,
+                    "output"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 42
+          },
+          {
+            "top": 597.72,
+            "c": [
+              [
+                66,
+                "DOUT 16 22"
+              ],
+              [
+                235,
+                "Digital output"
+              ],
+              [
+                348,
+                "Serial data output"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  597.72,
+                  234.6,
+                  610.2
+                ],
+                "text": "DOUT 16 22",
+                "word_boxes": [
+                  [
+                    69.6,
+                    600.208,
+                    92.264,
+                    608.208,
+                    "DOUT"
+                  ],
+                  [
+                    163.68,
+                    600.208,
+                    172.57600000000002,
+                    608.208,
+                    "16"
+                  ],
+                  [
+                    207.6,
+                    600.208,
+                    216.496,
+                    608.208,
+                    "22"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  234.6,
+                  597.72,
+                  347.88,
+                  610.2
+                ],
+                "text": "Digital output",
+                "word_boxes": [
+                  [
+                    268.32,
+                    600.208,
+                    289.9728,
+                    608.208,
+                    "Digital"
+                  ],
+                  [
+                    292.0064,
+                    600.208,
+                    313.7704,
+                    608.208,
+                    "output"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  347.88,
+                  597.72,
+                  567.240015,
+                  610.2
+                ],
+                "text": "Serial data output",
+                "word_boxes": [
+                  [
+                    351.36,
+                    600.208,
+                    371.32000000000005,
+                    608.208,
+                    "Serial"
+                  ],
+                  [
+                    373.34880000000004,
+                    600.208,
+                    388.624,
+                    608.208,
+                    "data"
+                  ],
+                  [
+                    390.6528,
+                    600.208,
+                    412.4048,
+                    608.208,
+                    "output"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 43
+          },
+          {
+            "top": 610.2,
+            "c": [
+              [
+                66,
+                "DIN 17 23"
+              ],
+              [
+                235,
+                "Digital input(1)(2)"
+              ],
+              [
+                348,
+                "Serial data input"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  610.2,
+                  234.6,
+                  622.68
+                ],
+                "text": "DIN 17 23",
+                "word_boxes": [
+                  [
+                    69.6,
+                    612.688,
+                    83.37599999999999,
+                    620.688,
+                    "DIN"
+                  ],
+                  [
+                    163.68,
+                    612.688,
+                    172.57600000000002,
+                    620.688,
+                    "17"
+                  ],
+                  [
+                    207.6,
+                    612.688,
+                    216.496,
+                    620.688,
+                    "23"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  234.6,
+                  610.2,
+                  347.88,
+                  622.68
+                ],
+                "text": "Digital input(1)(2)",
+                "word_boxes": [
+                  [
+                    264.24,
+                    612.688,
+                    284.46880000000004,
+                    620.688,
+                    "Digital"
+                  ],
+                  [
+                    286.52160000000003,
+                    611.419,
+                    317.76,
+                    620.688,
+                    "input(1)(2)"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  347.88,
+                  610.2,
+                  567.240015,
+                  622.68
+                ],
+                "text": "Serial data input",
+                "word_boxes": [
+                  [
+                    351.36,
+                    612.688,
+                    371.32000000000005,
+                    620.688,
+                    "Serial"
+                  ],
+                  [
+                    373.34880000000004,
+                    612.688,
+                    388.624,
+                    620.688,
+                    "data"
+                  ],
+                  [
+                    390.6528,
+                    612.688,
+                    407.6064,
+                    620.688,
+                    "input"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 44
+          },
+          {
+            "top": 622.68,
+            "c": [
+              [
+                66,
+                "SCLK 18 24"
+              ],
+              [
+                235,
+                "Digital input(1)(2)"
+              ],
+              [
+                348,
+                "Serial clock input"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  622.68,
+                  234.6,
+                  635.4
+                ],
+                "text": "SCLK 18 24",
+                "word_boxes": [
+                  [
+                    69.6,
+                    625.168,
+                    90.496,
+                    633.168,
+                    "SCLK"
+                  ],
+                  [
+                    163.68,
+                    625.168,
+                    172.57600000000002,
+                    633.168,
+                    "18"
+                  ],
+                  [
+                    207.6,
+                    625.168,
+                    216.496,
+                    633.168,
+                    "24"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  234.6,
+                  622.68,
+                  347.88,
+                  635.4
+                ],
+                "text": "Digital input(1)(2)",
+                "word_boxes": [
+                  [
+                    264.24,
+                    625.168,
+                    284.46880000000004,
+                    633.168,
+                    "Digital"
+                  ],
+                  [
+                    286.52160000000003,
+                    623.899,
+                    317.76,
+                    633.168,
+                    "input(1)(2)"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  347.88,
+                  622.68,
+                  567.240015,
+                  635.4
+                ],
+                "text": "Serial clock input",
+                "word_boxes": [
+                  [
+                    351.36,
+                    625.168,
+                    371.476,
+                    633.168,
+                    "Serial"
+                  ],
+                  [
+                    373.5672,
+                    625.168,
+                    391.5256,
+                    633.168,
+                    "clock"
+                  ],
+                  [
+                    393.6168,
+                    625.168,
+                    410.6952,
+                    633.168,
+                    "input"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 45
+          },
+          {
+            "top": 635.4,
+            "c": [
+              [
+                66,
+                "D0/CLKOUT 19 25"
+              ],
+              [
+                235,
+                "Digital IO(4)"
+              ],
+              [
+                348,
+                "Digital I/O 0 / clock output"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  635.4,
+                  234.6,
+                  647.880005
+                ],
+                "text": "D0/CLKOUT 19 25",
+                "word_boxes": [
+                  [
+                    69.6,
+                    637.8879999999999,
+                    114.496,
+                    645.8879999999999,
+                    "D0/CLKOUT"
+                  ],
+                  [
+                    163.68,
+                    637.8879999999999,
+                    172.57600000000002,
+                    645.8879999999999,
+                    "19"
+                  ],
+                  [
+                    207.6,
+                    637.8879999999999,
+                    216.496,
+                    645.8879999999999,
+                    "25"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  234.6,
+                  635.4,
+                  347.88,
+                  647.880005
+                ],
+                "text": "Digital IO(4)",
+                "word_boxes": [
+                  [
+                    271.92,
+                    637.8879999999999,
+                    292.1696,
+                    645.8879999999999,
+                    "Digital"
+                  ],
+                  [
+                    294.2448,
+                    636.619,
+                    310.0835,
+                    645.8879999999999,
+                    "IO(4)"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  347.88,
+                  635.4,
+                  567.240015,
+                  647.880005
+                ],
+                "text": "Digital I/O 0 / clock output",
+                "word_boxes": [
+                  [
+                    351.36,
+                    637.8879999999999,
+                    373.18080000000003,
+                    645.8879999999999,
+                    "Digital"
+                  ],
+                  [
+                    375.2704,
+                    637.8879999999999,
+                    385.808,
+                    645.8879999999999,
+                    "I/O"
+                  ],
+                  [
+                    387.8976,
+                    637.8879999999999,
+                    392.3456,
+                    645.8879999999999,
+                    "0"
+                  ],
+                  [
+                    394.4352,
+                    637.8879999999999,
+                    396.6592,
+                    645.8879999999999,
+                    "/"
+                  ],
+                  [
+                    398.7488,
+                    637.8879999999999,
+                    416.70400000000006,
+                    645.8879999999999,
+                    "clock"
+                  ],
+                  [
+                    418.7936,
+                    637.8879999999999,
+                    440.6976,
+                    645.8879999999999,
+                    "output"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 46
+          },
+          {
+            "top": 647.880005,
+            "c": [
+              [
+                66,
+                "D1 20 26"
+              ],
+              [
+                235,
+                "Digital IO(4)"
+              ],
+              [
+                348,
+                "Digital I/O 1"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  647.880005,
+                  234.6,
+                  660.36
+                ],
+                "text": "D1 20 26",
+                "word_boxes": [
+                  [
+                    69.6,
+                    650.3679999999999,
+                    79.82399999999998,
+                    658.3679999999999,
+                    "D1"
+                  ],
+                  [
+                    163.68,
+                    650.3679999999999,
+                    172.57600000000002,
+                    658.3679999999999,
+                    "20"
+                  ],
+                  [
+                    207.6,
+                    650.3679999999999,
+                    216.496,
+                    658.3679999999999,
+                    "26"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  234.6,
+                  647.880005,
+                  347.88,
+                  660.36
+                ],
+                "text": "Digital IO(4)",
+                "word_boxes": [
+                  [
+                    271.92,
+                    650.3679999999999,
+                    292.1696,
+                    658.3679999999999,
+                    "Digital"
+                  ],
+                  [
+                    294.2448,
+                    649.0989999999999,
+                    310.0835,
+                    658.3679999999999,
+                    "IO(4)"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  347.88,
+                  647.880005,
+                  567.240015,
+                  660.36
+                ],
+                "text": "Digital I/O 1",
+                "word_boxes": [
+                  [
+                    351.36,
+                    650.3679999999999,
+                    373.12800000000004,
+                    658.3679999999999,
+                    "Digital"
+                  ],
+                  [
+                    375.2,
+                    650.3679999999999,
+                    385.71999999999997,
+                    658.3679999999999,
+                    "I/O"
+                  ],
+                  [
+                    387.79200000000003,
+                    650.3679999999999,
+                    392.24,
+                    658.3679999999999,
+                    "1"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 47
+          },
+          {
+            "top": 660.36,
+            "c": [
+              [
+                66,
+                "D2 — 27"
+              ],
+              [
+                235,
+                "Digital IO(4)"
+              ],
+              [
+                348,
+                "Digital I/O 2"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  66.12,
+                  660.36,
+                  234.6,
+                  673.08
+                ],
+                "text": "D2 — 27",
+                "word_boxes": [
+                  [
+                    69.6,
+                    662.848,
+                    79.82399999999998,
+                    670.848,
+                    "D2"
+                  ],
+                  [
+                    164.16,
+                    662.848,
+                    172.16,
+                    670.848,
+                    "—"
+                  ],
+                  [
+                    207.6,
+                    662.848,
+                    216.496,
+                    670.848,
+                    "27"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  234.6,
+                  660.36,
+                  347.88,
+                  673.08
+                ],
+                "text": "Digital IO(4)",
+                "word_boxes": [
+                  [
+                    271.92,
+                    662.848,
+                    292.1696,
+                    670.848,
+                    "Digital"
+                  ],
+                  [
+                    294.2448,
+                    661.579,
+                    310.0835,
+                    670.848,
+                    "IO(4)"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  347.88,
+                  660.36,
+                  567.240015,
+                  673.08
+                ],
+                "text": "Digital I/O 2",
+                "word_boxes": [
+                  [
+                    351.36,
+                    662.848,
+                    373.12800000000004,
+                    670.848,
+                    "Digital"
+                  ],
+                  [
+                    375.2,
+                    662.848,
+                    385.71999999999997,
+                    670.848,
+                    "I/O"
+                  ],
+                  [
+                    387.79200000000003,
+                    662.848,
+                    392.24,
+                    670.848,
+                    "2"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 0,
+            "r": 48
+          }
+        ]
+      }
+    ],
+    "budget": {
+      "budget_chars": 6000,
+      "max_pages": 5,
+      "used_chars": 4700,
+      "selected_pages": 3,
+      "selection": "physical_table_dependency_closure_multistart",
+      "condition_aliases": [],
+      "objective": 45.79087847106439,
+      "trials": [
+        {
+          "seed": null,
+          "objective": 45.79087847106439,
+          "chars": 4700
+        },
+        {
+          "seed": "ads1256:p7:span1086-1752:9da3323db162",
+          "objective": 45.79087847106439,
+          "chars": 4700
+        },
+        {
+          "seed": "ads1256:p7:span0-2207:9da3323db162",
+          "objective": 43.930105167281475,
+          "chars": 4889
+        },
+        {
+          "seed": "ads1256:p5:span1093-4125:9da3323db162",
+          "objective": 44.64339251193783,
+          "chars": 5065
+        },
+        {
+          "seed": "ads1256:p7:span281-1181:9da3323db162",
+          "objective": 45.31226889876443,
+          "chars": 5487
+        },
+        {
+          "seed": "ads1256:p5:span0-1315:9da3323db162",
+          "objective": 45.79087847106439,
+          "chars": 4700
+        },
+        {
+          "seed": "ads1256:p3:span0-5258:9da3323db162",
+          "objective": 37.64010634376113,
+          "chars": 5924
+        },
+        {
+          "seed": "ads1256:p3:span60-5258:9da3323db162",
+          "objective": 32.30480026782991,
+          "chars": 5864
+        },
+        {
+          "seed": "ads1256:p27:span4501-5868:9da3323db162",
+          "objective": 43.930105167281475,
+          "chars": 4889
+        },
+        {
+          "seed": "ads1256:p5:span2365-3717:9da3323db162",
+          "objective": 43.421197302916404,
+          "chars": 4926
+        },
+        {
+          "seed": "ads1256:p37:span1182-2578:9da3323db162",
+          "objective": 45.721156716800586,
+          "chars": 4744
+        },
+        {
+          "seed": "ads1256:p7:span1698-2207:9da3323db162",
+          "objective": 45.31226889876443,
+          "chars": 5487
+        },
+        {
+          "seed": "ads1256:p27:span2165-3543:9da3323db162",
+          "objective": 44.74677165151648,
+          "chars": 4726
+        }
+      ],
+      "rejected_packets": [],
+      "pages": [
+        {
+          "doc_id": "ads1256",
+          "page": 7,
+          "layout_chars": 2207,
+          "selected_chars": 666
+        },
+        {
+          "doc_id": "ads1256",
+          "page": 27,
+          "layout_chars": 6932,
+          "selected_chars": 1367
+        },
+        {
+          "doc_id": "ads1256",
+          "page": 5,
+          "layout_chars": 4125,
+          "selected_chars": 2667
+        },
+        {
+          "doc_id": "ads1256",
+          "page": 3,
+          "layout_chars": 5258,
+          "selected_chars": 0
+        },
+        {
+          "doc_id": "ads1256",
+          "page": 37,
+          "layout_chars": 3324,
+          "selected_chars": 0
+        }
+      ],
+      "note": "Only original contiguous ranges are sent to generation/verifier. No gold pages, reference answers, or generated table cells enter selection."
+    },
+    "claims": [],
+    "retrieved_pages": [
+      7,
+      27,
+      5,
+      3,
+      37,
+      6,
+      20,
+      21
+    ],
+    "retrieval_trace": {
+      "mode": "multilingual_v4",
+      "language": "en",
+      "predicted_page_rr_gain": -0.0073022177846127825,
+      "escalated": false,
+      "teacher_pairs": 0,
+      "teacher_forward_batches": 0,
+      "student_forward_batches": 1,
+      "candidate_pairs": 16,
+      "latency_ms": 15.437500000189175,
+      "gate_split": "dev",
+      "student_weight_sha256": "978fc11c24c22da4e81d8051acb89c367472d534dc6761596535496cfcb52a50",
+      "teacher_identity": {
+        "repo": "Qwen/Qwen3-Reranker-0.6B",
+        "revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+        "weight_sha256": "27cd75a405b9c1b46b59abfd88aaa209e6fed2a1972cde9b70e7659537c5e65b",
+        "max_input_tokens": 512,
+        "yes_token_id": 9693,
+        "no_token_id": 2152,
+        "instruction": "Retrieve chip-manual evidence that directly answers the question. Match the parameter, min/typ/max column, unit, operating mode and complete test conditions. Topic overlap or a correct value under a different condition is insufficient.",
+        "prompt_sha256": "a382f806df87ddb2befc2354bc9cff7cb3df3d5f60bc20747848013a11422765",
+        "interpretation": "Actually trained domain ranking preference adapter; not generative SFT or factual verification.",
+        "kind": "domain_lora_v4",
+        "adapter_sha256": "470e1f1d24e4403d517c5806d42f18dd72a8fe70e5fcd788fd188ce8b50e7b5c",
+        "selection_split": "dev",
+        "rank": 8,
+        "score_space": "raw_yes_minus_no_logits"
+      },
+      "candidate_scope": "Actual full-chunk BM25/RRF candidates; no source-page injection; weak source-page ranking labels.",
+      "method": "multilingual_v4",
+      "query": "For ADS1256, what specification applies to sync/pdwn rising edge to clkin rising edge?",
+      "corpus": "v3",
+      "documents": 20,
+      "full_text_chunks": 10668
+    },
+    "metrics": {
+      "retrieval_ms": 26.005300000178977,
+      "total_ms": 211.3085000000865,
+      "generation_calls": 0
+    },
+    "scope": "Original-PDF retrieval, closed source budget and deterministic numeric atoms; no generated answer or whole-answer correctness claim."
+  }
+}

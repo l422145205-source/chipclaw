@@ -1,0 +1,711 @@
+{
+  "arms": {
+    "multilingual_no_kd": {
+      "artifact": {
+        "arm": "multilingual_no_kd",
+        "weight_sha256": "978fc11c24c22da4e81d8051acb89c367472d534dc6761596535496cfcb52a50",
+        "base_weight_sha256": "5daeca2481a76b5976a2bdc32f0a78532b6716da4f8cd3ff59460ef8d2f359b4",
+        "training_steps": 540,
+        "changed_float_tensors": 201,
+        "trainable_parameters": 117641089,
+        "best_epoch": 3,
+        "selection_split": "dev",
+        "base_repo": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+        "base_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+        "data_sha256": {
+          "queries.jsonl": "125f03d2a409961edd54dc982cd0a4e7681cdda5494c29d2d430b0ef382337a4",
+          "passages.jsonl": "d2e85409d1ac6a1089e64e2689639601eddda972e1d6b0ade1b6a83481f02f84"
+        }
+      },
+      "baseline_dev": {
+        "all": {
+          "n": 680,
+          "mrr10": 0.8699480625583567,
+          "top1": 539,
+          "condition_pairs": 202,
+          "condition_correct": 156
+        },
+        "languages": {
+          "en": {
+            "n": 340,
+            "mrr10": 0.8694969654528478,
+            "top1": 268,
+            "condition_pairs": 101,
+            "condition_correct": 73
+          },
+          "zh": {
+            "n": 340,
+            "mrr10": 0.8703991596638656,
+            "top1": 271,
+            "condition_pairs": 101,
+            "condition_correct": 83
+          }
+        },
+        "devices": {
+          "ads1220": {
+            "n": 234,
+            "mrr10": 0.8883903133903134,
+            "top1": 191,
+            "condition_pairs": 98,
+            "condition_correct": 78
+          },
+          "bmi160": {
+            "n": 230,
+            "mrr10": 0.8739906832298137,
+            "top1": 183,
+            "condition_pairs": 64,
+            "condition_correct": 56
+          },
+          "ina219": {
+            "n": 82,
+            "mrr10": 0.7942411924119241,
+            "top1": 58,
+            "condition_pairs": 4,
+            "condition_correct": 2
+          },
+          "tca9548a": {
+            "n": 134,
+            "mrr10": 0.877132196162047,
+            "top1": 107,
+            "condition_pairs": 36,
+            "condition_correct": 20
+          }
+        }
+      },
+      "selected_dev_mrr10": 0.943720238095238,
+      "peak_vram_bytes": 3538921472,
+      "history": [
+        {
+          "epoch": 1,
+          "steps": 180,
+          "mean_loss": 0.5500643302619911,
+          "dev": {
+            "all": {
+              "n": 680,
+              "mrr10": 0.9354802754435108,
+              "top1": 614,
+              "condition_pairs": 202,
+              "condition_correct": 195
+            },
+            "languages": {
+              "en": {
+                "n": 340,
+                "mrr10": 0.9381559290382819,
+                "top1": 309,
+                "condition_pairs": 101,
+                "condition_correct": 99
+              },
+              "zh": {
+                "n": 340,
+                "mrr10": 0.9328046218487395,
+                "top1": 305,
+                "condition_pairs": 101,
+                "condition_correct": 96
+              }
+            },
+            "devices": {
+              "ads1220": {
+                "n": 234,
+                "mrr10": 0.9537037037037036,
+                "top1": 215,
+                "condition_pairs": 98,
+                "condition_correct": 93
+              },
+              "bmi160": {
+                "n": 230,
+                "mrr10": 0.9447929606625259,
+                "top1": 211,
+                "condition_pairs": 64,
+                "condition_correct": 64
+              },
+              "ina219": {
+                "n": 82,
+                "mrr10": 0.8344802555168409,
+                "top1": 64,
+                "condition_pairs": 4,
+                "condition_correct": 4
+              },
+              "tca9548a": {
+                "n": 134,
+                "mrr10": 0.9494787964937219,
+                "top1": 124,
+                "condition_pairs": 36,
+                "condition_correct": 34
+              }
+            }
+          }
+        },
+        {
+          "epoch": 2,
+          "steps": 360,
+          "mean_loss": 0.3076103968070429,
+          "dev": {
+            "all": {
+              "n": 680,
+              "mrr10": 0.9427591036414567,
+              "top1": 622,
+              "condition_pairs": 202,
+              "condition_correct": 202
+            },
+            "languages": {
+              "en": {
+                "n": 340,
+                "mrr10": 0.9413235294117648,
+                "top1": 310,
+                "condition_pairs": 101,
+                "condition_correct": 101
+              },
+              "zh": {
+                "n": 340,
+                "mrr10": 0.9441946778711485,
+                "top1": 312,
+                "condition_pairs": 101,
+                "condition_correct": 101
+              }
+            },
+            "devices": {
+              "ads1220": {
+                "n": 234,
+                "mrr10": 0.9643874643874644,
+                "top1": 220,
+                "condition_pairs": 98,
+                "condition_correct": 98
+              },
+              "bmi160": {
+                "n": 230,
+                "mrr10": 0.9455434782608695,
+                "top1": 211,
+                "condition_pairs": 64,
+                "condition_correct": 64
+              },
+              "ina219": {
+                "n": 82,
+                "mrr10": 0.8547764227642277,
+                "top1": 66,
+                "condition_pairs": 4,
+                "condition_correct": 4
+              },
+              "tca9548a": {
+                "n": 134,
+                "mrr10": 0.9540511727078891,
+                "top1": 125,
+                "condition_pairs": 36,
+                "condition_correct": 36
+              }
+            }
+          }
+        },
+        {
+          "epoch": 3,
+          "steps": 540,
+          "mean_loss": 0.13671309422229697,
+          "dev": {
+            "all": {
+              "n": 680,
+              "mrr10": 0.943720238095238,
+              "top1": 623,
+              "condition_pairs": 202,
+              "condition_correct": 202
+            },
+            "languages": {
+              "en": {
+                "n": 340,
+                "mrr10": 0.946064425770308,
+                "top1": 313,
+                "condition_pairs": 101,
+                "condition_correct": 101
+              },
+              "zh": {
+                "n": 340,
+                "mrr10": 0.941376050420168,
+                "top1": 310,
+                "condition_pairs": 101,
+                "condition_correct": 101
+              }
+            },
+            "devices": {
+              "ads1220": {
+                "n": 234,
+                "mrr10": 0.9668803418803419,
+                "top1": 221,
+                "condition_pairs": 98,
+                "condition_correct": 98
+              },
+              "bmi160": {
+                "n": 230,
+                "mrr10": 0.9454037267080746,
+                "top1": 211,
+                "condition_pairs": 64,
+                "condition_correct": 64
+              },
+              "ina219": {
+                "n": 82,
+                "mrr10": 0.8505081300813008,
+                "top1": 65,
+                "condition_pairs": 4,
+                "condition_correct": 4
+              },
+              "tca9548a": {
+                "n": 134,
+                "mrr10": 0.9574271499644633,
+                "top1": 126,
+                "condition_pairs": 36,
+                "condition_correct": 36
+              }
+            }
+          }
+        }
+      ],
+      "reused_holdout": {
+        "all": {
+          "n": 1042,
+          "mrr10": 0.9606084148310635,
+          "top1": 976,
+          "condition_pairs": 240,
+          "condition_correct": 237
+        },
+        "languages": {
+          "en": {
+            "n": 521,
+            "mrr10": 0.9639018371264052,
+            "top1": 491,
+            "condition_pairs": 120,
+            "condition_correct": 119
+          },
+          "zh": {
+            "n": 521,
+            "mrr10": 0.9573149925357219,
+            "top1": 485,
+            "condition_pairs": 120,
+            "condition_correct": 118
+          }
+        },
+        "devices": {
+          "bme280": {
+            "n": 230,
+            "mrr10": 0.9793478260869565,
+            "top1": 222,
+            "condition_pairs": 50,
+            "condition_correct": 50
+          },
+          "bmi270": {
+            "n": 158,
+            "mrr10": 0.9087552742616034,
+            "top1": 134,
+            "condition_pairs": 4,
+            "condition_correct": 4
+          },
+          "hdc3020": {
+            "n": 228,
+            "mrr10": 0.9692060011138959,
+            "top1": 217,
+            "condition_pairs": 80,
+            "condition_correct": 77
+          },
+          "ina226": {
+            "n": 160,
+            "mrr10": 0.9622395833333334,
+            "top1": 150,
+            "condition_pairs": 58,
+            "condition_correct": 58
+          },
+          "ina228": {
+            "n": 142,
+            "mrr10": 0.9679577464788731,
+            "top1": 135,
+            "condition_pairs": 36,
+            "condition_correct": 36
+          },
+          "sn65hvd230": {
+            "n": 124,
+            "mrr10": 0.9655913978494624,
+            "top1": 118,
+            "condition_pairs": 12,
+            "condition_correct": 12
+          }
+        }
+      }
+    },
+    "multilingual_kl": {
+      "artifact": {
+        "arm": "multilingual_kl",
+        "weight_sha256": "2f8aeb7e1771962af7ddfaea6eb5a2c3cf35f1410060da3bf69f71794bb16dea",
+        "base_weight_sha256": "5daeca2481a76b5976a2bdc32f0a78532b6716da4f8cd3ff59460ef8d2f359b4",
+        "training_steps": 540,
+        "changed_float_tensors": 201,
+        "trainable_parameters": 117641089,
+        "best_epoch": 3,
+        "selection_split": "dev",
+        "base_repo": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+        "base_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+        "data_sha256": {
+          "queries.jsonl": "125f03d2a409961edd54dc982cd0a4e7681cdda5494c29d2d430b0ef382337a4",
+          "passages.jsonl": "d2e85409d1ac6a1089e64e2689639601eddda972e1d6b0ade1b6a83481f02f84"
+        }
+      },
+      "baseline_dev": {
+        "all": {
+          "n": 680,
+          "mrr10": 0.8699480625583567,
+          "top1": 539,
+          "condition_pairs": 202,
+          "condition_correct": 156
+        },
+        "languages": {
+          "en": {
+            "n": 340,
+            "mrr10": 0.8694969654528478,
+            "top1": 268,
+            "condition_pairs": 101,
+            "condition_correct": 73
+          },
+          "zh": {
+            "n": 340,
+            "mrr10": 0.8703991596638656,
+            "top1": 271,
+            "condition_pairs": 101,
+            "condition_correct": 83
+          }
+        },
+        "devices": {
+          "ads1220": {
+            "n": 234,
+            "mrr10": 0.8883903133903134,
+            "top1": 191,
+            "condition_pairs": 98,
+            "condition_correct": 78
+          },
+          "bmi160": {
+            "n": 230,
+            "mrr10": 0.8739906832298137,
+            "top1": 183,
+            "condition_pairs": 64,
+            "condition_correct": 56
+          },
+          "ina219": {
+            "n": 82,
+            "mrr10": 0.7942411924119241,
+            "top1": 58,
+            "condition_pairs": 4,
+            "condition_correct": 2
+          },
+          "tca9548a": {
+            "n": 134,
+            "mrr10": 0.877132196162047,
+            "top1": 107,
+            "condition_pairs": 36,
+            "condition_correct": 20
+          }
+        }
+      },
+      "selected_dev_mrr10": 0.9407183706816059,
+      "peak_vram_bytes": 3540096000,
+      "history": [
+        {
+          "epoch": 1,
+          "steps": 180,
+          "mean_loss": 1.8823295030328961,
+          "dev": {
+            "all": {
+              "n": 680,
+              "mrr10": 0.9289449112978524,
+              "top1": 608,
+              "condition_pairs": 202,
+              "condition_correct": 194
+            },
+            "languages": {
+              "en": {
+                "n": 340,
+                "mrr10": 0.9326132119514473,
+                "top1": 306,
+                "condition_pairs": 101,
+                "condition_correct": 101
+              },
+              "zh": {
+                "n": 340,
+                "mrr10": 0.9252766106442577,
+                "top1": 302,
+                "condition_pairs": 101,
+                "condition_correct": 93
+              }
+            },
+            "devices": {
+              "ads1220": {
+                "n": 234,
+                "mrr10": 0.9502136752136752,
+                "top1": 215,
+                "condition_pairs": 98,
+                "condition_correct": 93
+              },
+              "bmi160": {
+                "n": 230,
+                "mrr10": 0.9347567287784679,
+                "top1": 206,
+                "condition_pairs": 64,
+                "condition_correct": 62
+              },
+              "ina219": {
+                "n": 82,
+                "mrr10": 0.8334639953542392,
+                "top1": 65,
+                "condition_pairs": 4,
+                "condition_correct": 4
+              },
+              "tca9548a": {
+                "n": 134,
+                "mrr10": 0.9402570480928689,
+                "top1": 122,
+                "condition_pairs": 36,
+                "condition_correct": 35
+              }
+            }
+          }
+        },
+        {
+          "epoch": 2,
+          "steps": 360,
+          "mean_loss": 1.3261104510890114,
+          "dev": {
+            "all": {
+              "n": 680,
+              "mrr10": 0.9376931605975724,
+              "top1": 615,
+              "condition_pairs": 202,
+              "condition_correct": 202
+            },
+            "languages": {
+              "en": {
+                "n": 340,
+                "mrr10": 0.9382749766573295,
+                "top1": 308,
+                "condition_pairs": 101,
+                "condition_correct": 101
+              },
+              "zh": {
+                "n": 340,
+                "mrr10": 0.9371113445378151,
+                "top1": 307,
+                "condition_pairs": 101,
+                "condition_correct": 101
+              }
+            },
+            "devices": {
+              "ads1220": {
+                "n": 234,
+                "mrr10": 0.964997964997965,
+                "top1": 220,
+                "condition_pairs": 98,
+                "condition_correct": 98
+              },
+              "bmi160": {
+                "n": 230,
+                "mrr10": 0.9371428571428572,
+                "top1": 207,
+                "condition_pairs": 64,
+                "condition_correct": 64
+              },
+              "ina219": {
+                "n": 82,
+                "mrr10": 0.8527584204413472,
+                "top1": 66,
+                "condition_pairs": 4,
+                "condition_correct": 4
+              },
+              "tca9548a": {
+                "n": 134,
+                "mrr10": 0.9429311774461028,
+                "top1": 122,
+                "condition_pairs": 36,
+                "condition_correct": 36
+              }
+            }
+          }
+        },
+        {
+          "epoch": 3,
+          "steps": 540,
+          "mean_loss": 1.2036743187242085,
+          "dev": {
+            "all": {
+              "n": 680,
+              "mrr10": 0.9407183706816059,
+              "top1": 619,
+              "condition_pairs": 202,
+              "condition_correct": 202
+            },
+            "languages": {
+              "en": {
+                "n": 340,
+                "mrr10": 0.9401587301587301,
+                "top1": 309,
+                "condition_pairs": 101,
+                "condition_correct": 101
+              },
+              "zh": {
+                "n": 340,
+                "mrr10": 0.9412780112044818,
+                "top1": 310,
+                "condition_pairs": 101,
+                "condition_correct": 101
+              }
+            },
+            "devices": {
+              "ads1220": {
+                "n": 234,
+                "mrr10": 0.9665242165242165,
+                "top1": 221,
+                "condition_pairs": 98,
+                "condition_correct": 98
+              },
+              "bmi160": {
+                "n": 230,
+                "mrr10": 0.9446066252587992,
+                "top1": 210,
+                "condition_pairs": 64,
+                "condition_correct": 64
+              },
+              "ina219": {
+                "n": 82,
+                "mrr10": 0.853164924506388,
+                "top1": 66,
+                "condition_pairs": 4,
+                "condition_correct": 4
+              },
+              "tca9548a": {
+                "n": 134,
+                "mrr10": 0.9425580431177446,
+                "top1": 122,
+                "condition_pairs": 36,
+                "condition_correct": 36
+              }
+            }
+          }
+        }
+      ],
+      "reused_holdout": {
+        "all": {
+          "n": 1042,
+          "mrr10": 0.9579384120890839,
+          "top1": 974,
+          "condition_pairs": 240,
+          "condition_correct": 238
+        },
+        "languages": {
+          "en": {
+            "n": 521,
+            "mrr10": 0.9587728117478597,
+            "top1": 488,
+            "condition_pairs": 120,
+            "condition_correct": 119
+          },
+          "zh": {
+            "n": 521,
+            "mrr10": 0.9571040124303081,
+            "top1": 486,
+            "condition_pairs": 120,
+            "condition_correct": 119
+          }
+        },
+        "devices": {
+          "bme280": {
+            "n": 230,
+            "mrr10": 0.976231884057971,
+            "top1": 221,
+            "condition_pairs": 50,
+            "condition_correct": 50
+          },
+          "bmi270": {
+            "n": 158,
+            "mrr10": 0.9014767932489451,
+            "top1": 134,
+            "condition_pairs": 4,
+            "condition_correct": 4
+          },
+          "hdc3020": {
+            "n": 228,
+            "mrr10": 0.9729897660818714,
+            "top1": 219,
+            "condition_pairs": 80,
+            "condition_correct": 80
+          },
+          "ina226": {
+            "n": 160,
+            "mrr10": 0.96,
+            "top1": 150,
+            "condition_pairs": 58,
+            "condition_correct": 58
+          },
+          "ina228": {
+            "n": 142,
+            "mrr10": 0.9550637156270959,
+            "top1": 131,
+            "condition_pairs": 36,
+            "condition_correct": 34
+          },
+          "sn65hvd230": {
+            "n": 124,
+            "mrr10": 0.9689068100358423,
+            "top1": 119,
+            "condition_pairs": 12,
+            "condition_correct": 12
+          }
+        }
+      }
+    }
+  },
+  "selected_arm": "multilingual_no_kd",
+  "tokenizer": {
+    "en": {
+      "forms": 1578,
+      "tokens": 37734,
+      "unknown": 0,
+      "forms_with_unknown": 0,
+      "unknown_fraction": 0.0
+    },
+    "zh": {
+      "forms": 1578,
+      "tokens": 40286,
+      "unknown": 0,
+      "forms_with_unknown": 0,
+      "unknown_fraction": 0.0
+    }
+  },
+  "elapsed_seconds": 224.53597709999997,
+  "protocol": {
+    "base_repo": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "base_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+    "base_weight_sha256": "5daeca2481a76b5976a2bdc32f0a78532b6716da4f8cd3ff59460ef8d2f359b4",
+    "dataset_sha256": {
+      "queries.jsonl": "125f03d2a409961edd54dc982cd0a4e7681cdda5494c29d2d430b0ef382337a4",
+      "passages.jsonl": "d2e85409d1ac6a1089e64e2689639601eddda972e1d6b0ade1b6a83481f02f84"
+    },
+    "teacher_scores_sha256": "1a2706398a174b55134dc5b6f62e5798df22f414ce7903579656d7c1b88ac975",
+    "train_intents": 717,
+    "dev_intents": 340,
+    "holdout_intents": 521,
+    "seed": 42,
+    "epochs": 3,
+    "batch_query_lists": 4,
+    "candidate_sample_size": 8,
+    "steps_each_arm": 540,
+    "learning_rate": 2e-05,
+    "objective": "source-anchor CE + physical-role/condition pairwise softplus + optional teacher listwise KL",
+    "sampling": "identical teacher-score quantile sampling and language schedule across arms",
+    "selection": "dev only; both arms finalized before any reused v3 holdout scoring",
+    "holdout_note": "Previously reported v3 holdout, reused for regression; not a new unseen benchmark or independent human QA.",
+    "arms": [
+      [
+        "multilingual_no_kd",
+        false
+      ],
+      [
+        "multilingual_kl",
+        true
+      ]
+    ],
+    "source_sha256": {
+      "scripts/train_multilingual_v4.py": "3040f4fc5f617ec24e590f2e2b0d6886f86b0eac96837a4437172d8da19478fe",
+      "chipclaw/distillation_v3.py": "6bdcb9dd2f965f76a6651901476fa6310575bf21588cda90707a2ce17efc17ef"
+    }
+  }
+}

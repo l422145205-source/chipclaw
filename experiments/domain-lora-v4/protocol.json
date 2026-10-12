@@ -1,0 +1,38 @@
+{
+  "base": {
+    "repo": "Qwen/Qwen3-Reranker-0.6B",
+    "revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+    "weight_sha256": "27cd75a405b9c1b46b59abfd88aaa209e6fed2a1972cde9b70e7659537c5e65b",
+    "max_input_tokens": 512,
+    "yes_token_id": 9693,
+    "no_token_id": 2152,
+    "instruction": "Retrieve chip-manual evidence that directly answers the question. Match the parameter, min/typ/max column, unit, operating mode and complete test conditions. Topic overlap or a correct value under a different condition is insufficient.",
+    "prompt_sha256": "a382f806df87ddb2befc2354bc9cff7cb3df3d5f60bc20747848013a11422765",
+    "interpretation": "Two-logit normalized teacher preference, not factual truth or an API call."
+  },
+  "rank": 8,
+  "alpha": 16,
+  "dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "v_proj",
+    "o_proj"
+  ],
+  "trainable_parameters": 1835008,
+  "full_parameters": 597611520,
+  "epochs": 2,
+  "updates": 360,
+  "query_lists_per_batch": 4,
+  "candidates_per_list": 8,
+  "max_pair_tokens": 512,
+  "seed": 42,
+  "lr": 0.0002,
+  "objective": "Source-anchor listwise CE plus physical condition-pair softplus on last-position yes-minus-no logits; no generative token loss or self-KL.",
+  "ranking_score": "Raw yes-minus-no logits at training and evaluation; do not sort saturated sigmoid probabilities.",
+  "dataset_sha256": {
+    "queries.jsonl": "125f03d2a409961edd54dc982cd0a4e7681cdda5494c29d2d430b0ef382337a4",
+    "passages.jsonl": "d2e85409d1ac6a1089e64e2689639601eddda972e1d6b0ade1b6a83481f02f84"
+  },
+  "selection": "Dev ranking only, two checkpoints finalized before reused holdout scoring; previous holdout has already been published.",
+  "source_sha256": "e45a4355062c8bd47fabfac1112ac12837f6c7d76638c001044b5a1fbe359866"
+}

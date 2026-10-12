@@ -1,0 +1,6 @@
+{
+  "arm": "multilingual_no_kd",
+  "selection_split": "dev",
+  "dev_mrr10": 0.943720238095238,
+  "weight_sha256": "978fc11c24c22da4e81d8051acb89c367472d534dc6761596535496cfcb52a50"
+}

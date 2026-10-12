@@ -1,0 +1,496 @@
+{
+  "protocol": {
+    "selection_split": "dev",
+    "dev_intents": 340,
+    "reused_holdout_intents": 120,
+    "candidate_count": 16,
+    "teacher_top_n": 6,
+    "candidate_policy": "Original and protected terminology BM25 views with RRF on full 10668 chunks, document filtered. No positive/page injection.",
+    "labels": "Weak source-page reciprocal rank; alternate pages are unjudged. Not row correctness or answer accuracy.",
+    "gate_fit": "Per-language ridge expected source-page RR gain; semantic-ID hash80% dev fit,20% dev threshold calibration.",
+    "gate_budget": 0.35,
+    "acceptance": "Each language calibration RR must improve and empirical harmful fraction of escalations <=0.15. Otherwise disable.",
+    "holdout_note": "Same previously used v3 holdout subset; regression, not a new blind benchmark.",
+    "corpus_sha256": "af36870b2f1458cc5c7473ce1c236b9608cceecb061af381dd64b00363d0893c",
+    "data_sha256": "125f03d2a409961edd54dc982cd0a4e7681cdda5494c29d2d430b0ef382337a4",
+    "teacher_kind": "domain_lora_v4",
+    "source_sha256": {
+      "scripts/calibrate_adaptive_v4.py": "f59e65d745b44d3160f1277684d0f2a8f2ad899649265c9bbccd6f5133c02966",
+      "chipclaw/cascade_v4.py": "39df8008c43d4a90fbe80e0da45a5a3b7d139149aa56664976a6118c96d3232c",
+      "chipclaw/retrieval_v4.py": "b64a0827c0814c67fdf133bca7704e530a83b92feb54a6cc87774fc85bc130fc"
+    }
+  },
+  "gate_calibration": {
+    "en": {
+      "base_page_mrr10": 0.9786324786324787,
+      "chosen": {
+        "threshold": 1000000.0,
+        "calls": 0,
+        "call_rate": 0.0,
+        "harmful_escalations": 0,
+        "harm_rate": 0.0,
+        "page_mrr10": 0.9786324786324787
+      },
+      "enabled": false,
+      "trials": [
+        {
+          "threshold": 1000000.0,
+          "calls": 0,
+          "call_rate": 0.0,
+          "harmful_escalations": 0,
+          "harm_rate": 0.0,
+          "page_mrr10": 0.9786324786324787
+        },
+        {
+          "threshold": -0.05072514433882549,
+          "calls": 78,
+          "call_rate": 1.0,
+          "harmful_escalations": 6,
+          "harm_rate": 0.07692307692307693,
+          "page_mrr10": 0.9401709401709403
+        },
+        {
+          "threshold": -0.03795150891174654,
+          "calls": 74,
+          "call_rate": 0.9487179487179487,
+          "harmful_escalations": 6,
+          "harm_rate": 0.08108108108108109,
+          "page_mrr10": 0.9401709401709403
+        },
+        {
+          "threshold": -0.029691174866570517,
+          "calls": 70,
+          "call_rate": 0.8974358974358975,
+          "harmful_escalations": 6,
+          "harm_rate": 0.08571428571428572,
+          "page_mrr10": 0.9401709401709403
+        },
+        {
+          "threshold": -0.019411014078655246,
+          "calls": 66,
+          "call_rate": 0.8461538461538461,
+          "harmful_escalations": 6,
+          "harm_rate": 0.09090909090909091,
+          "page_mrr10": 0.9401709401709403
+        },
+        {
+          "threshold": -0.014881268941118164,
+          "calls": 62,
+          "call_rate": 0.7948717948717948,
+          "harmful_escalations": 6,
+          "harm_rate": 0.0967741935483871,
+          "page_mrr10": 0.9401709401709403
+        },
+        {
+          "threshold": -0.010339009546792724,
+          "calls": 58,
+          "call_rate": 0.7435897435897436,
+          "harmful_escalations": 6,
+          "harm_rate": 0.10344827586206896,
+          "page_mrr10": 0.9401709401709403
+        },
+        {
+          "threshold": -0.005570601427101016,
+          "calls": 54,
+          "call_rate": 0.6923076923076923,
+          "harmful_escalations": 6,
+          "harm_rate": 0.1111111111111111,
+          "page_mrr10": 0.9401709401709403
+        },
+        {
+          "threshold": -0.0005463843524194646,
+          "calls": 51,
+          "call_rate": 0.6538461538461539,
+          "harmful_escalations": 5,
+          "harm_rate": 0.09803921568627451,
+          "page_mrr10": 0.9465811965811967
+        },
+        {
+          "threshold": 0.006239186540330336,
+          "calls": 47,
+          "call_rate": 0.6025641025641025,
+          "harmful_escalations": 5,
+          "harm_rate": 0.10638297872340426,
+          "page_mrr10": 0.9465811965811967
+        },
+        {
+          "threshold": 0.012263909647170005,
+          "calls": 43,
+          "call_rate": 0.5512820512820513,
+          "harmful_escalations": 5,
+          "harm_rate": 0.11627906976744186,
+          "page_mrr10": 0.9465811965811967
+        },
+        {
+          "threshold": 0.017437216015502986,
+          "calls": 39,
+          "call_rate": 0.5,
+          "harmful_escalations": 5,
+          "harm_rate": 0.1282051282051282,
+          "page_mrr10": 0.9465811965811967
+        },
+        {
+          "threshold": 0.022949989056591524,
+          "calls": 35,
+          "call_rate": 0.44871794871794873,
+          "harmful_escalations": 4,
+          "harm_rate": 0.11428571428571428,
+          "page_mrr10": 0.9529914529914532
+        },
+        {
+          "threshold": 0.028705703997699367,
+          "calls": 31,
+          "call_rate": 0.3974358974358974,
+          "harmful_escalations": 4,
+          "harm_rate": 0.12903225806451613,
+          "page_mrr10": 0.9529914529914532
+        },
+        {
+          "threshold": 0.041140269394869707,
+          "calls": 27,
+          "call_rate": 0.34615384615384615,
+          "harmful_escalations": 3,
+          "harm_rate": 0.1111111111111111,
+          "page_mrr10": 0.9594017094017095
+        },
+        {
+          "threshold": 0.05607338700387108,
+          "calls": 24,
+          "call_rate": 0.3076923076923077,
+          "harmful_escalations": 3,
+          "harm_rate": 0.125,
+          "page_mrr10": 0.9594017094017095
+        },
+        {
+          "threshold": 0.07612352909428159,
+          "calls": 20,
+          "call_rate": 0.2564102564102564,
+          "harmful_escalations": 2,
+          "harm_rate": 0.1,
+          "page_mrr10": 0.9658119658119659
+        },
+        {
+          "threshold": 0.09182637615115587,
+          "calls": 16,
+          "call_rate": 0.20512820512820512,
+          "harmful_escalations": 2,
+          "harm_rate": 0.125,
+          "page_mrr10": 0.9658119658119659
+        },
+        {
+          "threshold": 0.11425572649978141,
+          "calls": 12,
+          "call_rate": 0.15384615384615385,
+          "harmful_escalations": 2,
+          "harm_rate": 0.16666666666666666,
+          "page_mrr10": 0.9658119658119659
+        },
+        {
+          "threshold": 0.1465848407167739,
+          "calls": 8,
+          "call_rate": 0.10256410256410256,
+          "harmful_escalations": 1,
+          "harm_rate": 0.125,
+          "page_mrr10": 0.9722222222222223
+        },
+        {
+          "threshold": 0.18978100833212372,
+          "calls": 4,
+          "call_rate": 0.05128205128205128,
+          "harmful_escalations": 1,
+          "harm_rate": 0.25,
+          "page_mrr10": 0.9722222222222223
+        },
+        {
+          "threshold": 0.20610299616563416,
+          "calls": 1,
+          "call_rate": 0.01282051282051282,
+          "harmful_escalations": 0,
+          "harm_rate": 0.0,
+          "page_mrr10": 0.9786324786324787
+        }
+      ]
+    },
+    "zh": {
+      "base_page_mrr10": 0.9641025641025641,
+      "chosen": {
+        "threshold": 1000000.0,
+        "calls": 0,
+        "call_rate": 0.0,
+        "harmful_escalations": 0,
+        "harm_rate": 0.0,
+        "page_mrr10": 0.9641025641025641
+      },
+      "enabled": false,
+      "trials": [
+        {
+          "threshold": 1000000.0,
+          "calls": 0,
+          "call_rate": 0.0,
+          "harmful_escalations": 0,
+          "harm_rate": 0.0,
+          "page_mrr10": 0.9641025641025641
+        },
+        {
+          "threshold": -0.03128326719546692,
+          "calls": 78,
+          "call_rate": 1.0,
+          "harmful_escalations": 4,
+          "harm_rate": 0.05128205128205128,
+          "page_mrr10": 0.9427350427350427
+        },
+        {
+          "threshold": -0.02450415568061802,
+          "calls": 74,
+          "call_rate": 0.9487179487179487,
+          "harmful_escalations": 4,
+          "harm_rate": 0.05405405405405406,
+          "page_mrr10": 0.9427350427350427
+        },
+        {
+          "threshold": -0.017843329197687444,
+          "calls": 70,
+          "call_rate": 0.8974358974358975,
+          "harmful_escalations": 4,
+          "harm_rate": 0.05714285714285714,
+          "page_mrr10": 0.9427350427350427
+        },
+        {
+          "threshold": -0.014635118015216964,
+          "calls": 66,
+          "call_rate": 0.8461538461538461,
+          "harmful_escalations": 4,
+          "harm_rate": 0.06060606060606061,
+          "page_mrr10": 0.9427350427350427
+        },
+        {
+          "threshold": -0.013048954010649825,
+          "calls": 62,
+          "call_rate": 0.7948717948717948,
+          "harmful_escalations": 3,
+          "harm_rate": 0.04838709677419355,
+          "page_mrr10": 0.9491452991452991
+        },
+        {
+          "threshold": -0.008959583417516594,
+          "calls": 58,
+          "call_rate": 0.7435897435897436,
+          "harmful_escalations": 3,
+          "harm_rate": 0.05172413793103448,
+          "page_mrr10": 0.9491452991452991
+        },
+        {
+          "threshold": -0.006143657220120209,
+          "calls": 54,
+          "call_rate": 0.6923076923076923,
+          "harmful_escalations": 3,
+          "harm_rate": 0.05555555555555555,
+          "page_mrr10": 0.9491452991452991
+        },
+        {
+          "threshold": 0.0015849408417038502,
+          "calls": 51,
+          "call_rate": 0.6538461538461539,
+          "harmful_escalations": 3,
+          "harm_rate": 0.058823529411764705,
+          "page_mrr10": 0.9491452991452991
+        },
+        {
+          "threshold": 0.0044638940057331235,
+          "calls": 47,
+          "call_rate": 0.6025641025641025,
+          "harmful_escalations": 3,
+          "harm_rate": 0.06382978723404255,
+          "page_mrr10": 0.9491452991452991
+        },
+        {
+          "threshold": 0.010323944540511694,
+          "calls": 43,
+          "call_rate": 0.5512820512820513,
+          "harmful_escalations": 3,
+          "harm_rate": 0.06976744186046512,
+          "page_mrr10": 0.9491452991452991
+        },
+        {
+          "threshold": 0.013611752356047505,
+          "calls": 39,
+          "call_rate": 0.5,
+          "harmful_escalations": 2,
+          "harm_rate": 0.05128205128205128,
+          "page_mrr10": 0.9555555555555555
+        },
+        {
+          "threshold": 0.02101184606565131,
+          "calls": 35,
+          "call_rate": 0.44871794871794873,
+          "harmful_escalations": 2,
+          "harm_rate": 0.05714285714285714,
+          "page_mrr10": 0.9555555555555555
+        },
+        {
+          "threshold": 0.026262344458708432,
+          "calls": 31,
+          "call_rate": 0.3974358974358974,
+          "harmful_escalations": 2,
+          "harm_rate": 0.06451612903225806,
+          "page_mrr10": 0.9555555555555555
+        },
+        {
+          "threshold": 0.02943931148892781,
+          "calls": 27,
+          "call_rate": 0.34615384615384615,
+          "harmful_escalations": 2,
+          "harm_rate": 0.07407407407407407,
+          "page_mrr10": 0.9555555555555555
+        },
+        {
+          "threshold": 0.03853206911150082,
+          "calls": 24,
+          "call_rate": 0.3076923076923077,
+          "harmful_escalations": 1,
+          "harm_rate": 0.041666666666666664,
+          "page_mrr10": 0.961965811965812
+        },
+        {
+          "threshold": 0.05203533610619074,
+          "calls": 20,
+          "call_rate": 0.2564102564102564,
+          "harmful_escalations": 1,
+          "harm_rate": 0.05,
+          "page_mrr10": 0.961965811965812
+        },
+        {
+          "threshold": 0.08740771073750733,
+          "calls": 16,
+          "call_rate": 0.20512820512820512,
+          "harmful_escalations": 1,
+          "harm_rate": 0.0625,
+          "page_mrr10": 0.961965811965812
+        },
+        {
+          "threshold": 0.11171662035016454,
+          "calls": 12,
+          "call_rate": 0.15384615384615385,
+          "harmful_escalations": 1,
+          "harm_rate": 0.08333333333333333,
+          "page_mrr10": 0.961965811965812
+        },
+        {
+          "threshold": 0.15273312972255562,
+          "calls": 8,
+          "call_rate": 0.10256410256410256,
+          "harmful_escalations": 1,
+          "harm_rate": 0.125,
+          "page_mrr10": 0.9555555555555555
+        },
+        {
+          "threshold": 0.19404663274500725,
+          "calls": 4,
+          "call_rate": 0.05128205128205128,
+          "harmful_escalations": 1,
+          "harm_rate": 0.25,
+          "page_mrr10": 0.9555555555555555
+        },
+        {
+          "threshold": 0.24598936597825732,
+          "calls": 1,
+          "call_rate": 0.01282051282051282,
+          "harmful_escalations": 1,
+          "harm_rate": 1.0,
+          "page_mrr10": 0.9555555555555555
+        }
+      ]
+    }
+  },
+  "modes": {
+    "adaptive_v4": {
+      "lists": 240,
+      "page_mrr10": 0.897296626984127,
+      "source_page_candidate_recall": 0.9875,
+      "latency_mean_ms": 14.8961854167131,
+      "latency_p95_ms": 17.942489999313693,
+      "teacher_query_calls": 0,
+      "teacher_pairs": 0
+    },
+    "multilingual_v4": {
+      "lists": 240,
+      "page_mrr10": 0.897296626984127,
+      "source_page_candidate_recall": 0.9875,
+      "latency_mean_ms": 14.726407916665115,
+      "latency_p95_ms": 17.78760000006514,
+      "teacher_query_calls": 0,
+      "teacher_pairs": 0
+    },
+    "teacher_all": {
+      "lists": 240,
+      "page_mrr10": 0.9530555555555557,
+      "source_page_candidate_recall": 0.9875,
+      "latency_mean_ms": 355.93721791664547,
+      "latency_p95_ms": 438.9602050005578,
+      "teacher_query_calls": 240,
+      "teacher_pairs": 3840
+    }
+  },
+  "languages": {
+    "en": {
+      "adaptive_v4": {
+        "lists": 120,
+        "page_mrr10": 0.9072916666666667,
+        "source_page_candidate_recall": 0.9833333333333333,
+        "latency_mean_ms": 15.253884166691023,
+        "latency_p95_ms": 18.131445000108215,
+        "teacher_query_calls": 0,
+        "teacher_pairs": 0
+      },
+      "multilingual_v4": {
+        "lists": 120,
+        "page_mrr10": 0.9072916666666667,
+        "source_page_candidate_recall": 0.9833333333333333,
+        "latency_mean_ms": 15.048302500000924,
+        "latency_p95_ms": 17.893930000172986,
+        "teacher_query_calls": 0,
+        "teacher_pairs": 0
+      },
+      "teacher_all": {
+        "lists": 120,
+        "page_mrr10": 0.9491666666666667,
+        "source_page_candidate_recall": 0.9833333333333333,
+        "latency_mean_ms": 362.1640158332866,
+        "latency_p95_ms": 447.73279499922864,
+        "teacher_query_calls": 120,
+        "teacher_pairs": 1920
+      }
+    },
+    "zh": {
+      "adaptive_v4": {
+        "lists": 120,
+        "page_mrr10": 0.8873015873015874,
+        "source_page_candidate_recall": 0.9916666666666667,
+        "latency_mean_ms": 14.538486666735176,
+        "latency_p95_ms": 17.3965150006552,
+        "teacher_query_calls": 0,
+        "teacher_pairs": 0
+      },
+      "multilingual_v4": {
+        "lists": 120,
+        "page_mrr10": 0.8873015873015874,
+        "source_page_candidate_recall": 0.9916666666666667,
+        "latency_mean_ms": 14.404513333329305,
+        "latency_p95_ms": 17.74366999998165,
+        "teacher_query_calls": 0,
+        "teacher_pairs": 0
+      },
+      "teacher_all": {
+        "lists": 120,
+        "page_mrr10": 0.9569444444444445,
+        "source_page_candidate_recall": 0.9916666666666667,
+        "latency_mean_ms": 349.71042000000426,
+        "latency_p95_ms": 428.97675500034893,
+        "teacher_query_calls": 120,
+        "teacher_pairs": 1920
+      }
+    }
+  },
+  "elapsed_seconds": 395.7299081000001,
+  "timings_sha256": "96b6db7acf9096c0aca42d21c19b6a8add86a8d0bfedff958c12ea7ea6ed83b4"
+}

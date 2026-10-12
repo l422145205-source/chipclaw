@@ -1,0 +1,2516 @@
+{
+  "intent_id": "qv3-1177",
+  "request": {
+    "question": "How does OPT3001 handle general-call reset command?",
+    "doc_id": "opt3001",
+    "retrieval_method": "multilingual_v4",
+    "budget_chars": 6000
+  },
+  "http_status": 200,
+  "result": {
+    "query": "How does OPT3001 handle general-call reset command?",
+    "doc_id": "opt3001",
+    "retrieval_method": "multilingual_v4",
+    "evidence": [
+      {
+        "doc_id": "opt3001",
+        "page": 17,
+        "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+        "url": "https://www.ti.com/lit/ds/symlink/opt3001.pdf#page=17",
+        "title": "OPT3001 ambient light sensor datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "opt3001:p17:span3512-4325:f2ab3d4822cb",
+        "span_id": "opt3001:p17:span3512-4325:f2ab3d4822cb",
+        "start": 3512,
+        "end": 4325,
+        "text": "{\"r\":36,\"c\":[[54,\"the F/S mode.\"]]}\n{\"r\":37,\"c\":[[54,\"7.5.1.2\"],[94,\"General-Call Reset Command\"]]}\n{\"r\":38,\"c\":[[54,\"The I2C general-call reset allows the host controller in one command to reset all devices on the bus that respond\"]]}\n{\"r\":39,\"c\":[[54,\"to the general-call reset command. The general call is initiated by writing to the I2C address 0 (0000 0000b). The\"]]}\n{\"r\":40,\"c\":[[54,\"reset command is initiated when the subsequent second address byte is 06h (0000 0110b). With this transaction,\"]]}\n{\"r\":41,\"c\":[[54,\"the device issues an acknowledge bit and sets all of its registers to the power-on-reset default condition.\"]]}\n{\"r\":42,\"c\":[[54,\"Copyright © 2014–2017, Texas Instruments Incorporated\"],[409,\"Submit Documentation Feedback\"],[549,\"17\"]]}\n{\"r\":43,\"c\":[[250,\"Product Folder Links: OPT3001\"]]}",
+        "packet_kind": "prose",
+        "table_id": null,
+        "source_rows": [
+          {
+            "r": 36,
+            "c": [
+              [
+                54,
+                "the F/S mode."
+              ]
+            ]
+          },
+          {
+            "r": 37,
+            "c": [
+              [
+                54,
+                "7.5.1.2"
+              ],
+              [
+                94,
+                "General-Call Reset Command"
+              ]
+            ]
+          },
+          {
+            "r": 38,
+            "c": [
+              [
+                54,
+                "The I2C general-call reset allows the host controller in one command to reset all devices on the bus that respond"
+              ]
+            ]
+          },
+          {
+            "r": 39,
+            "c": [
+              [
+                54,
+                "to the general-call reset command. The general call is initiated by writing to the I2C address 0 (0000 0000b). The"
+              ]
+            ]
+          },
+          {
+            "r": 40,
+            "c": [
+              [
+                54,
+                "reset command is initiated when the subsequent second address byte is 06h (0000 0110b). With this transaction,"
+              ]
+            ]
+          },
+          {
+            "r": 41,
+            "c": [
+              [
+                54,
+                "the device issues an acknowledge bit and sets all of its registers to the power-on-reset default condition."
+              ]
+            ]
+          },
+          {
+            "r": 42,
+            "c": [
+              [
+                54,
+                "Copyright © 2014–2017, Texas Instruments Incorporated"
+              ],
+              [
+                409,
+                "Submit Documentation Feedback"
+              ],
+              [
+                549,
+                "17"
+              ]
+            ]
+          },
+          {
+            "r": 43,
+            "c": [
+              [
+                250,
+                "Product Folder Links: OPT3001"
+              ]
+            ]
+          }
+        ],
+        "layout_sha256": null,
+        "geometry_records": [
+          {
+            "top": 556.0,
+            "c": [
+              [
+                54,
+                "the F/S mode."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  556.0,
+                  117.2,
+                  566.0
+                ],
+                "text": "the F/S mode."
+              }
+            ],
+            "kind": "prose",
+            "r": 36
+          },
+          {
+            "top": 577.9,
+            "c": [
+              [
+                54,
+                "7.5.1.2"
+              ],
+              [
+                94,
+                "General-Call Reset Command"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  577.9,
+                  84.55000000000001,
+                  587.9
+                ],
+                "text": "7.5.1.2"
+              },
+              {
+                "bbox": [
+                  93.75,
+                  577.9,
+                  234.70000000000002,
+                  587.9
+                ],
+                "text": "General-Call Reset Command"
+              }
+            ],
+            "kind": "prose",
+            "r": 37
+          },
+          {
+            "top": 593.17,
+            "c": [
+              [
+                54,
+                "The I2C general-call reset allows the host controller in one command to reset all devices on the bus that respond"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  594.8,
+                  556.3100000000001,
+                  604.8
+                ],
+                "text": "The I2C general-call reset allows the host controller in one command to reset all devices on the bus that respond"
+              }
+            ],
+            "kind": "prose",
+            "r": 38
+          },
+          {
+            "top": 604.17,
+            "c": [
+              [
+                54,
+                "to the general-call reset command. The general call is initiated by writing to the I2C address 0 (0000 0000b). The"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  605.8,
+                  556.33,
+                  615.8
+                ],
+                "text": "to the general-call reset command. The general call is initiated by writing to the I2C address 0 (0000 0000b). The"
+              }
+            ],
+            "kind": "prose",
+            "r": 39
+          },
+          {
+            "top": 616.8,
+            "c": [
+              [
+                54,
+                "reset command is initiated when the subsequent second address byte is 06h (0000 0110b). With this transaction,"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  616.8,
+                  556.52,
+                  626.8
+                ],
+                "text": "reset command is initiated when the subsequent second address byte is 06h (0000 0110b). With this transaction,"
+              }
+            ],
+            "kind": "prose",
+            "r": 40
+          },
+          {
+            "top": 627.8,
+            "c": [
+              [
+                54,
+                "the device issues an acknowledge bit and sets all of its registers to the power-on-reset default condition."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  627.8,
+                  517.05,
+                  637.8
+                ],
+                "text": "the device issues an acknowledge bit and sets all of its registers to the power-on-reset default condition."
+              }
+            ],
+            "kind": "prose",
+            "r": 41
+          },
+          {
+            "top": 740.856,
+            "c": [
+              [
+                54,
+                "Copyright © 2014–2017, Texas Instruments Incorporated"
+              ],
+              [
+                409,
+                "Submit Documentation Feedback"
+              ],
+              [
+                549,
+                "17"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  741.67,
+                  231.394,
+                  748.67
+                ],
+                "text": "Copyright © 2014–2017, Texas Instruments Incorporated"
+              },
+              {
+                "bbox": [
+                  409.3,
+                  740.856,
+                  527.88,
+                  748.856
+                ],
+                "text": "Submit Documentation Feedback"
+              },
+              {
+                "bbox": [
+                  549.1,
+                  740.88,
+                  557.996,
+                  748.88
+                ],
+                "text": "17"
+              }
+            ],
+            "kind": "prose",
+            "r": 42
+          },
+          {
+            "top": 755.856,
+            "c": [
+              [
+                250,
+                "Product Folder Links: OPT3001"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  249.7,
+                  755.88,
+                  362.216,
+                  763.88
+                ],
+                "text": "Product Folder Links: OPT3001"
+              }
+            ],
+            "kind": "prose",
+            "r": 43
+          }
+        ]
+      },
+      {
+        "doc_id": "opt3001",
+        "page": 35,
+        "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+        "url": "https://www.ti.com/lit/ds/symlink/opt3001.pdf#page=35",
+        "title": "OPT3001 ambient light sensor datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "opt3001:p35:span0-912:f2ab3d4822cb",
+        "span_id": "opt3001:p35:span0-912:f2ab3d4822cb",
+        "start": 0,
+        "end": 912,
+        "text": "{\"r\":0,\"c\":[[515,\"OPT3001\"]]}\n{\"r\":1,\"c\":[[54,\"www.ti.com\"],[384,\"SBOS681C–JULY 2014–REVISED NOVEMBER 2017\"]]}\n{\"r\":2,\"c\":[[54,\"Soldering and Handling Recommendations (continued)\"]]}\n{\"r\":3,\"c\":[[54,\"As with most optical devices, handle the OPT3001 with special care to ensure optical surfaces stay clean and\"]]}\n{\"r\":4,\"c\":[[54,\"free from damage. See the Do's and Don'ts section for more detailed recommendations. For best optical\"]]}\n{\"r\":5,\"c\":[[54,\"performance, solder flux and any other possible debris must be cleaned after soldering processes.\"]]}\n{\"r\":6,\"c\":[[54,\"12.2\"],[85,\"DNP (S-PDSO-N6) Mechanical Drawings\"]]}\n{\"r\":7,\"c\":[[169,\"Figure 36. Package Orientation Visual Reference of Pin 1\"]]}\n{\"r\":8,\"c\":[[281,\"(Top View)\"]]}\n{\"r\":9,\"c\":[[54,\"Copyright © 2014–2017, Texas Instruments Incorporated\"],[409,\"Submit Documentation Feedback\"],[549,\"35\"]]}\n{\"r\":10,\"c\":[[250,\"Product Folder Links: OPT3001\"]]}",
+        "packet_kind": "prose",
+        "table_id": null,
+        "source_rows": [
+          {
+            "r": 0,
+            "c": [
+              [
+                515,
+                "OPT3001"
+              ]
+            ]
+          },
+          {
+            "r": 1,
+            "c": [
+              [
+                54,
+                "www.ti.com"
+              ],
+              [
+                384,
+                "SBOS681C–JULY 2014–REVISED NOVEMBER 2017"
+              ]
+            ]
+          },
+          {
+            "r": 2,
+            "c": [
+              [
+                54,
+                "Soldering and Handling Recommendations (continued)"
+              ]
+            ]
+          },
+          {
+            "r": 3,
+            "c": [
+              [
+                54,
+                "As with most optical devices, handle the OPT3001 with special care to ensure optical surfaces stay clean and"
+              ]
+            ]
+          },
+          {
+            "r": 4,
+            "c": [
+              [
+                54,
+                "free from damage. See the Do's and Don'ts section for more detailed recommendations. For best optical"
+              ]
+            ]
+          },
+          {
+            "r": 5,
+            "c": [
+              [
+                54,
+                "performance, solder flux and any other possible debris must be cleaned after soldering processes."
+              ]
+            ]
+          },
+          {
+            "r": 6,
+            "c": [
+              [
+                54,
+                "12.2"
+              ],
+              [
+                85,
+                "DNP (S-PDSO-N6) Mechanical Drawings"
+              ]
+            ]
+          },
+          {
+            "r": 7,
+            "c": [
+              [
+                169,
+                "Figure 36. Package Orientation Visual Reference of Pin 1"
+              ]
+            ]
+          },
+          {
+            "r": 8,
+            "c": [
+              [
+                281,
+                "(Top View)"
+              ]
+            ]
+          },
+          {
+            "r": 9,
+            "c": [
+              [
+                54,
+                "Copyright © 2014–2017, Texas Instruments Incorporated"
+              ],
+              [
+                409,
+                "Submit Documentation Feedback"
+              ],
+              [
+                549,
+                "35"
+              ]
+            ]
+          },
+          {
+            "r": 10,
+            "c": [
+              [
+                250,
+                "Product Folder Links: OPT3001"
+              ]
+            ]
+          }
+        ],
+        "layout_sha256": null,
+        "geometry_records": [
+          {
+            "top": 41.10000000000002,
+            "c": [
+              [
+                515,
+                "OPT3001"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  515.2,
+                  41.10000000000002,
+                  557.97,
+                  51.10000000000002
+                ],
+                "text": "OPT3001"
+              }
+            ],
+            "kind": "prose",
+            "r": 0
+          },
+          {
+            "top": 55.26999999999998,
+            "c": [
+              [
+                54,
+                "www.ti.com"
+              ],
+              [
+                384,
+                "SBOS681C–JULY 2014–REVISED NOVEMBER 2017"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  55.26999999999998,
+                  96.179445,
+                  62.26999999999998
+                ],
+                "text": "www.ti.com"
+              },
+              {
+                "bbox": [
+                  384.4,
+                  55.26999999999998,
+                  557.5980000000001,
+                  62.26999999999998
+                ],
+                "text": "SBOS681C–JULY 2014–REVISED NOVEMBER 2017"
+              }
+            ],
+            "kind": "prose",
+            "r": 1
+          },
+          {
+            "top": 74.30999999999995,
+            "c": [
+              [
+                54,
+                "Soldering and Handling Recommendations (continued)"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  74.30999999999995,
+                  342.548,
+                  85.30999999999995
+                ],
+                "text": "Soldering and Handling Recommendations (continued)"
+              }
+            ],
+            "kind": "prose",
+            "r": 2
+          },
+          {
+            "top": 94.10000000000002,
+            "c": [
+              [
+                54,
+                "As with most optical devices, handle the OPT3001 with special care to ensure optical surfaces stay clean and"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  94.10000000000002,
+                  556.4499999999999,
+                  104.10000000000002
+                ],
+                "text": "As with most optical devices, handle the OPT3001 with special care to ensure optical surfaces stay clean and"
+              }
+            ],
+            "kind": "prose",
+            "r": 3
+          },
+          {
+            "top": 105.07000000000005,
+            "c": [
+              [
+                54,
+                "free from damage. See the Do's and Don'ts section for more detailed recommendations. For best optical"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  105.10000000000002,
+                  557.8199999999999,
+                  115.10000000000002
+                ],
+                "text": "free from damage. See the Do's and Don'ts section for more detailed recommendations. For best optical"
+              }
+            ],
+            "kind": "prose",
+            "r": 4
+          },
+          {
+            "top": 116.10000000000002,
+            "c": [
+              [
+                54,
+                "performance, solder flux and any other possible debris must be cleaned after soldering processes."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  116.10000000000002,
+                  490.86,
+                  126.10000000000002
+                ],
+                "text": "performance, solder flux and any other possible debris must be cleaned after soldering processes."
+              }
+            ],
+            "kind": "prose",
+            "r": 5
+          },
+          {
+            "top": 138.20999999999992,
+            "c": [
+              [
+                54,
+                "12.2"
+              ],
+              [
+                85,
+                "DNP (S-PDSO-N6) Mechanical Drawings"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  138.20999999999992,
+                  75.395,
+                  149.20999999999992
+                ],
+                "text": "12.2"
+              },
+              {
+                "bbox": [
+                  85.2,
+                  138.20999999999992,
+                  294.217,
+                  149.20999999999992
+                ],
+                "text": "DNP (S-PDSO-N6) Mechanical Drawings"
+              }
+            ],
+            "kind": "prose",
+            "r": 6
+          },
+          {
+            "top": 350.1,
+            "c": [
+              [
+                169,
+                "Figure 36. Package Orientation Visual Reference of Pin 1"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  169.1,
+                  350.1,
+                  442.62000000000006,
+                  360.1
+                ],
+                "text": "Figure 36. Package Orientation Visual Reference of Pin 1"
+              }
+            ],
+            "kind": "prose",
+            "r": 7
+          },
+          {
+            "top": 360.6,
+            "c": [
+              [
+                281,
+                "(Top View)"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  280.6,
+                  360.6,
+                  331.32,
+                  370.6
+                ],
+                "text": "(Top View)"
+              }
+            ],
+            "kind": "prose",
+            "r": 8
+          },
+          {
+            "top": 740.856,
+            "c": [
+              [
+                54,
+                "Copyright © 2014–2017, Texas Instruments Incorporated"
+              ],
+              [
+                409,
+                "Submit Documentation Feedback"
+              ],
+              [
+                549,
+                "35"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  741.67,
+                  231.394,
+                  748.67
+                ],
+                "text": "Copyright © 2014–2017, Texas Instruments Incorporated"
+              },
+              {
+                "bbox": [
+                  409.3,
+                  740.856,
+                  527.88,
+                  748.856
+                ],
+                "text": "Submit Documentation Feedback"
+              },
+              {
+                "bbox": [
+                  549.1,
+                  740.88,
+                  557.996,
+                  748.88
+                ],
+                "text": "35"
+              }
+            ],
+            "kind": "prose",
+            "r": 9
+          },
+          {
+            "top": 755.856,
+            "c": [
+              [
+                250,
+                "Product Folder Links: OPT3001"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  249.7,
+                  755.88,
+                  362.216,
+                  763.88
+                ],
+                "text": "Product Folder Links: OPT3001"
+              }
+            ],
+            "kind": "prose",
+            "r": 10
+          }
+        ]
+      },
+      {
+        "doc_id": "opt3001",
+        "page": 26,
+        "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+        "url": "https://www.ti.com/lit/ds/symlink/opt3001.pdf#page=26",
+        "title": "OPT3001 ambient light sensor datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "opt3001:p26:span1664-2037:f2ab3d4822cb",
+        "span_id": "opt3001:p26:span1664-2037:f2ab3d4822cb",
+        "start": 1664,
+        "end": 2037,
+        "text": "{\"r\":11,\"c\":[[57,\"LEGEND: R = Read only\"]]}\n{\"r\":12,\"c\":[[178,\"Table 14. Manufacturer ID Register Field Descriptions\"]]}\n{\"r\":13,\"c\":[[54,\"Bit\"],[104,\"Field\"],[194,\"Type\"],[238,\"Reset\"],[293,\"Description\"]]}\n{\"r\":14,\"c\":[[54,\"15:0\"],[104,\"ID[15:0]\"],[194,\"R\"],[238,\"5449h\"],[293,\"Manufacturer ID. The manufacturer ID reads 5449h. In ASCII code, this register reads TI.\"]]}\n",
+        "source_rows": [
+          {
+            "r": 11,
+            "c": [
+              [
+                57,
+                "LEGEND: R = Read only"
+              ]
+            ]
+          },
+          {
+            "r": 12,
+            "c": [
+              [
+                178,
+                "Table 14. Manufacturer ID Register Field Descriptions"
+              ]
+            ]
+          },
+          {
+            "r": 13,
+            "c": [
+              [
+                54,
+                "Bit"
+              ],
+              [
+                104,
+                "Field"
+              ],
+              [
+                194,
+                "Type"
+              ],
+              [
+                238,
+                "Reset"
+              ],
+              [
+                293,
+                "Description"
+              ]
+            ]
+          },
+          {
+            "r": 14,
+            "c": [
+              [
+                54,
+                "15:0"
+              ],
+              [
+                104,
+                "ID[15:0]"
+              ],
+              [
+                194,
+                "R"
+              ],
+              [
+                238,
+                "5449h"
+              ],
+              [
+                293,
+                "Manufacturer ID. The manufacturer ID reads 5449h. In ASCII code, this register reads TI."
+              ]
+            ]
+          }
+        ],
+        "geometry_records": [
+          {
+            "top": 204.77999999999997,
+            "c": [
+              [
+                57,
+                "LEGEND: R = Read only"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  57.0,
+                  204.77999999999997,
+                  145.92200000000003,
+                  212.77999999999997
+                ],
+                "text": "LEGEND: R = Read only"
+              }
+            ],
+            "kind": "prose",
+            "r": 11
+          },
+          {
+            "top": 219.30000000000007,
+            "c": [
+              [
+                178,
+                "Table 14. Manufacturer ID Register Field Descriptions"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  178.3,
+                  219.30000000000007,
+                  433.39000000000004,
+                  229.30000000000007
+                ],
+                "text": "Table 14. Manufacturer ID Register Field Descriptions"
+              }
+            ],
+            "kind": "prose",
+            "r": 12
+          },
+          {
+            "top": 233.10000000000002,
+            "c": [
+              [
+                54,
+                "Bit"
+              ],
+              [
+                104,
+                "Field"
+              ],
+              [
+                194,
+                "Type"
+              ],
+              [
+                238,
+                "Reset"
+              ],
+              [
+                293,
+                "Description"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.122727272727275,
+                  233.10000000000002,
+                  103.8,
+                  246.3
+                ],
+                "text": "Bit",
+                "word_boxes": [
+                  [
+                    73.6,
+                    236.4799999999999,
+                    84.256,
+                    244.4799999999999,
+                    "Bit"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  103.8,
+                  233.10000000000002,
+                  193.6,
+                  246.3
+                ],
+                "text": "Field",
+                "word_boxes": [
+                  [
+                    106.9,
+                    236.4799999999999,
+                    125.54,
+                    244.4799999999999,
+                    "Field"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  193.6,
+                  233.10000000000002,
+                  238.5,
+                  246.3
+                ],
+                "text": "Type",
+                "word_boxes": [
+                  [
+                    196.7,
+                    236.4799999999999,
+                    215.356,
+                    244.4799999999999,
+                    "Type"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  238.5,
+                  233.10000000000002,
+                  293.40000000000003,
+                  246.3
+                ],
+                "text": "Reset",
+                "word_boxes": [
+                  [
+                    241.6,
+                    236.4799999999999,
+                    263.38399999999996,
+                    244.4799999999999,
+                    "Reset"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  293.40000000000003,
+                  233.10000000000002,
+                  557.8545454545455,
+                  246.3
+                ],
+                "text": "Description",
+                "word_boxes": [
+                  [
+                    296.5,
+                    236.4799999999999,
+                    340.468,
+                    244.4799999999999,
+                    "Description"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 1,
+            "r": 13
+          },
+          {
+            "top": 246.3,
+            "c": [
+              [
+                54,
+                "15:0"
+              ],
+              [
+                104,
+                "ID[15:0]"
+              ],
+              [
+                194,
+                "R"
+              ],
+              [
+                238,
+                "5449h"
+              ],
+              [
+                293,
+                "Manufacturer ID. The manufacturer ID reads 5449h. In ASCII code, this register reads TI."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.122727272727275,
+                  246.3,
+                  103.8,
+                  268.45000000000005
+                ],
+                "text": "15:0",
+                "word_boxes": [
+                  [
+                    71.1,
+                    254.17999999999995,
+                    86.66,
+                    262.17999999999995,
+                    "15:0"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  103.8,
+                  246.3,
+                  193.6,
+                  268.45000000000005
+                ],
+                "text": "ID[15:0]",
+                "word_boxes": [
+                  [
+                    106.9,
+                    254.17999999999995,
+                    134.88400000000001,
+                    262.17999999999995,
+                    "ID[15:0]"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  193.6,
+                  246.3,
+                  238.5,
+                  268.45000000000005
+                ],
+                "text": "R",
+                "word_boxes": [
+                  [
+                    196.7,
+                    254.17999999999995,
+                    202.476,
+                    262.17999999999995,
+                    "R"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  238.5,
+                  246.3,
+                  293.40000000000003,
+                  268.45000000000005
+                ],
+                "text": "5449h",
+                "word_boxes": [
+                  [
+                    241.6,
+                    254.17999999999995,
+                    263.84,
+                    262.17999999999995,
+                    "5449h"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  293.40000000000003,
+                  246.3,
+                  557.8545454545455,
+                  268.45000000000005
+                ],
+                "text": "Manufacturer ID. The manufacturer ID reads 5449h. In ASCII code, this register reads TI.",
+                "word_boxes": [
+                  [
+                    296.5,
+                    249.67999999999995,
+                    347.148,
+                    257.67999999999995,
+                    "Manufacturer"
+                  ],
+                  [
+                    349.55,
+                    249.67999999999995,
+                    359.75800000000004,
+                    257.67999999999995,
+                    "ID."
+                  ],
+                  [
+                    296.5,
+                    258.67999999999995,
+                    310.27599999999995,
+                    266.67999999999995,
+                    "The"
+                  ],
+                  [
+                    312.68,
+                    258.67999999999995,
+                    359.79200000000003,
+                    266.67999999999995,
+                    "manufacturer"
+                  ],
+                  [
+                    362.19,
+                    258.67999999999995,
+                    370.182,
+                    266.67999999999995,
+                    "ID"
+                  ],
+                  [
+                    372.58,
+                    258.67999999999995,
+                    392.58799999999997,
+                    266.67999999999995,
+                    "reads"
+                  ],
+                  [
+                    394.99,
+                    258.67999999999995,
+                    419.446,
+                    266.67999999999995,
+                    "5449h."
+                  ],
+                  [
+                    421.85,
+                    258.67999999999995,
+                    428.514,
+                    266.67999999999995,
+                    "In"
+                  ],
+                  [
+                    430.91,
+                    258.67999999999995,
+                    451.77400000000006,
+                    266.67999999999995,
+                    "ASCII"
+                  ],
+                  [
+                    454.17,
+                    258.67999999999995,
+                    473.73,
+                    266.67999999999995,
+                    "code,"
+                  ],
+                  [
+                    476.13,
+                    258.67999999999995,
+                    488.57,
+                    266.67999999999995,
+                    "this"
+                  ],
+                  [
+                    490.96999999999997,
+                    258.67999999999995,
+                    517.634,
+                    266.67999999999995,
+                    "register"
+                  ],
+                  [
+                    520.03,
+                    258.67999999999995,
+                    540.038,
+                    266.67999999999995,
+                    "reads"
+                  ],
+                  [
+                    542.49,
+                    258.65599999999995,
+                    551.806,
+                    266.67999999999995,
+                    "TI."
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 1,
+            "r": 14
+          }
+        ],
+        "packet_kind": "table",
+        "table_id": 1,
+        "closure": {
+          "table_index": 1,
+          "table_indices": [
+            1
+          ],
+          "physical_rows": [
+            13,
+            14
+          ],
+          "first_context_row": 11,
+          "last_context_row": 14,
+          "scope": "All local physical table rows and adjacent original context; cross-page notes unresolved."
+        }
+      },
+      {
+        "doc_id": "opt3001",
+        "page": 26,
+        "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+        "url": "https://www.ti.com/lit/ds/symlink/opt3001.pdf#page=26",
+        "title": "OPT3001 ambient light sensor datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "opt3001:p26:span3118-3435:f2ab3d4822cb",
+        "span_id": "opt3001:p26:span3118-3435:f2ab3d4822cb",
+        "start": 3118,
+        "end": 3435,
+        "text": "{\"r\":24,\"c\":[[57,\"LEGEND: R = Read only\"]]}\n{\"r\":25,\"c\":[[194,\"Table 15. Device ID Register Field Descriptions\"]]}\n{\"r\":26,\"c\":[[54,\"Bit\"],[104,\"Field\"],[194,\"Type\"],[238,\"Reset\"],[293,\"Description\"]]}\n{\"r\":27,\"c\":[[54,\"15:0\"],[104,\"DID[15:0]\"],[194,\"R\"],[238,\"3001h\"],[293,\"Device ID. The device ID reads 3001h.\"]]}\n",
+        "source_rows": [
+          {
+            "r": 24,
+            "c": [
+              [
+                57,
+                "LEGEND: R = Read only"
+              ]
+            ]
+          },
+          {
+            "r": 25,
+            "c": [
+              [
+                194,
+                "Table 15. Device ID Register Field Descriptions"
+              ]
+            ]
+          },
+          {
+            "r": 26,
+            "c": [
+              [
+                54,
+                "Bit"
+              ],
+              [
+                104,
+                "Field"
+              ],
+              [
+                194,
+                "Type"
+              ],
+              [
+                238,
+                "Reset"
+              ],
+              [
+                293,
+                "Description"
+              ]
+            ]
+          },
+          {
+            "r": 27,
+            "c": [
+              [
+                54,
+                "15:0"
+              ],
+              [
+                104,
+                "DID[15:0]"
+              ],
+              [
+                194,
+                "R"
+              ],
+              [
+                238,
+                "3001h"
+              ],
+              [
+                293,
+                "Device ID. The device ID reads 3001h."
+              ]
+            ]
+          }
+        ],
+        "geometry_records": [
+          {
+            "top": 407.28000000000003,
+            "c": [
+              [
+                57,
+                "LEGEND: R = Read only"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  57.0,
+                  407.28000000000003,
+                  145.92200000000003,
+                  415.28000000000003
+                ],
+                "text": "LEGEND: R = Read only"
+              }
+            ],
+            "kind": "prose",
+            "r": 24
+          },
+          {
+            "top": 430.6,
+            "c": [
+              [
+                194,
+                "Table 15. Device ID Register Field Descriptions"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  193.9,
+                  430.6,
+                  417.91,
+                  440.6
+                ],
+                "text": "Table 15. Device ID Register Field Descriptions"
+              }
+            ],
+            "kind": "prose",
+            "r": 25
+          },
+          {
+            "top": 444.4,
+            "c": [
+              [
+                54,
+                "Bit"
+              ],
+              [
+                104,
+                "Field"
+              ],
+              [
+                194,
+                "Type"
+              ],
+              [
+                238,
+                "Reset"
+              ],
+              [
+                293,
+                "Description"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.122727272727275,
+                  444.4,
+                  103.8,
+                  457.6
+                ],
+                "text": "Bit",
+                "word_boxes": [
+                  [
+                    73.6,
+                    447.78000000000003,
+                    84.256,
+                    455.78000000000003,
+                    "Bit"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  103.8,
+                  444.4,
+                  193.6,
+                  457.6
+                ],
+                "text": "Field",
+                "word_boxes": [
+                  [
+                    106.9,
+                    447.78000000000003,
+                    125.54,
+                    455.78000000000003,
+                    "Field"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  193.6,
+                  444.4,
+                  238.5,
+                  457.6
+                ],
+                "text": "Type",
+                "word_boxes": [
+                  [
+                    196.7,
+                    447.78000000000003,
+                    215.356,
+                    455.78000000000003,
+                    "Type"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  238.5,
+                  444.4,
+                  293.40000000000003,
+                  457.6
+                ],
+                "text": "Reset",
+                "word_boxes": [
+                  [
+                    241.6,
+                    447.78000000000003,
+                    263.38399999999996,
+                    455.78000000000003,
+                    "Reset"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  293.40000000000003,
+                  444.4,
+                  557.8545454545455,
+                  457.6
+                ],
+                "text": "Description",
+                "word_boxes": [
+                  [
+                    296.5,
+                    447.78000000000003,
+                    340.468,
+                    455.78000000000003,
+                    "Description"
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 3,
+            "r": 26
+          },
+          {
+            "top": 457.6,
+            "c": [
+              [
+                54,
+                "15:0"
+              ],
+              [
+                104,
+                "DID[15:0]"
+              ],
+              [
+                194,
+                "R"
+              ],
+              [
+                238,
+                "3001h"
+              ],
+              [
+                293,
+                "Device ID. The device ID reads 3001h."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.122727272727275,
+                  457.6,
+                  103.8,
+                  479.75
+                ],
+                "text": "15:0",
+                "word_boxes": [
+                  [
+                    71.1,
+                    465.48,
+                    86.66,
+                    473.48,
+                    "15:0"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  103.8,
+                  457.6,
+                  193.6,
+                  479.75
+                ],
+                "text": "DID[15:0]",
+                "word_boxes": [
+                  [
+                    106.9,
+                    465.48,
+                    140.66000000000003,
+                    473.48,
+                    "DID[15:0]"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  193.6,
+                  457.6,
+                  238.5,
+                  479.75
+                ],
+                "text": "R",
+                "word_boxes": [
+                  [
+                    196.7,
+                    465.48,
+                    202.476,
+                    473.48,
+                    "R"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  238.5,
+                  457.6,
+                  293.40000000000003,
+                  479.75
+                ],
+                "text": "3001h",
+                "word_boxes": [
+                  [
+                    241.6,
+                    465.48,
+                    263.84,
+                    473.48,
+                    "3001h"
+                  ]
+                ]
+              },
+              {
+                "bbox": [
+                  293.40000000000003,
+                  457.6,
+                  557.8545454545455,
+                  479.75
+                ],
+                "text": "Device ID. The device ID reads 3001h.",
+                "word_boxes": [
+                  [
+                    296.5,
+                    460.98,
+                    322.284,
+                    468.98,
+                    "Device"
+                  ],
+                  [
+                    324.68,
+                    460.98,
+                    334.88800000000003,
+                    468.98,
+                    "ID."
+                  ],
+                  [
+                    296.5,
+                    469.98,
+                    310.27599999999995,
+                    477.98,
+                    "The"
+                  ],
+                  [
+                    312.68,
+                    469.98,
+                    335.8,
+                    477.98,
+                    "device"
+                  ],
+                  [
+                    338.2,
+                    469.98,
+                    346.192,
+                    477.98,
+                    "ID"
+                  ],
+                  [
+                    348.59,
+                    469.98,
+                    368.59799999999996,
+                    477.98,
+                    "reads"
+                  ],
+                  [
+                    371.0,
+                    469.98,
+                    395.456,
+                    477.98,
+                    "3001h."
+                  ]
+                ]
+              }
+            ],
+            "kind": "table",
+            "table_index": 3,
+            "r": 27
+          }
+        ],
+        "packet_kind": "table",
+        "table_id": 3,
+        "closure": {
+          "table_index": 3,
+          "table_indices": [
+            3
+          ],
+          "physical_rows": [
+            26,
+            27
+          ],
+          "first_context_row": 24,
+          "last_context_row": 27,
+          "scope": "All local physical table rows and adjacent original context; cross-page notes unresolved."
+        }
+      },
+      {
+        "doc_id": "opt3001",
+        "page": 27,
+        "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+        "url": "https://www.ti.com/lit/ds/symlink/opt3001.pdf#page=27",
+        "title": "OPT3001 ambient light sensor datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "opt3001:p27:span1168-2536:f2ab3d4822cb",
+        "span_id": "opt3001:p27:span1168-2536:f2ab3d4822cb",
+        "start": 1168,
+        "end": 2536,
+        "text": "{\"r\":13,\"c\":[[54,\"There are two categories of interface to the OPT3001: electrical and optical.\"]]}\n{\"r\":14,\"c\":[[54,\"8.1.1\"],[85,\"Electrical Interface\"]]}\n{\"r\":15,\"c\":[[54,\"The electrical interface is quite simple, as illustrated in Figure 29. Connect the OPT3001 I2C SDA and SCL pins\"]]}\n{\"r\":16,\"c\":[[54,\"to the same pins of an applications processor, microcontroller, or other digital processor. If that digital processor\"]]}\n{\"r\":17,\"c\":[[54,\"requires an interrupt resulting from an event of interest from the OPT3001, then connect the INT pin to either an\"]]}\n{\"r\":18,\"c\":[[54,\"interrupt or general-purpose I/O pin of the processor. There are multiple uses for this interrupt, including signaling\"]]}\n{\"r\":19,\"c\":[[54,\"the system to wake up from low-power mode, processing other tasks while waiting for an ambient light event of\"]]}\n{\"r\":20,\"c\":[[54,\"interest, or alerting the processor that a sample is ready to be read. Connect pullup resistors between a power\"]]}\n{\"r\":21,\"c\":[[54,\"supply appropriate for digital communication and the SDA and SCL pins (because they have open-drain output\"]]}\n{\"r\":22,\"c\":[[54,\"structures). If the INT pin is used, connect a pullup resistor to the INT pin. A typical value for these pullup\"]]}\n{\"r\":23,\"c\":[[54,\"resistors is 10 kΩ. The resistor choice can be optimized in conjunction to the bus capacitance to balance the\"]]}\n",
+        "packet_kind": "prose",
+        "table_id": null,
+        "source_rows": [
+          {
+            "r": 13,
+            "c": [
+              [
+                54,
+                "There are two categories of interface to the OPT3001: electrical and optical."
+              ]
+            ]
+          },
+          {
+            "r": 14,
+            "c": [
+              [
+                54,
+                "8.1.1"
+              ],
+              [
+                85,
+                "Electrical Interface"
+              ]
+            ]
+          },
+          {
+            "r": 15,
+            "c": [
+              [
+                54,
+                "The electrical interface is quite simple, as illustrated in Figure 29. Connect the OPT3001 I2C SDA and SCL pins"
+              ]
+            ]
+          },
+          {
+            "r": 16,
+            "c": [
+              [
+                54,
+                "to the same pins of an applications processor, microcontroller, or other digital processor. If that digital processor"
+              ]
+            ]
+          },
+          {
+            "r": 17,
+            "c": [
+              [
+                54,
+                "requires an interrupt resulting from an event of interest from the OPT3001, then connect the INT pin to either an"
+              ]
+            ]
+          },
+          {
+            "r": 18,
+            "c": [
+              [
+                54,
+                "interrupt or general-purpose I/O pin of the processor. There are multiple uses for this interrupt, including signaling"
+              ]
+            ]
+          },
+          {
+            "r": 19,
+            "c": [
+              [
+                54,
+                "the system to wake up from low-power mode, processing other tasks while waiting for an ambient light event of"
+              ]
+            ]
+          },
+          {
+            "r": 20,
+            "c": [
+              [
+                54,
+                "interest, or alerting the processor that a sample is ready to be read. Connect pullup resistors between a power"
+              ]
+            ]
+          },
+          {
+            "r": 21,
+            "c": [
+              [
+                54,
+                "supply appropriate for digital communication and the SDA and SCL pins (because they have open-drain output"
+              ]
+            ]
+          },
+          {
+            "r": 22,
+            "c": [
+              [
+                54,
+                "structures). If the INT pin is used, connect a pullup resistor to the INT pin. A typical value for these pullup"
+              ]
+            ]
+          },
+          {
+            "r": 23,
+            "c": [
+              [
+                54,
+                "resistors is 10 kΩ. The resistor choice can be optimized in conjunction to the bus capacitance to balance the"
+              ]
+            ]
+          }
+        ],
+        "layout_sha256": null,
+        "geometry_records": [
+          {
+            "top": 244.80000000000007,
+            "c": [
+              [
+                54,
+                "There are two categories of interface to the OPT3001: electrical and optical."
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  244.80000000000007,
+                  391.43,
+                  254.80000000000007
+                ],
+                "text": "There are two categories of interface to the OPT3001: electrical and optical."
+              }
+            ],
+            "kind": "prose",
+            "r": 13
+          },
+          {
+            "top": 266.70000000000005,
+            "c": [
+              [
+                54,
+                "8.1.1"
+              ],
+              [
+                85,
+                "Electrical Interface"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  266.70000000000005,
+                  76.22,
+                  276.70000000000005
+                ],
+                "text": "8.1.1"
+              },
+              {
+                "bbox": [
+                  85.42,
+                  266.70000000000005,
+                  174.51,
+                  276.70000000000005
+                ],
+                "text": "Electrical Interface"
+              }
+            ],
+            "kind": "prose",
+            "r": 14
+          },
+          {
+            "top": 281.97,
+            "c": [
+              [
+                54,
+                "The electrical interface is quite simple, as illustrated in Figure 29. Connect the OPT3001 I2C SDA and SCL pins"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  283.6,
+                  556.9100000000001,
+                  293.6
+                ],
+                "text": "The electrical interface is quite simple, as illustrated in Figure 29. Connect the OPT3001 I2C SDA and SCL pins"
+              }
+            ],
+            "kind": "prose",
+            "r": 15
+          },
+          {
+            "top": 294.6,
+            "c": [
+              [
+                54,
+                "to the same pins of an applications processor, microcontroller, or other digital processor. If that digital processor"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  294.6,
+                  557.3000000000002,
+                  304.6
+                ],
+                "text": "to the same pins of an applications processor, microcontroller, or other digital processor. If that digital processor"
+              }
+            ],
+            "kind": "prose",
+            "r": 16
+          },
+          {
+            "top": 305.6,
+            "c": [
+              [
+                54,
+                "requires an interrupt resulting from an event of interest from the OPT3001, then connect the INT pin to either an"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  305.6,
+                  556.6899999999998,
+                  315.6
+                ],
+                "text": "requires an interrupt resulting from an event of interest from the OPT3001, then connect the INT pin to either an"
+              }
+            ],
+            "kind": "prose",
+            "r": 17
+          },
+          {
+            "top": 316.6,
+            "c": [
+              [
+                54,
+                "interrupt or general-purpose I/O pin of the processor. There are multiple uses for this interrupt, including signaling"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  316.6,
+                  557.58,
+                  326.6
+                ],
+                "text": "interrupt or general-purpose I/O pin of the processor. There are multiple uses for this interrupt, including signaling"
+              }
+            ],
+            "kind": "prose",
+            "r": 18
+          },
+          {
+            "top": 327.6,
+            "c": [
+              [
+                54,
+                "the system to wake up from low-power mode, processing other tasks while waiting for an ambient light event of"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  327.6,
+                  556.4700000000001,
+                  337.6
+                ],
+                "text": "the system to wake up from low-power mode, processing other tasks while waiting for an ambient light event of"
+              }
+            ],
+            "kind": "prose",
+            "r": 19
+          },
+          {
+            "top": 338.6,
+            "c": [
+              [
+                54,
+                "interest, or alerting the processor that a sample is ready to be read. Connect pullup resistors between a power"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  338.6,
+                  556.77,
+                  348.6
+                ],
+                "text": "interest, or alerting the processor that a sample is ready to be read. Connect pullup resistors between a power"
+              }
+            ],
+            "kind": "prose",
+            "r": 20
+          },
+          {
+            "top": 349.6,
+            "c": [
+              [
+                54,
+                "supply appropriate for digital communication and the SDA and SCL pins (because they have open-drain output"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  349.6,
+                  556.8199999999999,
+                  359.6
+                ],
+                "text": "supply appropriate for digital communication and the SDA and SCL pins (because they have open-drain output"
+              }
+            ],
+            "kind": "prose",
+            "r": 21
+          },
+          {
+            "top": 360.6,
+            "c": [
+              [
+                54,
+                "structures). If the INT pin is used, connect a pullup resistor to the INT pin. A typical value for these pullup"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  360.6,
+                  556.6299999999999,
+                  370.6
+                ],
+                "text": "structures). If the INT pin is used, connect a pullup resistor to the INT pin. A typical value for these pullup"
+              }
+            ],
+            "kind": "prose",
+            "r": 22
+          },
+          {
+            "top": 371.6,
+            "c": [
+              [
+                54,
+                "resistors is 10 kΩ. The resistor choice can be optimized in conjunction to the bus capacitance to balance the"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  371.6,
+                  557.06,
+                  381.65
+                ],
+                "text": "resistors is 10 kΩ. The resistor choice can be optimized in conjunction to the bus capacitance to balance the"
+              }
+            ],
+            "kind": "prose",
+            "r": 23
+          }
+        ]
+      },
+      {
+        "doc_id": "opt3001",
+        "page": 18,
+        "source_sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+        "url": "https://www.ti.com/lit/ds/symlink/opt3001.pdf#page=18",
+        "title": "OPT3001 ambient light sensor datasheet",
+        "extraction": "pdfplumber-physical-cells-v1",
+        "id": "opt3001:p18:span1137-2427:f2ab3d4822cb",
+        "span_id": "opt3001:p18:span1137-2427:f2ab3d4822cb",
+        "start": 1137,
+        "end": 2427,
+        "text": "{\"r\":12,\"c\":[[54,\"1001b). Following this alert response, any slave devices that generated an alert identify themselves by\"]]}\n{\"r\":13,\"c\":[[54,\"acknowledging the alert response and sending their respective I2C address on the bus. The alert response can\"]]}\n{\"r\":14,\"c\":[[54,\"activate several different slave devices simultaneously. If more than one slave attempts to respond, bus\"]]}\n{\"r\":15,\"c\":[[54,\"arbitration rules apply. The device with the lowest address wins the arbitration. If the OPT3001 loses the\"]]}\n{\"r\":16,\"c\":[[54,\"arbitration, the device does not acknowledge the I2C transaction and its INT pin remains in an active state,\"]]}\n{\"r\":17,\"c\":[[54,\"prompting the I2C master processor to issue a subsequent SMBus alert response. When the OPT3001 wins the\"]]}\n{\"r\":18,\"c\":[[54,\"arbitration, the device acknowledges the transaction and sets its INT pin to inactive. The master can issue that\"]]}\n{\"r\":19,\"c\":[[54,\"same command again, as many times as necessary to clear the INT pin. See the Interrupt Reporting Mechanism\"]]}\n{\"r\":20,\"c\":[[54,\"Modes section for additional details of how the flags and INT pin are controlled. The master can obtain\"]]}\n{\"r\":21,\"c\":[[54,\"information about the source of the OPT3001 interrupt from the address broadcast in the above process. The\"]]}\n",
+        "packet_kind": "prose",
+        "table_id": null,
+        "source_rows": [
+          {
+            "r": 12,
+            "c": [
+              [
+                54,
+                "1001b). Following this alert response, any slave devices that generated an alert identify themselves by"
+              ]
+            ]
+          },
+          {
+            "r": 13,
+            "c": [
+              [
+                54,
+                "acknowledging the alert response and sending their respective I2C address on the bus. The alert response can"
+              ]
+            ]
+          },
+          {
+            "r": 14,
+            "c": [
+              [
+                54,
+                "activate several different slave devices simultaneously. If more than one slave attempts to respond, bus"
+              ]
+            ]
+          },
+          {
+            "r": 15,
+            "c": [
+              [
+                54,
+                "arbitration rules apply. The device with the lowest address wins the arbitration. If the OPT3001 loses the"
+              ]
+            ]
+          },
+          {
+            "r": 16,
+            "c": [
+              [
+                54,
+                "arbitration, the device does not acknowledge the I2C transaction and its INT pin remains in an active state,"
+              ]
+            ]
+          },
+          {
+            "r": 17,
+            "c": [
+              [
+                54,
+                "prompting the I2C master processor to issue a subsequent SMBus alert response. When the OPT3001 wins the"
+              ]
+            ]
+          },
+          {
+            "r": 18,
+            "c": [
+              [
+                54,
+                "arbitration, the device acknowledges the transaction and sets its INT pin to inactive. The master can issue that"
+              ]
+            ]
+          },
+          {
+            "r": 19,
+            "c": [
+              [
+                54,
+                "same command again, as many times as necessary to clear the INT pin. See the Interrupt Reporting Mechanism"
+              ]
+            ]
+          },
+          {
+            "r": 20,
+            "c": [
+              [
+                54,
+                "Modes section for additional details of how the flags and INT pin are controlled. The master can obtain"
+              ]
+            ]
+          },
+          {
+            "r": 21,
+            "c": [
+              [
+                54,
+                "information about the source of the OPT3001 interrupt from the address broadcast in the above process. The"
+              ]
+            ]
+          }
+        ],
+        "layout_sha256": null,
+        "geometry_records": [
+          {
+            "top": 209.80000000000007,
+            "c": [
+              [
+                54,
+                "1001b). Following this alert response, any slave devices that generated an alert identify themselves by"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  209.80000000000007,
+                  556.9899999999999,
+                  219.80000000000007
+                ],
+                "text": "1001b). Following this alert response, any slave devices that generated an alert identify themselves by"
+              }
+            ],
+            "kind": "prose",
+            "r": 12
+          },
+          {
+            "top": 219.17000000000007,
+            "c": [
+              [
+                54,
+                "acknowledging the alert response and sending their respective I2C address on the bus. The alert response can"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  220.80000000000007,
+                  557.7899999999998,
+                  230.80000000000007
+                ],
+                "text": "acknowledging the alert response and sending their respective I2C address on the bus. The alert response can"
+              }
+            ],
+            "kind": "prose",
+            "r": 13
+          },
+          {
+            "top": 231.80000000000007,
+            "c": [
+              [
+                54,
+                "activate several different slave devices simultaneously. If more than one slave attempts to respond, bus"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  231.80000000000007,
+                  557.7600000000001,
+                  241.80000000000007
+                ],
+                "text": "activate several different slave devices simultaneously. If more than one slave attempts to respond, bus"
+              }
+            ],
+            "kind": "prose",
+            "r": 14
+          },
+          {
+            "top": 242.80000000000007,
+            "c": [
+              [
+                54,
+                "arbitration rules apply. The device with the lowest address wins the arbitration. If the OPT3001 loses the"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  242.80000000000007,
+                  556.99,
+                  252.80000000000007
+                ],
+                "text": "arbitration rules apply. The device with the lowest address wins the arbitration. If the OPT3001 loses the"
+              }
+            ],
+            "kind": "prose",
+            "r": 15
+          },
+          {
+            "top": 252.17000000000007,
+            "c": [
+              [
+                54,
+                "arbitration, the device does not acknowledge the I2C transaction and its INT pin remains in an active state,"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  253.80000000000007,
+                  557.2999999999998,
+                  263.80000000000007
+                ],
+                "text": "arbitration, the device does not acknowledge the I2C transaction and its INT pin remains in an active state,"
+              }
+            ],
+            "kind": "prose",
+            "r": 16
+          },
+          {
+            "top": 263.1700000000001,
+            "c": [
+              [
+                54,
+                "prompting the I2C master processor to issue a subsequent SMBus alert response. When the OPT3001 wins the"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  264.80000000000007,
+                  557.79,
+                  274.80000000000007
+                ],
+                "text": "prompting the I2C master processor to issue a subsequent SMBus alert response. When the OPT3001 wins the"
+              }
+            ],
+            "kind": "prose",
+            "r": 17
+          },
+          {
+            "top": 275.79999999999995,
+            "c": [
+              [
+                54,
+                "arbitration, the device acknowledges the transaction and sets its INT pin to inactive. The master can issue that"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  275.79999999999995,
+                  556.35,
+                  285.8
+                ],
+                "text": "arbitration, the device acknowledges the transaction and sets its INT pin to inactive. The master can issue that"
+              }
+            ],
+            "kind": "prose",
+            "r": 18
+          },
+          {
+            "top": 286.77,
+            "c": [
+              [
+                54,
+                "same command again, as many times as necessary to clear the INT pin. See the Interrupt Reporting Mechanism"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  286.8,
+                  556.73,
+                  296.8
+                ],
+                "text": "same command again, as many times as necessary to clear the INT pin. See the Interrupt Reporting Mechanism"
+              }
+            ],
+            "kind": "prose",
+            "r": 19
+          },
+          {
+            "top": 297.77,
+            "c": [
+              [
+                54,
+                "Modes section for additional details of how the flags and INT pin are controlled. The master can obtain"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  297.77,
+                  557.0699999999998,
+                  307.8
+                ],
+                "text": "Modes section for additional details of how the flags and INT pin are controlled. The master can obtain"
+              }
+            ],
+            "kind": "prose",
+            "r": 20
+          },
+          {
+            "top": 308.8,
+            "c": [
+              [
+                54,
+                "information about the source of the OPT3001 interrupt from the address broadcast in the above process. The"
+              ]
+            ],
+            "provenance": [
+              {
+                "bbox": [
+                  54.0,
+                  308.8,
+                  556.8599999999999,
+                  318.8
+                ],
+                "text": "information about the source of the OPT3001 interrupt from the address broadcast in the above process. The"
+              }
+            ],
+            "kind": "prose",
+            "r": 21
+          }
+        ]
+      }
+    ],
+    "budget": {
+      "budget_chars": 6000,
+      "max_pages": 5,
+      "used_chars": 5073,
+      "selected_pages": 5,
+      "selection": "physical_table_dependency_closure_multistart",
+      "condition_aliases": [],
+      "objective": 31.000453912174173,
+      "trials": [
+        {
+          "seed": null,
+          "objective": 31.000453912174173,
+          "chars": 5073
+        },
+        {
+          "seed": "opt3001:p17:span3512-4325:f2ab3d4822cb",
+          "objective": 31.000453912174173,
+          "chars": 5073
+        },
+        {
+          "seed": "opt3001:p35:span0-912:f2ab3d4822cb",
+          "objective": 31.000453912174173,
+          "chars": 5073
+        },
+        {
+          "seed": "opt3001:p27:span1168-2536:f2ab3d4822cb",
+          "objective": 31.000453912174173,
+          "chars": 5073
+        },
+        {
+          "seed": "opt3001:p18:span1137-2427:f2ab3d4822cb",
+          "objective": 31.000453912174173,
+          "chars": 5073
+        },
+        {
+          "seed": "opt3001:p26:span1664-2037:f2ab3d4822cb",
+          "objective": 31.000453912174173,
+          "chars": 5073
+        },
+        {
+          "seed": "opt3001:p26:span2037-3162:f2ab3d4822cb",
+          "objective": 31.000453912174173,
+          "chars": 5881
+        },
+        {
+          "seed": "opt3001:p26:span29-1708:f2ab3d4822cb",
+          "objective": 30.31775278542813,
+          "chars": 5089
+        },
+        {
+          "seed": "opt3001:p26:span3118-3435:f2ab3d4822cb",
+          "objective": 31.000453912174173,
+          "chars": 5073
+        }
+      ],
+      "rejected_packets": [],
+      "pages": [
+        {
+          "doc_id": "opt3001",
+          "page": 17,
+          "layout_chars": 4325,
+          "selected_chars": 813
+        },
+        {
+          "doc_id": "opt3001",
+          "page": 35,
+          "layout_chars": 912,
+          "selected_chars": 912
+        },
+        {
+          "doc_id": "opt3001",
+          "page": 26,
+          "layout_chars": 3611,
+          "selected_chars": 690
+        },
+        {
+          "doc_id": "opt3001",
+          "page": 27,
+          "layout_chars": 5102,
+          "selected_chars": 1368
+        },
+        {
+          "doc_id": "opt3001",
+          "page": 18,
+          "layout_chars": 3903,
+          "selected_chars": 1290
+        }
+      ],
+      "note": "Only original contiguous ranges are sent to generation/verifier. No gold pages, reference answers, or generated table cells enter selection."
+    },
+    "claims": [],
+    "retrieved_pages": [
+      17,
+      35,
+      26,
+      27,
+      18,
+      33,
+      10,
+      11
+    ],
+    "retrieval_trace": {
+      "mode": "multilingual_v4",
+      "language": "en",
+      "predicted_page_rr_gain": 0.1042121673401113,
+      "escalated": false,
+      "teacher_pairs": 0,
+      "teacher_forward_batches": 0,
+      "student_forward_batches": 1,
+      "candidate_pairs": 16,
+      "latency_ms": 18.99990000129037,
+      "gate_split": "dev",
+      "student_weight_sha256": "978fc11c24c22da4e81d8051acb89c367472d534dc6761596535496cfcb52a50",
+      "teacher_identity": {
+        "repo": "Qwen/Qwen3-Reranker-0.6B",
+        "revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+        "weight_sha256": "27cd75a405b9c1b46b59abfd88aaa209e6fed2a1972cde9b70e7659537c5e65b",
+        "max_input_tokens": 512,
+        "yes_token_id": 9693,
+        "no_token_id": 2152,
+        "instruction": "Retrieve chip-manual evidence that directly answers the question. Match the parameter, min/typ/max column, unit, operating mode and complete test conditions. Topic overlap or a correct value under a different condition is insufficient.",
+        "prompt_sha256": "a382f806df87ddb2befc2354bc9cff7cb3df3d5f60bc20747848013a11422765",
+        "interpretation": "Actually trained domain ranking preference adapter; not generative SFT or factual verification.",
+        "kind": "domain_lora_v4",
+        "adapter_sha256": "470e1f1d24e4403d517c5806d42f18dd72a8fe70e5fcd788fd188ce8b50e7b5c",
+        "selection_split": "dev",
+        "rank": 8,
+        "score_space": "raw_yes_minus_no_logits"
+      },
+      "candidate_scope": "Actual full-chunk BM25/RRF candidates; no source-page injection; weak source-page ranking labels.",
+      "method": "multilingual_v4",
+      "query": "How does OPT3001 handle general-call reset command?",
+      "corpus": "v3",
+      "documents": 20,
+      "full_text_chunks": 10668
+    },
+    "metrics": {
+      "retrieval_ms": 24.788900000203284,
+      "total_ms": 212.08159999878262,
+      "generation_calls": 0
+    },
+    "scope": "Original-PDF retrieval, closed source budget and deterministic numeric atoms; no generated answer or whole-answer correctness claim."
+  }
+}

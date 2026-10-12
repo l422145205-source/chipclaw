@@ -1,0 +1,609 @@
+{
+  "version": "corpus-v3",
+  "sources": [
+    {
+      "doc_id": "stm32f103",
+      "title": "STM32F103x8 / STM32F103xB datasheet",
+      "url": "https://www.st.com/resource/en/datasheet/stm32f103cb.pdf",
+      "category": "MCU",
+      "series": "stm32f1",
+      "legacy": true,
+      "sha256": "1e54ce18e6c34c5b4a78986f26e245e143748c721009fc9af5953795c30686bc",
+      "pages": 114,
+      "chunks": 1838,
+      "version_verbatim": [
+        "July 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            DS5319 Rev 20                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       1/114",
+        "2/115                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     DS5319 Rev 20"
+      ],
+      "pdf_metadata": {
+        "/DocID": "DS5319",
+        "/Document_Title": "Medium-density performance line Arm<Sup>®</Sup>-based 32-bit MCU with 64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces",
+        "/Creator": "C2 v20.4.0000 build 240 - c2_rendition_config : Techlit_Active",
+        "/ModDate": "D:20250731110400+02'00'",
+        "/Document_Type": "Datasheet",
+        "/CreationDate": "D:20250728153454Z",
+        "/Subject": "The STM32F103xx medium-density performance line family incorporates the high-performance Arm® Cortex®-M3 32-bit RISC core operating at a 72MHz frequency, high-speed embedded memories (Flash memory up to 128Kbytes and SRAM up to 20Kbytes), and an extensive range of enhanced I/Os and peripherals connected to two APB buses. All devices offer two 12-bit ADCs, three general purpose 16-bit timers plus one PWM timer, as well as standard and advanced communication interfaces: up to two I2Cs and SPIs, three USARTs, an USB and a CAN.",
+        "/Author": "STMICROELECTRONICS",
+        "/Classification": "Public",
+        "/Alternate_Name": "DS5319",
+        "/Title": "Datasheet - STM32F103x8 STM32F103xB - Medium-density performance line Arm<Sup>®</Sup>-based 32-bit MCU with 64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces",
+        "/Revision": "20",
+        "/Producer": "Acrobat Elements 15.0 (Windows); modified using iText 2.1.7 by 1T3XT"
+      },
+      "cached_pdf": ".cache/v3/manuals/stm32f103.pdf",
+      "captured_at_utc": "2026-10-10T15:57:25.455698+00:00"
+    },
+    {
+      "doc_id": "rp2040",
+      "title": "RP2040 datasheet",
+      "url": "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf",
+      "category": "MCU",
+      "series": "rp2040",
+      "legacy": true,
+      "sha256": "be56fbb75ba0ae9e26558a73c93ac3e75c2ad4e6878d3b6703de2a76d886ea8c",
+      "pages": 642,
+      "chunks": 3270,
+      "version_verbatim": [],
+      "pdf_metadata": {
+        "/Title": "RP2040 Datasheet: A microcontroller by Raspberry Pi.",
+        "/Creator": "Asciidoctor PDF 2.3.4, based on Prawn 2.4.0",
+        "/Producer": "HexaPDF version 0.31.0",
+        "/ModDate": "D:20250220124100-05'00'",
+        "/CreationDate": "D:20250220123948-05'00'"
+      },
+      "cached_pdf": ".cache/v3/manuals/rp2040.pdf",
+      "captured_at_utc": "2026-10-10T15:57:43.695298+00:00"
+    },
+    {
+      "doc_id": "tmp117",
+      "title": "TMP117 digital temperature sensor datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/tmp117.pdf",
+      "category": "environment",
+      "series": "tmp11x",
+      "legacy": true,
+      "sha256": "637a143dda6317d22222e265de47ceac72ba6aed4461ad460efbe84e16b936df",
+      "pages": 50,
+      "chunks": 162,
+      "version_verbatim": [
+        "SNOSD82D – JUNE 2018 – REVISED SEPTEMBER 2022",
+        "SNOSD82D – JUNE 2018 – REVISED SEPTEMBER 2022                                                                                                                          www.ti.com",
+        "4 Revision History..............................................................2              8 Application and Implementation..................................33",
+        "4 Revision History",
+        "NOTE: Page numbers for previous revisions may differ from page numbers in the current version.",
+        "Changes from Revision C (April 2021) to Revision D (September 2022)                                                                                                           Page",
+        "Changes from Revision B (March 2019) to Revision C (April 2021)                                                                                                               Page",
+        "Changes from Revision A (October 2018) to Revision B (March 2019)                                                                                                             Page"
+      ],
+      "pdf_metadata": {
+        "/Creator": "AH XSL Formatter V7.0 MR5 for Windows (x64) : 7.0.6.47833 (2020-10-21T14:40+09)",
+        "/Producer": "iText 2.1.7 by 1T3XT",
+        "/Title": "TMP117 High-Accuracy, Low-Power, Digital Temperature Sensor With SMBus™- and I2C-Compatible Interface datasheet (Rev. D)",
+        "/Keywords": "SNOSD82D",
+        "/Subject": "Data Sheet",
+        "/ModDate": "D:20260925003758-05'00'",
+        "/Author": "Texas Instruments, Incorporated [SNOSD82,D\n]",
+        "/CreationDate": "D:20260925003758-05'00'"
+      },
+      "cached_pdf": ".cache/v3/manuals/tmp117.pdf",
+      "captured_at_utc": "2026-10-10T15:57:45.995602+00:00"
+    },
+    {
+      "doc_id": "ina226",
+      "title": "INA226 current voltage and power monitor datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/ina226.pdf",
+      "category": "current_monitor",
+      "series": "ina22x",
+      "legacy": true,
+      "sha256": "c9b67f886d4a5241a5e070723f7b61867409eeb27eed768b9cdd9cb17e03ca2d",
+      "pages": 41,
+      "chunks": 156,
+      "version_verbatim": [
+        "SBOS547C – JUNE 2011 – REVISED AUGUST 2026",
+        "SBOS547C – JUNE 2011 – REVISED AUGUST 2026                                                                                                                                           www.ti.com",
+        "6.3 Feature Description...................................................10                      10 Revision History..........................................................              32"
+      ],
+      "pdf_metadata": {
+        "/Creator": "Antenna House XSL Formatter V7.4 R1 Windows : 7.4.1.63121 (2023-12-20T11:05+09)",
+        "/Producer": "iText 2.1.7 by 1T3XT",
+        "/Title": "INA226 36V, 16-Bit, Ultra-Precise I2C Output Current, Voltage, and Power Monitor With Alert datasheet (Rev. C)",
+        "/Keywords": "SBOS547C",
+        "/Subject": "Data Sheet",
+        "/ModDate": "D:20260821003529-05'00'",
+        "/Author": "Texas Instruments, Incorporated [SBOS547,C\n]",
+        "/CreationDate": "D:20260821003529-05'00'"
+      },
+      "cached_pdf": ".cache/v3/manuals/ina226.pdf",
+      "captured_at_utc": "2026-10-10T15:57:49.020190+00:00"
+    },
+    {
+      "doc_id": "bme280",
+      "title": "BME280 humidity pressure temperature sensor datasheet",
+      "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf",
+      "category": "environment",
+      "series": "bme280",
+      "legacy": true,
+      "sha256": "a2ccdb449fec94380742fe8eec851a11d9bd4142252d332b34682b4deecd7d89",
+      "pages": 60,
+      "chunks": 500,
+      "version_verbatim": [
+        "BME280 – Data sheet",
+        "Document revision              1.24",
+        "Modifications reserved | Data subject to change without notice                                                                                                                                                                    Document number: BST     -BME280-DS00                                            1-23              Revision_1.       23_012022"
+      ],
+      "pdf_metadata": {
+        "/Author": "Bosch Sensortec GmbH",
+        "/Category": "",
+        "/Comments": "",
+        "/Company": "Gerasch Communication GmbH & Co. KG",
+        "/CreationDate": "D:20240220140144+01'00'",
+        "/Creator": "Acrobat PDFMaker 23 for Word",
+        "/Keywords": "",
+        "/Manager": "",
+        "/ModDate": "D:20240221095636+01'00'",
+        "/Producer": "Adobe PDF Library 23.6.156",
+        "/SourceModified": "D:20240220130037",
+        "/Subject": "",
+        "/Title": "BME280 Datasheet"
+      },
+      "cached_pdf": ".cache/v3/manuals/bme280.pdf",
+      "captured_at_utc": "2026-10-10T15:57:51.811940+00:00"
+    },
+    {
+      "doc_id": "msp430g2553",
+      "title": "MSP430G2x53/G2x13 mixed signal MCU datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/msp430g2553.pdf",
+      "category": "MCU",
+      "series": "msp430g2",
+      "sha256": "ec033a3ef8d9ca06a9b6e884c2954afb4b0d232b78061b9ec98ccd418236af21",
+      "pages": 87,
+      "chunks": 377,
+      "version_verbatim": [
+        "www.ti.com                                                                                                                                                                 SLAS735J –APRIL 2011–REVISED MAY 2013",
+        "SLAS735J –APRIL 2011–REVISED MAY 2013                                                                                                                                                    www.ti.com"
+      ],
+      "pdf_metadata": {
+        "/Creator": "TopLeaf 7.6.037",
+        "/Producer": "iText 2.1.7 by 1T3XT",
+        "/Title": "MSP430G2x53, MSP430G2x13 Mixed Signal Microcontroller datasheet (Rev. J)",
+        "/Keywords": ", SLAS735,SLAS735J",
+        "/Subject": "Data Sheet",
+        "/ModDate": "D:20260811033022-05'00'",
+        "/Author": "Texas Instruments, Incorporated [SLAS735,J\n]",
+        "/CreationDate": "D:20260811033022-05'00'"
+      },
+      "cached_pdf": ".cache/v3/manuals/msp430g2553.pdf",
+      "captured_at_utc": "2026-10-10T15:57:57.651405+00:00"
+    },
+    {
+      "doc_id": "ads1115",
+      "title": "ADS1113/ADS1114/ADS1115 ADC datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/ads1115.pdf",
+      "category": "ADC",
+      "series": "ads111x",
+      "sha256": "eefff4d412ce2dcd7e659f47238edc9b2fa02e5971f2625af730502033701834",
+      "pages": 57,
+      "chunks": 235,
+      "version_verbatim": [
+        "SBAS444E – MAY 2009 – REVISED DECEMBER 2024",
+        "SBAS444E – MAY 2009 – REVISED DECEMBER 2024                                                                                                                                       www.ti.com",
+        "7.3 Feature Description...................................................13                     13 Revision History..........................................................            41"
+      ],
+      "pdf_metadata": {
+        "/Creator": "Antenna House XSL Formatter V7.4 R1 Windows : 7.4.1.63121 (2023-12-20T11:05+09)",
+        "/Producer": "iText 2.1.7 by 1T3XT",
+        "/Title": "ADS111x Ultra-Small, Low-Power, I2 C-Compatible, 860SPS, 16-Bit ADCs with Internal Reference, Oscillator, and Programmable Comparator datasheet (Rev. E)",
+        "/Keywords": "SBAS444E",
+        "/Subject": "Data Sheet",
+        "/ModDate": "D:20260904020438-05'00'",
+        "/Author": "Texas Instruments, Incorporated [SBAS444,E\n]",
+        "/CreationDate": "D:20260904020438-05'00'"
+      },
+      "cached_pdf": ".cache/v3/manuals/ads1115.pdf",
+      "captured_at_utc": "2026-10-10T15:58:01.843828+00:00"
+    },
+    {
+      "doc_id": "ads1220",
+      "title": "ADS1220 24-bit ADC datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/ads1220.pdf",
+      "category": "ADC",
+      "series": "ads122x",
+      "sha256": "218e25810febc1d740287cebe0678d844817a5db9191cba59cb471647ace3ac4",
+      "pages": 78,
+      "chunks": 297,
+      "version_verbatim": [
+        "SBAS501D – MAY 2013 – REVISED MAY 2026",
+        "SBAS501D – MAY 2013 – REVISED MAY 2026                                                                                                                                             www.ti.com",
+        "8.5 Programming............................................................           36         11 Revision History..........................................................             67"
+      ],
+      "pdf_metadata": {
+        "/Creator": "Antenna House XSL Formatter V7.4 R1 Windows : 7.4.1.63121 (2023-12-20T11:05+09)",
+        "/Producer": "iText 2.1.7 by 1T3XT",
+        "/Title": "ADS1220 4-Channel, 2kSPS, Low-Power, 24-Bit ADC With Integrated PGA and Reference datasheet (Rev. D)",
+        "/Keywords": "SBAS501D",
+        "/Subject": "Data Sheet",
+        "/ModDate": "D:20261009004726-05'00'",
+        "/Author": "Texas Instruments, Incorporated [SBAS501,D\n]",
+        "/CreationDate": "D:20261009004726-05'00'"
+      },
+      "cached_pdf": ".cache/v3/manuals/ads1220.pdf",
+      "captured_at_utc": "2026-10-10T15:58:05.555394+00:00"
+    },
+    {
+      "doc_id": "ads1256",
+      "title": "ADS1255/ADS1256 ADC datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/ads1256.pdf",
+      "category": "ADC",
+      "series": "ads125x",
+      "sha256": "9da3323db162b59329ec1a865829441ff1605279cd802fe879649b6f54e100e6",
+      "pages": 49,
+      "chunks": 297,
+      "version_verbatim": [
+        "SBAS288K − JUNE 2003 − REVISED  SEPTEMBER 2013"
+      ],
+      "pdf_metadata": {
+        "/Creator": "BroadVision, Inc.",
+        "/Producer": "iText 2.1.7 by 1T3XT",
+        "/Title": "Very Low Noise, 24-Bit Analog-to-Digital Converter datasheet (Rev. K)",
+        "/Keywords": "SBAS288K,SBAS288",
+        "/Subject": "Data Sheet",
+        "/ModDate": "D:20251112013659-06'00'",
+        "/Author": "Texas Instruments, Incorporated [SBAS288,K\n]",
+        "/CreationDate": "D:20251112013659-06'00'"
+      },
+      "cached_pdf": ".cache/v3/manuals/ads1256.pdf",
+      "captured_at_utc": "2026-10-10T15:58:07.885720+00:00"
+    },
+    {
+      "doc_id": "ina219",
+      "title": "INA219 current and power monitor datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/ina219.pdf",
+      "category": "current_monitor",
+      "series": "ina21x",
+      "sha256": "58004eda854d07478e6fc6f4398c114f60a3bcf18d4877471c7c1a306d1fa1cb",
+      "pages": 38,
+      "chunks": 156,
+      "version_verbatim": [
+        "SBOS448G –AUGUST 2008–REVISED DECEMBER 2015",
+        "•    SOT23-8 and SOIC-8 Packages                                           programmable addresses.",
+        "SBOS448G –AUGUST 2008–REVISED DECEMBER 2015                                                                                                                            www.ti.com",
+        "4     Revision History..................................................... 2                                     8.6    Register Maps ........................................................ 18",
+        "4   Revision History",
+        "NOTE: Page numbers for previous revisions may differ from page numbers in the current version.",
+        "Changes from Revision F (September 2011) to Revision G                                                                                         Page",
+        "•    Updated Bus Timing Diagram Definitions table. I2C timing table values were previously based on simulation and not"
+      ],
+      "pdf_metadata": {
+        "/Creator": "TopLeaf 8.0.009",
+        "/Producer": "iText 2.1.7 by 1T3XT",
+        "/Title": "INA219 Zerø-Drift, Bidirectional Current/Power\t Monitor With I2C Interface datasheet (Rev. G)",
+        "/Keywords": ", SBOS448,SBOS448G",
+        "/Subject": "Data Sheet",
+        "/ModDate": "D:20260306012314-06'00'",
+        "/Author": "Texas Instruments, Incorporated [SBOS448,G\n]",
+        "/CreationDate": "D:20260306012314-06'00'"
+      },
+      "cached_pdf": ".cache/v3/manuals/ina219.pdf",
+      "captured_at_utc": "2026-10-10T15:58:09.956026+00:00"
+    },
+    {
+      "doc_id": "ina228",
+      "title": "INA228 20-bit current voltage power monitor datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/ina228.pdf",
+      "category": "current_monitor",
+      "series": "ina22x",
+      "sha256": "a138d39eeee04f8388426fed204c2f4012e75d36e95b60b0751ef003cd277447",
+      "pages": 48,
+      "chunks": 204,
+      "version_verbatim": [
+        "SLYS021A – JANUARY 2021 – REVISED MAY 2022",
+        "SLYS021A – JANUARY 2021 – REVISED MAY 2022                                                                                                                            www.ti.com",
+        "4 Revision History..............................................................      2       8 Application and Implementation..................................30",
+        "4 Revision History",
+        "NOTE: Page numbers for previous revisions may differ from page numbers in the current version.",
+        "Changes from Revision * (January 2021) to Revision A (May 2022)                                                                                                             Page"
+      ],
+      "pdf_metadata": {
+        "/Creator": "AH XSL Formatter V7.0 MR5 for Windows (x64) : 7.0.6.47833 (2020-10-21T14:40+09)",
+        "/Producer": "iText 2.1.7 by 1T3XT",
+        "/Title": "INA228 85-V, 20-Bit, Ultra-Precise Power/Energy/Charge Monitor With I2C Interface datasheet (Rev. A)",
+        "/Keywords": "SLYS021A",
+        "/Subject": "Data Sheet",
+        "/ModDate": "D:20260416004326-05'00'",
+        "/Author": "Texas Instruments, Incorporated [SLYS021,A\n]",
+        "/CreationDate": "D:20260416004326-05'00'"
+      },
+      "cached_pdf": ".cache/v3/manuals/ina228.pdf",
+      "captured_at_utc": "2026-10-10T15:58:12.985089+00:00"
+    },
+    {
+      "doc_id": "hdc1080",
+      "title": "HDC1080 humidity and temperature sensor datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/hdc1080.pdf",
+      "category": "environment",
+      "series": "hdc10xx",
+      "sha256": "ff9fed45056ad05762d46f11905f1f14df425b8a8ef2d0d9cbb813c5711735e4",
+      "pages": 29,
+      "chunks": 90,
+      "version_verbatim": [
+        "SNAS672A –NOVEMBER 2015–REVISED JANUARY 2016",
+        "SNAS672A –NOVEMBER 2015–REVISED JANUARY 2016                                                                                                                          www.ti.com",
+        "5    Revision History..................................................... 2                                          9.1    Application Information............................................ 17",
+        "5   Revision History",
+        "Changes from Original (November 2015) to Revision A                                                                                             Page",
+        "•    Product Preview to Production Data Release  .......................................................................................................................  1"
+      ],
+      "pdf_metadata": {
+        "/Creator": "TopLeaf 8.0.009",
+        "/Producer": "iText 2.1.7 by 1T3XT",
+        "/Title": "HDC1080 Low Power, High Accuracy Digital Humidity\t Sensor with Temperature Sensor  datasheet (Rev. A)",
+        "/Keywords": ", SNAS672,SNAS672A",
+        "/Subject": "Data Sheet",
+        "/ModDate": "D:20260404003316-05'00'",
+        "/Author": "Texas Instruments, Incorporated [SNAS672,A\n]",
+        "/CreationDate": "D:20260404003316-05'00'"
+      },
+      "cached_pdf": ".cache/v3/manuals/hdc1080.pdf",
+      "captured_at_utc": "2026-10-10T15:58:14.192231+00:00"
+    },
+    {
+      "doc_id": "hdc3020",
+      "title": "HDC3020/HDC3021/HDC3022 humidity sensor datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/hdc3020.pdf",
+      "category": "environment",
+      "series": "hdc30xx",
+      "sha256": "733d31c0cfce545c4caa1e2a3b03ed3ca7191dbc165f171a0e2650b679328cc7",
+      "pages": 54,
+      "chunks": 194,
+      "version_verbatim": [
+        "SNAS778D – JUNE 2021 – REVISED JULY 2024",
+        "SNAS778D – JUNE 2021 – REVISED JULY 2024                                                                                                                                           www.ti.com",
+        "7 Detailed Description......................................................12                      10 Revision History..........................................................             39"
+      ],
+      "pdf_metadata": {
+        "/Creator": "AH XSL Formatter V7.2 MR7 for Windows (x64) : 7.2.8.57525 (2022-08-18T17:06+09)",
+        "/Producer": "iText 2.1.7 by 1T3XT",
+        "/Title": "HDC302x 0.5%RH Digital Relative Humidity Sensor, 0.19%RH/yr Long Term Drift, 4s Response, Low-Power, Offset Error Correction, 0.1°C Temperature Sensor datasheet (Rev. D)",
+        "/Keywords": "SNAS778D",
+        "/Subject": "Data Sheet",
+        "/ModDate": "D:20260626004616-05'00'",
+        "/Author": "Texas Instruments, Incorporated [SNAS778,D\n]",
+        "/CreationDate": "D:20260626004616-05'00'"
+      },
+      "cached_pdf": ".cache/v3/manuals/hdc3020.pdf",
+      "captured_at_utc": "2026-10-10T15:58:16.944646+00:00"
+    },
+    {
+      "doc_id": "opt3001",
+      "title": "OPT3001 ambient light sensor datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/opt3001.pdf",
+      "category": "environment",
+      "series": "opt300x",
+      "sha256": "f2ab3d4822cbd4e6b702b09c4c22144f6d0583931e0cfc168394de9ab942ca11",
+      "pages": 44,
+      "chunks": 174,
+      "version_verbatim": [
+        "SBOS681C – JULY 2014– REVISED NOVEMBER 2017",
+        "SBOS681C – JULY 2014– REVISED NOVEMBER 2017                                                                                                                                      www.ti.com",
+        "4     Revision History..................................................... 2                                      8.2    Typical Application .................................................. 28",
+        "4   Revision History",
+        "NOTE: Page numbers for previous revisions may differ from page numbers in the current version.",
+        "Changes from Revision B (December 2014) to Revision C                                                                                             Page",
+        "Changes from Revision A (October 2014) to Revision B                                                                                                Page",
+        "Changes from Original (July 2014) to Revision A                                                                                                            Page"
+      ],
+      "pdf_metadata": {
+        "/Creator": "TopLeaf 8.0.024",
+        "/Producer": "iText 2.1.7 by 1T3XT",
+        "/Title": "OPT3001 Ambient Light Sensor (ALS) datasheet (Rev. C)",
+        "/Keywords": ", PHOTODIODE, PHOTO DIODE, PHOTO-DIODE, LIGHT SENSOR, OPTICAL SENSOR,SBOS681,SBOS681C",
+        "/Subject": "Data Sheet",
+        "/ModDate": "D:20260730004252-05'00'",
+        "/Author": "Texas Instruments, Incorporated [SBOS681,C\n]",
+        "/CreationDate": "D:20260730004252-05'00'"
+      },
+      "cached_pdf": ".cache/v3/manuals/opt3001.pdf",
+      "captured_at_utc": "2026-10-10T15:58:19.612098+00:00"
+    },
+    {
+      "doc_id": "bmi160",
+      "title": "BMI160 low power inertial measurement unit datasheet",
+      "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi160-ds000.pdf",
+      "category": "motion",
+      "series": "bmi16x",
+      "sha256": "0c3dca28517322bdcfcef9be8b1dd2b872ff9df9464d0088c17ccc4a67472f3b",
+      "pages": 114,
+      "chunks": 414,
+      "version_verbatim": [
+        "BMI160 – Data sheet",
+        "Document revision                 1.0",
+        "Document number                   BST-BMI160-DS000-09",
+        "BST-BMI160-DS000-09 | Revision 1.0 | November 2020                                                                Bosch Sensortec"
+      ],
+      "pdf_metadata": {
+        "/Author": "Bosch Sensortec",
+        "/CreationDate": "D:20201125081550+01'00'",
+        "/Creator": "Microsoft® Word 2016",
+        "/ModDate": "D:20201211171344+01'00'",
+        "/Producer": "Microsoft® Word 2016",
+        "/Title": "BMI160 Datasheet"
+      },
+      "cached_pdf": ".cache/v3/manuals/bmi160.pdf",
+      "captured_at_utc": "2026-10-10T15:58:26.359441+00:00"
+    },
+    {
+      "doc_id": "bmi270",
+      "title": "BMI270 inertial measurement unit datasheet",
+      "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf",
+      "category": "motion",
+      "series": "bmi27x",
+      "sha256": "f68ce3c74f011a80bbe4b0279c4abe9609a71a5dcda75a951381d77112e005fb",
+      "pages": 150,
+      "chunks": 1676,
+      "version_verbatim": [
+        "Document revision                                                 1.6",
+        "Document number                                                   BST-BMI270-DS000-08",
+        "Modifications reserved | Data subject to change without notice                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Document number: BST-BMI270        -DS000        -08"
+      ],
+      "pdf_metadata": {
+        "/Author": "Bosch Sensortec",
+        "/Category": "",
+        "/Comments": "",
+        "/Company": "",
+        "/ConceptualVersion": "",
+        "/ConceptualVersionTreeview": "",
+        "/ContentTypeId": "0x010100DF83D724A0C9924198BCAC5C6FD422D90100D22F3588D4C08A4D9CA1B9EF2AE99887",
+        "/CreationDate": "D:20260306110700+01'00'",
+        "/Creator": "",
+        "/DMSKeywords": "",
+        "/DocIdOfLinkItem": "",
+        "/ILMComments": "",
+        "/ILMExternalReference": "",
+        "/ILMRevision": "",
+        "/Keywords": "",
+        "/Manager": "",
+        "/ModDate": "D:20260619072634+02'00'",
+        "/Producer": "BST-DocServer2",
+        "/SourceModified": "D:20260306095951",
+        "/Subject": "",
+        "/Title": "BST-BMI270-DS000-08.PDF",
+        "/_dlc_DocIdItemGuid": "8dc48ecd-129e-4acd-af58-0f8741583679",
+        "/ecm_ItemDeleteBlockHolders": "",
+        "/ecm_ItemLockHolders": "",
+        "/ecm_RecordRestrictions": ""
+      },
+      "cached_pdf": ".cache/v3/manuals/bmi270.pdf",
+      "captured_at_utc": "2026-10-10T15:58:33.017996+00:00"
+    },
+    {
+      "doc_id": "sn65hvd230",
+      "title": "SN65HVD230/231/232 CAN transceiver datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf",
+      "category": "interface",
+      "series": "sn65hvd23x",
+      "sha256": "e98fc0c59168c035d7958111924dae7e21e46ab45bdfd6400aef048299d6d716",
+      "pages": 43,
+      "chunks": 145,
+      "version_verbatim": [
+        "SLOS346O – MARCH 2001– REVISED APRIL 2018",
+        "SLOS346O – MARCH 2001– REVISED APRIL 2018                                                                                                                                       www.ti.com",
+        "4     Revision History..................................................... 2                               10.4    Device Functional Modes...................................... 20",
+        "4   Revision History",
+        "NOTE: Page numbers for previous revisions may differ from page numbers in the current version.",
+        "Changes from Revision N (July 2015) to Revision O                                                                                                    Page",
+        "Changes from Revision M (May 2015) to Revision N                                                                                                    Page",
+        "Changes from Revision L (January 2015) to Revision M                                                                                              Page"
+      ],
+      "pdf_metadata": {
+        "/Creator": "TopLeaf 9.0.001",
+        "/Producer": "iText 2.1.7 by 1T3XT",
+        "/Title": "SN65HVD23x 3.3-V CAN Bus Transceivers datasheet (Rev. O)",
+        "/Keywords": ", SLOS346,SLOS346O",
+        "/Subject": "Data Sheet",
+        "/ModDate": "D:20260306004025-06'00'",
+        "/Author": "Texas Instruments, Incorporated [SLOS346,O\n]",
+        "/CreationDate": "D:20260306004025-06'00'"
+      },
+      "cached_pdf": ".cache/v3/manuals/sn65hvd230.pdf",
+      "captured_at_utc": "2026-10-10T15:58:34.135674+00:00"
+    },
+    {
+      "doc_id": "max3232",
+      "title": "MAX3232 RS232 transceiver datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/max3232.pdf",
+      "category": "interface",
+      "series": "max3232",
+      "sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+      "pages": 30,
+      "chunks": 121,
+      "version_verbatim": [
+        "SLLS410O – JANUARY 2000 – REVISED JUNE 2021",
+        "SLLS410O – JANUARY 2000 – REVISED JUNE 2021                                                                                                                   www.ti.com",
+        "4 Revision History..............................................................2        9 Application and Implementation..................................11",
+        "4 Revision History",
+        "NOTE: Page numbers for previous revisions may differ from page numbers in the current version.",
+        "Changes from Revision N (June 2017) to Revision O (June 2021)                                                                                                       Page",
+        "Changes from Revision M (April 2017) to Revision N (June 2017)                                                                                                      Page",
+        "Changes from Revision L (March 2017) to Revision M (April 2017)                                                                                                     Page"
+      ],
+      "pdf_metadata": {
+        "/Creator": "AH XSL Formatter V7.0 MR5 for Windows (x64) : 7.0.6.47833 (2020-10-21T14:40+09)",
+        "/Producer": "iText 2.1.7 by 1T3XT",
+        "/Title": "MAX3232 3-V to 5.5-V Multichannel RS-232 Line Driver and Receiver With ±15-kV ESD Protection datasheet (Rev. O)",
+        "/Keywords": "SLLS410O",
+        "/Subject": "Data Sheet",
+        "/ModDate": "D:20261005010916-05'00'",
+        "/Author": "Texas Instruments, Incorporated [SLLS410,O\n]",
+        "/CreationDate": "D:20261005010916-05'00'"
+      },
+      "cached_pdf": ".cache/v3/manuals/max3232.pdf",
+      "captured_at_utc": "2026-10-10T15:58:36.327245+00:00"
+    },
+    {
+      "doc_id": "tca9548a",
+      "title": "TCA9548A I2C switch datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/tca9548a.pdf",
+      "category": "interface",
+      "series": "tca954x",
+      "sha256": "2137822fd7128945ea44e83f4e100a932b30964d763715eeffe217ee6080a2dc",
+      "pages": 42,
+      "chunks": 152,
+      "version_verbatim": [
+        "SCPS207H – MAY 2012 – REVISED SEPTEMBER 2024",
+        "SCPS207H – MAY 2012 – REVISED SEPTEMBER 2024                                                                                                                                      www.ti.com",
+        "7 Detailed Description......................................................12                      10 Revision History..........................................................            26"
+      ],
+      "pdf_metadata": {
+        "/Creator": "Antenna House XSL Formatter V7.4 R1 Windows : 7.4.1.63121 (2023-12-20T11:05+09)",
+        "/Producer": "iText 2.1.7 by 1T3XT",
+        "/Title": "TCA9548A Low-Voltage 8-Channel I2 C Switch with Reset datasheet (Rev. H)",
+        "/Keywords": "SCPS207H",
+        "/Subject": "Data Sheet",
+        "/ModDate": "D:20260327003440-05'00'",
+        "/Author": "Texas Instruments, Incorporated [SCPS207,H\n]",
+        "/CreationDate": "D:20260327003440-05'00'"
+      },
+      "cached_pdf": ".cache/v3/manuals/tca9548a.pdf",
+      "captured_at_utc": "2026-10-10T15:58:39.214858+00:00"
+    },
+    {
+      "doc_id": "dac80501",
+      "title": "DAC80501/70501/60501 DAC datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/dac80501.pdf",
+      "category": "DAC",
+      "series": "dacx0501",
+      "sha256": "51dcb60423765d2521c62af621e2d6c7f4d38c9aa48deec4b4044d49decbbc20",
+      "pages": 52,
+      "chunks": 210,
+      "version_verbatim": [
+        "SBAS794E – NOVEMBER 2018 – REVISED AUGUST 2023",
+        "SBAS794E – NOVEMBER 2018 – REVISED AUGUST 2023                                                                                                                 www.ti.com",
+        "4 Revision History..............................................................  2          8.5 Programming............................................................  23",
+        "4 Revision History",
+        "NOTE: Page numbers for previous revisions may differ from page numbers in the current version.",
+        "Changes from Revision D (February 2020) to Revision E (August 2023)                                                                                                  Page",
+        "Changes from Revision C (November 2019) to Revision D (February 2020)                                                                                                Page",
+        "Changes from Revision B (August 2019) to Revision C (November 2019)                                                                                                  Page"
+      ],
+      "pdf_metadata": {
+        "/Creator": "AH XSL Formatter V7.2 MR7 for Windows (x64) : 7.2.8.57525 (2022-08-18T17:06+09)",
+        "/Producer": "iText 2.1.7 by 1T3XT",
+        "/Title": "DACx0501 16-Bit, 14-Bit, and 12-Bit, 1-LSB INL, Voltage-Output DACs With Precision Internal Reference  datasheet (Rev. E)",
+        "/Keywords": "SBAS794E",
+        "/Subject": "Data Sheet",
+        "/ModDate": "D:20260416004416-05'00'",
+        "/Author": "Texas Instruments, Incorporated [SBAS794,E\n]",
+        "/CreationDate": "D:20260416004416-05'00'"
+      },
+      "cached_pdf": ".cache/v3/manuals/dac80501.pdf",
+      "captured_at_utc": "2026-10-10T15:58:42.338501+00:00"
+    }
+  ],
+  "documents": 20,
+  "pages": 1822,
+  "chunks": 10668,
+  "corpus_sha256": "af36870b2f1458cc5c7473ce1c236b9608cceecb061af381dd64b00363d0893c",
+  "pages_sha256": "f7b9f1c9e68fea86568245d746b72bf3635b2494a837e755edf1f61d12c8ec53",
+  "legacy_index_sha256": "0f2cbfef1f4383a22163a1dd5316ea5c0c913df127ba2956a2a9db54e66ebe3b",
+  "duplicate_pdf_count": 0,
+  "source_note": "All manufacturer official URLs; legacy PDFs copied byte-for-byte, never redownloaded."
+}

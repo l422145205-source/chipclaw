@@ -1,0 +1,21 @@
+{
+  "pages_audited": 240,
+  "physical_tables": 429,
+  "exact_source_ranges_checked": true,
+  "complete_local_table_rows_checked": true,
+  "comparisons": 24,
+  "selectors": {
+    "whole_page_v3": {
+      "fully_bound_cases": 3,
+      "cases": 12
+    },
+    "physical_closure_v4": {
+      "fully_bound_cases": 12,
+      "cases": 12
+    }
+  },
+  "false_numeric_acceptances": 0,
+  "missing_condition_acceptances": 0,
+  "scope": "Physical structure audit on 240 frozen pages plus 12 same-source budget cases per selector for one real MAX3232 question; not 24 distinct QA questions.",
+  "old_failure_fixed_at_6000": true
+}
